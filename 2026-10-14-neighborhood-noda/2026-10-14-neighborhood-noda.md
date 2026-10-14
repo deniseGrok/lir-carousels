@@ -1,5 +1,5 @@
 # Neighborhood Spotlight: NoDa, Charlotte NC (DRAFT, Oct 14 2026)
-10 slides, 1080x1350. Photos: Wikimedia Commons, labeled "Illustrative image" (not NoDa).
+10 slides, 1080x1350, theme="fullbleed" (rebuilt Oct 14 2:30 PM). Photos: Wikimedia Commons, labeled "Illustrative image" (not NoDa).
 
 ## Slides
 1. [Band: ART ON EVERY WALL. NoDa.] Charlotte's historic arts district: named for North Davidson Street; murals, shops, eateries; walkable + LYNX Blue Line (A)
