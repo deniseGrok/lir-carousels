@@ -24,7 +24,7 @@ slide(6,"BUYER TIP 5","06.jpg","<h1>Two NC deposits <em>to plan for</em></h1>"+u
 slide(7,"BUYER TIP 6","07.jpg","<h1>Your <em>closing attorney</em></h1>"+ul(["NC: a licensed NC attorney supervises residential closings","SC: a licensed SC attorney supervises residential closings"])+nosrc("CFPB; N.C.G.S. 10B-134.25; SC Bar Ethics Op. 09-01; S.C. Code 37-10-102"),footer=F),
 slide(8,"BUYER TIP 7","08.jpg","<h1>Tour with a <em>written plan</em></h1>"+ul(["Set your price ceiling from your own budget, not only the letter","Tell your agent you don't want to see homes above it","List must-haves and nice-to-haves before the first showing"])+nosrc(CF+"; last tip is my own"),footer=F),
 slide(9,"AVOID THIS","09.jpg","<h1>Don't <em>fall first</em></h1>"+ul(["Touring before you know your number","Letting the maximum approval set your budget","Letting your letter expire mid-search (typically 30 to 60 days)"])+nosrc(CF+"; my own tip"),footer=F),
-slide(10,"MY RECOMMENDATION","10.jpg","<h1>Letter first, <em>then the tour</em></h1><p class='b'>Talk with a lender, gather your packet, and then let's plan a SouthPark tour around your number.</p><style>.cbox{text-align:center;padding:22px 30px;border-left-width:10px}</style>",contact=True,ph=380,ct=340,footer=F),
+slide(10,"MY RECOMMENDATION","10.jpg","<h1>Letter first, <em>then the tour</em></h1><p class='b'>Talk with a lender, gather your packet, and then let's plan a SouthPark tour around your number.</p>",contact=True,ph=380,ct=340,footer=F),
 ]
 build(S,D,"2026-10-15-buyer-tips-preapproval-DRAFT.pdf",D+"/build")
 short(D,"2026-10-15-buyer-tips-preapproval-short.mp4")
