@@ -1,6 +1,6 @@
 # DRAFT — AWAITING DENISE APPROVAL
 ## Daily New Construction Deal Carousel — Thursday, Oct 15, 2026 (NC + SC)
-Nothing has been posted, scheduled, sent, or added to Buffer. 10 slides at 1080×1350, rebuilt Oct 15 in nc_style teal #0F4C5C / white / gold #F2B705 (build-teal/build_slides.py). All 8 offers re-verified on builder sites Oct 15 ~8:40 AM ET. Photos: builder photos credited on slide (Toll Brothers, D.R. Horton, Starlight Homes, Dream Finders Homes); Pulte, Smith Douglas (2) and Mungo slides plus the cover use Unsplash stock labeled "Illustrative image".
+Nothing has been posted, scheduled, sent, or added to Buffer. 10 slides at 1080×1350, rebuilt Oct 15 in nc_style teal #0F4C5C / white / gold #F2B705 (build-teal/build_slides.py). All 8 offers re-verified on builder sites Oct 15 ~8:40 AM ET. Photos: builder photos only, credited "Photo: <Builder>" on every slide (cover: Dream Finders; Pulte, Toll Brothers, D.R. Horton, Smith Douglas x2, Starlight, Dream Finders, Mungo). No stock.
 
 Count: **8 verified builder offers** in 8 different communities from 7 builders (3 NC, 5 SC), all verified on official builder pages Oct 15, 2026. Fewer than 10 verified, so per the standard slide 9 is "How to compare these offers" and slide 10 is "My recommendation" with the contact info.
 
@@ -76,7 +76,6 @@ David Weekley (select Charlotte QMIs; Serenity, Fuquay-Varina; Westwood Reserve 
 
 ## Image credits
 All photos from the builders' own community pages, fetched Oct 15 2026, credited "Photo: <Builder>" on each slide.
-The GenerateImage tool was not available in this run (no "cursor" tool namespace), so I used the Unsplash fallback.
 
 ## Files
 - slide-01.png … slide-10.png (social; slide 1 shows "1 / 10 · SWIPE →")
