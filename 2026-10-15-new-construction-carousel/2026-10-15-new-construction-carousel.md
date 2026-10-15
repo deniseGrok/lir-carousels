@@ -55,7 +55,7 @@ If you or someone you know is weighing new construction in the Charlotte area or
 
 **YouTube Shorts**
 Title: 8 New Construction Builder Offers in NC + SC (Verified Oct 15, 2026)
-Description: Which builder offer actually saves you the most? I verified 8 new construction offers on builder websites this morning, 3 in North Carolina and 5 in South Carolina, covering price cuts, closing-cost help, upgrade savings and lower-rate financing. Deadlines and lender requirements differ, so let's compare them side by side before you tour. Denise Wilson, REALTOR®, Lifestyle International Realty — Carolinas. Call or text 704-615-7347 or visit denisewilson.lircarolinas.com. Builder photos credited; other photos illustrative. Offers verified on builder websites Oct 15, 2026; terms, availability and pricing subject to change. Equal Housing Opportunity. #NewConstruction #CharlotteRealEstate #Shorts
+Description: Which builder offer actually saves you the most? I verified 8 new construction offers on builder websites this morning, 3 in North Carolina and 5 in South Carolina, covering price cuts, closing-cost help, upgrade savings and lower-rate financing. Deadlines and lender requirements differ, so let's compare them side by side before you tour. Denise Wilson, REALTOR®, Lifestyle International Realty — Carolinas. Call or text 704-615-7347 or visit denisewilson.lircarolinas.com. Photos courtesy of each builder, credited on every slide. Offers verified on builder websites Oct 15, 2026; terms, availability and pricing subject to change. Equal Housing Opportunity. #NewConstruction #CharlotteRealEstate #Shorts
 
 ## Communities left out as recently featured (tracker, Oct 12–14)
 David Weekley (select Charlotte QMIs; Serenity, Fuquay-Varina; Westwood Reserve / Westview Towns) · Tri Pointe (Archer Row; Seven Oaks at McLean; Meadows at Altis at Serenity; Bellflower) · Mattamy (select Charlotte homes, so Bailey Run was skipped as a vague repeat) · M/I Homes (select Charlotte QMIs) · Century Communities (Charlotte metro QMIs and select homes) · Taylor Morrison (Terraces at the Exchange; Ridge at Sugar Creek; River Falls) · Shea (35eighty Townes; Windell Woods; Lachlan Park) · Eastwood (participating communities; Waterford Commons; Church Creek Landing; select completed homes) · Avencia (Riverwalk) · Ashton Woods (Tea Farm) · Lennar (Harris Mill) · Pulte (Mallard Park; today's Kinsdale is a new community) · Meritage (Charlotte select homes).
@@ -74,8 +74,8 @@ David Weekley (select Charlotte QMIs; Serenity, Fuquay-Varina; Westwood Reserve 
 - Del Webb Carolina Orchards, Centex Charlotte, Ashton Woods Charlotte: no current official offers found.
 - Smith Douglas Rowe Crossing (Newton) $9K / Paw Creek VIP pricing, True Homes $50K reduction on EWH766, Pulte "up to $50K on select QMIs": third-party list only, not checked on builder sites (time).
 
-## Image credits (free Unsplash license, via images.unsplash.com; illustrative only)
-01 photo-1584738766473-61c083514bf4 · 02 photo-1494526585095-c41746248156 · 03 photo-1605276374104-dee2a0ed3cd6 · 04 photo-1558036117-15d82a90b9b1 · 05 photo-1572120360610-d971b9d7767c · 06 photo-1430285561322-7808604715df · 07 photo-1625602812206-5ec545ca1231 · 08 photo-1570129477492-45c003edd2be · 09 photo-1568605114967-8130f3a36994 · 10 photo-1598228723793-52759bba239c
+## Image credits
+All photos from the builders' own community pages, fetched Oct 15 2026, credited "Photo: <Builder>" on each slide.
 The GenerateImage tool was not available in this run (no "cursor" tool namespace), so I used the Unsplash fallback.
 
 ## Files
