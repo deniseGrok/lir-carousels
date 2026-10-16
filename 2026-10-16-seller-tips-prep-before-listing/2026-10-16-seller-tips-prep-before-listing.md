@@ -67,3 +67,5 @@ Lifestyle International Realty
 
 ## Visual rebuild (Denise, Oct 16 2026)
 Rebuilt in theme="fullbleed_lux" (bright photos, bottom teal fade, teal/gold accents). Same copy. New photos: Unsplash License (no attribution required), see build/img/CREDITS.txt. Slide 10 uses the new contact block.
+
+Layout rebuilt again Oct 16 2026 in theme="photo_top" (clean photo on top, white text panel, stats slide without photo). Same copy and photos.
