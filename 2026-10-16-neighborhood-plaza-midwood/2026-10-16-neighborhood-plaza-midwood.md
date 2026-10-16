@@ -83,3 +83,5 @@ Lifestyle International Realty
 - build/build_slides.py, build/img/01.jpg–10.jpg, build/credits.json
 
 Rebuilt Oct 16 2026 (8:40 AM) in theme="fullbleed_tips" (same style as approved seller tips). New photos: Pexels License (slides 1, 3-10) + Plaza Midwood Historic District sign (slide 2, CC BY-SA 4.0, credited on slide). Slides 1, 8, 10 show Uptown Charlotte, not Plaza Midwood. See build/img/CREDITS.txt. Copy unchanged; contact block without brokerage line.
+
+Recolored Oct 16 2026 (8:50 AM) to theme="fullbleed_teal" (teal #0F4C5C / gold #F2B705), lighter fade, refined photo grade. Slide 2 sign swapped for a crisp traditional porch home; slide 9 now Uptown Charlotte skyline. All photos Pexels License, no on-slide credits. See build/img/CREDITS.txt.
