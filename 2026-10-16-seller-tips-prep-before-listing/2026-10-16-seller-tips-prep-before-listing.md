@@ -69,3 +69,5 @@ Lifestyle International Realty
 Rebuilt in theme="fullbleed_lux" (bright photos, bottom teal fade, teal/gold accents). Same copy. New photos: Unsplash License (no attribution required), see build/img/CREDITS.txt. Slide 10 uses the new contact block.
 
 Layout rebuilt again Oct 16 2026 in theme="photo_top" (clean photo on top, white text panel, stats slide without photo). Same copy and photos.
+
+Rebuilt Oct 16 2026 in theme="photo_top_noir" (black #111 + copper #D9773A). Photos swapped on slides 1, 4, 5, 6, 7 (Unsplash License, see build/img/CREDITS.txt); all graded. Same copy.
