@@ -81,3 +81,5 @@ Lifestyle International Realty
 - slides.zip (slide-01.png … slide-10.png)
 - 2026-10-16-neighborhood-plaza-midwood-short.mp4 (1080x1920, ~28.5s, no SWIPE text)
 - build/build_slides.py, build/img/01.jpg–10.jpg, build/credits.json
+
+Rebuilt Oct 16 2026 (8:40 AM) in theme="fullbleed_tips" (same style as approved seller tips). New photos: Pexels License (slides 1, 3-10) + Plaza Midwood Historic District sign (slide 2, CC BY-SA 4.0, credited on slide). Slides 1, 8, 10 show Uptown Charlotte, not Plaza Midwood. See build/img/CREDITS.txt. Copy unchanged; contact block without brokerage line.
