@@ -48,20 +48,18 @@ Live music at Snug Harbor and Petra's, a bakery-to-barbecue run down Central Ave
 Call or text 704-615-7347
 Denise Wilson | REALTOR® · Lifestyle International Realty
 Equal Housing Opportunity
-Photos: Wikimedia Commons (City Dweller 2, RoxylovesHistory, David D'Agostino; CC BY-SA 4.0)
 #PlazaMidwood #CharlotteNC #CharlotteRealEstate #CLTHomes #NeighborhoodSpotlight
 
 ## LinkedIn
 Plaza Midwood is one of Charlotte's original streetcar suburbs, and part of it has been a Local Historic District since 1992. Today Central Avenue is lined with independent restaurants, music venues, breweries and shops, and the Gold Line streetcar ends at its western edge. Realtor.com shows a $820,000 median list price and a $912,500 median sold price as of September 2026, so buyers here benefit from a clear plan before they tour. If you're considering an in-town Charlotte neighborhood, I'm glad to walk you through it: 704-615-7347.
 Denise Wilson, REALTOR® | Lifestyle International Realty | Equal Housing Opportunity
-Photos: Wikimedia Commons (City Dweller 2, RoxylovesHistory, David D'Agostino; CC BY-SA 4.0)
 
 ## TikTok
 A 1910 streetcar suburb with murals on nearly every corner 🎨 Plaza Midwood: live music, Central Ave eats, four breweries. Tour it with me: 704-615-7347 #PlazaMidwood #CharlotteNC #CLTRealEstate
 
 ## YouTube Short
 Title: Plaza Midwood Charlotte: Murals, Music and Historic Streets
-Description: A 1910 streetcar suburb just outside Uptown: live music on Central Avenue, bakeries and barbecue, a neighborhood beer crawl, the Gold Line streetcar, and the latest Realtor.com prices. Questions? Call Denise Wilson, REALTOR®, Lifestyle International Realty, 704-615-7347. Equal Housing Opportunity. Photos: Wikimedia Commons (City Dweller 2, RoxylovesHistory, David D'Agostino; CC BY-SA 4.0).
+Description: A 1910 streetcar suburb just outside Uptown: live music on Central Avenue, bakeries and barbecue, a neighborhood beer crawl, the Gold Line streetcar, and the latest Realtor.com prices. Questions? Call Denise Wilson, REALTOR®, Lifestyle International Realty, 704-615-7347. Equal Housing Opportunity.
 
 ## Facebook — personal profile (denisekwilsonwealth), post manually
 Murals on nearly every corner and a historic district a few blocks away 🎨🏡
@@ -85,3 +83,4 @@ Lifestyle International Realty
 Rebuilt Oct 16 2026 (8:40 AM) in theme="fullbleed_tips" (same style as approved seller tips). New photos: Pexels License (slides 1, 3-10) + Plaza Midwood Historic District sign (slide 2, CC BY-SA 4.0, credited on slide). Slides 1, 8, 10 show Uptown Charlotte, not Plaza Midwood. See build/img/CREDITS.txt. Copy unchanged; contact block without brokerage line.
 
 Recolored Oct 16 2026 (8:50 AM) to theme="fullbleed_teal" (teal #0F4C5C / gold #F2B705), lighter fade, refined photo grade. Slide 2 sign swapped for a crisp traditional porch home; slide 9 now Uptown Charlotte skyline. All photos Pexels License, no on-slide credits. See build/img/CREDITS.txt.
+Scheduled in Buffer Oct 16 2026 for 4:00 PM ET (IG 6ad21ccc25d13dd62ee7ecc7, FB 6ad21cd7f24c5797a23d2266, LI 6ad21ce2b948bf9e9d959762), slides pinned to a4caab6. Outdated Wikimedia photo-credit lines removed from captions (all photos now Pexels).
