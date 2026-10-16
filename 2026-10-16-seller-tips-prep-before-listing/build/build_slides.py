@@ -1,9 +1,9 @@
 # DRAFT — AWAITING DENISE APPROVAL. Seller Tips: Prep before you list (Oct 16 2026). Facts fetched Oct 16 2026.
 import sys; sys.path.insert(0, "/workspace/lir-ai-team/content-research/carousels/TEMPLATES")
 from carousel_style import slide as _slide, ul, build, short
-THEME = "fullbleed"  # approved Oct 14 2026 for neighborhood + tips
+THEME = "fullbleed_lux"  # Denise Oct 16 2026: bright luxury photos, teal/gold
 def slide(n,t,im,inner,**k):
-    inner+="<style>.ill{display:none!important}</style>"  # Denise Oct 15: no Illustrative image labels
+    pass
     k.setdefault("theme", THEME); k.setdefault("h1", 84); return _slide(n,t,im,inner,**k)
 D="/workspace/lir-ai-team/content-research/carousels/2026-10-16-seller-tips-prep-before-listing"; F="SELLER TIPS"
 src=lambda s: f"<p class='src'>Source: {s}</p>"
@@ -24,5 +24,7 @@ slide(8,"SELLER TIP 7","08.jpg","<h1>Get it <em>photo-ready</em></h1>"+ul(["Open
 slide(9,"SELLER TIP 8","09.jpg","<h1>Price from <em>the solds</em></h1>"+ul(["Start with recent nearby sales of similar homes, not list prices","Factor in the condition after your prep","Pricing accuracy directly affects buyer interest and days on market (Realtor.com)"]),footer=F),
 slide(10,"MY RECOMMENDATION","10.jpg","<h1>Start prep <em>30 days out</em></h1><p class='b'>Walk it, fix it and start your disclosures. Then let's price it from the solds together.</p>",contact=True,footer=F),
 ]
+import shutil,glob
+for f in glob.glob(D+"/build/img-lux/*.jpg"): shutil.copy(f, D+"/build/img/"+f.split("/")[-1])
 build(S,D,"2026-10-16-seller-tips-prep-before-listing-DRAFT.pdf",D+"/build")
-short(D,"2026-10-16-seller-tips-prep-before-listing-short.mp4")
+short(D,"2026-10-16-seller-tips-prep-before-listing-short.mp4",pad="0F4C5C")

@@ -1,10 +1,10 @@
-01 | File:Savannah, Georgia (Unsplash YOoucEImrKw).jpg | Jessica Furtney jessicamaephotographyga | CC0 | https://commons.wikimedia.org/wiki/File:Savannah,_Georgia_(Unsplash_YOoucEImrKw).jpg
-02 | File:Suburban houses near a forest (Unsplash).jpg | Nathan Anderson nathananderson | CC0 | https://commons.wikimedia.org/wiki/File:Suburban_houses_near_a_forest_(Unsplash).jpg
-03 | File:Home Sweet Home Pt. 4 (Unsplash).jpg | Kari Shea karishea | CC0 | https://commons.wikimedia.org/wiki/File:Home_Sweet_Home_Pt._4_(Unsplash).jpg
-04 | File:Living room (Unsplash).jpg | Jarosław Ceborski jarson | CC0 | https://commons.wikimedia.org/wiki/File:Living_room_(Unsplash).jpg
-05 | File:Home Renovations (Unsplash).jpg | Taduuda taduuda | CC0 | https://commons.wikimedia.org/wiki/File:Home_Renovations_(Unsplash).jpg
-06 | File:Home Sweet Home Pt. 6 (Unsplash).jpg | Kari Shea karishea | CC0 | https://commons.wikimedia.org/wiki/File:Home_Sweet_Home_Pt._6_(Unsplash).jpg
-07 | File:Cozy white house (Unsplash).jpg | Gus Ruballo gusruballo | CC0 | https://commons.wikimedia.org/wiki/File:Cozy_white_house_(Unsplash).jpg
-08 | File:Blue white kitchen interior (Unsplash).jpg | NeONBRAND neonbrand | CC0 | https://commons.wikimedia.org/wiki/File:Blue_white_kitchen_interior_(Unsplash).jpg
-09 | File:Kitchen (Unsplash).jpg | Naomi Hébert naomish | CC0 | https://commons.wikimedia.org/wiki/File:Kitchen_(Unsplash).jpg
-10 | File:New Home (Unsplash).jpg | Erick Lee Hodge holasirhodge | CC0 | https://commons.wikimedia.org/wiki/File:New_Home_(Unsplash).jpg
+01 | https://unsplash.com/photos/1600596542815-ffad4c1539a9 | Unsplash License (no attribution required) | source (1080, 1350)
+02 | https://unsplash.com/photos/1613490493576-7fde63acd811 | Unsplash License (no attribution required) | source (1080, 1350)
+03 | https://unsplash.com/photos/1512917774080-9991f1c4c750 | Unsplash License (no attribution required) | source (1080, 1350)
+04 | https://unsplash.com/photos/1560448204-e02f11c3d0e2 | Unsplash License (no attribution required) | source (1080, 1350)
+05 | https://unsplash.com/photos/1484154218962-a197022b5858 | Unsplash License (no attribution required) | source (1080, 1350)
+06 | https://unsplash.com/photos/1600210492486-724fe5c67fb0 | Unsplash License (no attribution required) | source (1080, 1350)
+07 | https://unsplash.com/photos/1583608205776-bfd35f0d9f83 | Unsplash License (no attribution required) | source (1080, 1350)
+08 | https://unsplash.com/photos/1600566753086-00f18fb6b3ea | Unsplash License (no attribution required) | source (1080, 1350)
+09 | https://unsplash.com/photos/1620626011761-996317b8d101 | Unsplash License (no attribution required) | source (1080, 1350)
+10 | https://unsplash.com/photos/1600585154340-be6161a56a0c | Unsplash License (no attribution required) | source (1080, 1350)

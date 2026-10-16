@@ -63,3 +63,7 @@ Lifestyle International Realty
 
 ## Image credits (all CC0 via Wikimedia Commons, originally Unsplash; not listed homes, not builder photos; no credit shown on slides)
 01 Jessica Furtney, "Savannah, Georgia" · 02 Nathan Anderson, "Suburban houses near a forest" · 03 Kari Shea, "Home Sweet Home Pt. 4" · 04 Jarosław Ceborski, "Living room" · 05 Taduuda, "Home Renovations" · 06 Kari Shea, "Home Sweet Home Pt. 6" · 07 Gus Ruballo, "Cozy white house" · 08 NeONBRAND, "Blue white kitchen interior" · 09 Naomi Hébert, "Kitchen" · 10 Erick Lee Hodge, "New Home". Full links in build/img/CREDITS.txt.
+
+
+## Visual rebuild (Denise, Oct 16 2026)
+Rebuilt in theme="fullbleed_lux" (bright photos, bottom teal fade, teal/gold accents). Same copy. New photos: Unsplash License (no attribution required), see build/img/CREDITS.txt. Slide 10 uses the new contact block.
