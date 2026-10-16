@@ -71,3 +71,5 @@ Rebuilt in theme="fullbleed_lux" (bright photos, bottom teal fade, teal/gold acc
 Layout rebuilt again Oct 16 2026 in theme="photo_top" (clean photo on top, white text panel, stats slide without photo). Same copy and photos.
 
 Rebuilt Oct 16 2026 in theme="photo_top_noir" (black #111 + copper #D9773A). Photos swapped on slides 1, 4, 5, 6, 7 (Unsplash License, see build/img/CREDITS.txt); all graded. Same copy.
+
+Rebuilt Oct 16 2026 (7:45 AM) in theme="fullbleed_tips" (NoDa format, bottom-anchored text). Charlotte photos on slides 1, 3, 7 (Wikimedia Commons; slide 1 CC BY-SA 4.0 by RoxylovesHistory, credited on the slide). See build/img/CREDITS.txt.

@@ -1,11 +1,11 @@
-01 | https://unsplash.com/photos/1570129477492-45c003edd2be | Unsplash License (no attribution required)
-02 | https://unsplash.com/photos/1613490493576-7fde63acd811 | Unsplash License (no attribution required) | source (1080, 1350)
-03 | https://unsplash.com/photos/1512917774080-9991f1c4c750 | Unsplash License (no attribution required) | source (1080, 1350)
+01 | Bishop John C. Kilgo House, Charlotte NC | Photo: RoxylovesHistory, Wikimedia Commons, CC BY-SA 4.0 (credited on slide)
+02 | no photo (stats)
+03 | Dr. George E. Davis House, Charlotte NC | Algorhythms, Wikimedia Commons, CC0
 04 | https://unsplash.com/photos/1618221195710-dd6b41faaea6 | Unsplash License (no attribution required)
 05 | https://unsplash.com/photos/1600585152220-90363fe7e115 | Unsplash License (no attribution required)
 06 | https://unsplash.com/photos/1617806118233-18e1de247200 | Unsplash License (no attribution required)
-07 | https://unsplash.com/photos/1568605114967-8130f3a36994 | Unsplash License (no attribution required)
+07 | Hamilton Jones III House, Charlotte NC | Nyttend, Wikimedia Commons, Public domain
 08 | https://unsplash.com/photos/1600566753086-00f18fb6b3ea | Unsplash License (no attribution required) | source (1080, 1350)
 09 | https://unsplash.com/photos/1620626011761-996317b8d101 | Unsplash License (no attribution required) | source (1080, 1350)
 10 | https://unsplash.com/photos/1600585154340-be6161a56a0c | Unsplash License (no attribution required) | source (1080, 1350)
-All graded (warm, +contrast, -sat, sharpen) Oct 16 2026.
+Graded: +5% contrast, -3% sat, sharpen. Oct 16 2026.
