@@ -2,14 +2,14 @@
 import sys, shutil, glob; sys.path.insert(0, "/workspace/lir-ai-team/content-research/carousels/TEMPLATES")
 from carousel_style import slide as _slide, ul, build, short, FB_STATS
 D="/workspace/lir-ai-team/content-research/carousels/2026-10-16-seller-tips-prep-before-listing"; F="SELLER TIPS"
-for f in glob.glob(D+"/build/img-fb/*.jpg"): shutil.copy(f, D+"/build/img/"+f.split("/")[-1])
+for f in glob.glob(D+"/build/img-mag/*.jpg"): shutil.copy(f, D+"/build/img/"+f.split("/")[-1])
 def slide(n,t,im,inner,ph=760,h1=78,li=34,**k):
     k.setdefault("theme","fullbleed_tips"); return _slide(n,t,im,inner,h1=h1,li=li,**k)
 src=lambda s: f"<p class='src'>Source: {s}</p>"
 STATS=("<style>.c{top:150px!important}.row{padding:14px 30px;margin-top:14px}.row .z{width:300px;font-size:32px}.row .v{font-size:84px}"
        ".lab{font-size:34px;margin-bottom:6px}h1{margin-bottom:18px}.src{margin-top:18px}</style>")
 S=[
-slide(1,"SELLER TIP 1","01.jpg","<div class='ill' style='display:block!important;position:fixed;top:40px;right:40px;left:auto;font-size:30px'>Photo: RoxylovesHistory (CC BY-SA 4.0)</div><h1>Fix the small stuff <em>before</em> buyers see it</h1><p class='b' style='font-size:36px'>Most of what buyers notice can be handled before the sign goes up. Here's the prep order I recommend.</p>",band="LISTING SOON? <em>PREP FIRST.</em>",ph=680,h1=72,footer=F),
+slide(1,"SELLER TIP 1","01.jpg","<h1>Fix the small stuff <em>before</em> buyers see it</h1><p class='b' style='font-size:36px'>Most of what buyers notice can be handled before the sign goes up. Here's the prep order I recommend.</p>",band="LISTING SOON? <em>PREP FIRST.</em>",ph=680,h1=72,footer=F),
 slide(2,"THE MARKET","02.jpg",FB_STATS+STATS+"<h1>SouthPark <em>right now</em></h1><div class='lab'>AS OF SEPTEMBER 2026</div>"+
  "<div class='row'><span class='z'>MEDIAN LIST</span><span class='v'>$625,000</span></div>"+
  "<div class='row'><span class='z'>MEDIAN SOLD</span><span class='v'>$610,000</span></div>"+
