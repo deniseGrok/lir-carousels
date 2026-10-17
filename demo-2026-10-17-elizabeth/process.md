@@ -94,9 +94,23 @@ Requirement: crisp, scroll-stopping, free license, never misidentify a place. Im
 - **License:** Pexels License, free for commercial use with no attribution required, so there's no credit on the slides.
 - **Honest labeling:** neither photo shows Elizabeth, and neither is labeled as a specific place. They show the home style and the feel, not a specific address.
 
+### 8a. Fixes after Denise's review (Oct 17, about 5:30 PM ET)
+- **Slide 2 photo replaced.**
+  - Rejected Pexels 37860098 (wooded porch street): dim, muted and cluttered, with the house in shade. It failed the PHOTO HABIT.
+  - Searched Pexels for "pexels.com photo beautiful craftsman house exterior sunny blue sky front porch landscaping" and "pexels.com photo luxury historic home white porch columns sunny lawn blue sky colonial revival", then compared six sunlit candidates side by side.
+  - Rejected Pexels 5587964 (basketball hoop and driveway in frame), 9952001 (garage doors dominate), 33856985 (sign in the yard), 38775725 (broken split-rail fence in the foreground) and 38379532 (house too small in the frame).
+  - **New photo:** Pexels 18940489, "Mansion House with Trees around" by Robert So, https://www.pexels.com/photo/mansion-house-with-trees-around-18940489/
+    - Original: 6000x4000, resized down only (to 2700x1800, then a 1080x1350 crop).
+    - License: Pexels License, free for commercial use, no attribution required, so no credit on the slide.
+    - Why it passed: sunlit cedar-shingle gables and white trim against a clear blue sky, and sharp at 100%.
+    - The crop puts the gables above the stats. The teal fade now starts lower (clear to 30%, strong from 45% down), so the top reads bright while the numbers stay legible.
+    - It is a topic photo, not a home in Elizabeth, and it isn't labeled as one.
+- **Slide 1 brand sign removed.** The small blue "ADT" security sign in the front yard (a brand name) was rebuilt from the porch ledge, foundation and mulch around it. Checked at full size: no sign and no visible patch.
+- Images: `08a-review-fixes.png` (before/after) and `10b-pexels-18940489-slide2-photo.png` (Pexels page).
+
 ## 9. Full-size photo check
 - **What I did:** viewed a 100% crop of each original before resizing (`11-photo-full-size-check.png`). Both are sharp.
-- **Fix:** the slide 2 photo has a small street sign reading "Weaver Ave" (Pennsylvania). I softened it into the background so the slide never shows a wrong place name.
+- **Fix:** the first slide 2 photo had a small "Weaver Ave" street sign (Pennsylvania), which I softened. That photo was later replaced (see 8a), and the new one has no signs.
 - **Resizing:** both photos were only resized down (never up) to a 1080x1350 cover crop. Then a light grade (balanced contrast, slight warmth) and light sharpening.
 
 ## 10. Building the slides

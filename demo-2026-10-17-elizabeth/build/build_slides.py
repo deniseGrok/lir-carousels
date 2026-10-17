@@ -8,7 +8,7 @@ def slide(n,t,inner,**k): k.setdefault("theme","fullbleed_teal"); k.setdefault("
 S = [
  slide(1,"ELIZABETH","<h1>A historic <em>district.</em></h1>"+ul(["The Elizabeth Historic District joined the National Register of Historic Places on January 3, 1989"]),
        band="CHARLOTTE NC. <em>ELIZABETH.</em>"),
- slide(2,"THE MARKET",TEAL_STRONG+"<style>.row .z{width:300px;font-size:32px}.row{padding:12px 28px}</style><h1>What homes <em>cost here.</em></h1><div class='lab'>REALTOR.COM · AS OF OCTOBER 2026</div>"
+ slide(2,"THE MARKET",TEAL_STRONG+"<style>.ph:after{background:linear-gradient(rgba(8,40,50,.16) 0,rgba(8,40,50,0) 12%,rgba(10,52,63,0) 30%,rgba(10,52,63,.62) 45%,rgba(9,46,56,.88) 58%,rgba(8,40,50,.93) 100%)!important}.row .z{width:300px;font-size:32px}.row{padding:12px 28px}</style><h1>What homes <em>cost here.</em></h1><div class='lab'>REALTOR.COM · AS OF OCTOBER 2026</div>"
  +"<div class='row'><span class='z'>MEDIAN LIST</span><span class='v'>$701,000</span></div>"
  +"<div class='row'><span class='z'>MEDIAN SOLD</span><span class='v'>$870,000</span></div>"
  +"<div class='row'><span class='z'>PER SQ FT</span><span class='v'>$346</span><span class='y'>40 active listings</span></div>"
