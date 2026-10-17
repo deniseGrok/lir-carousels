@@ -1,13 +1,11 @@
-Myers Park spotlight photos (Oct 17 2026). Downscaled/cropped only, graded: clean-white autocontrast (0.3% clip, 50% blend), +4% contrast, slight warmth, unsharp mask. See ../prep_photos.py.
-No on-slide credits needed: Pexels License / Unsplash License (no attribution required) and US public domain (HABS).
-Only slide 04 shows Myers Park itself (The Duke Mansion). All other photos are topic photos, not Myers Park addresses, and are never captioned as such. Slide 08 is Uptown Charlotte.
-01 | Pexels 8583893, Curtis Adams, colonial brick house | https://www.pexels.com/photo/8583893/
-02 | Pexels 36595190, Phil Evenden, Tudor Revival house (Hampton, VA) | https://www.pexels.com/photo/36595190/
-03 | Pexels 27379384, tree-lined road in sunlight | https://www.pexels.com/photo/27379384/
-04 | HABS NC,60-CHAR,1-35 (CT), Jack Boucher, Library of Congress / Wikimedia Commons, public domain: James Buchanan Duke House (The Duke Mansion), 400 Hermitage Rd | https://commons.wikimedia.org/wiki/File:EXTERIOR,_NORTH_FRONT_FROM_NORTHEAST_-_James_Buchanan_Duke_House,_400_Hermitage,_Charlotte,_Mecklenburg_County,_NC_HABS_NC,60-CHAR,1-35_(CT).tif
-05 | Pexels 34193020, sunlit park with autumn trees | https://www.pexels.com/photo/34193020/
-06 | Pexels 34405086, sunlit park pathway | https://www.pexels.com/photo/34405086/
-07 | Pexels 35903284, Aysegul Aytoren, outdoor restaurant at dusk | https://www.pexels.com/photo/35903284/
-08 | Pexels 18931263, Uptown Charlotte skyline | https://www.pexels.com/photo/18931263/
-09 | Pexels 37370753, Brunxs, white colonial house | https://www.pexels.com/photo/37370753/
-10 | Unsplash photo-1570129477492-45c003edd2be, shingle-style house with porch | https://images.unsplash.com/photo-1570129477492-45c003edd2be
+Rebuilt Oct 17 2026. Full-res originals, resized down only; graded: autocontrast blend 0.5, slight warmth, +4% contrast, UnsharpMask(1.0,70,2). Only slide 8 shows Charlotte (Uptown, credited on-slide per CC BY-SA). Other photos are topic photos, not specific Myers Park homes, gardens or venues, and none are labeled as specific places.
+01 | https://www.pexels.com/photo/29374845/ (Pexels License; stately Colonial-style home, not a specific Myers Park house)
+02 | https://www.pexels.com/photo/36595190/ (Pexels License; Tudor Revival home, not in Myers Park)
+03 | https://www.pexels.com/photo/29084122/ (Pexels License; green tree canopy road, not a specific Myers Park street)
+04 | https://www.pexels.com/photo/40244089/ (Pexels License; historic estate garden. NOT the Duke Mansion and not labeled as it; no stunning free Duke Mansion photo exists on Wikimedia)
+05 | https://www.pexels.com/photo/30193323/ (Pexels License; not Wing Haven)
+06 | https://www.pexels.com/photo/34857738/ (Pexels License; not Little Sugar Creek Greenway)
+07 | https://www.pexels.com/photo/33425081/ (Pexels License; not a named venue)
+08 | Charlotte NC Uptown.jpg, Bruce Emmerling, Wikimedia Commons, CC BY-SA 4.0 (real Uptown Charlotte, Romare Bearden Park). CREDIT ON SLIDE REQUIRED: 'Photo: Bruce Emmerling, CC BY-SA 4.0'
+09 | https://www.pexels.com/photo/38945371/ (Pexels License)
+10 | https://www.pexels.com/photo/2962739/ (Pexels License; brick estate drive, not in Myers Park)

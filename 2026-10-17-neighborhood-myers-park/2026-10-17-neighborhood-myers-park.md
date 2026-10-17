@@ -33,7 +33,7 @@ K. https://www.realtor.com/local/market/north-carolina/charlotte/myers-park (Rea
 - Realtor.com month-over-month and year-over-year percentages, rental figures (111 rentals, $2,245 median rent).
 
 ## Photos
-All Pexels License / Unsplash License (no attribution required) except slide 4, a public-domain HABS photo of The Duke Mansion (Jack Boucher, Library of Congress). Only slide 4 shows Myers Park itself; slide 8 is Uptown Charlotte; the rest are topic photos, not specific Myers Park homes or venues. No on-slide credits required. Full list: build/img/CREDITS.txt.
+Rebuilt Oct 17 2026 with stronger photos (all 10 re-checked at full size). Slides 1–7, 9, 10: Pexels License (no attribution required); topic photos, not specific Myers Park homes, gardens or venues, and none are labeled as specific places. Slide 4 tag is now HISTORIC ESTATE: the photo is a historic estate garden, NOT The Duke Mansion (no stunning free Duke Mansion photo was found). Slide 8: real Uptown Charlotte from Romare Bearden Park, Bruce Emmerling, Wikimedia Commons, CC BY-SA 4.0, credited on-slide as the license requires. Full list: build/img/CREDITS.txt.
 
 ## Facebook — business Page via Buffer (185 chars)
 Myers Park pairs a century-old oak canopy with 1920s Colonial and Tudor Revival homes, just south of Uptown. Want to drive Queens Road West with me and compare homes? Call 704-615-7347.
@@ -76,4 +76,4 @@ Lifestyle International Realty
 - 2026-10-17-neighborhood-myers-park-DRAFT.pdf (10 pages)
 - slides.zip (slide-01.png … slide-10.png)
 - 2026-10-17-neighborhood-myers-park-short.mp4 (1080x1920, 28.5s, no SWIPE text, teal #0F4C5C padding)
-- build/build_slides.py, build/prep_photos.py, build/img/01.jpg–10.jpg, build/img/CREDITS.txt
+- build/build_slides.py, build/prep_photos.py, build/src/ (full-res originals), build/img/01.jpg–10.jpg, build/img/CREDITS.txt
