@@ -35,7 +35,7 @@ S = [
    ["1040 Tundra Swan Dr: now $505,000 (was $546,180)", "5 bed, 3 bath, 2,558 sq ft", "Builder says savings end Nov 1, 2026"]), builder="D.R. Horton"),
  slide(4, "04.jpg", deal("MOORE FARMS · INDIAN TRAIL, NC", "<em>$40K</em> in savings.", "Dream Finders Homes",
    ["4022 Puddle Pond Rd: now $434,990, move-in ready", "1043 Rocking Horse Rd: $429,785 ($37K savings)", "Intrigue plan, 3 bed · deadline not stated"]), builder="Dream Finders Homes"),
- slide(5, "05.jpg", deal("WESTPORT · YORK, SC", "<em>$38,000</em> price cut.", "D.R. Horton · Clover schools",
+ slide(5, "05.jpg", deal("WESTPORT · YORK, SC", "<em>$38,000</em> price cut.", "D.R. Horton",
    ["507 Mahogany Rd: now $449,000 (was $487,000)", "4 bed, 3 bath, 2,662 sq ft", "Builder says savings end Nov 1, 2026"]), builder="D.R. Horton"),
  slide(6, "06.jpg", deal("OAK GROVE HILL · HUNTERSVILLE, NC", "<em>$31,555</em> price cut.", "D.R. Horton",
    ["6414 Cherrybark Oak Ln: now $519,000 (was $550,555)", "4 bed, 2.5 bath, 2,420 sq ft", "Builder says savings end Nov 1, 2026"]), builder="D.R. Horton"),
