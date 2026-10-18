@@ -1,0 +1,12 @@
+Built Oct 18 2026. Full-res originals in build/src/, resized DOWN only to 1080x1350; graded: autocontrast blend 0.5, slight warmth, +4% contrast, UnsharpMask(1.0,70,2); slide 4 gentle gamma lift 1.18; slides 6 and 8 small extra contrast/color. Slides 5, 6 and 8 are real Fourth Ward / Uptown photos (credited on-slide as CC BY-SA requires). All other photos are topic photos (Pexels License, no attribution required): NOT Fourth Ward homes or venues, and none are labeled as specific places.
+01 | https://www.pexels.com/photo/38305737/ (Pexels License; "Charming Victorian Style Brick House Exterior"; not in Fourth Ward)
+02 | https://www.pexels.com/photo/35107480/ (Pexels License; "Victorian House Entrance with Red Steps"; not in Fourth Ward)
+03 | https://www.pexels.com/photo/29021440/ (Pexels License; "Elegant Sunlit Room with Antique Mirror"; generic historic interior)
+04 | https://www.pexels.com/photo/35221620/ (Pexels License; "Charming Victorian House with Turret"; tag QUEEN ANNE STYLE; NOT the Overcarsh, Liddell-McNinch or Sheppard houses)
+05 | File:Fourth Ward Park fountain Late April 2025.jpg, City Dweller 2, Wikimedia Commons, CC BY-SA 4.0 (real Fourth Ward Park). CREDIT ON SLIDE: 'Photo: City Dweller 2, CC BY-SA 4.0'
+06 | File:Charlotte Settlers' Cemetery.jpg, AlexiusHoratius, Wikimedia Commons, CC BY-SA 3.0 (real Settlers' Cemetery). CREDIT ON SLIDE: 'Photo: AlexiusHoratius, CC BY-SA 3.0'
+07 | https://www.pexels.com/photo/29649754/ (Pexels License; "Elegant restaurant interior with chandeliers"; NOT Alexander Michael's or McNinch House)
+08 | File:First Presbyterian Charlotte NC 1.jpg, AlexiusHoratius, Wikimedia Commons, CC BY-SA 3.0 (real First Presbyterian Church, Charlotte). CREDIT ON SLIDE: 'Photo: AlexiusHoratius, CC BY-SA 3.0'
+09 | https://www.pexels.com/photo/34625605/ (Pexels License; "Charming Yellow Victorian House with Porch"; behind the strong teal stats fade; not in Fourth Ward)
+10 | https://www.pexels.com/photo/6696807/ (Pexels License; "White Wooden Door of a Mansion"; not in Fourth Ward)
+Rejected during review: Pexels 34625611 (pale sky), 4917105 (soft, coastal-California succulents), 31719341 (power line, clutter), Wikimedia "Charlotte from 4th Ward Park" (construction crane), "Fourth Ward- located in Uptown Charlotte" night shot (dark top half), Liddell-McNinch House.jpg (only 1024px).
