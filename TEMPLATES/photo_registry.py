@@ -12,7 +12,7 @@ import imagehash
 C = "/workspace/lir-ai-team/content-research/carousels"; REPO = "/workspace/repos/lir-carousels"
 REG = C + "/TEMPLATES/photo-registry.csv"
 COLS = ["carousel","slide","kind","provider","source_id","source_url","photographer","file","sha1","phash","dhash","zone_phash","zone_dhash","added","notes"]
-SKIP_DIRS = ("raw", "cand", "process", "__pycache__", ".git", "TEMPLATES")
+SKIP_DIRS = ("raw", "cand", "process", "__pycache__", ".git", "TEMPLATES", "build-noda", "build-tips")
 UNS = re.compile(r"(?:photo-)?(\d{10,13}-[0-9a-f]{12})"); PEX = re.compile(r"pexels(?:\.com/photos?/(?:[a-z0-9-]*-)?|-photo-|[-_ ]|: ?)(\d{5,9})")
 WM = re.compile(r"File:([^,|()\n]+?\.(?:jpe?g|png|tif))", re.I)
 # Unsplash ids that share an upload-timestamp prefix are usually the same photographer session/series
@@ -63,6 +63,7 @@ def kind_of(rel):
     if re.fullmatch(r"slide-\d\d\.png", b): return "slide_render"
     if "/src/" in "/"+rel: return "src_original"
     if re.search(r"/img(-hq)?(/builder)?/[^/]+\.jpe?g$", "/"+rel): return "photo"
+    if rel.split("/")[0].startswith(("style-samples", "nc-style-samples")) and b.endswith(".png") and "overview" not in b: return "slide_render"  # sample slides
     return None
 def slide_no(rel):
     m = re.search(r"(?:slide-|/)(\d\d)(?:[-_.])", "/"+os.path.basename(rel) if "src" not in rel else "x"); return int(m.group(1)) if m else ""

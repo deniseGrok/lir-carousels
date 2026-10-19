@@ -15,7 +15,7 @@ Effective Oct 14, 2026, per Denise.
 - Any hit = look at both images side by side. Same photo, same house or room from another angle, or the same photographer series/upload batch (Unsplash id prefix, Pexels ids a few hundred apart from a used one) = reject and pick another. Hash hits that are clearly different images are fine.
 - Every slide in a new carousel must be new: no photo from any earlier carousel (tips, neighborhood, new construction, demos, earlier draft versions in git history). Within one carousel, use each photo once.
 - After the build passes full-size review, append the carousel's photos: `python3 TEMPLATES/photo_registry.py add <carousel-folder> <note>` (reads build/img/CREDITS.txt + build/prep_photos.py; hashes build/img/NN.jpg, slide-NN.png and the src original). Commit the updated registry with the carousel.
-- Builder photos on new construction slides are logged too, so a community photo isn't repeated on a later day unless it's the same community's current offer.
+- Builder photos on new construction slides are logged too.
 
 - EXACTLY 10 slides, 1080x1350, for every platform (Instagram/Facebook cap carousels at 10 images; LinkedIn gets the same 10).
 - No standalone cover slide and no standalone contact/CTA slide.
