@@ -1,11 +1,11 @@
-Photos: Unsplash License / Pexels License (no attribution required). Unsplash source files 3000-3600px wide (fetched with fit=max, never upscaled), cropped/resized down only, graded Oct 19 2026.
+Photos: Unsplash License / Pexels License (no attribution required). All replaced Oct 19 2026 ~7:30 AM ET; every photo checked against TEMPLATES/photo-registry.csv (never used in an earlier carousel). Originals >=3000px, cropped/resized down only, graded Oct 19 2026.
 02 | no photo (stats)
-01 | https://unsplash.com/photos/1568605114967-8130f3a36994 (images.unsplash.com/photo-1568605114967-8130f3a36994) | source file 3000x2000
-03 | https://unsplash.com/photos/1631679706909-1844bbd07221 (images.unsplash.com/photo-1631679706909-1844bbd07221) | source file 3600x2637
-04 | https://unsplash.com/photos/1600585152220-90363fe7e115 (images.unsplash.com/photo-1600585152220-90363fe7e115) | source file 3600x2400
-05 | https://unsplash.com/photos/1549517045-bc93de075e53 (images.unsplash.com/photo-1549517045-bc93de075e53) | source file 3600x2400
-06 | https://unsplash.com/photos/1600607688969-a5bfcd646154 (images.unsplash.com/photo-1600607688969-a5bfcd646154) | source file 3600x2400
-07 | https://unsplash.com/photos/1600210491892-03d54c0aaf87 (images.unsplash.com/photo-1600210491892-03d54c0aaf87) | source file 3000x4000
-08 | https://unsplash.com/photos/1582268611958-ebfd161ef9cf (images.unsplash.com/photo-1582268611958-ebfd161ef9cf) | source file 3600x2400
-09 | https://unsplash.com/photos/1625602812206-5ec545ca1231 (images.unsplash.com/photo-1625602812206-5ec545ca1231) | source file 3600x2400
-10 | https://unsplash.com/photos/1600596542815-ffad4c1539a9 (images.unsplash.com/photo-1600596542815-ffad4c1539a9) | source file 3600x2388
+01 | Pexels License (no attribution required) | https://www.pexels.com/photo/15334535/ | Eric Prouzet, "White Concrete Building Under Blue Sky" (waterfront mansion) | original 3612x5418
+03 | Pexels License (no attribution required) | https://www.pexels.com/photo/6580215/ | Max Vakhtbovych, "Stylish apartment with floor to ceiling window" | original 7314x4885
+04 | Pexels License (no attribution required) | https://www.pexels.com/photo/36511381/ | goodinblack images, "Modern White Kitchen Interior with Elegant Lighting" | original 6992x4661
+05 | Unsplash License (no attribution required) | https://unsplash.com/photos/1580587771525-78b9dba3b914 (images.unsplash.com/photo-1580587771525-78b9dba3b914) | source file 3600x2700
+06 | Pexels License (no attribution required) | https://www.pexels.com/photo/259588/ | Pexels (Pixabay upload), stone-and-shingle home with long driveway, sunny | original 5999x3995
+07 | Pexels License (no attribution required) | https://www.pexels.com/photo/4307578/ | "An Interior of a Dining Area" | original 5000x3333
+08 | Pexels License (no attribution required) | https://www.pexels.com/photo/38299664/ | Vincent Rivaud, "Luxury Villa with Pool in Greece" | original 4284x5712
+09 | Pexels License (no attribution required) | https://www.pexels.com/photo/5008385/ | "Bright Living Room Interior Design" | original 4000x2667
+10 | Pexels License (no attribution required) | https://www.pexels.com/photo/8143677/ | Max Vakhtbovych, "Frontage of an Estate Under a Cloudy Sky" | original 7335x4895
