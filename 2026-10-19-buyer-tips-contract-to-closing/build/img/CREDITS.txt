@@ -1,0 +1,11 @@
+Photos: Unsplash License / Pexels License (no attribution required). Unsplash source files 3000-3600px wide (fetched with fit=max, never upscaled), cropped/resized down only, graded Oct 19 2026.
+02 | no photo (stats)
+01 | https://unsplash.com/photos/1568605114967-8130f3a36994 (images.unsplash.com/photo-1568605114967-8130f3a36994) | source file 3000x2000
+03 | https://unsplash.com/photos/1631679706909-1844bbd07221 (images.unsplash.com/photo-1631679706909-1844bbd07221) | source file 3600x2637
+04 | https://unsplash.com/photos/1600585152220-90363fe7e115 (images.unsplash.com/photo-1600585152220-90363fe7e115) | source file 3600x2400
+05 | https://unsplash.com/photos/1549517045-bc93de075e53 (images.unsplash.com/photo-1549517045-bc93de075e53) | source file 3600x2400
+06 | https://unsplash.com/photos/1600607688969-a5bfcd646154 (images.unsplash.com/photo-1600607688969-a5bfcd646154) | source file 3600x2400
+07 | https://unsplash.com/photos/1600210491892-03d54c0aaf87 (images.unsplash.com/photo-1600210491892-03d54c0aaf87) | source file 3000x4000
+08 | https://unsplash.com/photos/1582268611958-ebfd161ef9cf (images.unsplash.com/photo-1582268611958-ebfd161ef9cf) | source file 3600x2400
+09 | https://unsplash.com/photos/1625602812206-5ec545ca1231 (images.unsplash.com/photo-1625602812206-5ec545ca1231) | source file 3600x2400
+10 | https://unsplash.com/photos/1600596542815-ffad4c1539a9 (images.unsplash.com/photo-1600596542815-ffad4c1539a9) | source file 3600x2388
