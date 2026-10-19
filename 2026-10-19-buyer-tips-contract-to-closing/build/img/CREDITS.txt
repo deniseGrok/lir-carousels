@@ -1,8 +1,8 @@
 Photos: Unsplash License / Pexels License (no attribution required). All replaced Oct 19 2026 ~7:30 AM ET; every photo checked against TEMPLATES/photo-registry.csv (never used in an earlier carousel). Originals >=3000px, cropped/resized down only, graded Oct 19 2026.
 02 | no photo (stats)
-01 | Pexels License (no attribution required) | https://www.pexels.com/photo/15334535/ | Eric Prouzet, "White Concrete Building Under Blue Sky" (waterfront mansion) | original 3612x5418
-03 | Pexels License (no attribution required) | https://www.pexels.com/photo/6580215/ | Max Vakhtbovych, "Stylish apartment with floor to ceiling window" | original 7314x4885
-04 | Pexels License (no attribution required) | https://www.pexels.com/photo/36511381/ | goodinblack images, "Modern White Kitchen Interior with Elegant Lighting" | original 6992x4661
+01 | Pexels License (no attribution required) | https://www.pexels.com/photo/5178034/ | "House with Green Grass Lawn" (Raleigh, NC; sunny aerial of a brick-and-siding home on a golf course) | original 4000x2998
+03 | Pexels License (no attribution required) | https://www.pexels.com/photo/36777592/ | Curtis Adams, "Elegant Living Room Interior with Fireplace" (two-story great room) | original 8000x5334
+04 | Pexels License (no attribution required) | https://www.pexels.com/photo/36777500/ | Curtis Adams, "Modern Kitchen with White Cabinets and Island" | original 8000x5334
 05 | Unsplash License (no attribution required) | https://unsplash.com/photos/1580587771525-78b9dba3b914 (images.unsplash.com/photo-1580587771525-78b9dba3b914) | source file 3600x2700
 06 | Pexels License (no attribution required) | https://www.pexels.com/photo/259588/ | Pexels (Pixabay upload), stone-and-shingle home with long driveway, sunny | original 5999x3995
 07 | Pexels License (no attribution required) | https://www.pexels.com/photo/4307578/ | "An Interior of a Dining Area" | original 5000x3333
