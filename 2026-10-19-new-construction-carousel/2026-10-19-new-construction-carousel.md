@@ -32,7 +32,7 @@ Photos replaced during review: slide 4 (hazy Reedy Creek living room → bright 
 ## Instagram
 Some sizable new-construction price cuts are showing up around Charlotte this fall, and they're easy to miss.
 
-Eight builders across Charlotte, Indian Trail, Mint Hill, the Huntersville/Concord line and Gastonia are offering real savings right now, from reduced prices on finished homes to flex cash and lower starting rates. I checked every one on the builder's own website this morning.
+Four builders are offering eight real savings deals right now across Charlotte, Indian Trail, Mint Hill, the Huntersville/Concord line and Gastonia, from reduced prices on finished homes to flex cash and lower starting rates. I checked every one on the builder's own website this morning.
 
 My advice: look past the headline number. Compare the full monthly payment, the deadline, and what the builder's lender requires before you fall in love with a floor plan.
 
