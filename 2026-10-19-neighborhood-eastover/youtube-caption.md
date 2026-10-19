@@ -10,7 +10,7 @@ Curving 1920s drives, Georgian brick and Tudor stone, minutes from Uptown Charlo
 
 Eastover was begun in 1927 by the E. C. Griffith Company on more than 300 acres of former dairy farmland.
 Planner Earle Sumner Draper laid out its curving drives, and it became Charlotte's first automobile suburb.
-Cherokee Road is home to landmarks like the Georgian Revival Alexander-Howell House and the Tudor Revival Hamilton Jones House.
+Georgian-style homes still line Cherokee Road, along with the Tudor Revival Hamilton Jones House.
 Mint Museum Randolph opened here in 1936 as North Carolina's first art museum, and the Briar Creek Greenway starts right at the museum.
 
 The market (Realtor.com, as of October 2026): median list price $2,422,500, median sold price $1,995,000, $603 per square foot, 20 active listings, 55 median days on market.
