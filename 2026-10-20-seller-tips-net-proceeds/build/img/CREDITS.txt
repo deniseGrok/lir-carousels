@@ -1,0 +1,11 @@
+Photos: Pexels License (no attribution required). Selected Oct 20 2026 ~4:40 AM ET; every photo checked against TEMPLATES/photo-registry.csv (never used in an earlier carousel). Originals >=2600px, cropped/resized down only, graded Oct 20 2026.
+02 | no photo (stats)
+01 | Pexels License (no attribution required) | https://www.pexels.com/photo/34270949/ | "Luxury mansion with grand columns in Greenville" (brick home, white fence, curved drive) | original 2865x4288
+03 | Pexels License (no attribution required) | https://www.pexels.com/photo/19227217/ | Bright two-story foyer with double wood front doors and herringbone floor | original 2667x4000
+04 | Pexels License (no attribution required) | https://www.pexels.com/photo/39775741/ | White two-story home with double front porches and brick walk | original 5391x8087
+05 | Pexels License (no attribution required) | https://www.pexels.com/photo/6301185/ | Bright white kitchen with island, pendant lights and open shelving | original 4912x7174
+06 | Pexels License (no attribution required) | https://www.pexels.com/photo/10779189/ | Bright white living room with ornate plaster ceiling and tall windows | original 3857x6535
+07 | Pexels License (no attribution required) | https://www.pexels.com/photo/15743386/ | "Spacious living room" (staged, blue sofa, abstract art) | original 4672x7008
+08 | Pexels License (no attribution required) | https://www.pexels.com/photo/6634886/ | Bright bathroom with freestanding tub by tall windows | original 4157x6235
+09 | Pexels License (no attribution required) | https://www.pexels.com/photo/22469112/ | Bright bedroom with crisp white bedding and sheer curtains | original 3465x5198
+10 | Pexels License (no attribution required) | https://www.pexels.com/photo/38071644/ | "Modern white minimalist kitchen with island" | original 5152x6331
