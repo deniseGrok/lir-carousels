@@ -1,0 +1,11 @@
+Oct 20, 2026 new construction carousel: builder photos only, credited on slide "Photo: <Builder>". Originals in raw/cand (not committed).
+01 | Empire Homes | Harris Farms (Mooresville) model homes exterior | https://empirehomes.com/wp-content/uploads/2025/05/CAR-Harris-Farms-Models-ext.jpg (from https://empirehomes.com/us/north-carolina/charlotte/mooresville/harris-farms/)
+02 | Empire Homes | Weston kitchen (Harris Farms page) | CAR-Weston-Kitchen-3.jpg from https://empirehomes.com/us/north-carolina/charlotte/mooresville/harris-farms/
+03 | Empire Homes | Camber Woods Weston model exterior | weston-camberwoods-model-ext-edited-2.jpg from https://empirehomes.com/us/north-carolina/charlotte/gastonia/camber-woods/
+04 | Smith Douglas Homes | Sunset Meadows plan exterior (gallery image 48) | dlqxt4mfnxo6k.cloudfront.net image from https://www.smithdouglas.com/communities/charlotte-nc/charlotte/sunset-meadows
+05 | D.R. Horton | Avalon of Gastonia, Lawson C exterior | lawson_c_exterior.jpg from https://www.drhorton.com/north-carolina/charlotte/gastonia/avalon-of-gastonia
+06 | Taylor Morrison | The Coves on Lake Wylie, Pisgah farmhouse elevation | pisgah-farmhouse.jpg from https://www.taylormorrison.com/nc/charlotte/charlotte/the-coves-on-lake-wylie
+07 | none (solid teal; Dream Finders Townes at Ribbon Walk photos were empty, flat construction interiors)
+08 | none (solid teal; LGI Colonial Crossing page has no usable community photo)
+09 | Empire Homes | Hamilton family room (Camber Woods page) | car-hamilton-ken0009-family-2.jpg from https://empirehomes.com/us/north-carolina/charlotte/gastonia/camber-woods/
+10 | Empire Homes | Weston primary suite (Harris Farms page) | CAR-Weston-Premier-Suite-3.jpg from https://empirehomes.com/us/north-carolina/charlotte/mooresville/harris-farms/
