@@ -1,4 +1,4 @@
-# Neighborhood Spotlight: Elizabeth, Charlotte NC (ZIP 28204) — APPROVED by Denise Oct 21, 2026 (photo fixes applied before scheduling)
+# Neighborhood Spotlight: Elizabeth, Charlotte NC (ZIP 28204) — APPROVED by Denise Oct 21, 2026 (photo fixes applied; SCHEDULED in Buffer 4:00 PM ET Oct 21)
 
 Built Oct 21, 2026 (~4:45–5:30 AM ET). 10 slides, 1080x1350, theme fullbleed_teal (teal #0F4C5C / gold #F2B705). Nothing posted.
 
@@ -24,9 +24,9 @@ denisewilson.lircarolinas.com · 704-615-7347
 
 Photo credits: slides 5 and 6, City Dweller 2, CC BY-SA 4.0; slide 8, Mark Clifton, CC BY-SA 2.0 (Wikimedia Commons).
 
-Would you rather live on a street of bungalows or near the park?
-
 #ElizabethCLT #CharlotteNC #CharlotteRealEstate #HistoricHomes #CLTNeighborhoods
+
+Would you rather live on a street of bungalows or near the park?
 
 ## LinkedIn caption
 Neighborhood Spotlight: Elizabeth, Charlotte NC
@@ -48,9 +48,9 @@ denisewilson.lircarolinas.com · 704-615-7347 · denise.realty1@gmail.com
 
 Photo credits: slides 5 and 6, City Dweller 2, CC BY-SA 4.0; slide 8, Mark Clifton, CC BY-SA 2.0; via Wikimedia Commons.
 
-What matters most to you in an older neighborhood: the homes, the trees or the transit?
-
 #CharlotteRealEstate #ElizabethCLT #HistoricPreservation #CharlotteNC
+
+What matters most to you in an older neighborhood: the homes, the trees or the transit?
 
 ## Personal Facebook profile caption
 Spent my early morning reading up on Elizabeth, and what a story 😊
