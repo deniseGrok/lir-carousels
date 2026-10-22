@@ -1,0 +1,45 @@
+# Neighborhood Spotlight: Wilmore, Charlotte NC (ZIP 28203) — DRAFT, AWAITING DENISE APPROVAL
+Built Oct 22, 2026 (~11:40 AM–12:05 PM ET). Theme fullbleed_teal (teal #0F4C5C / gold #F2B705). Nothing posted or scheduled.
+Captions: captions.md (Instagram, Facebook page, LinkedIn, TikTok, Facebook personal profile). YouTube: youtube-caption.md.
+
+## Deliverables (three native sizes, Denise Oct 22 2026)
+- 4:5 carousel, Instagram + LinkedIn: slide-01.png … slide-10.png (1080x1350), slide-NN-video.png (no SWIPE), 2026-10-22-neighborhood-wilmore-DRAFT.pdf, slides.zip
+- 1:1 square carousel, Facebook: slides-1x1/slide-01.png … slide-10.png (1080x1080), slides-1x1.zip. Own layout: tag top, text bottom-anchored, smaller headline/bullets, stats as a 2x2 grid, full compliance contact block on slide 10.
+- 9:16 set, YouTube Shorts / Reels / TikTok / Stories: slides-9x16/slide-01.png … slide-10.png (1080x1920), slides-9x16.zip. Tag at 270 px, text ends 500 px above the bottom, right margin 160 px.
+- youtube-short.mp4: 1080x1920 H.264/AAC, 41.9 s, 62.5 MB, full frame from the 9:16 slides (no blur fill, letterbox or pillarbox), slow 1.000→1.025 push-in, 0.6 s eased crossfades, original generated soft music, holds 6.8 s on the contact slide, no "swipe".
+
+## Slides
+1. WILMORE (band "CHARLOTTE NC. WILMORE."): Bungalows and curves, near Uptown. Dilworth's sister neighborhood across the rail line, southwest of Uptown; one of Charlotte's first streetcar suburbs; Local Historic District since 2010.
+2. HISTORY: Named for two farms. F. C. Abbott combined former owners' names Wilson and Moore; Abbott's company published the plat in 1914; first bungalows late 1910s, took shape in the 1920s.
+3. GOLD RUSH (credit James St. John, CC BY 2.0): Built on gold-rush ground. Farmland and land around the Rudisill Gold Mine; one of the most productive mines of the country's first gold rush; Mint Street built to link the mines with the Mint on West Trade Street.
+4. STREET PLAN: A grid, then curves. 1914 plan: straight streets near the railroad, curving streets past Mint Street; West Park/West Kingston/West Boulevard/West Worthington echo Dilworth's names; Spruce St., Dunkirk Dr., Merriman Ave. curve over a hillcrest toward Irwin Creek.
+5. ARCHITECTURE: Bungalows with full-width porches. Mostly Bungalow style (low overhanging roofs, full-width front porches, Craftsman details); wide range of styles and materials; mainly single-family plus duplexes, apartment and commercial buildings.
+6. HISTORIC DISTRICT: Plan exterior changes early. One of Charlotte's eight Local Historic Districts (2010); exterior changes incl. windows, doors, fencing, tree removal need HDC approval; Certificate of Appropriateness before work begins.
+7. WILMORE CENTENNIAL PARK (real photo, City Dweller 2, CC BY-SA 4.0): A park on South Tryon. At S. Tryon St. and Kingston Ave.; open lawn facing Uptown, seating, art display areas, natural play area; built by Mecklenburg County Park and Recreation with Beacon Partners.
+8. LYNX BLUE LINE (real photo at Bland St. Station, City Dweller 2, CC BY-SA 4.0): Light rail next door. Eastern edge follows Camden Road and the rail line; Bland St. Station (1511 Camden Rd.) and East/West Blvd. Station (1821 Camden St.); line runs north through Uptown to UNC Charlotte and south to I-485/South Blvd.
+9. THE MARKET: Realtor.com data through Sept. 2026: $644,900 median list price, $444 list price per sq ft, 18 homes for sale, 112 median days on market. Only source line on the carousel.
+10. MY RECOMMENDATION + contact block (Denise Wilson | REALTOR® / Lifestyle International Realty — Carolinas / denisewilson.lircarolinas.com / 704-615-7347 / blank / Equal Housing Opportunity).
+
+## Sources (fetched/read Oct 22, 2026, ~11:38 AM–11:50 AM ET)
+- Realtor.com market data (Realtor.com Economic Research; "Key indicators as of October 2026", "Charts reflect historical data through September 2026"): Wilmore row in the neighborhood comparison tables on https://www.realtor.com/local/market/north-carolina/charlotte/the-arlington — Wilmore median listing price $644,900, listing $/sq ft $444, 18 for sale, 112 median days on market. Read via the search index today; the Wilmore page itself (https://www.realtor.com/local/market/north-carolina/charlotte/wilmore) timed out / returned Realtor.com's bot block on direct fetch, so no median sold price is shown.
+- City of Charlotte, Historic District page: https://www.charlottenc.gov/Growth-and-Development/Planning-and-Development/Historic-District (eight Local Historic Districts; Wilmore designated 2010; sister neighborhood to Dilworth; one of Charlotte's first streetcar suburbs; built on farmland and the land around the Rudisill Gold Mine, which fueled the country's first gold rush; mainly single-family plus duplexes, apartment buildings and commercial buildings; HDC permission needed for exterior changes including windows/doors, fencing, tree removal; COA required before any construction work begins; design standards adopted December 2021).
+- Charlotte HDC Design Standards, Wilmore section (read via search index): https://www.charlottenc.gov/files/sharedassets/city/v/1/growth-and-development/planning-and-zoning/documents/hdcdesignstandards.pdf (Rudisill one of the most productive mines that fueled the first gold rush; name combines former owners Wilson and Moore; majority Bungalow style with low overhanging roofs, full-width front porches, Craftsman details; wide range of styles and materials).
+- Thomas W. Hanchett, chapter "Crescent Heights, Wilmore, Wesley Heights, Chantilly" (historysouth.org PDF): https://www.historysouth.org/wp-content/uploads/2026/07/09-Crescent-Wilmore-Wesley-Chantilly-2026-updated-format.pdf (Mint Street built to connect the mines with the Mint on West Trade Street; Wilmore named after the Wilson and Moore farms; F. C. Abbott and Company "Plat of Wilmore," 1914; grid near the railroad, curves beyond Mint Street; West Park, West Kingston, West Boulevard, West Worthington mirror Dilworth; first bungalows late 1910s; took shape in the 1920s; Spruce St., Dunkirk Dr., Merriman Ave. curve over the hillcrest toward Irwin Creek; bounded at the east by Camden Road and the railroad).
+- South End (Charlotte Center City Partners): https://southendclt.org/go/wilmore-centennial-park (1711 S. Tryon St. at Kingston Ave.; built by Mecklenburg County Park and Recreation with Beacon Partners; large open lawn facing uptown, art display areas, sitting areas, natural play area). Partners for Parks article (Aug 4, 2021) read for context only.
+- CATS Stations page: https://www.charlottenc.gov/CATS/Ride/Rail/Stations-and-Park-and-Rides (Bland St. Station 1511 Camden Rd.; East/West Blvd. Station 1821 Camden St.; stations listed south to north from I-485/South Blvd. to UNC Charlotte Main).
+
+## Cut / not used
+- Year Abbott bought the land (1906 per HDC design standards vs 1914 per Hanchett) and the original spelling ("Wilmoore" vs "Willmore"): sources conflict.
+- Wilmore Centennial Park acreage and opening year (1.4 acres in a 2021 planning article; opening date not confirmed on an official page today).
+- Revolution Park / Irwin Creek Greenway details, Nebel Knitting mill buildings, Flat Iron Building, first Bojangles' (not needed or not verified on official pages today).
+- Realtor.com median sold price (Wilmore page blocked), MoM/YoY %, rent, Wilmore Historic District sub-area figures, homes.com/Zumper figures (one source only).
+- Fair Housing: all history about who lived in the neighborhood (Blandville, residents' race, urban renewal), demographics, churches, schools (the Wilmore school building is not mentioned).
+
+## Photos (all checked with TEMPLATES/photo_registry.py: no source-id or series match; closest perceptual distance 16+, different images)
+See build/img/CREDITS.txt. Retouched: slide 1 source had house number "19" on the door trim (patched out); slide 9 source had a readable license plate (blurred). Rejected: Pexels 36774623 (address plaque), 37025451, 6835077, 5353939 (in registry), 33287863, 19025044.
+
+## Compliance check (TEMPLATES/COMPLIANCE.md, Oct 22 2026)
+- compliance_check.py on this folder: RESULT PASS (0 fail lines) — captions.md (5 sections), youtube-caption.md, and all slide HTML (4:5, video, 1:1, 9:16).
+- R1–R6: firm name, 704-615-7347, REALTOR® identity and Equal Housing Opportunity in every caption and the YouTube description; slide 10 contact block exact in the 4:5, 1:1 and 9:16 sets (checked at full size); FB personal signature Denise Wilson / Broker/REALTOR® / Lifestyle International Realty — Carolinas.
+- T1–T9: every fact from a source read today; no guarantees, urgency or rankings; market numbers carry source + period; generic photos carry topic tags only; real photos (slides 7, 8) show the named places; no listings, builder offers, legal/tax advice or mortgage trigger terms.
+- F1–F6: homes, streets, parks, transit and prices only; no people, demographics, "safe", "family-friendly", "exclusive", crime or schools; no one is told the area suits them; EHO present.

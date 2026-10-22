@@ -1,6 +1,23 @@
 # Daily carousel standard (all three: new construction 7 AM, seller tips noon, neighborhood 5 PM)
 Effective Oct 14, 2026, per Denise.
 
+## COMPLIANCE + CONTACT BLOCK (Oct 22 2026, Denise; supersedes every older contact-block line below)
+- Run TEMPLATES/COMPLIANCE.md + `python3 TEMPLATES/compliance_check.py <carousel-folder>` on every slide set and caption before delivery; fix every FAIL.
+- Slide 10 contact block, EVERY carousel and EVERY size (4:5, 1:1, 9:16), left-aligned, one item per line:
+  Denise Wilson | REALTOR® / Lifestyle International Realty — Carolinas / denisewilson.lircarolinas.com / 704-615-7347 / (blank) / Equal Housing Opportunity
+  (The firm line is REQUIRED: 21 NCAC 58A .0105, S.C. Code 40-57-135(E). The Oct 15/16 "no '— Carolinas' / no Lifestyle International Realty line" notes below are superseded.)
+- Firm name "Lifestyle International Realty — Carolinas" + 704-615-7347 + "Equal Housing Opportunity" in every caption and every YouTube/TikTok description; every caption ends with a question.
+- FB personal signature: Denise Wilson / Broker/REALTOR® / Lifestyle International Realty — Carolinas.
+- Fair Housing: describe homes, places, prices, amenities; never people, demographics or who it's "perfect for"; no "safe", "family-friendly", "exclusive", crime or school claims. Never imply a generic photo is a named place. No visible house numbers or readable plates (retouch or reject).
+- Denise's NC and SC licenses are confirmed: never check them.
+
+## SIZING (Oct 22 2026, Denise): three native slide sets, each laid out for its own frame (never a crop or pad of another)
+- 4:5 1080x1350 = slide-NN.png (+ slide-NN-video.png, PDF, slides.zip): Instagram + LinkedIn carousel.
+- 1:1 1080x1080 = slides-1x1/slide-NN.png + slides-1x1.zip: FACEBOOK carousel (Facebook carousels are square). Tag top, text bottom-anchored (~92 px above the bottom), smaller headline (~58-64 px) and 30 px bullets so nothing is cropped or cramped; stats as a 2x2 grid; full compliance contact block on slide 10.
+- 9:16 1080x1920 = slides-9x16/slide-NN.png + slides-9x16.zip: YouTube Shorts, IG/FB Reels, TikTok photo mode, Stories. Keep key text clear of the top ~250 px, bottom ~420 px and right ~140 px (tag at 270 px, text ends ~500 px above the bottom, right margin 160 px). No "swipe".
+- YouTube Short / Reel: 1080x1920 H.264/AAC built from the 9:16 slides and FILLING THE FULL SCREEN edge to edge (no blurred fill, letterbox or pillarbox), 30-59 s, slow push-ins, crossfades, soft self-generated music, ends holding on the contact slide, under 100 MB; check extracted frames. Reference builds: 2026-10-22-neighborhood-wilmore/build/ (all three sets) and 2026-10-22-seller-tips-listing-agreement/build/.
+- Older lines below that say "1080x1350 for every platform" or "Short padded with #0F4C5C / letterboxed" are superseded by this section.
+
 ## PHOTO HABIT (Oct 17 2026, every carousel, every routine run): FIX WEAK PHOTOS BEFORE HANDOFF. NEVER FLAG THEM FOR DENISE TO SWAP.
 - Before handoff, check all 10 slides at full size (1080x1350, not just the contact sheet). Replace any photo that isn't scroll-stopping: soft, noisy, dull, snapshot-quality, cluttered (power lines, highways, parking lots), or dark.
 - Do the swap yourself: full-res originals (Pexels/Unsplash/Wikimedia free license), resize down only, grade and sharpen, rebuild, re-check. The handoff never says "slide X photo could be stronger; swap if you like". Weak photos are fixed, not reported.
@@ -17,10 +34,10 @@ Effective Oct 14, 2026, per Denise.
 - After the build passes full-size review, append the carousel's photos: `python3 TEMPLATES/photo_registry.py add <carousel-folder> <note>` (reads build/img/CREDITS.txt + build/prep_photos.py; hashes build/img/NN.jpg, slide-NN.png and the src original). Commit the updated registry with the carousel.
 - Builder photos on new construction slides are logged too.
 
-- EXACTLY 10 slides, 1080x1350, for every platform (Instagram/Facebook cap carousels at 10 images; LinkedIn gets the same 10).
+- EXACTLY 10 slides in every set (Instagram/Facebook cap carousels at 10 images; LinkedIn gets the same 10). Sizes: see SIZING (Oct 22 2026) above: 4:5 IG/LinkedIn, 1:1 Facebook, 9:16 Shorts/Reels/TikTok/Stories.
 - No standalone cover slide and no standalone contact/CTA slide.
   - Slide 1 = first content slide with the hook folded in as a coral header band (e.g. "10 BUILDER OFFERS. NC + SC.").
-  - Slide 10 = last content slide with the compact contact box folded in: Denise Wilson | REALTOR® / denisewilson.lircarolinas.com / 704-615-7347 / (blank) / Equal Housing Opportunity. (No 'Photos are illustrative' line, Denise Oct 15 2026.)
+  - Slide 10 = last content slide with the compact contact box folded in: Denise Wilson | REALTOR® / Lifestyle International Realty — Carolinas / denisewilson.lircarolinas.com / 704-615-7347 / (blank) / Equal Housing Opportunity (firm line required since Oct 22 2026). (No 'Photos are illustrative' line, Denise Oct 15 2026.)
 - Layouts by carousel:
   - New construction: slides 1-10 = 10 offer slides (one offer each). Hook band on offer 1, contact on offer 10. If fewer than 10 verified offers, slots 9-10 may be "How to compare offers" / "Why I recommend" content slides, still with contact folded into slide 10. Never pad with unverified offers.
   - Seller tips: slide 1 = hook band + first tip; slides 2-9 = tips and Redfin data; slide 10 = my recommendation + contact.
@@ -63,7 +80,7 @@ Effective Oct 14, 2026, per Denise.
 - Deals must be in the Charlotte metro ONLY. In SC, only Indian Land, Lancaster, York and Clover. No Fayetteville, Raleigh/Clayton, Columbia, Summerville/Charleston, etc.
 - Anything not verifiable is not posted: no specific address, price or home unless the builder page confirms that exact home qualifies for the offer. If unsure, show only the verified community-level offer.
 
-- Contact block (Denise, Oct 16 2026): NO 'Lifestyle International Realty' line under her name. All carousels: Denise Wilson | REALTOR® / denisewilson.lircarolinas.com / 704-615-7347 / (blank) / Equal Housing Opportunity. Left-aligned.
+- (SUPERSEDED Oct 22 2026: the firm line IS required now, see COMPLIANCE + CONTACT BLOCK) Contact block (Denise, Oct 16 2026): NO 'Lifestyle International Realty' line under her name. All carousels: Denise Wilson | REALTOR® / denisewilson.lircarolinas.com / 704-615-7347 / (blank) / Equal Housing Opportunity. Left-aligned.
 
 ## (SUPERSEDED Oct 16 by photo_top) theme="fullbleed_lux"
 - carousel_style.slide(..., theme="fullbleed_lux"); short(..., pad="0F4C5C"). Reference: 2026-10-16-seller-tips-prep-before-listing/build/build_slides.py.
