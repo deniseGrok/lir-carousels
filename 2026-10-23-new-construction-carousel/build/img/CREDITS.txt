@@ -1,0 +1,11 @@
+Oct 23, 2026 new construction carousel: builder photos only, each credited on-slide "Photo: <Builder>". Same photo used natively in img/ (4:5), 1x1/img/, 9x16/img/.
+01 | Lennar | Roselyn (Lancaster, SC) page | https://cdn.lennar.com/api/images/contentassets/206c4faed723422ebc022e3b5005c1bf/gal_roselynmeadows_pic_doverii-1.jpg
+02 | Toll Brothers | Toll Brothers at The River District page | https://cdn.tollbrothers.com/communities/masters/1060/images-resized/NCC_Toll_Brothers_River_District_Pamlico_Terrace_3_CC_RET_RGB_1920.jpg
+03 | Smith Douglas Homes | Winecoff (Salisbury, NC) page | https://s3.amazonaws.com/buildercloud/3fec70d8 (via dlqxt4mfnxo6k.cloudfront.net, Winecoff page gallery)
+04 | Mattamy Homes | Bailey Run (Charlotte) page | https://prodmh.b-cdn.net//dfsmedia/a2b99d47a71047839a5a4241f44710ce/73736-50420/clt-baileyrun-models-exterior-day-corner
+05 | M/I Homes | Willoughby Park (Monroe, NC) page | https://dam.mihomes.com/media/4661551/50421.jpeg (house number retouched out)
+06 | Lennar | Roselyn (Lancaster, SC) page | https://cdn.lennar.com/api/images/contentassets/50d24025bae64a2a94329a90fa6df948/gal_roselynmeadows_pic_doverii-13.jpg
+07 | Lennar | The Vines (Charlotte) page | https://cdn.lennar.com/api/images/contentassets/a2245491a8bb49f0b15b1ade6b946832/gal_thevineschase_pic_taggart-2.jpg (house number retouched out)
+08 | Mattamy Homes | Bailey Run page | https://prodmh.b-cdn.net//dfsmedia/a2b99d47a71047839a5a4241f44710ce/72596-50420/clt-baileyrun-briana-model-kitchen-gathering
+09 | Mattamy Homes | Bailey Run page | https://prodmh.b-cdn.net//dfsmedia/a2b99d47a71047839a5a4241f44710ce/72597-50420/clt-baileyrun-briana-model-kitchen
+10 | M/I Homes | Willoughby Park page | https://dam.mihomes.com/media/2293169/50421.jpeg

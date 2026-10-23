@@ -1,0 +1,11 @@
+Oct 22, 2026 new construction carousel: builder photos only, credited on slide "Photo: <Builder>". Originals in /workspace/lir-ai-team/content-research/carousels/2026-10-22-new-construction-carousel/raw/cand (not committed).
+01 | Mattamy Homes | Arbor Chase (Clover, SC) model building, corner, daylight | clt-ach-modelbuilding-extcorner-day (prodmh.b-cdn.net) from https://mattamyhomes.com/north-carolina/charlotte/clover/arbor-chase
+02 | Toll Brothers | Great room image on The Bluffs at Wesley Chapel page | Longleaf_Crest_Dunmore_Great_Room_1_1920.jpg from https://www.tollbrothers.com/luxury-homes-for-sale/North-Carolina/Toll-Brothers-at-The-Bluffs-at-Wesley-Chapel
+03 | Lennar | Sweetbay kitchen photo on Redhawk (Belmont) page | gal_2191_pic_sweetbay_kitchen_1of6_f1.jpg from https://www.lennar.com/new-homes/north-carolina/charlotte/belmont/redhawk
+04 | Toll Brothers | Griffith Lakes Westview Modern Farmhouse kitchen | Griffith-Lakes_Westview-Modern-Farmhouse_Kitchen_1_1920.jpg from https://www.tollbrothers.com/luxury-homes-for-sale/North-Carolina/Griffith-Lakes
+05 | Mattamy Homes | Arbor Chase Sierra model kitchen/gathering | clt-ach-sierramodel-kitchen-gathering from https://mattamyhomes.com/north-carolina/charlotte/clover/arbor-chase
+06 | M/I Homes | Whitaker Pointe front exterior | dam.mihomes.com/media/4739297 from https://www.mihomes.com/new-homes/north-carolina/charlotte-metro/huntersville/whitaker-pointe
+07 | D.R. Horton | Twinleaf Meadows, Columbia front elevation | columbia_c_front_-_garage_door.jpg from https://www.drhorton.com/north-carolina/charlotte/monroe/twinleaf-meadows
+08 | none (solid teal; Del Webb Carolina Ridge page only had a dusk fire-pit lifestyle image, too dark)
+09 | Mattamy Homes | Arbor Chase Sierra model gathering room | clt-ach-sierramodel-gathering2 from https://mattamyhomes.com/north-carolina/charlotte/clover/arbor-chase
+10 | Toll Brothers | Griffith Lakes Westview Modern Farmhouse outdoor patio | Griffith-Lakes_Westview-Modern-Farmhouse_Outdoor-Patio_11_1920.jpg from https://www.tollbrothers.com/luxury-homes-for-sale/North-Carolina/Griffith-Lakes
