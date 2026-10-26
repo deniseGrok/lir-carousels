@@ -6,8 +6,8 @@ Why seller tips: midday carousel alternates daily (Oct 24 seller, Oct 25 buyer),
 Angle: the seller's side between accepted offer and closing (dates, repair requests, condition, NC and SC disclosure updates, wire safety, move-out). New seller angle. Prior seller angles: home value (Oct 13), out-of-state (Oct 14), prep before listing (Oct 16), reviewing offers (Oct 18), net proceeds (Oct 20), listing agreement (Oct 22), showings (Oct 24).
 
 ## Sizes (Denise Oct 24 2026)
-- slide-01..10.png: 1080x1350 (4:5) for Instagram / LinkedIn, PDF (2026-10-26-seller-tips-under-contract-DRAFT.pdf), slides.zip (16.3 MB).
-- slides-1x1/slide-01..10.png: 1080x1080 native square layout for Facebook (slides-1x1.zip, 12.5 MB).
+- slide-01..10.png: 1080x1350 (4:5) for Instagram / LinkedIn, PDF (2026-10-26-seller-tips-under-contract-DRAFT.pdf), slides.zip (16.5 MB).
+- slides-1x1/slide-01..10.png: 1080x1080 native square layout for Facebook (slides-1x1.zip, 12.4 MB).
 - Both zips under 25 MB, so no JPG versions needed. No 9:16 set and no YouTube Short.
 
 ## Market data (Realtor.com only)
@@ -30,7 +30,9 @@ Result: no banned/flag words on any slide (4:5 and 1:1 HTML) or caption; slide 1
 - F1-F6: describes homes, rooms and process only; no people, protected classes, "perfect for", "safe", "family-friendly", "exclusive", schools or crime.
 
 ## Photos
-All Pexels License originals (long side 4,000-7,360 px), resized down only, light grade + sharpening (build/prep_photos.py). Every original checked with TEMPLATES/photo_registry.py check (no source-id or series hits; rejected today as repeats: 13005859, 16501696, 33856985, 34037811, 38775725, 18559625, 40265537 (same id) and 5178060, 259593, 8583735, 4682149, 5502221 (same Pexels upload series as photos used Oct 19-25); Curtis Adams 36777xxx series skipped as same series as Oct 19) and registered with photo_registry.py add. See build/img/CREDITS.txt.
+All Pexels License originals (long side 4,032-8,192 px), resized down only, light grade + sharpening (build/prep_photos.py). Every original checked with TEMPLATES/photo_registry.py check (no source-id or series hits; rejected today as repeats: 13005859, 16501696, 33856985, 34037811, 38775725, 18559625, 40265537 (same id) and 5178060, 259593, 8583735, 4682149, 5502221 (same Pexels upload series as photos used Oct 19-25); Curtis Adams 36777xxx series skipped as same series as Oct 19) and registered with photo_registry.py add. See build/img/CREDITS.txt.
+
+Oct 26 photo pass (before delivery): replaced slide 1 cover (backyard pool -> sunlit front exterior, Pexels 10258631), slide 5 (tub close-up -> bright primary bath, 20806614), slide 6 (vinyl two-story -> sunlit two-story with covered porch, 17158688) and slide 9 (stone fireplace -> bright two-story living room with fireplace, 16581570). All originals >=3,000 px, no people, no visible house numbers; registry check + manual Pexels-id proximity check (no id within 2,000 of any registered Pexels photo) and visual check of closest hash hits (all different scenes). Dropped photos 33404118, 16249148, 4832509, 15062101 removed from today's registry rows and build/src.
 
 ## Captions
 See captions.md (Instagram, Facebook page, LinkedIn, TikTok, Facebook personal profile). No YouTube copy (no Short today).

@@ -1,13 +1,14 @@
 # Seller tips Oct 26 2026 photo prep. Full-res Pexels originals in src/ (Pexels License), resized DOWN only.
 # One crop per photo: img/NN.jpg 1080x1350 (4:5 carousel). The 1:1 set reuses img/NN.jpg with background-size:cover.
 # Grade (fullbleed_tips standard): autocontrast blend 0.35, slight warmth, +5% contrast, UnsharpMask(1.0,70,2).
+# Oct 26 photo pass: slides 1, 5, 6, 9 replaced with brighter, crisper Pexels originals (>=3000px).
 # No 9:16 set and no Short (Denise Oct 24 2026).
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-M={"01":("p33404118",.5,.5),"03":("p10827394",.35,.5),"04":("p6510970",.45,.5),"05":("p16249148",.45,.5),"06":("p4832509",.5,.5),
-   "07":("p37153448",.5,.5),"08":("p15668080",.5,.5),"09":("p15062101",.62,.5),"10":("p8134748",.55,.5)}
-LIFT={"04":1.12,"08":1.1,"07":1.06}
+M={"01":("p10258631",.42,.5),"03":("p10827394",.35,.5),"04":("p6510970",.45,.5),"05":("p20806614",.5,.5),"06":("p17158688",.5,.5),
+   "07":("p37153448",.5,.5),"08":("p15668080",.5,.5),"09":("p16581570",.5,.5),"10":("p8134748",.55,.5)}
+LIFT={"04":1.12,"08":1.1,"07":1.06,"05":1.18,"09":1.1}
 # Retouch (T5: no visible house numbers): none needed in the final set (checked at full size).
 from PIL import ImageDraw
 RT={}
