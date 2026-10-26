@@ -6,8 +6,8 @@ Why seller tips: midday carousel alternates daily (Oct 24 seller, Oct 25 buyer),
 Angle: the seller's side between accepted offer and closing (dates, repair requests, condition, NC and SC disclosure updates, wire safety, move-out). New seller angle. Prior seller angles: home value (Oct 13), out-of-state (Oct 14), prep before listing (Oct 16), reviewing offers (Oct 18), net proceeds (Oct 20), listing agreement (Oct 22), showings (Oct 24).
 
 ## Sizes (Denise Oct 24 2026)
-- slide-01..10.png: 1080x1350 (4:5) for Instagram / LinkedIn, PDF (2026-10-26-seller-tips-under-contract-DRAFT.pdf), slides.zip (17 MB).
-- slides-1x1/slide-01..10.png: 1080x1080 native square layout for Facebook (slides-1x1.zip, 13 MB).
+- slide-01..10.png: 1080x1350 (4:5) for Instagram / LinkedIn, PDF (2026-10-26-seller-tips-under-contract-DRAFT.pdf), slides.zip (16.3 MB).
+- slides-1x1/slide-01..10.png: 1080x1080 native square layout for Facebook (slides-1x1.zip, 12.5 MB).
 - Both zips under 25 MB, so no JPG versions needed. No 9:16 set and no YouTube Short.
 
 ## Market data (Realtor.com only)
