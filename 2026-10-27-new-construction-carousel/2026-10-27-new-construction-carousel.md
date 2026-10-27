@@ -1,6 +1,6 @@
 # DRAFT — AWAITING DENISE APPROVAL
 ## Daily New Construction Deal Carousel — Tuesday, Oct 27, 2026 (Charlotte metro)
-Nothing has been posted, scheduled, sent or added to Buffer. Theme `fullbleed_teal`: full builder photo on every slide, light teal-tinted fade, text anchored at the bottom, teal #0F4C5C + gold #F2B705, tag "NEW BUILD DEALS / NC + SC". Offers verified on the builders' own websites Oct 27, 2026, about 4:12–4:40 AM ET. Builder photos only, each credited "Photo: <Builder>"; no stock, no "Illustrative image", no "SWIPE" text.
+Nothing has been posted, scheduled, sent or added to Buffer. Theme `fullbleed_teal`: full builder photo on every slide, light teal-tinted fade, text anchored at the bottom, teal #0F4C5C + gold #F2B705, tag "NEW BUILD DEALS / NC + SC". Offers verified on the builders' own websites Oct 27, 2026, about 4:10–4:20 AM ET. Builder photos only, each credited "Photo: <Builder>"; no stock, no "Illustrative image", no "SWIPE" text.
 
 Two native slide sets (per Denise's Oct 24 rule; no 9:16 set, no YouTube Short for New Construction):
 - 4:5 1080x1350 (Instagram + LinkedIn): slide-01.png … slide-10.png, slides.zip, 2026-10-27-new-construction-carousel-DRAFT.pdf
@@ -11,7 +11,7 @@ Count: **5 verified builder offers** in 5 communities (KB Home x4, Mattamy Homes
 
 Checked and cut today: Toll Brothers (statewide 5.49%/5.76% APR rate on select QMIs, not tied to a community page; the unused Charlotte communities Overbrook Estates and Toll Brothers at South Park show no promo); Shea Homes (Home for the Season Event, all Charlotte communities already featured, and Tega Cay is outside the SC towns allowed); Pulte Parkside Crossing / Elmbrook / Michaux Gardens (only an occupation-based Hometown Heroes offer, left off for Fair Housing caution); Century Grants Landing (Hometown Heroes only); Dream Finders Cottages at Wingate (community badge shows 2.99% but the Charlotte terms posted are a different 5.49% rate on "select communities", contracts written and closed by Oct 30; could not tie either to the community, so cut); Meritage Crossrail Station / Nolen Farm (no offer on the pages); KB Cottages at Clovis Point (Kings Mountain, outside the core metro) and Wilson Creek (Indian Land; no rate banner on its page); Taylor Morrison 14-Day Sale (community terms not confirmable in time).
 
-## Verified offers (builders' own pages, verified 2026-10-27 ~4:20–4:40 AM ET)
+## Verified offers (builders' own pages, verified 2026-10-27 ~4:10–4:20 AM ET)
 KB Home offer terms (https://www.kbhome.com/special-low-rate): rate as low as 4.99% (5.781% APR) on a 5/1 FHA ARM through KBHS Home Loans; buyer must sign a purchase agreement by 10/31/26, rate-lock with KBHS within 30 days, owner-occupied, close with KBHS as lender; advertised APRs factor in a $5,000 closing cost credit and additional seller contributions from KB Home; rates valid as of 9/24/26; builder example: payments 1–60 at 4.990% (5.781% APR), payments 61–360 at 6.430% (7.225% APR); caps 1% first / 1% yearly / 5% lifetime; "certain communities may be excluded" (each community below shows the offer on its own page).
 1. **KB Home — Bella Vista, Denver, NC.** https://www.kbhome.com/new-homes-charlotte-area/bella-vista-classic (also Bella Vista Heritage)
 2. **KB Home — Midland Crossing, Midland, NC.** https://www.kbhome.com/new-homes-charlotte-area/midland-crossing
