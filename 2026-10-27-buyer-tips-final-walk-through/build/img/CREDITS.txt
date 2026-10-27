@@ -1,0 +1,10 @@
+Buyer tips Oct 27 2026 (the final walk-through). All Pexels License (free, no attribution required). No people. Generic photos: tags are topic words only; no photo is presented as a specific listing, address or named place. No visible house numbers (cover: small door-trim number painted out in prep_photos.py; all slides checked at full size, both sizes).
+01 | https://www.pexels.com/photo/18326829/ (Pexels License; bright white two-story porch with red front door and green shutters; cover)
+03 | https://www.pexels.com/photo/38311098/ (Pexels License; bright white kitchen with built-ins and wood floor; tag TIMING)
+04 | https://www.pexels.com/photo/40454339/ (Pexels License; bright bath with glass shower and freestanding tub; tag REPAIRS)
+05 | https://www.pexels.com/photo/17301027/ (Pexels License; bright white kitchen with range hood and appliances; tag SYSTEMS)
+06 | https://www.pexels.com/photo/7098014/ (Pexels License; bright living room with tall French doors and wood floor; tag WHAT STAYS)
+07 | https://www.pexels.com/photo/37323045/ (Pexels License; bedroom with large paned windows; tag NEW DAMAGE)
+08 | https://www.pexels.com/photo/20778163/ (Pexels License; sunlit covered porch with rocking chair; tag OUTSIDE)
+09 | https://www.pexels.com/photo/32956273/ (Pexels License; open living and dining room with wood beams; tag SPEAK UP)
+10 | https://www.pexels.com/photo/5806989/ (Pexels License; bright living room with white fireplace mantel and ornate mirror; tag MY RECOMMENDATION)
