@@ -16,10 +16,14 @@ ST=("<style>.s .c{top:auto!important;bottom:92px!important}.s .lab{font-size:28p
     ".s .row .z{font-size:28px!important;width:420px!important}.s .row .v{font-size:60px!important}.s .row .y{font-size:30px!important}"
     ".s .tk{font-size:30px!important;margin-top:20px!important}.s .src{font-size:24px!important;margin-top:10px!important}"
     ".ph:after{background:linear-gradient(rgba(0,0,0,.4) 0,rgba(0,0,0,.6) 25%,rgba(0,0,0,.85) 60%,rgba(0,0,0,.92) 100%)!important}</style>")
+# Oct 28 2026 fix: slides 4 and 7 read darker than the set on 1:1, so lighten the photo and soften the fade (text keeps its shadow).
+LITE=("<style>.ph{filter:brightness(1.1) saturate(1.04)}"
+      ".ph:after{background:linear-gradient(rgba(0,0,0,.18) 0,rgba(0,0,0,0) 10%,rgba(0,0,0,0) 42%,rgba(0,0,0,.42) 60%,rgba(0,0,0,.8) 100%)!important}"
+      "h1,li,.ft{text-shadow:0 2px 12px rgba(0,0,0,.85),0 0 3px rgba(0,0,0,.6)!important}</style>")
 H1={1:70,2:78,5:64,6:62,9:62,10:62}; LI={4:26,5:26,6:26,8:26,9:26}
 for i in range(1,11):
     h=open(f"{B}/slide-{i:02d}.html").read()
-    css=SQ.replace("H1PX",str(H1.get(i,70))).replace("LIPX",str(LI.get(i,28)))+(ST if i==2 else "")
+    css=SQ.replace("H1PX",str(H1.get(i,70))).replace("LIPX",str(LI.get(i,28)))+(ST if i==2 else "")+(LITE if i in (4,7) else "")
     h=h.replace("</head>",css+"</head>",1)
     if i==10: h=h.replace("</div></div><div class='ft'>","</div></div><div class='ft'>")  # keep contact block
     hp=f"{B}/slide-{i:02d}-1x1.html"; open(hp,"w").write(h)

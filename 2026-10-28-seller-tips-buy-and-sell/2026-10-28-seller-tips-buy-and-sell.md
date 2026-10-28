@@ -32,6 +32,7 @@ Result: no banned/flag words on any slide (4:5 and 1:1 HTML) or caption; slide 1
 ## Photos
 All Pexels License originals (long side 3,872-6,714 px), resized down only, light grade + sharpening (build/prep_photos.py). Every original checked with TEMPLATES/photo_registry.py check (no source-id, series or near-duplicate hits; candidate-id proximity filter of 300 vs registered Pexels ids) and registered with photo_registry.py add. See build/img/CREDITS.txt.
 Photo pass before delivery: replaced slide 4 (2227832, framed palm/beach prints), slide 7 (34773852, stone-wall sunroom, not plausibly Carolinas), slide 8 (3315286, CGI-looking muted closet) and slide 10 (39743616, dark ordinary cottage); cover given a light brightness lift; slide 9 reframed to keep potted palms out of frame and the door number painted out.
+Oct 28 2026 fix before handoff: slide 7 photo replaced (29590607, plain empty-model living room with a flat dirt-lot view) with Pexels 14715844 (https://www.pexels.com/photo/14715844/, Pexels License, 4000x2668 original; sunlit two-story living room, tall arched windows onto trees and brick, no people), checked with photo_registry.py check (hash hits were loose-threshold false positives, inspected visually; no source-id, series or id-proximity hits) and registered. 1:1 slides 4 and 7 lightened (photo brightness 1.1 and a softer bottom fade, stronger text shadow; build_1x1.py LITE) so they match the rest of the set; text checked at full size.
 
 ## Captions
 See captions.md (Instagram, Facebook page, LinkedIn, TikTok, Facebook personal profile).
