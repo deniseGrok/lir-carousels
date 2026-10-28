@@ -2,54 +2,76 @@
 Buffer on approval: 4:00 PM ET (Instagram + LinkedIn with 4:5 slides, Facebook with slides-1x1). Nothing posted.
 
 ## Facebook (business page)
-A park, a ballpark and an NFL stadium in one Uptown ward 🌳⚾
-Third Ward sits just west of South Tryon in Charlotte 📍
-Comment or DM me with questions 💬
-Ballgame or museum first?
+🏙️ What makes Charlotte’s Third Ward worth exploring?
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+Imagine having parks, professional sports, museums, and entertainment all within one vibrant Uptown neighborhood!
 
-#ThirdWardCLT #UptownCharlotte #CharlotteRealEstate
+📍 Welcome to Third Ward, Charlotte, NC!
+
+From the green spaces of Romare Bearden Park to the excitement of Bank of America Stadium and Truist Field, Third Ward offers a unique mix of urban living, recreation, arts, and culture.
+
+But when considering a home here, there’s more to explore than the attractions. Condo options, parking arrangements, HOA fees, and building amenities are all important factors.
+
+🏡 Thinking about making Uptown Charlotte your next address?
+
+Let’s explore Third Ward together and find a property that aligns with your lifestyle, priorities, and budget.
+
+💬 What would you enjoy most about living near Uptown Charlotte’s attractions?
+
+Denise Wilson | REALTOR®
+Lifestyle International Realty Carolinas
+
+📲 704-615-7347
+
+#CharlotteRealEstate #ThirdWardCharlotte #UptownCharlotte #CharlotteNC #CharlotteCondos #DeniseWilsonRealtor
 
 ## Instagram
-A ballpark, an NFL stadium and three museums 🏟️
-All in one corner of Uptown Charlotte 📍
+🏙️ What makes Charlotte’s Third Ward worth exploring?
 
-🌳 A 5.4-acre park inspired by an artist's collages
-⚾ Minor league baseball across the street
-🚆 A streetcar along West Trade
+Imagine having parks, professional sports, museums, and entertainment all within one vibrant Uptown neighborhood!
 
-The rest of Third Ward and Realtor.com's September 2026 numbers are in the slides.
-DM me or comment "THIRD WARD" and I'll share more 💬
+📍 Welcome to Third Ward, Charlotte, NC!
 
-Would you rather live near the ballpark or near the museums?
+From the green spaces of Romare Bearden Park to the excitement of Bank of America Stadium and Truist Field, Third Ward offers a unique mix of urban living, recreation, arts, and culture.
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+But when considering a home here, there’s more to explore than the attractions. Condo options, parking arrangements, HOA fees, and building amenities are all important factors.
 
-#ThirdWardCLT #UptownCharlotte #CharlotteNC #CharlotteRealEstate #CharlotteNeighborhoods
+🏡 Thinking about making Uptown Charlotte your next address?
+
+Let’s explore Third Ward together and find a property that aligns with your lifestyle, priorities, and budget.
+
+💬 What would you enjoy most about living near Uptown Charlotte’s attractions?
+
+Denise Wilson | REALTOR®
+Lifestyle International Realty Carolinas
+
+📲 704-615-7347
+
+#CharlotteRealEstate #ThirdWardCharlotte #UptownCharlotte #CharlotteNC #CharlotteCondos #DeniseWilsonRealtor
 
 ## LinkedIn
-Uptown Charlotte splits into four wards at Trade and Tryon 📍
+🏙️ What makes Charlotte’s Third Ward worth exploring?
 
-Third Ward packs a lot into one corner:
-🌳 Romare Bearden Park, opened in 2013
-⚾ Truist Field, home of the Charlotte Knights since 2014
-🎨 Levine Center for the Arts on South Tryon
+Imagine having parks, professional sports, museums, and entertainment all within one vibrant Uptown neighborhood!
 
-The slides cover the details and Realtor.com's September 2026 numbers for ZIP 28202.
-Comment or message me if you're weighing a home close to Uptown 💬
+📍 Welcome to Third Ward, Charlotte, NC!
 
-If you lived here, would the ballpark or the museums matter more?
+From the green spaces of Romare Bearden Park to the excitement of Bank of America Stadium and Truist Field, Third Ward offers a unique mix of urban living, recreation, arts, and culture.
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+But when considering a home here, there’s more to explore than the attractions. Condo options, parking arrangements, HOA fees, and building amenities are all important factors.
 
-#CharlotteRealEstate #UptownCharlotte #ThirdWardCLT #CharlotteNC
+🏡 Thinking about making Uptown Charlotte your next address?
+
+Let’s explore Third Ward together and find a property that aligns with your lifestyle, priorities, and budget.
+
+💬 What would you enjoy most about living near Uptown Charlotte’s attractions?
+
+Denise Wilson | REALTOR®
+Lifestyle International Realty Carolinas
+
+📲 704-615-7347
+
+#CharlotteRealEstate #ThirdWardCharlotte #UptownCharlotte #CharlotteNC #CharlotteCondos #DeniseWilsonRealtor
 
 ## TikTok
 An NFL stadium, a ballpark and three museums in one ward 🏟️
@@ -64,21 +86,25 @@ Lifestyle International Realty
 #ThirdWardCLT #UptownCharlotte #CharlotteNC #CharlotteRealEstate
 
 ## Facebook (personal profile)
-Did you know Uptown Charlotte is split into four wards? 📍
+🏙️ What makes Charlotte’s Third Ward worth exploring?
 
-Third Ward is the corner west of South Tryon and south of West Trade.
-Inside it:
-🌳 Romare Bearden Park, 5.4 acres
-⚾ Truist Field, home of the Charlotte Knights
-🏟️ Bank of America Stadium
+Imagine having parks, professional sports, museums, and entertainment all within one vibrant Uptown neighborhood!
 
-I put the rest, plus the latest Realtor.com numbers, in the slides.
-Comment or DM me if you have questions about homes near Uptown 💬
+📍 Welcome to Third Ward, Charlotte, NC!
 
-Have you caught a Knights game at Truist Field yet?
+From the green spaces of Romare Bearden Park to the excitement of Bank of America Stadium and Truist Field, Third Ward offers a unique mix of urban living, recreation, arts, and culture.
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+But when considering a home here, there’s more to explore than the attractions. Condo options, parking arrangements, HOA fees, and building amenities are all important factors.
 
-#ThirdWardCLT #UptownCharlotte #CharlotteRealEstate
+🏡 Thinking about making Uptown Charlotte your next address?
+
+Let’s explore Third Ward together and find a property that aligns with your lifestyle, priorities, and budget.
+
+💬 What would you enjoy most about living near Uptown Charlotte’s attractions?
+
+Denise Wilson | REALTOR®
+Lifestyle International Realty Carolinas
+
+📲 704-615-7347
+
+#CharlotteRealEstate #ThirdWardCharlotte #UptownCharlotte #CharlotteNC #CharlotteCondos #DeniseWilsonRealtor
