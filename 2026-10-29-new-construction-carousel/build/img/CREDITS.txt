@@ -1,0 +1,11 @@
+All photos: Lennar (builder), from each community's own page on lennar.com, downloaded Oct 29, 2026. Credited on-slide "Photo: Lennar".
+01 | Lennar | sv_pic2 | https://cdn.lennar.com/api/images/contentassets/0df6f38c91f040aeb53b3c2349458f81/gal_47302_summerlynvillage_pic_2.jpg | Summerlyn Village page
+02 | Lennar | sr_blake_kit | https://cdn.lennar.com/api/images/contentassets/308e9131fec54f9fb97ac94dcc5f5358/gal_1932_rend_blake_kitchen_2of2_f1.jpg | Spencer Ridge page
+03 | Lennar | cc_mpc | https://cdn.lennar.com/api/images/contentassets/e96898d7e1094d7ebe5c26a90c666115/gal_53949_crossings_crowders_creek_vid_mpc_01.jpg | The Crossings at Crowders Creek page (house number retouched out)
+04 | Lennar | sv_west_great | https://cdn.lennar.com/api/images/contentassets/0508b0c9d60448fe9876eaa67843c2bc/gal_2160_rend_westbury_greatroom_2of2_f1.jpg | Summerlyn Village page
+05 | Lennar | ns_fire | https://cdn.lennar.com/api/images/contentassets/64884dbfc0b941298c3323f98530faf1/gal_normanstation_pic_amenity_firepit.jpg | Norman Station page
+06 | Lennar | ac_dream13 | https://cdn.lennar.com/api/images/contentassets/8b25b94dd9e5432dbf98fdf094d06d6e/gal_dreamcollection_pic_streetscape_13of15_042325.jpg | Alexander Court page
+07 | Lennar | ns_verona_great | https://cdn.lennar.com/api/images/contentassets/a71d0e83007e4336af9fa2240ac181f7/gal_1887_rend_verona_great_1of3_f2_032524.jpg | Norman Station page
+08 | Lennar | sv_chad_liv | https://cdn.lennar.com/api/images/contentassets/05f9f97b6eb344b789735d160be76380/gal_2014_rend_chadwick_livingroom_1of2_f1_15_101223.jpg | Summerlyn Village page
+09 | Lennar | ns_cp2 | https://cdn.lennar.com/api/images/contentassets/aebb379e86d044ea8e996e5447eca715/gal_58950_norman_station_pic_cp_2.jpg | Norman Station page
+10 | Lennar | ns_lake | https://cdn.lennar.com/api/images/contentassets/aebb379e86d044ea8e996e5447eca715/gal_normanstation_pic_amenity_lake_lakeaccess.jpg | Norman Station page
