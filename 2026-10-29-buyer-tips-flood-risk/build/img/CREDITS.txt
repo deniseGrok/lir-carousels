@@ -1,0 +1,10 @@
+Buyer tips Oct 29 2026 (check flood risk before you buy). All Pexels License (free, no attribution required). No people. Generic photos: tags are topic words only; no photo is presented as a specific listing, address or named place. No visible house numbers (slide 9: siding number painted out in prep_photos.py POST; slide 1 framed to keep a small plaque out; all slides checked at full size, both sizes).
+01 | https://www.pexels.com/photo/39743605/ (Pexels License, 11656x8742 original; bright sunlit home exterior; cover)
+03 | https://www.pexels.com/photo/31748131/ (Pexels License, 5472x3648 original; tag LOOK IT UP)
+04 | https://www.pexels.com/photo/8186515/ (Pexels License, 5472x3648 original; tag THE ZONES)
+05 | https://www.pexels.com/photo/11593489/ (Pexels License, 4000x2668 original; tag YOUR LENDER)
+06 | https://www.pexels.com/photo/20773072/ (Pexels License, 8193x5464 original; tall windows onto trees, stone fireplace; tag YOUR POLICY)
+07 | https://www.pexels.com/photo/39383571/ (Pexels License, 4000x2667 original; tag TIMING)
+08 | https://www.pexels.com/photo/12119223/ (Pexels License, 4000x2667 original; bright kitchen; tag NC DISCLOSURES)
+09 | https://www.pexels.com/photo/3935344/ (Pexels License, 5000x3333 original; exterior, number painted out; tag ASK FOR IT)
+10 | https://www.pexels.com/photo/7546775/ (Pexels License, 6843x4650 original; sunlit single-story home and lawn; MY RECOMMENDATION)
