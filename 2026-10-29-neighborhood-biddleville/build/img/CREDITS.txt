@@ -1,0 +1,12 @@
+Biddleville spotlight (Oct 29 2026). All 10 slides are real Biddleville photos from Wikimedia Commons (full-res originals in build/src/, downscaled only), credited on-slide where the license requires (CC0 slide 4 labeled with the place only). No readable house numbers or plates; no people as focus.
+01 | File:Biddle Hall.jpg, Alan Lux Studios, Wikimedia Commons, CC BY-SA 4.0. CREDIT ON SLIDE. (Biddle Memorial Hall clock tower, bright blue sky; cover)
+02 | File:French Street 02.jpg, Mark Clifton, Wikimedia Commons, CC BY-SA 2.0. CREDIT ON SLIDE. (Gold Line streetcar at French Street stop, Sept 2021)
+03 | File:Biddle Memorial Hall, Johnson C. Smith University.jpg, Alan Lux Studios, Wikimedia Commons, CC BY-SA 4.0. CREDIT ON SLIDE. (clock tower close view; slide says "pictured here")
+04 | File:Dr. George E Davis House.jpg, Algorhythms, Wikimedia Commons, CC0 (no credit required; labeled with place only). Porch house number and round address sign removed by build/clean_davis.py (inpaint + brick texture). (slide says "pictured here")
+05 | File:Johnson C. Smith 01.jpg, Mark Clifton, Wikimedia Commons, CC BY-SA 2.0. CREDIT ON SLIDE. (Johnson C. Smith University streetcar stop, campus building behind)
+06 | File:French Street 03.jpg, Mark Clifton, Wikimedia Commons, CC BY-SA 2.0. CREDIT ON SLIDE. (Gold Line streetcar)
+07 | File:French Street 05.jpg, Mark Clifton, Wikimedia Commons, CC BY-SA 2.0. CREDIT ON SLIDE. (French Street stop art shelter; cropped to exclude its address placard; labeled as the stop, not as Five Points Plaza)
+08 | File:French Street 01.jpg, Mark Clifton, Wikimedia Commons, CC BY-SA 2.0. CREDIT ON SLIDE. (Gold Line streetcar at French Street; tip slide)
+09 | File:French Street 09.jpg, Mark Clifton, Wikimedia Commons, CC BY-SA 2.0. CREDIT ON SLIDE. (behind the strong teal stats fade; the Realtor.com line stays the only source line)
+10 | File:Johnson C. Smith 06.jpg, Mark Clifton, Wikimedia Commons, CC BY-SA 2.0. CREDIT ON SLIDE. (JCSU stop; contact slide)
+Rejected: File:Biddle Hall, JCSU.jpg (black-and-white, muted); James Willamor Biddle Hall / JCSU skyline (840-2000 px, too small for 9:16 without upscaling); French Street 06/07 and Johnson C. Smith 03/04 (close-ups of shelter text panels); Johnson C. Smith 05 (plain platform).
