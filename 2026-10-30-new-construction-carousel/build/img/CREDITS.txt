@@ -1,0 +1,11 @@
+All photos: builder photos from each builder's own website, downloaded Oct 30, 2026. Credited on-slide "Photo: <builder>".
+01 | Pulte Homes | eb_sales (picturepark oiZqFlPb) | https://pultegroup.cdn.picturepark.com/v/oiZqFlPb/ | Elmbrook page (Visit our Sales Center!)
+02 | D.R. Horton | bc_aria_n | https://www.drhorton.com/-/media/drhorton/productcatalog/705-charlotte-south/48347-brandon-creek-60s/483470000-brandon-creek-60s/1618/0280-3617-honey-locust-lane/aria_n.jpg | Brandon Creek page (3617 Honey Locust Ln, Lot 280)
+03 | Pulte Homes | mg_model (picturepark lfDB8xFM) | https://pultegroup.cdn.picturepark.com/v/lfDB8xFM/ | Michaux Gardens page (Visit our Model Home!)
+04 | Pulte Homes | pc_pool (picturepark hb46ZYto) | https://pultegroup.cdn.picturepark.com/v/hb46ZYto/ | Parkside Crossing page (Community Pool)
+05 | Pulte Homes | eb_welcome (picturepark J3SCnDJL) | https://pultegroup.cdn.picturepark.com/v/J3SCnDJL/ | Elmbrook page (Welcome to Elmbrook! entry sign)
+06 | Smith Douglas Homes | sd_bdx1 | https://buildercloud.s3.amazonaws.com/processor-bdx-nhlist/21ae968ee318456a5f9a6e7c83ee393cd2308ffa.jpg | Miranda Road / Vistas at Cramerton / Rogers Pond pages (representative builder photo)
+07 | Pulte Homes | mg_kitchen (picturepark ylcZqELg) | https://pultegroup.cdn.picturepark.com/v/ylcZqELg/ | Michaux Gardens page (Open Kitchen)
+08 | Pulte Homes | eb_kitchen (picturepark TBO89mO0) | https://pultegroup.cdn.picturepark.com/v/TBO89mO0/ | Elmbrook page (Large Spacious Kitchen)
+09 | Pulte Homes | pc_douglas (picturepark 43xtQKDC) | https://pultegroup.cdn.picturepark.com/v/43xtQKDC/ | Parkside Crossing page (The Douglas)
+10 | Pulte Homes | mg_gather (picturepark xlnEVTkO) | https://pultegroup.cdn.picturepark.com/v/xlnEVTkO/ | Michaux Gardens page (Large Gathering Rooms)
