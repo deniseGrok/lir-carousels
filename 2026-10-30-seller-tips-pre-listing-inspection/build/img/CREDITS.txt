@@ -1,0 +1,10 @@
+Seller tips Oct 30 2026 (pre-listing inspection). All Pexels License (free, no attribution required). No people. Generic photos: tags are topic words only; no photo is presented as a specific listing, address or named place. No visible house numbers (slide 8: porch-column number painted out in prep_photos.py POST); all slides checked at full size, both sizes.
+01 | https://www.pexels.com/photo/7174108/ (Pexels License, 7342x4900 original; bright sunlit brick and white-column home, lawn; cover)
+03 | https://www.pexels.com/photo/10486138/ (Pexels License, 4000x2668 original; vaulted living room; tag WHAT IT IS)
+04 | https://www.pexels.com/photo/7601085/ (Pexels License, 5472x3648 original; empty room, hardwood, fireplace; tag WHY IT HELPS)
+05 | https://www.pexels.com/photo/15667605/ (Pexels License, 4000x2668 original; bright kitchen; tag THE BIG ITEMS)
+06 | https://www.pexels.com/photo/37760262/ (Pexels License, 4000x2667 original; bright primary bath; tag YOUR OPTIONS)
+07 | https://www.pexels.com/photo/18038065/ (Pexels License, 4000x2668 original; living room, fireplace; tag DISCLOSURE)
+08 | https://www.pexels.com/photo/10486204/ (Pexels License, 3444x2242 original; sunlit two-story exterior, number painted out; tag SHARE IT)
+09 | https://www.pexels.com/photo/7214158/ (Pexels License, 7057x4710 original; bright modern kitchen; tag BUYERS STILL LOOK)
+10 | https://www.pexels.com/photo/259593/ (Pexels License, 5998x3997 original; stone and brick home, lawn, warm daylight; MY RECOMMENDATION)
