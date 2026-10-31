@@ -16,7 +16,7 @@ v1 (even charcoal overlay, sage text, 1:1 + 9:16) was replaced Oct 31 2026 becau
 - Margins ~58px left/right (as in the examples).
 
 ## Slide types
-1. `sa.cover`: navy box top-left "BUYER & SELLER TIPS / CHARLOTTE METRO • NC + SC"; light Montserrat lead (e.g. "REAL ESTATE" or today's topic "KNOW WHAT YOU'RE"); big coral script line (Great Vibes; "Tips" / "really buying"); "Practical advice for BUYERS / SELLERS"; bottom-left "DENISE WILSON / REALTOR® | LIFESTYLE INTERNATIONAL REALTY"; "1 / 10 →".
+1. `sa.cover`: navy box top-left "BUYER & SELLER TIPS / CHARLOTTE METRO • NC + SC"; bold Anton lead ~104px (e.g. "REAL ESTATE" or today's topic "KNOW WHAT YOU'RE"); big coral script line (Great Vibes; "Tips" / "really buying"); "Practical advice for BUYERS / SELLERS"; bottom-left "DENISE WILSON / REALTOR® | LIFESTYLE INTERNATIONAL REALTY"; "1 / 10 →".
 2. `sa.stats`: stats only on navy (no photo), Realtor.com metro numbers with month + source line.
 3-9. `sa.edu`: tag + 2-line headline + 1-2 sentence body + 4 bullets over a warm photo.
 10. `sa.cta`: "LET'S TALK / BUYING OR SELLING? I'M HERE TO HELP." + coral script "Denise Wilson", REALTOR®, Lifestyle International Realty — Carolinas, 704-615-7347, denisewilson.lircarolinas.com, Equal Housing Opportunity logo + text. Denise's REAL headshot on the right (`TEMPLATES/denise-wilson-headshot-cutout.png`, background removed from her 1:1 example; crop: `denise-wilson-headshot-crop.png`) over a bright, warm, blurred living room. Never generate or alter her face; never use the woman in the 4:5 example (may be AI-generated).

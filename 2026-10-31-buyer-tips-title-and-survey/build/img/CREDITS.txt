@@ -1,5 +1,5 @@
 Buyer tips Oct 31 2026 (title, survey, easements, HOA). Signature Authority v2 design-approval round (4:5 only), rebuilt Oct 31 2026 ~2:15 PM ET to match Denise's example slides. Pexels License / Unsplash License (free, no attribution required). No people as the subject; no house numbers or signs (slide 06: gate-post number and 'PRIVATE' plaque retouched out in src). Warm sunlit grade per format by TEMPLATES/signature_authority.py (downscale only).
-01 | https://www.pexels.com/photo/36178818/ (Pexels License, by Leticia Alvares, 4000x6000; leather sofa and tall plant by a sunny window; cover)
+01 | https://www.pexels.com/photo/7340487/ (Pexels License, by Erik Mclean, 3648x5472; sunlit living room with sheer-curtained window, plants, beige sofa and round wooden coffee table; cover. Replaced Pexels 36178818 Oct 31 2026 ~2:05 PM ET (too plain))
 02 | no photo (stats slide on navy)
 03 | https://www.pexels.com/photo/12955837/ (Pexels License, 4000x2667; wooden house model, keys and contract; TITLE MEANS OWNERSHIP)
 04 | https://www.pexels.com/photo/1358900/ (Pexels License, 4000x2667; bright kitchen island with herbs; LENDER'S VS OWNER'S)
@@ -9,4 +9,4 @@ Buyer tips Oct 31 2026 (title, survey, easements, HOA). Signature Authority v2 d
 08 | https://www.pexels.com/photo/4792507/ (Pexels License, 4000x2670; floor plan with eyeglasses and pen; HOA RULES)
 09 | https://www.pexels.com/photo/36845626/ (Pexels License, 4000x6000; rocking chair on a sunlit South Carolina cabin porch; ASK QUESTIONS)
 10 | https://unsplash.com/photos/9ag1NYrdE3I photo-1722247482035-73d55ee3d258 (Unsplash License, by Lisa Anna; bright living room, blurred background) + Denise's real headshot: TEMPLATES/denise-wilson-headshot-cutout.png (cropped from her 1:1 example slide TEMPLATES/signature-authority-examples/01M69GT5HEGMY2SCQ8B8KKJKS7.png, background removed with rembg u2net_human_seg; face not altered)
-Retired from earlier Oct 31 drafts of this carousel (kept in registry as used): Pexels 4500474, 6283960, 6782369, 7914572, 10099333, 8082229, 3701434; Unsplash 1647579350413-a6ada4e480ed, 1784810801262-d0d27227a480.
+Retired from earlier Oct 31 drafts of this carousel (kept in registry as used): Pexels 36178818, 4500474, 6283960, 6782369, 7914572, 10099333, 8082229, 3701434; Unsplash 1647579350413-a6ada4e480ed, 1784810801262-d0d27227a480.

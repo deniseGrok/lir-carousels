@@ -9,7 +9,7 @@ N = "2026-10-31-buyer-tips-title-and-survey"; B = os.path.dirname(os.path.abspat
 CONTACT = dict(name="Denise Wilson", title="REALTOR®", firm="Lifestyle International Realty — Carolinas",
                phone="704-615-7347", web="denisewilson.lircarolinas.com")
 SL = [
- sa.cover("p36178818.jpg", "KNOW WHAT YOU'RE", "really buying", "Practical advice for<br><b>BUYERS.</b>", xy=(.5, .62), grade=dict(bright=1.04, gold=.8, sat=1.1)),
+ sa.cover("p7340487.jpg", "KNOW WHAT YOU'RE", "really buying", "Practical advice for<br><b>BUYERS.</b>", xy=(.5, .55), grade=dict(bright=1.06, gold=.9, sat=1.1)),
  sa.stats("Charlotte metro|September 2026",
           [("MEDIAN<br>LIST PRICE", "$424,950", "−3.1% YoY"), ("PRICE PER<br>SQ FT", "$217", "−1.4% YoY"),
            ("NEW<br>LISTINGS", "3,742", "−7.5% YoY"), ("PENDING<br>LISTINGS", "4,681", "−5.9% YoY")],

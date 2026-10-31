@@ -101,8 +101,8 @@ def inner(sd, n, total, series, img):
                 f"<div class='pg'>{n} / {total} →</div></div>")
         extra += (f".box{{position:absolute;left:{L}px;top:50px;background:rgba({NAVY_RGB},.92);border:2px solid rgba(255,255,255,.18);padding:16px 24px 14px;z-index:3;border-radius:4px}}"
                   ".b1{font-family:Anton;font-size:46px;letter-spacing:.03em;line-height:1}.b2{font-weight:600;font-size:19px;letter-spacing:.2em;margin-top:8px;color:#dfe8e4}"
-                  ".cv{top:236px;width:760px}.lead{font-weight:300;font-size:72px;white-space:nowrap;line-height:1;letter-spacing:.02em;text-shadow:0 3px 16px rgba(0,0,0,.4)}"
-                  f".scr{{font-family:Script;color:{CORAL};font-size:176px;line-height:.95;margin:6px 0 0 -6px;text-shadow:0 3px 18px rgba(0,0,0,.35)}}"
+                  ".cv{top:226px;width:900px}.lead{font-family:Anton;font-weight:400;font-size:104px;white-space:nowrap;line-height:1;letter-spacing:.01em;text-shadow:0 3px 16px rgba(0,0,0,.4)}"
+                  f".scr{{font-family:Script;color:{CORAL};font-size:176px;line-height:.95;margin:6px 0 0 -6px;text-shadow:0 2px 4px rgba(10,30,42,.75),0 0 22px rgba(14,48,66,.9),0 0 44px rgba(14,48,66,.6)}}"
                   ".sub{font-size:40px;font-weight:500;line-height:1.2;margin-top:26px;text-shadow:0 2px 12px rgba(0,0,0,.45)}"
                   f".sub b{{font-family:Anton;font-weight:400;font-size:66px;color:{SAGE};letter-spacing:.02em}}"
                   f".gl{{background:linear-gradient(90deg,rgba({NAVY_RGB},.80) 0,rgba({NAVY_RGB},.58) 36%,rgba({NAVY_RGB},.16) 60%,rgba({NAVY_RGB},0) 72%)}}"
