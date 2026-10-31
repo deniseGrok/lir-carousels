@@ -62,7 +62,7 @@ def kind_of(rel):
     b = os.path.basename(rel)
     if re.fullmatch(r"slide-\d\d\.png", b): return "slide_render"
     if "/src/" in "/"+rel: return "src_original"
-    if re.search(r"/img(-hq)?(/builder)?/[^/]+\.jpe?g$", "/"+rel): return "photo"
+    if re.search(r"/img(-hq)?(/builder)?/[^/]+\.(?:jpe?g|png)$", "/"+rel): return "photo"
     if rel.split("/")[0].startswith(("style-samples", "nc-style-samples")) and b.endswith(".png") and "overview" not in b: return "slide_render"  # sample slides
     return None
 def slide_no(rel):
@@ -164,7 +164,7 @@ def add(carousel, note="", date=None):
     if os.path.exists(pp):
         for m in re.finditer(r'"(\d\d)":\("([^"]+)"', open(pp).read()): pmap[m.group(2)] = int(m.group(1))
     for n, (prov, sid, url) in sorted(ids.items()):
-        files = [(f"build/img/{n:02d}.jpg", "photo"), (f"slide-{n:02d}.png", "slide_render")]
+        files = [(f"build/img/{n:02d}.jpg", "photo"), (f"build/img/{n:02d}.png", "photo"), (f"slide-{n:02d}.png", "slide_render")]
         for f in os.listdir(os.path.join(d, "build/src")) if os.path.isdir(os.path.join(d, "build/src")) else []:
             if pmap.get(f.rsplit(".",1)[0]) == n: files.append((f"build/src/{f}", "src_original"))
         for rel, kind in files:

@@ -49,6 +49,24 @@ def warm(im, bright=1.06, sat=1.12, gold=1.0):
     im = ImageEnhance.Color(im).enhance(sat); im = ImageEnhance.Contrast(im).enhance(1.04)
     return im.filter(ImageFilter.UnsharpMask(1.0, 60, 2))
 
+def crisp(im, expo=1.10, shadows=.22, clarity=24, vib=1.22, warmth=1.0, sharp=85, contrast=1.05):
+    """Bright, crystal-clear grade (Oct 31 2026, Denise: 'not dull'): full levels stretch, exposure + shadow lift, clarity
+    (large-radius local contrast), vibrance, golden warmth, then a fine unsharp mask for crisp detail (threshold avoids noise/halos)."""
+    import numpy as np
+    im = ImageOps.autocontrast(im, cutoff=(0.6, 0.25))
+    a = np.asarray(im).astype(np.float32) / 255.
+    a = a ** (1 / expo)                                            # exposure / midtone lift
+    lum = a.mean(axis=2, keepdims=True)
+    a = a + shadows * a * (1 - a) * (1 - lum) ** 2 * 2.2           # lift shadows only
+    a[..., 0] *= 1 + .045 * warmth; a[..., 1] *= 1 + .012 * warmth; a[..., 2] *= 1 - .06 * warmth   # golden warmth
+    mx, mn = a.max(axis=2, keepdims=True), a.min(axis=2, keepdims=True)
+    sat = mx - mn; g = a.mean(axis=2, keepdims=True)
+    a = g + (a - g) * (1 + (vib - 1) * (1 - sat) * 1.6)            # vibrance: boosts muted colours more than vivid ones
+    im = Image.fromarray((np.clip(a, 0, 1) * 255 + .5).astype("uint8"))
+    im = ImageEnhance.Contrast(im).enhance(contrast)
+    im = im.filter(ImageFilter.UnsharpMask(40, clarity, 0))        # clarity
+    return im.filter(ImageFilter.UnsharpMask(1.1, sharp, 3))       # crispness
+
 def crop(src, w, h, x=.5, y=.5, pre=None):
     im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
     if pre: im = im.crop(pre)
@@ -148,11 +166,11 @@ def page(inner_html, extra, w=W, h=H):
     return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONTS}{css(w, h)}{extra}</style></head>"
             f"<body><div class='s'>{inner_html}</div></body></html>")
 
-def render(hp, png, w=W, h=H):
-    subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
-                    f"--window-size={w},{h}", f"--screenshot={png}", "--allow-file-access-from-files", "--virtual-time-budget=4000",
+def render(hp, png, w=W, h=H, scale=1, transparent=False):
+    subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", f"--force-device-scale-factor={scale}",
+                    f"--window-size={w},{h}"] + (["--default-background-color=00000000"] if transparent else []) + [ f"--screenshot={png}", "--allow-file-access-from-files", "--virtual-time-budget=4000",
                     f"file://{hp}"], check=True, capture_output=True)
-    assert Image.open(png).size == (w, h), png
+    assert Image.open(png).size == (w*scale, h*scale), png
 
 N_ = "14,48,66"
 # Size adaptations, appended after each slide kind's own CSS (4x5 uses none, so the approved 4:5 renders exactly as before).
@@ -184,6 +202,19 @@ OVR = {
  },
 }
 
+# Bright 4:5 look (Oct 31 2026): photo stays untouched on the right ~half; soft navy band behind the text only.
+SHADOW = "0 2px 3px rgba(6,20,30,.55),0 0 18px rgba(8,26,38,.55)"
+BRIGHT = {
+ "edu":   (f".gl{{background:linear-gradient(90deg,rgba({N_},.84) 0,rgba({N_},.72) 24%,rgba({N_},.44) 40%,rgba({N_},.14) 50%,rgba({N_},0) 57%)}}"
+           f".gt{{display:none}}.gb{{height:240px;background:linear-gradient(180deg,rgba({N_},0) 0,rgba({N_},.42) 50%,rgba({N_},.78) 100%)}}"
+           f"h1,p.b,li{{text-shadow:{SHADOW}}}.ft{{text-shadow:{SHADOW}}}"),
+ "cover": (f".gl{{background:radial-gradient(ellipse 70% 42% at 26% 34%,rgba({N_},.62) 0,rgba({N_},.34) 55%,rgba({N_},0) 100%),"
+           f"linear-gradient(90deg,rgba({N_},.5) 0,rgba({N_},.26) 30%,rgba({N_},0) 50%)}}"
+           f".gt{{display:none}}.gb{{height:260px;background:linear-gradient(180deg,rgba({N_},0) 0,rgba({N_},.45) 50%,rgba({N_},.8) 100%)}}"
+           f".lead,.sub{{text-shadow:{SHADOW}}}.ft{{text-shadow:{SHADOW}}}"),
+}
+CLEAR = "html,body,.s{background:transparent!important}"
+
 def build(SL, D, B, pdf_name, series="buyer", fmt="4x5"):
     w, h = FMTS[fmt]; total = len(SL); pngs = []
     if fmt == "4x5": idir, od, sfx, zp, pdf = os.path.join(B, "img"), D, "", os.path.join(D, "slides.zip"), pdf_name
@@ -192,6 +223,18 @@ def build(SL, D, B, pdf_name, series="buyer", fmt="4x5"):
         zp, pdf = os.path.join(D, f"slides-{fmt}.zip"), pdf_name.replace(".pdf", f"-{fmt}.pdf")
     os.makedirs(idir, exist_ok=True); os.makedirs(od, exist_ok=True)
     for n, sd in enumerate(SL, 1):
+        if fmt == "4x5" and sd["kind"] in BRIGHT and sd.get("photo") and not sd.get("legacy"):
+            # photo graded at final size (lossless PNG); text + gradients rendered at 2x on a transparent page, downscaled, composited
+            x, y = sd.get("xy", (.5, .5))
+            ph = crisp(crop(os.path.join(B, "src", sd["photo"]), w, h, x, y, sd.get("pre")), **sd.get("crisp", {}))
+            ph.save(os.path.join(idir, f"{n:02d}.png"))
+            hi, extra = inner(sd, n, total, series, None)
+            extra += BRIGHT[sd["kind"]] + sd.get("css_4x5", "") + CLEAR
+            hp = os.path.join(B, f"slide-{n:02d}.html"); open(hp, "w").write(page(hi, extra, w, h))
+            lay = os.path.join(B, f"layer-{n:02d}.png"); render(hp, lay, w, h, scale=2, transparent=True)
+            L2 = Image.open(lay).convert("RGBa").resize((w, h), Image.LANCZOS).convert("RGBA"); os.remove(lay)
+            out = ph.convert("RGBA"); out.alpha_composite(L2)
+            png = os.path.join(od, f"slide-{n:02d}.png"); out.convert("RGB").save(png); pngs.append(png); continue
         img = None
         if sd.get("photo"):
             img = os.path.join(idir, f"{n:02d}.jpg"); x, y = sd.get(f"xy_{fmt}", sd.get("xy", (.5, .5)))
@@ -204,6 +247,13 @@ def build(SL, D, B, pdf_name, series="buyer", fmt="4x5"):
         png = os.path.join(od, f"slide-{n:02d}.png"); render(hp, png, w, h); pngs.append(png)
     with zipfile.ZipFile(zp, "w") as z:
         for i, p in enumerate(pngs, 1): z.write(p, f"slide-{i:02d}.png")
-    ims = [Image.open(p).convert("RGB") for p in pngs]
-    ims[0].save(os.path.join(D, pdf), save_all=True, append_images=ims[1:], resolution=150)
+    try:                                   # lossless PDF (PNG pages embedded as-is) when img2pdf is installed
+        import img2pdf
+        for p in pngs:
+            im = Image.open(p)
+            if im.mode != "RGB": im.convert("RGB").save(p)
+        open(os.path.join(D, pdf), "wb").write(img2pdf.convert(pngs))
+    except ImportError:
+        ims = [Image.open(p).convert("RGB") for p in pngs]
+        ims[0].save(os.path.join(D, pdf), save_all=True, append_images=ims[1:], resolution=150, quality=95)
     return pngs
