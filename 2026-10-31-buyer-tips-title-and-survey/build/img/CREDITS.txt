@@ -1,0 +1,10 @@
+Buyer tips Oct 31 2026 (title, survey and easements). All Pexels License (free, no attribution required). No people. Generic photos: tags are topic words only; no photo is presented as a specific listing, address or named place. No visible house numbers or builder signs (slide 6: builder yard sign painted out; slide 10: porch-column house number painted out, both in prep_photos.py POST; all slides checked at full size, both sizes).
+01 | https://www.pexels.com/photo/7031600/ (Pexels License, 7360x4912 original; bright sunlit modern home and lawn; cover)
+03 | https://www.pexels.com/photo/4500474/ (Pexels License, 6000x4000 original; home with flowering trees; tag TITLE)
+04 | https://www.pexels.com/photo/6283960/ (Pexels License, 7360x4912 original; bright white kitchen; tag TWO POLICIES)
+05 | https://www.pexels.com/photo/6782369/ (Pexels License, 7344x4901 original; bright living room and kitchen; tag SHOP AROUND)
+06 | https://www.pexels.com/photo/13544219/ (Pexels License, 4000x2250 original; white modern farmhouse; tag THE SURVEY)
+07 | https://www.pexels.com/photo/10099333/ (Pexels License, 5472x3648 original; bright paneled room; tag EASEMENTS)
+08 | https://www.pexels.com/photo/8082229/ (Pexels License, 7360x4912 original; living room, coffered ceiling; tag THE RULES)
+09 | https://www.pexels.com/photo/3701434/ (Pexels License, 3264x2448 original; open kitchen and living area; tag ASK FIRST)
+10 | https://www.pexels.com/photo/4258279/ (Pexels License, 5000x3333 original; sunlit two-story home, number painted out; MY RECOMMENDATION)
