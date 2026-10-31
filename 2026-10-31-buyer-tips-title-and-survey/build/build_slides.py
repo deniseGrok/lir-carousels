@@ -11,8 +11,11 @@ CONTACT = dict(name="Denise Wilson", title="Broker/REALTOR®", firm="Lifestyle I
                phone="704-615-7347", web="denisewilson.lircarolinas.com")
 # Custom photorealistic generated images (Denise approved Oct 31 2026 ~7:05 PM ET), 4x Real-ESRGAN upscaled; gentler grade than stock photos
 GEN = dict(expo=1.04, shadows=.12, clarity=14, vib=1.08, warmth=.35, sharp=70, contrast=1.03)
+# 1:1 and 9:16 focal points for the generated images (Oct 31 ~7:45 PM ET, after Denise approved the 4:5 at 4f30971)
+F = {k: dict(xy_1x1=(.5, .5), xy_9x16=(.72, .5)) for k in (1, 3, 4, 5, 6, 7, 8, 9)}
+F[6]["xy_9x16"] = (.95, .5)   # surveyor further right, clear of the bullet text
 SL = [
- sa.cover("gen-01.jpg", "KNOW WHAT YOU'RE", "really buying", "Practical advice for<br><b>BUYERS.</b>", xy=(.5, .5), crisp=GEN),
+ sa.cover("gen-01.jpg", "KNOW WHAT YOU'RE", "really buying", "Practical advice for<br><b>BUYERS.</b>", xy=(.5, .5), crisp=GEN, bright_all=True, **F[1]),
  sa.stats("Charlotte metro|September 2026",
           [("MEDIAN<br>LIST PRICE", "$424,950", "−3.1% YoY"), ("PRICE PER<br>SQ FT", "$217", "−1.4% YoY"),
            ("NEW<br>LISTINGS", "3,742", "−7.5% YoY"), ("PENDING<br>LISTINGS", "4,681", "−5.9% YoY")],
@@ -21,24 +24,24 @@ SL = [
  sa.edu("gen-03.jpg", "Title means|ownership.",
         "At closing, the deed shows the seller transferred ownership, or \"title,\" to you.",
         ["Old claims can surface later", "Like unpaid taxes or contractors", "Title search: public records",
-         "Title insurance can cover them"], xy=(.5, .5), crisp=GEN),
+         "Title insurance can cover them"], xy=(.5, .5), crisp=GEN, bright_all=True, **F[3]),
  sa.edu("gen-04.jpg", "Lender's policy|vs. owner's.", "Two policies, two jobs. An owner's policy can help protect your investment.",
         ["Lender's: usually required", "Protects the lender's loan", "Not your equity",
-         "Owner's policy is optional"], xy=(.5, .5), crisp=GEN),
+         "Owner's policy is optional"], xy=(.5, .5), crisp=GEN, bright_all=True, **F[4]),
  sa.edu("gen-05.jpg", "You can shop|for title.", "Title services can usually be shopped. Start with your Loan Estimate.",
         ["Check section C, page 2", "Ask for the provider list", "Compare more than one",
-         "Bundling usually costs less"], xy=(.5, .5), crisp=GEN),
+         "Bundling usually costs less"], xy=(.5, .5), crisp=GEN, bright_all=True, **F[5]),
  sa.edu("gen-06.jpg", "Know where|the lines are.", "A survey shows what you're buying on the ground, not just on paper.",
         ["Boundaries and property lines", "Easements and setbacks", "A due diligence item in NC",
-         "Order it early"], xy=(.5, .5), crisp=GEN),
+         "Order it early"], xy=(.5, .5), crisp=GEN, bright_all=True, **F[6]),
  sa.edu("gen-07.jpg", "Read the|land questions.", "NC's disclosure (REC 4.22) asks about issues on or around the property.",
         ["Easements, shared driveways", "Encroachments, private roads", "Liens that could affect title",
-         "SC's form covers covenants too"], xy=(.5, .5), crisp=GEN),
+         "SC's form covers covenants too"], xy=(.5, .5), crisp=GEN, bright_all=True, **F[7]),
  sa.edu("gen-08.jpg", "Read the|HOA rules.", "Covenants and HOA documents can set mandatory rules for the home and lot.",
-        ["Restrictive covenants", "Bylaws and rules", "Ask about document fees", "Review during due diligence"], xy=(.5, .5), crisp=GEN),
+        ["Restrictive covenants", "Bylaws and rules", "Ask about document fees", "Review during due diligence"], xy=(.5, .5), crisp=GEN, bright_all=True, **F[8]),
  sa.edu("gen-09.jpg", "Ask questions|before you sign.", "Your closing attorney can explain what the title search found.",
         ["Review the title results", "Ask what exceptions mean", "Compare survey to your tour",
-         "Bring questions early"], xy=(.5, .5), crisp=GEN),
+         "Bring questions early"], xy=(.5, .5), crisp=GEN, bright_all=True, **F[9]),
  sa.cta("photo-1722247482035-73d55ee3d258.jpg", CONTACT, xy=(.55, .5), blur=7, grade=dict(bright=1.1, gold=1.2)),
 ]
 if __name__ == "__main__":

@@ -198,7 +198,7 @@ OVR = {
   "cta":   f".gl{{background:linear-gradient(90deg,rgba({N_},.92) 0,rgba({N_},.8) 38%,rgba({N_},.25) 58%,rgba({N_},0) 70%)}}"
            ".ct{top:200px;width:860px}.lt{font-size:116px}.lt2{font-size:48px;margin-top:16px}.card{top:600px}.nm{font-size:100px}"
            ".ti{font-size:38px}.fm{font-size:30px}.ph2{font-size:36px}.eq{font-size:24px}.eho{width:70px;height:68px}"
-           ".hs{right:-60px;height:1100px}",
+           ".hs{right:-60px;height:1100px}.ft .pg{display:none}",   # Oct 31: "10 / 10" overlapped her blazer
  },
 }
 
@@ -213,6 +213,22 @@ BRIGHT = {
            f".gt{{display:none}}.gb{{height:260px;background:linear-gradient(180deg,rgba({N_},0) 0,rgba({N_},.45) 50%,rgba({N_},.8) 100%)}}"
            f".lead,.sub{{text-shadow:{SHADOW}}}.ft{{text-shadow:{SHADOW}}}"),
 }
+# Same bright look for the other sizes (Oct 31 2026, Denise approved the 4:5 at 4f30971): applied after OVR[fmt] so the
+# size layout stays and only the gradients change. 9:16 text runs ~85% wide, so the band is a soft ellipse behind the text block.
+BRIGHT_FMT = {
+ "1x1": {
+  "edu":   f".gb{{height:220px;background:linear-gradient(180deg,rgba({N_},0) 0,rgba({N_},.42) 50%,rgba({N_},.78) 100%)}}",
+  "cover": f".gb{{height:230px;background:linear-gradient(180deg,rgba({N_},0) 0,rgba({N_},.45) 50%,rgba({N_},.8) 100%)}}",
+ },
+ "9x16": {
+  "edu":   (f".gl{{background:radial-gradient(ellipse 78% 34% at 30% 36%,rgba({N_},.74) 0,rgba({N_},.5) 52%,rgba({N_},0) 100%),"
+            f"linear-gradient(90deg,rgba({N_},.62) 0,rgba({N_},.4) 34%,rgba({N_},.12) 56%,rgba({N_},0) 66%)}}"
+            f".gb{{height:640px;background:linear-gradient(180deg,rgba({N_},0) 0,rgba({N_},.4) 45%,rgba({N_},.74) 100%)}}"),
+  "cover": (f".gl{{background:radial-gradient(ellipse 80% 30% at 30% 32%,rgba({N_},.64) 0,rgba({N_},.36) 55%,rgba({N_},0) 100%),"
+            f"linear-gradient(90deg,rgba({N_},.48) 0,rgba({N_},.24) 32%,rgba({N_},0) 52%)}}"
+            f".gb{{height:640px;background:linear-gradient(180deg,rgba({N_},0) 0,rgba({N_},.42) 45%,rgba({N_},.78) 100%)}}"),
+ },
+}
 CLEAR = "html,body,.s{background:transparent!important}"
 
 def build(SL, D, B, pdf_name, series="buyer", fmt="4x5"):
@@ -223,14 +239,16 @@ def build(SL, D, B, pdf_name, series="buyer", fmt="4x5"):
         zp, pdf = os.path.join(D, f"slides-{fmt}.zip"), pdf_name.replace(".pdf", f"-{fmt}.pdf")
     os.makedirs(idir, exist_ok=True); os.makedirs(od, exist_ok=True)
     for n, sd in enumerate(SL, 1):
-        if fmt == "4x5" and sd["kind"] in BRIGHT and sd.get("photo") and not sd.get("legacy"):
+        if (fmt == "4x5" or sd.get("bright_all")) and sd["kind"] in BRIGHT and sd.get("photo") and not sd.get("legacy"):
             # photo graded at final size (lossless PNG); text + gradients rendered at 2x on a transparent page, downscaled, composited
-            x, y = sd.get("xy", (.5, .5))
+            x, y = sd.get(f"xy_{fmt}", sd.get("xy", (.5, .5)))
             ph = crisp(crop(os.path.join(B, "src", sd["photo"]), w, h, x, y, sd.get("pre")), **sd.get("crisp", {}))
             ph.save(os.path.join(idir, f"{n:02d}.png"))
             hi, extra = inner(sd, n, total, series, None)
-            extra += BRIGHT[sd["kind"]] + sd.get("css_4x5", "") + CLEAR
-            hp = os.path.join(B, f"slide-{n:02d}.html"); open(hp, "w").write(page(hi, extra, w, h))
+            o = OVR.get(fmt, {})
+            extra += (BRIGHT[sd["kind"]] + o.get("all", "") + o.get(sd["kind"], "") + BRIGHT_FMT.get(fmt, {}).get(sd["kind"], "")
+                      + sd.get(f"css_{fmt}", "") + CLEAR)
+            hp = os.path.join(B, f"slide-{n:02d}{sfx}.html"); open(hp, "w").write(page(hi, extra, w, h))
             lay = os.path.join(B, f"layer-{n:02d}.png"); render(hp, lay, w, h, scale=2, transparent=True)
             L2 = Image.open(lay).convert("RGBa").resize((w, h), Image.LANCZOS).convert("RGBA"); os.remove(lay)
             out = ph.convert("RGBA"); out.alpha_composite(L2)
