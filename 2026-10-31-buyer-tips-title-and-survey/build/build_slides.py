@@ -55,7 +55,7 @@ S_(9,"ASK FIRST","<h1>Ask questions <em>before you sign.</em></h1>"+ul([
   "Ask your closing attorney to walk you through the title results",
   "Ask what any listed exceptions mean for the home",
   "Compare the survey with what you saw on your tour"]),h1=76),
-S_(10,"MY RECOMMENDATION","<style>.ph:after{background:linear-gradient(rgba(0,0,0,.28) 0,rgba(0,0,0,0) 12%,rgba(0,0,0,0) 28%,rgba(0,0,0,.58) 46%,rgba(0,0,0,.9) 100%)!important}</style><h1>Clear title, <em>then commit.</em></h1><p class='b'>I recommend reviewing the title search, the survey and any HOA documents during due diligence, because they shape what you own and how you can use it. For legal questions about title, talk with a real estate attorney.</p>",contact=True,h1=74),
+S_(10,"MY RECOMMENDATION","<style>.ph:after{background:linear-gradient(rgba(0,0,0,.14) 0,rgba(0,0,0,0) 9%,rgba(0,0,0,0) 34%,rgba(0,0,0,.6) 50%,rgba(0,0,0,.9) 100%)!important}</style><h1>Clear title, <em>then commit.</em></h1><p class='b'>I recommend reviewing the title search, the survey and any HOA documents during due diligence, because they shape what you own and how you can use it. For legal questions about title, talk with a real estate attorney.</p>",contact=True,h1=74),
 ]
 pngs=cs.build(SL,D,f"{N}-DRAFT.pdf",B)
 for i in range(1,11):

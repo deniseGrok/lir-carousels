@@ -32,7 +32,7 @@ Result: no banned/flag words on any slide (4:5 and 1:1 HTML) or caption; slide 1
 - Photos: generic Pexels, topic tags only; builder yard sign (slide 6) and house number (slide 10) painted out.
 
 ## Photos
-All Pexels License originals (long side 3,264-7,360 px), resized down only, light grade + sharpening (build/prep_photos.py). Every photo checked with TEMPLATES/photo_registry.py check (no source-id or series hits; Pexels ids within 500 of any used id rejected; loose hash hits inspected) and registered with photo_registry.py add. See build/img/CREDITS.txt. All 10 slides viewed at full size in both sizes.
+Pexels License and Unsplash License originals (long side 3,130-7,360 px; slides 01, 06, 10 swapped Oct 31 to Unsplash 1647579350413 Eric Ardito, Pexels 7914572 Josh Hild, Unsplash 1784810801262 goodrich kingrey), resized down only, light grade + sharpening (build/prep_photos.py). Every photo checked with TEMPLATES/photo_registry.py check (no source-id or series hits; Pexels ids within 500 of any used id rejected; loose hash hits inspected) and registered with photo_registry.py add. See build/img/CREDITS.txt. All 10 slides viewed at full size in both sizes.
 
 ## Caption: Instagram
 Your lender's title policy protects the lender. 🏡
