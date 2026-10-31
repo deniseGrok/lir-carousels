@@ -1,17 +1,16 @@
-# Oct 31 2026 NC carousel photo prep: builder photos on slides 2-5, 7-9; slides 1, 6, 10 replaced Oct 31 with free-license Unsplash/Pexels originals (src/; pexels-7914572 has 3 unit-number plaques retouched out in the saved src) (credited Eastwood Homes; each from the community page on eastwoodhomes.com). Native cover-crop for 4:5 and 1:1, Lanczos,
+# Oct 31 2026 NC carousel photo prep: builder photos only (credited Eastwood Homes; each from the community page on eastwoodhomes.com). Native cover-crop for 4:5 and 1:1, Lanczos,
 # grade: autocontrast blend 0.45, slight warmth, +4% contrast, +3% saturation, UnsharpMask (stronger when upscaled).
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 import os
 import numpy as np
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-M={1:("src/photo-1647579350413-a6ada4e480ed.jpg",.84,.5),2:("src/ro_club.jpg",.5,.5),3:("src/cf_patterson.jpg",.5,.5),4:("src/cw_008.jpg",.5,.5),
-   5:("src/rc_016.jpg",.5,.5),6:("src/pexels-7914572.jpg",.5,1.0),7:("src/bc_towns.jpg",.5,.5),
-   8:("src/gs_kitchen.jpg",.5,.5),9:("src/ro_lounge.jpg",.5,.5),10:("src/photo-1784810801262-d0d27227a480.jpg",.75,.5)}
-FX={(1,"img1x1"):.8,(10,"img1x1"):.95}
-FY={(6,"img1x1"):.55}
+M={1:("src/rc_001.jpg",.5,.5),2:("src/ro_club.jpg",.5,.5),3:("src/cf_patterson.jpg",.5,.5),4:("src/cw_008.jpg",.5,.5),
+   5:("src/rc_016.jpg",.5,.5),6:("src/hv_004.jpg",.5,.5),7:("src/bc_towns.jpg",.5,.5),
+   8:("src/gs_kitchen.jpg",.5,.5),9:("src/ro_lounge.jpg",.5,.5),10:("src/bc_pool.jpg",.5,.5)}
+FX={}
 # house numbers retouched out; rects given in 4:5 output px, mapped back to source px (so both sizes are clean); 'v' = blend from the clean trim above/below
-FIX45={4:[(992,876,1052,904,'h'),(908,984,932,1002,'v')],5:[(740,754,766,828,'v')],
-       7:[(158,650,212,682,'v'),(824,703,866,728,'v')]}  # house numbers retouched out
+FIX45={1:[(714,798,735,866,'v')],4:[(992,876,1052,904,'h'),(908,984,932,1002,'v')],5:[(740,754,766,828,'v')],
+       6:[(841,860,866,950,'v')],7:[(158,650,212,682,'v'),(824,703,866,728,'v')]}  # house numbers retouched out
 def retouch(im,rects):
     a=np.asarray(im).astype(float).copy()
     for x0,y0,x1,y1 in rects:
@@ -35,7 +34,7 @@ for i,(f,x,y) in M.items():
             src=(retouch_h if mode=='h' else retouch)(src,[tuple(int(v) for v in ((x0+l)/r,(y0+t)/r,(x1+l)/r+1,(y1+t)/r+1))])
     for d,(W,H) in SIZES.items():
         r=max(W/src.width,H/src.height); im=src.resize((round(src.width*r),round(src.height*r)),Image.LANCZOS)
-        xx=FX.get((i,d),x); l=int((im.width-W)*xx); t=int((im.height-H)*FY.get((i,d),y)); im=im.crop((l,t,l+W,t+H))
+        xx=FX.get((i,d),x); l=int((im.width-W)*xx); t=int((im.height-H)*y); im=im.crop((l,t,l+W,t+H))
         im=Image.blend(im,ImageOps.autocontrast(im,cutoff=0.3),0.45)
         R,G,B=im.split(); R=R.point(lambda v:min(255,int(v*1.012+1))); B=B.point(lambda v:int(v*0.988)); im=Image.merge("RGB",(R,G,B))
         im=ImageEnhance.Contrast(im).enhance(1.04); im=ImageEnhance.Color(im).enhance(1.03)

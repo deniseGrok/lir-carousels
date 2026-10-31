@@ -1,11 +1,11 @@
-Slides 2-5, 7-9: builder photos from Eastwood Homes' own website (eastwoodhomes.com community pages), downloaded Oct 31, 2026, credited on-slide "Photo: Eastwood Homes"; house numbers retouched out on 04, 05, 07. Slides 1, 6, 10 replaced Oct 31, 2026 with free-license originals (Unsplash License / Pexels License), credited on-slide "Photo: Unsplash" / "Photo: Pexels"; unit-number plaques retouched out on 06.
-01 | Unsplash | photo-1647579350413-a6ada4e480ed (Z2WiPyxywQ0) | https://unsplash.com/photos/Z2WiPyxywQ0 | by Eric Ardito (@ericardito), 4330x3464, Unsplash License; white board-and-batten farmhouse, three-car garage, sunlit
+All photos: builder photos from Eastwood Homes' own website (eastwoodhomes.com community pages), downloaded Oct 31, 2026. Credited on-slide "Photo: Eastwood Homes". House numbers retouched out on 01, 04, 05, 06, 07.
+01 | Eastwood Homes | rc_001 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/mir/001_original.jpg | Rone Creek page (quick move-in home photo)
 02 | Eastwood Homes | ro_club | https://eastwood.nyc3.cdn.digitaloceanspaces.com/amenities/50003779-001@2x.jpg | Robinson Oaks page (amenity: clubhouse)
 03 | Eastwood Homes | cf_patterson | https://eastwood.nyc3.cdn.digitaloceanspaces.com/mir/eastwood-homes-7056-patterson-c-fl-slab-cs-02_original.jpg | Caldwell Forest page (Patterson C elevation, builder rendering)
 04 | Eastwood Homes | cw_008 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/neighborhoods/008_original.jpg | Chasewood page (community photo)
 05 | Eastwood Homes | rc_016 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/mir/016_original.jpg | Rone Creek page (quick move-in home photo)
-06 | Pexels | pexels-7914572 | https://www.pexels.com/photo/7914572/ | by Josh Hild, 3573x4967, Pexels License; brick townhomes with blooming tree, blue sky; 3 unit-number plaques retouched out in build/src/pexels-7914572.jpg
+06 | Eastwood Homes | hv_004 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/mir/004_original.jpg | Harrisburg Village Townhomes page (quick move-in townhome photo)
 07 | Eastwood Homes | bc_towns | https://eastwood.nyc3.cdn.digitaloceanspaces.com/mir/929342ec-e313-4790-84fc-429f198999bc_original.png | Bryton Crossing Townhomes page (quick move-in townhome photo)
 08 | Eastwood Homes | gs_kitchen | https://eastwood.nyc3.cdn.digitaloceanspaces.com/neighborhoods/007-52834458174-o_original.jpg | The Greens at Springlake page (kitchen)
 09 | Eastwood Homes | ro_lounge | https://eastwood.nyc3.cdn.digitaloceanspaces.com/amenities/50003779-003@2x.jpg | Robinson Oaks page (amenity: clubhouse interior)
-10 | Unsplash | photo-1784810801262-d0d27227a480 (RaM9Oa2J1ZQ) | https://unsplash.com/photos/RaM9Oa2J1ZQ | by goodrich kingrey (@affe8a), 3130x1917, Unsplash License; white Greek Revival home with columns, sunlit
+10 | Eastwood Homes | bc_pool | https://eastwood.nyc3.cdn.digitaloceanspaces.com/amenities/7-005@2x.jpg | Bryton Crossing Townhomes page (amenity: pool and playground)

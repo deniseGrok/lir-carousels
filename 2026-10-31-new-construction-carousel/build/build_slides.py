@@ -35,7 +35,7 @@ T="Tip based on Eastwood Homes' posted offer terms, read Oct 31, 2026. Terms and
 def tip(lab,h1,sub,items): return f"<div class='lab'>{lab}</div><h1>{h1}</h1><div class='sub'>{sub}</div>"+ul(items)+f"<div class='note'>{T}</div>"
 EW="Eastwood Homes"
 S={
-1:("Unsplash","<div class='band'>NEW BUILDS. <em>VERIFIED OCT 31.</em></div><h1>9 communities. <em>1 builder.</em></h1>"
+1:(EW,"<div class='band'>NEW BUILDS. <em>VERIFIED OCT 31.</em></div><h1>9 communities. <em>1 builder.</em></h1>"
    "<p class='b'>Gastonia, Charlotte, Waxhaw, Harrisburg, Huntersville and York, SC. Each Eastwood Homes offer checked on the builder's own website on Oct 31, 2026.</p>"
    +ul(["Up to $5,000 or $7,500 toward closing costs on select homes","Move-in packages and free blinds on select homes","Plus 1 slide on what to ask before you sign"])),
 2:(EW,offer("Robinson Oaks · Gastonia, NC","Up to <em>$7,500</em> toward closing.","Eastwood Homes · select quick move-in homes",
@@ -46,7 +46,7 @@ S={
    ["Up to $5,000 in closing costs on select quick move-in homes","Free window blinds on select homes","Closing cost help requires the builder's preferred lender"])),
 5:(EW,offer("Rone Creek + Blythe Mill · Waxhaw, NC","Up to <em>$5,000</em> + free blinds.","Eastwood Homes · 2 Waxhaw communities · select homes",
    ["Rone Creek single-family homes and Blythe Mill Townhomes","Up to $5,000 in closing costs with the preferred lender","Free window blinds on select homes in both"])),
-6:("Pexels",offer("Harrisburg Village Townhomes · Harrisburg, NC","Up to <em>$5,000</em> + a move-in package.","Eastwood Homes · select townhomes",
+6:(EW,offer("Harrisburg Village Townhomes · Harrisburg, NC","Up to <em>$5,000</em> + a move-in package.","Eastwood Homes · select townhomes",
    ["Up to $5,000 in closing costs on select quick move-in homes","Move-in package on select homes: refrigerator, washer and dryer, blinds","Pool, cabana, trail and dog park listed on the builder's page"])),
 7:(EW,offer("Bryton Crossing Townhomes · Huntersville, NC","Up to <em>$5,000</em> toward closing.","Eastwood Homes · select quick move-in townhomes",
    ["Up to $5,000 in closing costs with the builder's preferred lender","Applies to select quick move-in homes only","Ask the sales team which townhomes qualify"])),
@@ -54,7 +54,7 @@ S={
    ["Refrigerator, washer and dryer, and window blinds on select homes","Listed for The Fairways and The Greens at Springlake","Brand and finish set by the builder"])),
 9:(EW,tip("Tip · Before you sign","Get it <em>in writing.</em>","Eastwood Homes' posted terms",
    ["Closing cost help requires the builder's preferred lender, so compare a second Loan Estimate","Offers apply to select homes and not to prior contracts","No end date posted; the builder says promotions can change or stop at any time"])),
-10:("Unsplash","<h1>DM or comment <em>DEALS</em> and we'll get started.</h1><p class='b'>I'll help you compare the credit, the package and the fine print on each one.</p>"
+10:(EW,"<h1>DM or comment <em>DEALS</em> and we'll get started.</h1><p class='b'>I'll help you compare the credit, the package and the fine print on each one.</p>"
    "<div class='note'>Builder incentives can change; verify with the builder.</div>"+CONTACT),
 }
 def page(i,l,imgdir):
