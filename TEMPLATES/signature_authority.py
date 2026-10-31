@@ -9,15 +9,21 @@ footer "BUYER & SELLER TIPS" + "N / 10 →".
 Usage (from a carousel's build/build_slides.py):
     import sys; sys.path.insert(0, "/workspace/repos/lir-carousels/TEMPLATES"); import signature_authority as sa
     SL = [sa.cover(...), sa.stats(...), sa.edu(...)*7, sa.cta(...)]
-    sa.build(SL, carousel_dir, build_dir, pdf_name, series="buyer")     # 4:5 1080x1350 only (slide-NN.png, PDF, slides.zip)
-1:1 / 9:16 are NOT laid out in v2 yet; add them only after Denise approves the 4:5 design.
+    for fmt in ("4x5", "1x1", "9x16"): sa.build(SL, carousel_dir, build_dir, pdf_name, series="buyer", fmt=fmt)
+Outputs (design approved by Denise Oct 31 2026):
+  4x5  1080x1350 Instagram:      slide-NN.png, <pdf_name>, slides.zip
+  1x1  1080x1080 Facebook Page:  slides-1x1/slide-NN.png, <pdf>-1x1.pdf, slides-1x1.zip
+  9x16 1080x1920 TikTok native:  slides-9x16/slide-NN.png, <pdf>-9x16.pdf, slides-9x16.zip
+     TikTok safe zones kept clear of text: top 150px, bottom 350px, right 140px (footer sits at bottom:360px, right:160px).
+Per-slide, per-format tweaks: xy_1x1 / xy_9x16 (photo focal point), css_1x1 / css_9x16 (extra CSS).
 """
 import os, html, subprocess, zipfile
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 Image.MAX_IMAGE_PIXELS = None
 
 NAVY, NAVY_RGB, SAGE, CORAL, WHITE = "#0E3042", "14,48,66", "#A9C9B8", "#E38B6C", "#F5F3EE"
-W, H = 1080, 1350
+W, H = 1080, 1350   # 4:5 base; other sizes in FMTS
+FMTS = {"4x5": (1080, 1350), "1x1": (1080, 1080), "9x16": (1080, 1920)}
 L = 58            # left margin (examples sit ~40-60px in)
 GF = "/usr/share/fonts/truetype/sand-box/google"
 TPL = os.path.dirname(os.path.abspath(__file__))
@@ -54,7 +60,7 @@ def hl(s):   # "line one|line two" -> white line + coral line
     a, _, b = s.partition("|")
     return html.escape(a) + (f"<br><span class='co'>{html.escape(b)}</span>" if b else "")
 
-CSS = f"""*{{margin:0;padding:0;box-sizing:border-box}}html,body{{width:{W}px;height:{H}px;overflow:hidden;background:{NAVY}}}
+def css(W, H): return f"""*{{margin:0;padding:0;box-sizing:border-box}}html,body{{width:{W}px;height:{H}px;overflow:hidden;background:{NAVY}}}
 .s{{position:relative;width:{W}px;height:{H}px;overflow:hidden;font-family:Mont;color:#fff}}
 .ph{{position:absolute;inset:0;background-size:cover;background-position:center}}
 .gl{{position:absolute;inset:0;background:linear-gradient(90deg,rgba({NAVY_RGB},.93) 0,rgba({NAVY_RGB},.84) 30%,rgba({NAVY_RGB},.52) 50%,rgba({NAVY_RGB},.12) 66%,rgba({NAVY_RGB},0) 76%)}}
@@ -73,6 +79,7 @@ li{{display:flex;align-items:center;font-weight:600;font-size:32px;white-space:n
 .ft .ln{{display:block;width:46px;height:3px;background:{CORAL};margin-bottom:14px}}
 .ft .pg{{letter-spacing:.06em;font-size:25px}}
 """
+CSS = css(W, H)
 
 def foot(n, total, left="BUYER &amp; SELLER TIPS"):
     return f"<div class='ft'><div><span class='ln'></span>{left}</div><div class='pg'>{n} / {total} →</div></div>"
@@ -137,30 +144,66 @@ def inner(sd, n, total, series, img):
               ".eq{display:flex;align-items:center;margin-top:30px;font-size:21px;line-height:1.2;font-weight:600}.eho{width:62px;height:60px;margin-right:16px}")
     return ph + "<div class='gl'></div><div class='gb'></div>" + hs + body + foot(n, total), extra
 
-def page(inner_html, extra):
-    return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONTS}{CSS}{extra}</style></head>"
+def page(inner_html, extra, w=W, h=H):
+    return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONTS}{css(w, h)}{extra}</style></head>"
             f"<body><div class='s'>{inner_html}</div></body></html>")
 
-def render(hp, png):
+def render(hp, png, w=W, h=H):
     subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
-                    f"--window-size={W},{H}", f"--screenshot={png}", "--allow-file-access-from-files", "--virtual-time-budget=4000",
+                    f"--window-size={w},{h}", f"--screenshot={png}", "--allow-file-access-from-files", "--virtual-time-budget=4000",
                     f"file://{hp}"], check=True, capture_output=True)
-    assert Image.open(png).size == (W, H), png
+    assert Image.open(png).size == (w, h), png
 
-def build(SL, D, B, pdf_name, series="buyer"):
-    total = len(SL); idir = os.path.join(B, "img"); os.makedirs(idir, exist_ok=True); pngs = []
+N_ = "14,48,66"
+# Size adaptations, appended after each slide kind's own CSS (4x5 uses none, so the approved 4:5 renders exactly as before).
+OVR = {
+ "1x1": {
+  "all":   ".ft{bottom:40px}.gb{height:250px}",
+  "edu":   ".tag{top:40px}.c{top:136px}",
+  "cover": ".box{top:44px}.cv{top:196px}",
+  "stats": ".tag{top:40px}.st{top:142px}h1{font-size:76px}.rows{margin-top:28px}.row{padding:16px 28px;margin-bottom:13px}"
+           ".row .v{font-size:58px}.row .z{font-size:21px}.row .y{font-size:25px}p.b{font-size:30px;margin-top:22px;max-width:640px}.src{font-size:19px;margin-top:12px}",
+  "cta":   ".ct{top:56px}.lt{font-size:92px}.lt2{font-size:38px;margin-top:10px}.card{top:318px}.nm{font-size:84px}"
+           ".hs{right:-50px;height:860px}.eq{margin-top:24px}",
+ },
+ "9x16": {
+  "all":   f".ft{{bottom:360px;right:160px}}.gb{{height:640px;background:linear-gradient(180deg,rgba({N_},0) 0,rgba({N_},.55) 38%,rgba({N_},.84) 62%,rgba({N_},.88) 100%)}}"
+           f".gt{{height:330px}}.tag{{top:176px}}",
+  "edu":   f".gl{{background:linear-gradient(90deg,rgba({N_},.93) 0,rgba({N_},.86) 40%,rgba({N_},.66) 62%,rgba({N_},.3) 80%,rgba({N_},0) 93%)}}"
+           ".tag{font-size:42px}.c{top:370px;width:870px}h1{font-size:118px}p.b{font-size:46px;max-width:820px;margin-top:34px}"
+           "ul{margin-top:52px}li{font-size:46px;margin-bottom:34px}.ck{width:72px;height:72px;margin-right:26px}",
+  "cover": f".gl{{background:linear-gradient(90deg,rgba({N_},.82) 0,rgba({N_},.62) 40%,rgba({N_},.2) 66%,rgba({N_},0) 80%)}}"
+           ".box{top:176px}.b1{font-size:54px}.b2{font-size:22px}.cv{top:430px;width:880px}.lead{font-size:112px}.scr{font-size:200px}"
+           ".sub{font-size:46px;margin-top:34px}.sub b{font-size:78px}.dw{font-size:40px}.dw2{font-size:19px}",
+  "stats": ".st{top:300px;width:862px}h1{font-size:124px}.rows{margin-top:44px}.row{padding:22px 28px;margin-bottom:18px}"
+           ".row .z{flex:0 0 270px;font-size:27px}.row .v{font-size:92px}.row .y{font-size:30px}p.b{font-size:42px;margin-top:34px;max-width:862px}.src{font-size:25px;margin-top:20px}",
+  "cta":   f".gl{{background:linear-gradient(90deg,rgba({N_},.92) 0,rgba({N_},.8) 38%,rgba({N_},.25) 58%,rgba({N_},0) 70%)}}"
+           ".ct{top:200px;width:860px}.lt{font-size:116px}.lt2{font-size:48px;margin-top:16px}.card{top:600px}.nm{font-size:100px}"
+           ".ti{font-size:38px}.fm{font-size:30px}.ph2{font-size:36px}.eq{font-size:24px}.eho{width:70px;height:68px}"
+           ".hs{right:-60px;height:1100px}",
+ },
+}
+
+def build(SL, D, B, pdf_name, series="buyer", fmt="4x5"):
+    w, h = FMTS[fmt]; total = len(SL); pngs = []
+    if fmt == "4x5": idir, od, sfx, zp, pdf = os.path.join(B, "img"), D, "", os.path.join(D, "slides.zip"), pdf_name
+    else:
+        idir, od, sfx = os.path.join(B, f"img-{fmt}"), os.path.join(D, f"slides-{fmt}"), f"-{fmt}"
+        zp, pdf = os.path.join(D, f"slides-{fmt}.zip"), pdf_name.replace(".pdf", f"-{fmt}.pdf")
+    os.makedirs(idir, exist_ok=True); os.makedirs(od, exist_ok=True)
     for n, sd in enumerate(SL, 1):
         img = None
         if sd.get("photo"):
-            img = os.path.join(idir, f"{n:02d}.jpg"); x, y = sd.get("xy", (.5, .5))
-            im = warm(crop(os.path.join(B, "src", sd["photo"]), W, H, x, y, sd.get("pre")), **sd.get("grade", {}))
+            img = os.path.join(idir, f"{n:02d}.jpg"); x, y = sd.get(f"xy_{fmt}", sd.get("xy", (.5, .5)))
+            im = warm(crop(os.path.join(B, "src", sd["photo"]), w, h, x, y, sd.get("pre")), **sd.get("grade", {}))
             if sd.get("blur"): im = im.filter(ImageFilter.GaussianBlur(sd["blur"]))
             im.save(img, quality=92)
         hi, extra = inner(sd, n, total, series, img)
-        hp = os.path.join(B, f"slide-{n:02d}.html"); open(hp, "w").write(page(hi, extra))
-        png = os.path.join(D, f"slide-{n:02d}.png"); render(hp, png); pngs.append(png)
-    with zipfile.ZipFile(os.path.join(D, "slides.zip"), "w") as z:
+        o = OVR.get(fmt, {}); extra += o.get("all", "") + o.get(sd["kind"], "") + sd.get(f"css_{fmt}", "")
+        hp = os.path.join(B, f"slide-{n:02d}{sfx}.html"); open(hp, "w").write(page(hi, extra, w, h))
+        png = os.path.join(od, f"slide-{n:02d}.png"); render(hp, png, w, h); pngs.append(png)
+    with zipfile.ZipFile(zp, "w") as z:
         for i, p in enumerate(pngs, 1): z.write(p, f"slide-{i:02d}.png")
     ims = [Image.open(p).convert("RGB") for p in pngs]
-    ims[0].save(os.path.join(D, pdf_name), save_all=True, append_images=ims[1:], resolution=150)
+    ims[0].save(os.path.join(D, pdf), save_all=True, append_images=ims[1:], resolution=150)
     return pngs

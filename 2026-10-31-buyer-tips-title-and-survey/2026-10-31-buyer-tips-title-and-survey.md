@@ -1,15 +1,16 @@
-# DRAFT — AWAITING DENISE APPROVAL
+# ON HOLD (Denise, Oct 31 2026). Design APPROVED Oct 31 ~3:45 PM ET (Signature Authority v2, 4:5 commit 76dd7d3).
 # Buyer Tips: Know what you're really buying (title, survey and easements) (Sat Oct 31 2026, midday tips slot)
-Nothing has been posted, scheduled, sent, or added to Buffer. Planned Buffer after approval: 12:30 PM ET — Instagram + LinkedIn (4:5 slides), Facebook page (1:1 slides-1x1/).
+Nothing has been posted, scheduled, sent, or added to Buffer. When released: 12:30 PM ET via Buffer: Instagram (4:5 slide-NN.png), Facebook Page (1:1 slides-1x1/), TikTok (9:16 slides-9x16/). LinkedIn removed from Buffer by Denise Oct 31.
 10 slides, theme="signature_authority" v2 (Oct 31 2026 ~2:15 PM ET, Denise: "something more like this" + 10 example slides in TEMPLATES/signature-authority-examples/). DESIGN-APPROVAL ROUND: 4:5 only. Warm sunlit photos, left navy gradient fading to clear photo + bottom footer fade, Anton headline (white line + coral line), 4 short bullets with coral check bubbles, sage BUYER TIP pill, footer BUYER & SELLER TIPS N / 10 →; cover box "BUYER & SELLER TIPS / CHARLOTTE METRO • NC + SC" + script "really buying"; slide 2 stats on navy; slide 10 LET'S TALK with Denise's real headshot (cut out from her 1:1 example) over a blurred bright living room. Facts/sources unchanged; bullets tightened. Earlier versions: 8c2cb28 (fullbleed_tips), 1e643ad / 14762a5 (Signature Authority v1 with 1:1 + 9:16).
 Oct 31 ~3:30 PM ET update (Denise): title on slides now "Broker/REALTOR®" (cover byline + slide 10); slide 10 uses her new hi-res headshot (TEMPLATES/denise-wilson-headshot-cutout-hires.png, cropped to only her, no source branding). Only slides 01 and 10, PDF and slides.zip re-rendered. Still 4:5 only, ON HOLD, nothing scheduled.
+Oct 31 ~4:00 PM ET: design approved; built matching 1:1 (slides-1x1/, slides-1x1.zip, -DRAFT-1x1.pdf) and native 9:16 TikTok (slides-9x16/, slides-9x16.zip, -DRAFT-9x16.pdf) with signature_authority.py fmt="1x1"/"9x16"; 4:5 set unchanged. Captions rewritten in Denise's approved format (TEMPLATES/CAPTION_FORMAT.md) for Instagram, Facebook Page, TikTok and Facebook personal profile.
 Why buyer tips: midday carousel alternates daily (Oct 29 buyer flood risk, Oct 30 seller pre-listing inspection), so Oct 31 is buyer tips.
 Angle: title and survey due diligence (what title means, lender's vs owner's title policy, shopping for title services, survey, NC/SC disclosure land questions, covenants/HOA documents, ask the closing attorney). New buyer angle; prior: preapproval, inspections, contract-to-closing, monthly cost, buyer agreement, making an offer, final walk-through, flood risk.
 
 ## Sizes (Denise Oct 24 2026)
-- slide-01..10.png: 1080x1350 (4:5) for Instagram / LinkedIn, PDF (2026-10-31-buyer-tips-title-and-survey-DRAFT.pdf), slides.zip.
-- [removed for the v2 design-approval round; 1:1 and 9:16 sets to be rebuilt after Denise approves the 4:5 design] slides-1x1/slide-01..10.png: 1080x1080 native square layout for Facebook (slides-1x1.zip).
-- [removed for the v2 design-approval round; 1:1 and 9:16 sets to be rebuilt after Denise approves the 4:5 design] slides-9x16/slide-01..10.png: 1080x1920 TikTok set (Denise asked Oct 31 2026), text inside TikTok safe zones (top 170, bottom 262, right 140), slides-9x16.zip.
+- slide-01..10.png: 1080x1350 (4:5) for Instagram, PDF (2026-10-31-buyer-tips-title-and-survey-DRAFT.pdf), slides.zip.
+- slides-1x1/slide-01..10.png: 1080x1080 native square layout for the Facebook Page, slides-1x1.zip, 2026-10-31-buyer-tips-title-and-survey-DRAFT-1x1.pdf.
+- slides-9x16/slide-01..10.png: 1080x1920 native TikTok set (Denise asked Oct 31 2026), text kept out of the TikTok UI zones (top 150, bottom 350, right 140; footer at bottom 360 / right 160), slides-9x16.zip, 2026-10-31-buyer-tips-title-and-survey-DRAFT-9x16.pdf.
 - All three zips under 25 MB. No YouTube Short.
 
 ## Market data (Realtor.com only)
@@ -36,83 +37,5 @@ Result: no banned/flag words on any slide (4:5 and 1:1 HTML) or caption; slide 1
 ## Photos
 Pexels License and Unsplash License originals (long side 3,130-7,360 px; slides 01, 06, 10 swapped Oct 31 to Unsplash 1647579350413 Eric Ardito, Pexels 7914572 Josh Hild [slide 06 replaced again Oct 31 by Unsplash 1720670797121, Wallace Fonseca], Unsplash 1784810801262 goodrich kingrey), resized down only, light grade + sharpening (build/prep_photos.py). Every photo checked with TEMPLATES/photo_registry.py check (no source-id or series hits; Pexels ids within 500 of any used id rejected; loose hash hits inspected) and registered with photo_registry.py add. See build/img/CREDITS.txt. All 10 slides viewed in all three sizes. Oct 31 redesign: slide 10 photo is new (Unsplash 1722247482035-73d55ee3d258, Lisa Anna, bright interior; no headshot on file, no person generated); the Greek Revival photo moved to the stats slide 2. Second pass Oct 31 ~1:30 PM ET: slide 6 photo replaced (too dark) with Unsplash 1720670797121-109f3f21136e (Wallace Fonseca, sunlit cottage with picket fence and lawn; house number and gate plaque retouched out); overlay now a charcoal scrim behind the text block only (66-60%), with a 4% wash elsewhere so photos read bright.
 
-## Caption: Instagram
-Your lender's title policy protects the lender. 🏡
-Not your equity.
-
-There's a second policy, and it's optional. 🔑
-Plus a survey that shows where the lines really are. 📐
-
-✨ What I'd check before closing is on the slides.
-💬 DM me or comment "TITLE" and I'll walk you through it.
-
-Did you know there are two kinds of title insurance?
-
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
-
-#CharlotteRealEstate #BuyerTips #NCRealEstate #SCRealEstate #FirstTimeHomeBuyer
-
-## Caption: Facebook page
-Does the lender's title policy protect you? 🏡
-Not your equity. 🔑
-Here's what I'd check before closing. 💬 Comment or DM me.
-Have you ever read a survey?
-
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
-
-#CharlotteRealEstate #BuyerTips #NCRealEstate
-
-## Caption: LinkedIn
-The house is only part of what you're buying. 🏡
-
-Title, boundaries, easements and HOA rules all come with it.
-I recommend reviewing the title search, the survey and any HOA documents during due diligence, while there's still time to ask questions. 🔑
-
-💡 Lender's vs. owner's title policies, shopping for title services, and the NC and SC disclosure questions are on the slides.
-💬 Comment or send me a message if you'd like help reviewing a home.
-
-When you bought your home, did anyone walk you through the survey?
-
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
-
-#RealEstate #CharlotteRealEstate #BuyerTips #NCRealEstate #SCRealEstate
-
-## Caption: TikTok
-The lender's title policy doesn't protect your equity 🏡
-
-There's a second policy for that 🔑
-And a survey shows where the lines are 📐
-
-💬 Comment "TITLE" and I'll show you what to check.
-
-Did you know there are two title policies?
-
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
-
-#BuyerTips #CharlotteRealEstate #NCRealEstate #SCRealEstate #FirstTimeHomeBuyer
-
-## Caption: Facebook personal profile
-Quick one for anyone house hunting this fall 🏡
-
-When you buy a home, you're also buying its title, its boundaries and any rules that come with it.
-Most lenders require a title policy, but it protects the lender, not your equity. 🔑
-
-So before you close, I'd look at the title search, the survey and any HOA documents. ✨
-I put what I'd check, step by step, on the slides.
-💬 Comment or message me and I'll help you review any home you're considering.
-
-Have you ever looked at a survey before closing?
-
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
-
-#CharlotteRealEstate #BuyerTips #NCRealEstate #SCRealEstate
+## Captions
+See captions.md (Instagram, Facebook Page, TikTok, Facebook personal profile), rewritten Oct 31 2026 in Denise's approved format (TEMPLATES/CAPTION_FORMAT.md). compliance_check.py FAIL lines on captions are expected format overrides: no Equal Housing Opportunity line (it is on slide 10), no closing question, and "Swipe" on IG/FB carousel captions only (TikTok caption avoids it).

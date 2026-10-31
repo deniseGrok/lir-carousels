@@ -1,6 +1,7 @@
 # Buyer tips Oct 31 2026: "Know what you're really buying" (title, survey, easements, HOA covenants). 10 slides.
 # Signature Authority v2 (Oct 31 2026, Denise's example slides): TEMPLATES/signature_authority.py, spec TEMPLATES/SIGNATURE_AUTHORITY.md.
-# DESIGN-APPROVAL ROUND: 4:5 1080x1350 only (slide-NN.png, PDF, slides.zip). No 1:1 / 9:16 until Denise approves the design.
+# Design APPROVED by Denise Oct 31 2026 (4:5 commit 76dd7d3). Builds 4:5 (IG), 1:1 slides-1x1/ (FB Page), 9:16 slides-9x16/ (TikTok).
+# Usage: python3 build_slides.py [4x5 1x1 9x16]  (default: all three)
 # Facts and sources unchanged (see ../2026-10-31-buyer-tips-title-and-survey.md, sources A-G); bullets tightened to short lines.
 import sys, os
 sys.path.insert(0, "/workspace/repos/lir-carousels/TEMPLATES")
@@ -39,4 +40,5 @@ SL = [
  sa.cta("photo-1722247482035-73d55ee3d258.jpg", CONTACT, xy=(.55, .5), blur=7, grade=dict(bright=1.1, gold=1.2)),
 ]
 if __name__ == "__main__":
-    print(len(sa.build(SL, D, B, f"{N}-DRAFT.pdf", series="buyer")))
+    for fmt in (sys.argv[1:] or ["4x5", "1x1", "9x16"]):
+        print(fmt, len(sa.build(SL, D, B, f"{N}-DRAFT.pdf", series="buyer", fmt=fmt)))

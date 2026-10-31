@@ -28,3 +28,8 @@ v1 (even charcoal overlay, sage text, 1:1 + 9:16) was replaced Oct 31 2026 becau
 Photos: no people as the subject, no house numbers/signs, check `photo_registry.py check` (and the Pexels ±500 id rule), register after build. Compliance: TEMPLATES/COMPLIANCE.md + compliance_check.py (no guarantees/urgency; sourced, dated numbers; firm name, phone and EHO on slide 10).
 
 Title on slides (Denise, Oct 31 2026): always "Broker/REALTOR®" (cover byline in caps "BROKER/REALTOR®", slide 10 card "Broker/REALTOR®"), matching the caption signature.
+
+Sizes (Denise approved the design Oct 31 2026): `sa.build(..., fmt="4x5" | "1x1" | "9x16")`. 4x5 1080x1350 Instagram (`slide-NN.png`, PDF, `slides.zip`);
+1x1 1080x1080 Facebook Page (`slides-1x1/`, `slides-1x1.zip`, `<name>-DRAFT-1x1.pdf`); 9x16 1080x1920 native TikTok (`slides-9x16/`, `slides-9x16.zip`,
+`<name>-DRAFT-9x16.pdf`), with text kept out of the TikTok UI zones (top 150, bottom 350, right 140; footer at bottom 360 / right 160; Denise's face kept left of x 940).
+Size layouts live in `OVR` in the renderer. Per-slide tweaks: `xy_1x1` / `xy_9x16` and `css_1x1` / `css_9x16`. Captions: TEMPLATES/CAPTION_FORMAT.md.

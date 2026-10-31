@@ -1,84 +1,96 @@
 # Captions: Buyer Tips, Know what you're really buying (Sat Oct 31 2026)
-DRAFT — AWAITING DENISE APPROVAL. Nothing posted or scheduled. Planned Buffer after approval: 12:30 PM ET, Instagram + LinkedIn (4:5 slides) and Facebook page (1:1 slides-1x1/). Design-approval round (Oct 31 2026): 4:5 set only; 1:1 and 9:16 TikTok sets to be rebuilt after Denise approves the design. No YouTube Short.
-Format per Denise (Oct 22 2026): short lines, a few emojis, hook, light teaser, DM/comment CTA (no phone), closing question, three-line signature, blank line, hashtags. Phone, firm line and Equal Housing Opportunity are on slide 10.
+ON HOLD (Denise, Oct 31 2026): nothing posted or scheduled. When released: 12:30 PM ET via Buffer: Instagram (4:5 slide-NN.png), Facebook Page (1:1 slides-1x1/), TikTok (9:16 slides-9x16/). The Facebook personal profile caption is for Denise to post herself.
+Format: Denise's approved caption format, Oct 31 2026 (see TEMPLATES/CAPTION_FORMAT.md). Plain text only, no asterisks or bold. Phone goes in the caption signature.
 
 ## Instagram
-Your lender's title policy protects the lender. 🏡
-Not your equity.
+🏡 You may love the house… but do you know exactly what you're buying?
 
-There's a second policy, and it's optional. 🔑
-Plus a survey that shows where the lines really are. 📐
+Before you sign on the dotted line, there are important details every homebuyer should understand.
 
-✨ What I'd check before closing is on the slides.
-💬 DM me or comment "TITLE" and I'll walk you through it.
+🔑 Who legally owns the property?
+📍 Where are the property boundaries?
+📄 Are there easements or restrictions?
+🏘️ What rules come with the HOA?
+🛡️ What does title insurance actually protect?
 
-Did you know there are two kinds of title insurance?
+These details can affect your property rights, future plans, and financial investment.
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+A beautiful home is exciting. An informed decision is essential.
 
-#CharlotteRealEstate #BuyerTips #NCRealEstate #SCRealEstate #FirstTimeHomeBuyer
+👉 Swipe through these tips and save this post before your next home purchase.
 
-## Facebook page
-Does the lender's title policy protect you? 🏡
-Not your equity. 🔑
-Here's what I'd check before closing. 💬 Comment or DM me.
-Have you ever read a survey?
+💬 Thinking about buying or selling in the Charlotte Metro, NC or SC? Let's connect and discuss your next move!
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+Denise Wilson | Broker/REALTOR®
+Lifestyle International Realty — Carolinas
+📲 704-615-7347
 
-#CharlotteRealEstate #BuyerTips #NCRealEstate
+#CharlotteRealEstate #HomeBuyerTips #RealEstateEducation #NCRealEstate #SCRealEstate
 
-## LinkedIn
-The house is only part of what you're buying. 🏡
+## Facebook Page
+🏡 You may love the house… but do you know exactly what you're buying?
 
-Title, boundaries, easements and HOA rules all come with it.
-I recommend reviewing the title search, the survey and any HOA documents during due diligence, while there's still time to ask questions. 🔑
+Before you sign, every homebuyer should understand a few important details.
 
-💡 Lender's vs. owner's title policies, shopping for title services, and the NC and SC disclosure questions are on the slides.
-💬 Comment or send me a message if you'd like help reviewing a home.
+🔑 Who legally owns the property?
+📍 Where are the boundaries?
+📄 Are there easements or restrictions?
+🏘️ What rules come with the HOA?
+🛡️ Lender's title policy vs. owner's title policy: what's the difference?
 
-When you bought your home, did anyone walk you through the survey?
+These details can affect your property rights, your future plans, and your investment.
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+👉 Swipe through the tips and save this post for your next home purchase.
 
-#RealEstate #CharlotteRealEstate #BuyerTips #NCRealEstate #SCRealEstate
+💬 Buying or selling in the Charlotte Metro, NC or SC? Send me a message or call, and let's talk about your next move.
+
+Denise Wilson | Broker/REALTOR®
+Lifestyle International Realty — Carolinas
+📲 704-615-7347
+
+#CharlotteRealEstate #HomeBuyerTips #NCRealEstate
 
 ## TikTok
-The lender's title policy doesn't protect your equity 🏡
+🏡 You love the house… but do you know what you're really buying?
 
-There's a second policy for that 🔑
-And a survey shows where the lines are 📐
+🔑 Who legally owns it
+📍 Where the lines are
+📄 Easements and HOA rules
+🛡️ What title insurance protects
 
-💬 Comment "TITLE" and I'll show you what to check.
+👉 Save this before your next home purchase.
 
-Did you know there are two title policies?
+💬 Buying or selling in the Charlotte Metro, NC or SC? Let's connect!
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+Denise Wilson | Broker/REALTOR®
+Lifestyle International Realty — Carolinas
+📲 704-615-7347
 
-#BuyerTips #CharlotteRealEstate #NCRealEstate #SCRealEstate #FirstTimeHomeBuyer
+#CharlotteRealEstate #HomeBuyerTips #NCRealEstate #SCRealEstate
 
 ## Facebook personal profile
-Quick one for anyone house hunting this fall 🏡
+🏡 Friends, if you're house hunting, this one's for you!
 
-When you buy a home, you're also buying its title, its boundaries and any rules that come with it.
-Most lenders require a title policy, but it protects the lender, not your equity. 🔑
+You may love the house… but do you know exactly what you're buying?
 
-So before you close, I'd look at the title search, the survey and any HOA documents. ✨
-I put what I'd check, step by step, on the slides.
-💬 Comment or message me and I'll help you review any home you're considering.
+Before you sign on the dotted line, here's what I walk my buyers through:
 
-Have you ever looked at a survey before closing?
+🔑 Who legally owns the property?
+📍 Where are the property boundaries?
+📄 Are there easements or restrictions?
+🏘️ What rules come with the HOA?
+🛡️ What does title insurance actually protect?
 
-Denise Wilson
-Broker/REALTOR®
-Lifestyle International Realty
+These details can affect your property rights, future plans, and financial investment.
 
-#CharlotteRealEstate #BuyerTips #NCRealEstate #SCRealEstate
+A beautiful home is exciting. An informed decision is essential. 💛
+
+👉 Swipe through the tips, and share this with anyone getting ready to buy.
+
+💬 Thinking about buying or selling in the Charlotte Metro, NC or SC? Message me anytime. I'm happy to help you plan your next move!
+
+Denise Wilson | Broker/REALTOR®
+Lifestyle International Realty — Carolinas
+📲 704-615-7347
+
+#CharlotteRealEstate #HomeBuyerTips
