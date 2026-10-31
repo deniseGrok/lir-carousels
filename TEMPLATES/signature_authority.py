@@ -59,10 +59,12 @@ CSS = """*{margin:0;padding:0;box-sizing:border-box}html,body{width:%(W)dpx;heig
 .s{position:relative;width:%(W)dpx;height:%(H)dpx;overflow:hidden;font-family:Mont;color:#fff}
 .ph{position:absolute;inset:0;background-size:cover;background-position:center}
 .ov{position:absolute;inset:0;background:%(OV)s}
-.fs{position:absolute;left:0;right:0;bottom:0;height:%(FS)dpx;background:linear-gradient(180deg,rgba(17,33,42,0) 0,rgba(17,33,42,.55) 45%%,rgba(17,33,42,.72) 100%%)}
+.fs{position:absolute;left:0;right:0;bottom:0;height:%(FS)dpx;background:linear-gradient(180deg,rgba(17,33,42,0) 0,rgba(17,33,42,.42) 50%%,rgba(17,33,42,.6) 100%%)}
 .tag{position:absolute;left:%(L)dpx;top:%(T)dpx;background:%(TAGBG)s;color:%(NAVY)s;font-weight:600;letter-spacing:.14em;font-size:%(tag)dpx;
  padding:.5em 1.05em .46em;border-radius:6px;text-transform:uppercase}
-.c{position:absolute;left:%(L)dpx;right:%(R)dpx;top:%(CT)dpx}
+.c{position:absolute;left:%(L)dpx;right:%(R)dpx;top:%(CT)dpx;z-index:1}
+.c.scrim:before{content:'';position:absolute;z-index:-1;left:-%(L)dpx;right:-%(R)dpx;top:-%(SCT)dpx;bottom:-170px;background:linear-gradient(180deg,rgba(17,33,42,.66) 0,rgba(17,33,42,.60) calc(100%% - 230px),rgba(17,33,42,.26) calc(100%% - 110px),rgba(17,33,42,0) 100%%)}
+.tag,.ft{z-index:2}
 h1{font-family:Bebas;font-weight:400;font-size:%(h1)dpx;line-height:.94;letter-spacing:.012em;text-transform:uppercase;text-shadow:0 2px 18px rgba(0,0,0,.35)}
 .hi{color:%(CORAL)s}
 p.b{font-size:%(body)dpx;line-height:1.38;margin-top:%(g1)dpx;max-width:30em;text-shadow:0 1px 10px rgba(0,0,0,.45)}
@@ -70,14 +72,14 @@ ul{list-style:none;margin-top:%(g2)dpx}
 li{display:flex;align-items:flex-start;font-weight:500;font-size:%(li)dpx;line-height:1.3;margin-bottom:%(g3)dpx;text-shadow:0 1px 10px rgba(0,0,0,.45)}
 .ck{flex:0 0 auto;width:1.15em;height:1.15em;margin:.08em .62em 0 0}
 .ft{position:absolute;left:%(L)dpx;right:%(R)dpx;bottom:%(B)dpx;display:flex;justify-content:space-between;align-items:center;
- font-weight:600;font-size:%(foot)dpx;letter-spacing:.16em;color:#fff;padding-top:18px;border-top:2px solid rgba(155,183,174,.55)}
+ font-weight:600;font-size:%(foot)dpx;letter-spacing:.16em;color:#fff;padding-top:18px;text-shadow:0 1px 3px rgba(17,33,42,.9),0 0 14px rgba(17,33,42,.85);border-top:2px solid rgba(155,183,174,.55)}
 .ft .pg{letter-spacing:.06em}.ft .pg b{color:%(CORAL)s;font-weight:700;font-size:1.45em;line-height:0;vertical-align:-.06em;margin-left:.15em}
 .src{font-size:%(src)dpx;line-height:1.35;opacity:.92;margin-top:%(g2)dpx}
 """
 
 def page(fmt, inner, ov, extra="", tagbg=TEAL):
     f = dict(FMT[fmt]); W, H = f["W"], f["H"]
-    f.update(NAVY=NAVY, CORAL=CORAL, OV=ov, TAGBG=tagbg, CT=f["T"]+int(f["tag"]*3.6), FS=f["B"]+150, g1=int(26*f["gap"]), g2=int(34*f["gap"]),
+    f.update(NAVY=NAVY, CORAL=CORAL, OV=ov, TAGBG=tagbg, CT=f["T"]+int(f["tag"]*3.6), FS=f["B"]+150, SCT=f["T"]+int(f["tag"]*3.6), g1=int(26*f["gap"]), g2=int(34*f["gap"]),
              g3=int(20*f["gap"]), src=int(f["body"]*.72))
     return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONTS}{CSS % f}{extra}</style></head>"
             f"<body><div class='s'>{inner}</div></body></html>")
@@ -86,10 +88,9 @@ def overlay(fmt, kind):
     """Charcoal #11212A at 60-80% where text sits, lighter over the open photo so it stays bright; footer zone re-darkened."""
     c = CHAR
     if kind == "flat":   return f"rgba({c},.80)"
-    if kind == "cover":  return (f"linear-gradient(90deg,rgba({c},.66) 0,rgba({c},.48) 50%,rgba({c},.06) 85%),"
-                                 f"linear-gradient(180deg,rgba({c},.10) 0,rgba({c},0) 60%,rgba({c},.55) 100%)")
-    stop = {"4x5": (54, 70), "1x1": (60, 76), "9x16": (48, 62)}[fmt]
-    return (f"linear-gradient(180deg,rgba({c},.74) 0,rgba({c},.66) {stop[0]}%,rgba({c},.08) {stop[1]+10}%,rgba({c},0) 86%,rgba({c},.55) 100%)")
+    if kind == "cover":  return (f"linear-gradient(90deg,rgba({c},.60) 0,rgba({c},.40) 48%,rgba({c},0) 80%),"
+                                 f"linear-gradient(180deg,rgba({c},.06) 0,rgba({c},0) 60%,rgba({c},.40) 100%)")
+    return f"rgba({c},.04)"   # edu / cta: light wash only; the charcoal scrim (60-66%) sits behind the text block (.c.scrim)
 
 def bullets(items): return "<ul>" + "".join(f"<li>{CHECK}<span>{html.escape(i, quote=False)}</span></li>" for i in items) + "</ul>"
 def footer(n, total, series): return (f"<div class='ft'><span>BUYER &amp; SELLER TIPS</span><span class='pg'>{n} / {total} <b>→</b></span></div>")
@@ -151,7 +152,7 @@ def inner(sd, fmt, n, total, series, imgurl):
                  f".eq{{display:flex;align-items:center;font-weight:600;letter-spacing:.06em;font-size:{int(f['li']*.66)}px;margin-top:{int(18*g)}px;"
                  f"padding-top:{int(14*g)}px;border-top:1px solid rgba(14,48,66,.25)}}.eho{{width:1.9em;height:1.9em;margin-right:.6em}}")
         ov = overlay(fmt, "edu")
-    html_inner = ph + f"<div class='ov'></div><div class='fs'></div><div class='tag'>{html.escape(tag)}</div><div class='c'>{body}</div>" + footer(n, total, series)
+    html_inner = ph + f"<div class='ov'></div><div class='fs'></div><div class='tag'>{html.escape(tag)}</div><div class='c{" scrim" if k in ("edu","cta") else ""}'>{body}</div>" + footer(n, total, series)
     return html_inner, ov, extra, tagbg
 
 def render(html_path, png, W, H):
