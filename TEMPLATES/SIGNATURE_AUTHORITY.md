@@ -16,13 +16,15 @@ v1 (even charcoal overlay, sage text, 1:1 + 9:16) was replaced Oct 31 2026 becau
 - Margins ~58px left/right (as in the examples).
 
 ## Slide types
-1. `sa.cover`: navy box top-left "BUYER & SELLER TIPS / CHARLOTTE METRO • NC + SC"; bold Anton lead ~104px (e.g. "REAL ESTATE" or today's topic "KNOW WHAT YOU'RE"); big coral script line (Great Vibes; "Tips" / "really buying"); "Practical advice for BUYERS / SELLERS"; bottom-left "DENISE WILSON / REALTOR® | LIFESTYLE INTERNATIONAL REALTY"; "1 / 10 →".
+1. `sa.cover`: navy box top-left "BUYER & SELLER TIPS / CHARLOTTE METRO • NC + SC"; bold Anton lead ~104px (e.g. "REAL ESTATE" or today's topic "KNOW WHAT YOU'RE"); big coral script line (Great Vibes; "Tips" / "really buying"); "Practical advice for BUYERS / SELLERS"; bottom-left "DENISE WILSON / BROKER/REALTOR® | LIFESTYLE INTERNATIONAL REALTY"; "1 / 10 →".
 2. `sa.stats`: stats only on navy (no photo), Realtor.com metro numbers with month + source line.
 3-9. `sa.edu`: tag + 2-line headline + 1-2 sentence body + 4 bullets over a warm photo.
-10. `sa.cta`: "LET'S TALK / BUYING OR SELLING? I'M HERE TO HELP." + coral script "Denise Wilson", REALTOR®, Lifestyle International Realty — Carolinas, 704-615-7347, denisewilson.lircarolinas.com, Equal Housing Opportunity logo + text. Denise's REAL headshot on the right (`TEMPLATES/denise-wilson-headshot-cutout.png`, background removed from her 1:1 example; crop: `denise-wilson-headshot-crop.png`) over a bright, warm, blurred living room. Never generate or alter her face; never use the woman in the 4:5 example (may be AI-generated).
+10. `sa.cta`: "LET'S TALK / BUYING OR SELLING? I'M HERE TO HELP." + coral script "Denise Wilson", Broker/REALTOR®, Lifestyle International Realty — Carolinas, 704-615-7347, denisewilson.lircarolinas.com, Equal Housing Opportunity logo + text. Denise's REAL headshot on the right (`TEMPLATES/denise-wilson-headshot-cutout-hires.png`, cut out with rembg u2net_human_seg + edge cleanup from the hi-res portrait she sent Oct 31; crop of only her, branding excluded: `denise-wilson-headshot-hires-crop.png`; placed `right:-60px; bottom:0; height:1000px`) over a bright, warm, blurred living room. The source portrait has "DW AI COMPANION" text, a robot, a "DENISE AI STRATEGIST" nameplate, mug and notebook: never let any of that show; always use the crop/cutout. The older low-res `denise-wilson-headshot-cutout.png` / `-crop.png` (from her 1:1 example) are superseded. Never generate or alter her face; never use the woman in the 4:5 example (may be AI-generated).
 
 ## Sizes
 - v2 lays out 4:5 only (slide-NN.png, PDF, slides.zip). After Denise approves the design, add 1:1 (Facebook) and, when she asks, 9:16 (TikTok, safe zones: top 150, bottom 250, right 120) in the same look.
 
 ## Rules
 Photos: no people as the subject, no house numbers/signs, check `photo_registry.py check` (and the Pexels ±500 id rule), register after build. Compliance: TEMPLATES/COMPLIANCE.md + compliance_check.py (no guarantees/urgency; sourced, dated numbers; firm name, phone and EHO on slide 10).
+
+Title on slides (Denise, Oct 31 2026): always "Broker/REALTOR®" (cover byline in caps "BROKER/REALTOR®", slide 10 card "Broker/REALTOR®"), matching the caption signature.

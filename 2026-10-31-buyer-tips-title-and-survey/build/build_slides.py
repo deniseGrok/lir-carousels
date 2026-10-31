@@ -6,7 +6,7 @@ import sys, os
 sys.path.insert(0, "/workspace/repos/lir-carousels/TEMPLATES")
 import signature_authority as sa
 N = "2026-10-31-buyer-tips-title-and-survey"; B = os.path.dirname(os.path.abspath(__file__)); D = os.path.dirname(B)
-CONTACT = dict(name="Denise Wilson", title="REALTOR®", firm="Lifestyle International Realty — Carolinas",
+CONTACT = dict(name="Denise Wilson", title="Broker/REALTOR®", firm="Lifestyle International Realty — Carolinas",
                phone="704-615-7347", web="denisewilson.lircarolinas.com")
 SL = [
  sa.cover("p7340487.jpg", "KNOW WHAT YOU'RE", "really buying", "Practical advice for<br><b>BUYERS.</b>", xy=(.5, .55), grade=dict(bright=1.06, gold=.9, sat=1.1)),

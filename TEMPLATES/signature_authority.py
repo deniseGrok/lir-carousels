@@ -21,7 +21,7 @@ W, H = 1080, 1350
 L = 58            # left margin (examples sit ~40-60px in)
 GF = "/usr/share/fonts/truetype/sand-box/google"
 TPL = os.path.dirname(os.path.abspath(__file__))
-HEADSHOT = os.path.join(TPL, "denise-wilson-headshot-cutout.png")   # real headshot, background removed (from Denise's 1:1 example)
+HEADSHOT = os.path.join(TPL, "denise-wilson-headshot-cutout-hires.png")   # real headshot, background removed (Denise's hi-res portrait sent Oct 31; crop: denise-wilson-headshot-hires-crop.png)
 FONTS = (f"@font-face{{font-family:Anton;src:url('file://{GF}/Anton/Anton-Regular.ttf')}}"
          f"@font-face{{font-family:Mont;src:url('file://{GF}/Montserrat/Montserrat-VariableFont_wght.ttf');font-weight:100 900}}"
          f"@font-face{{font-family:Script;src:url('file://{GF}/Great Vibes/GreatVibes-Regular.ttf')}}")
@@ -97,7 +97,7 @@ def inner(sd, n, total, series, img):
         body = (f"<div class='box'><div class='b1'>BUYER &amp; SELLER TIPS</div><div class='b2'>CHARLOTTE METRO • NC + SC</div></div>"
                 f"<div class='c cv'><div class='lead'>{html.escape(sd['lead'])}</div><div class='scr'>{html.escape(sd['script'])}</div>"
                 f"<div class='sub'>{sd['sub']}</div></div>"
-                f"<div class='ft'><div><div class='dw'>DENISE WILSON</div><div class='dw2'>REALTOR® | LIFESTYLE INTERNATIONAL REALTY</div></div>"
+                f"<div class='ft'><div><div class='dw'>DENISE WILSON</div><div class='dw2'>BROKER/REALTOR® | LIFESTYLE INTERNATIONAL REALTY</div></div>"
                 f"<div class='pg'>{n} / {total} →</div></div>")
         extra += (f".box{{position:absolute;left:{L}px;top:50px;background:rgba({NAVY_RGB},.92);border:2px solid rgba(255,255,255,.18);padding:16px 24px 14px;z-index:3;border-radius:4px}}"
                   ".b1{font-family:Anton;font-size:46px;letter-spacing:.03em;line-height:1}.b2{font-weight:600;font-size:19px;letter-spacing:.2em;margin-top:8px;color:#dfe8e4}"
@@ -126,7 +126,7 @@ def inner(sd, n, total, series, img):
             f"<div class='card'><div class='nm'>{html.escape(c['name'])}</div><div class='ti'>{html.escape(c['title'])}</div>"
             f"<div class='fm'>{html.escape(c['firm'])}</div><div class='ph2'>{html.escape(c['phone'])}</div><div class='wb'>{html.escape(c['web'])}</div>"
             f"<div class='eq'>{EHO}<span>Equal Housing<br>Opportunity</span></div></div>")
-    extra += (".hs{position:absolute;left:404px;bottom:0;height:880px;z-index:2;filter:drop-shadow(0 10px 30px rgba(0,0,0,.25))}"
+    extra += (".hs{position:absolute;right:-60px;bottom:0;height:1000px;z-index:2;filter:drop-shadow(0 10px 30px rgba(0,0,0,.25))}"
               f".gl{{background:linear-gradient(90deg,rgba({NAVY_RGB},.92) 0,rgba({NAVY_RGB},.78) 36%,rgba({NAVY_RGB},.2) 55%,rgba({NAVY_RGB},0) 66%)}}"
               ".ct{top:70px;width:960px}.lt{font-weight:800;font-size:104px;line-height:1;letter-spacing:.01em;text-shadow:0 3px 16px rgba(0,0,0,.35)}"
               ".lt2{font-weight:500;font-size:44px;line-height:1.18;letter-spacing:.05em;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}"
