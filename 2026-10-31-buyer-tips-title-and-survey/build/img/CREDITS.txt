@@ -7,4 +7,6 @@ Buyer tips Oct 31 2026 (title, survey and easements). Pexels License / Unsplash 
 07 | https://www.pexels.com/photo/10099333/ (Pexels License, 5472x3648 original; bright paneled room; tag EASEMENTS)
 08 | https://www.pexels.com/photo/8082229/ (Pexels License, 7360x4912 original; living room, coffered ceiling; tag THE RULES)
 09 | https://www.pexels.com/photo/3701434/ (Pexels License, 3264x2448 original; open kitchen and living area; tag ASK FIRST)
-10 | https://unsplash.com/photos/RaM9Oa2J1ZQ photo-1784810801262-d0d27227a480 (Unsplash License, by goodrich kingrey, 3130x1917 original; sunlit white Greek Revival home with columns and lawn; MY RECOMMENDATION)
+02 | https://unsplash.com/photos/RaM9Oa2J1ZQ photo-1784810801262-d0d27227a480 (Unsplash License, by goodrich kingrey, 3130x1917 original; sunlit white Greek Revival home with columns and lawn; moved from slide 10 to the stats slide in the Oct 31 Signature Authority redesign, behind an 80% charcoal overlay)
+10 | https://unsplash.com/photos/9ag1NYrdE3I photo-1722247482035-73d55ee3d258 (Unsplash License, by Lisa Anna, 4000x2667 download; bright white living room with sliding doors and natural light; LET'S TALK contact slide, no headshot on file so no person shown)
+Oct 31 2026 Signature Authority redesign: every format (img/NN.jpg 4:5, img/1x1/NN.jpg, img/9x16/NN.jpg) is cropped and graded from build/src by TEMPLATES/signature_authority.py (downscale only).

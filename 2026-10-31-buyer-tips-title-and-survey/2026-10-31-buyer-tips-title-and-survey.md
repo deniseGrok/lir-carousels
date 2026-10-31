@@ -1,14 +1,15 @@
 # DRAFT — AWAITING DENISE APPROVAL
 # Buyer Tips: Know what you're really buying (title, survey and easements) (Sat Oct 31 2026, midday tips slot)
 Nothing has been posted, scheduled, sent, or added to Buffer. Planned Buffer after approval: 12:30 PM ET — Instagram + LinkedIn (4:5 slides), Facebook page (1:1 slides-1x1/).
-10 slides, theme="fullbleed_tips" (navy #0E1E3D / coral #FF6A3D), full photo on every slide except the stats-only market slide (slide 2); bottom-anchored text; source line only on slide 2.
+10 slides, theme="signature_authority" (REDESIGN Oct 31 2026 per Denise: "Buyer & Seller Tips — Signature Authority" template; spec TEMPLATES/SIGNATURE_AUTHORITY.md, renderer TEMPLATES/signature_authority.py). Deep navy #0E3042 / sage #9BB7AE / coral #E38B6C, Bebas Neue + Montserrat + Great Vibes script, full-bleed photo with #11212A overlay on every slide, BUYER TIP tag, footer "BUYER & SELLER TIPS  N / 10 →", slide 10 LET'S TALK contact card. Copy and sources unchanged except: one supporting sentence added per educational slide (from sources A-G below), slide 9 sentence "Your closing attorney can explain what the title search found.", slide 10 retitled LET'S TALK (same recommendation + attorney referral). Earlier fullbleed_tips version: commit 8c2cb28.
 Why buyer tips: midday carousel alternates daily (Oct 29 buyer flood risk, Oct 30 seller pre-listing inspection), so Oct 31 is buyer tips.
 Angle: title and survey due diligence (what title means, lender's vs owner's title policy, shopping for title services, survey, NC/SC disclosure land questions, covenants/HOA documents, ask the closing attorney). New buyer angle; prior: preapproval, inspections, contract-to-closing, monthly cost, buyer agreement, making an offer, final walk-through, flood risk.
 
 ## Sizes (Denise Oct 24 2026)
 - slide-01..10.png: 1080x1350 (4:5) for Instagram / LinkedIn, PDF (2026-10-31-buyer-tips-title-and-survey-DRAFT.pdf), slides.zip.
 - slides-1x1/slide-01..10.png: 1080x1080 native square layout for Facebook (slides-1x1.zip).
-- Both zips under 25 MB, so no JPG versions needed. No 9:16 set and no YouTube Short.
+- slides-9x16/slide-01..10.png: 1080x1920 TikTok set (Denise asked Oct 31 2026), text inside TikTok safe zones (top 170, bottom 262, right 140), slides-9x16.zip.
+- All three zips under 25 MB. No YouTube Short.
 
 ## Market data (Realtor.com only)
 Realtor.com Economic Research, monthly metro core metrics (RDC_Inventory_Core_Metrics_Metro.csv), Charlotte-Concord-Gastonia, NC-SC (CBSA 16740), month 202609 (latest available; re-downloaded and verified Oct 31 2026 ~4:35 AM ET):
@@ -32,7 +33,7 @@ Result: no banned/flag words on any slide (4:5 and 1:1 HTML) or caption; slide 1
 - Photos: generic Pexels, topic tags only; builder yard sign (slide 6) and house number (slide 10) painted out.
 
 ## Photos
-Pexels License and Unsplash License originals (long side 3,130-7,360 px; slides 01, 06, 10 swapped Oct 31 to Unsplash 1647579350413 Eric Ardito, Pexels 7914572 Josh Hild, Unsplash 1784810801262 goodrich kingrey), resized down only, light grade + sharpening (build/prep_photos.py). Every photo checked with TEMPLATES/photo_registry.py check (no source-id or series hits; Pexels ids within 500 of any used id rejected; loose hash hits inspected) and registered with photo_registry.py add. See build/img/CREDITS.txt. All 10 slides viewed at full size in both sizes.
+Pexels License and Unsplash License originals (long side 3,130-7,360 px; slides 01, 06, 10 swapped Oct 31 to Unsplash 1647579350413 Eric Ardito, Pexels 7914572 Josh Hild, Unsplash 1784810801262 goodrich kingrey), resized down only, light grade + sharpening (build/prep_photos.py). Every photo checked with TEMPLATES/photo_registry.py check (no source-id or series hits; Pexels ids within 500 of any used id rejected; loose hash hits inspected) and registered with photo_registry.py add. See build/img/CREDITS.txt. All 10 slides viewed in all three sizes. Oct 31 redesign: slide 10 photo is new (Unsplash 1722247482035-73d55ee3d258, Lisa Anna, bright interior; no headshot on file, no person generated); the Greek Revival photo moved to the stats slide 2.
 
 ## Caption: Instagram
 Your lender's title policy protects the lender. 🏡
