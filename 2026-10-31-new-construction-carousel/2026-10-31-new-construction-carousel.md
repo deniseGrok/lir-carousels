@@ -1,6 +1,6 @@
 # DRAFT — AWAITING DENISE APPROVAL
 ## Daily New Construction Deal Carousel — Saturday, Oct 31, 2026 (Charlotte metro)
-Nothing has been posted, scheduled, sent or added to Buffer. Theme `fullbleed_teal` (teal #0F4C5C + gold #F2B705, tag "NEW BUILD DEALS / NC + SC"). Offers verified on Eastwood Homes' own website Oct 31, 2026, about 4:20–4:45 AM ET (https://www.eastwoodhomes.com/special-offers, Charlotte market, plus each community page). Builder photos only, each credited on-slide "Photo: Eastwood Homes".
+Nothing has been posted, scheduled, sent or added to Buffer. Theme `fullbleed_teal` (teal #0F4C5C + gold #F2B705, tag "NEW BUILD DEALS / NC + SC"). Offers verified on Eastwood Homes' own website Oct 31, 2026, about 4:20–4:45 AM ET (https://www.eastwoodhomes.com/special-offers, Charlotte market, plus each community page). Builder photos on slides 2-5 and 7-9, credited on-slide "Photo: Eastwood Homes"; slides 1, 6 and 10 swapped Oct 31 for free-license Unsplash/Pexels originals, credited "Photo: Unsplash" / "Photo: Pexels" (see Photo swap below).
 
 Two native slide sets (no 9:16, no YouTube Short):
 - 4:5 1080x1350 (Instagram + LinkedIn): slide-01.png … slide-10.png, slides.zip, 2026-10-31-new-construction-carousel-DRAFT.pdf
@@ -30,7 +30,7 @@ No end dates posted for any of these.
 Checked and cut / held for later days: Founders Landing (age-restricted 55+ community; left off to keep the copy free of people-based language); Waterford Commons (already featured Oct 13); The Meadows at Laurelbrook (Laurelbrook already featured via Stanley Martin's Retreat at Laurelbrook); Ashton Park (Monroe), Enclave at Riverdale (Huntersville), Rock Creek (Denver), Carrington (Stanley), Norman Creek / Norman Creek Townhomes (Troutman) — verified but held as unused inventory for a future day. Pulte (only already-featured communities listed), D.R. Horton (all listed Charlotte communities already featured or no offer), Centex (no Charlotte communities). Meritage, Ryan Homes and True Homes pages did not render offers in time to verify, so nothing from them is included.
 
 ## Slides
-1. Cover "9 communities. 1 builder." (Photo: Eastwood Homes, Rone Creek home; house number retouched)
+1. Cover "9 communities. 1 builder." (Photo: Unsplash, Eric Ardito; sunlit white farmhouse, swapped Oct 31)
 2. Robinson Oaks: up to $7,500 toward closing (clubhouse)
 3. Caldwell Forest: up to $5,000 + a move-in package (Patterson C elevation — the builder's rendering from the Caldwell Forest page)
 4. Chasewood: up to $5,000 + free blinds (house number retouched)
@@ -140,3 +140,5 @@ Broker/REALTOR®
 Lifestyle International Realty
 
 #CharlotteNewConstruction #CharlotteRealEstate #NewHomes #WaxhawNC
+
+Photo swap (Oct 31, 2026, ~5:30 AM ET): replaced 3 weak builder photos before handoff. Slide 1 (Rone Creek home with construction debris) -> Unsplash 1647579350413-a6ada4e480ed (Eric Ardito, 4330x3464). Slide 6 (overcast Harrisburg Village townhomes) -> Pexels 7914572 (Josh Hild, 3573x4967; 3 unit-number plaques retouched out). Slide 10 (Bryton Crossing pool/playground aerial) -> Unsplash 1784810801262-d0d27227a480 (goodrich kingrey, 3130x1917). All three checked with photo_registry.py (no source/series match; loose hash hits 15-18 reviewed as different photos); no people, no house numbers. Old registry rows for slides 1, 6, 10 removed (15) and new ones added (15); old src files rc_001, hv_004, bc_pool removed. Slide 6 photo is a stock townhome exterior, not Harrisburg Village itself (credited Pexels, not the builder).
