@@ -1,5 +1,5 @@
 # Captions: Buyer Tips, Know what you're really buying (Sat Oct 31 2026)
-DRAFT — AWAITING DENISE APPROVAL. Nothing posted or scheduled. Planned Buffer after approval: 12:30 PM ET, Instagram + LinkedIn (4:5 slides) and Facebook page (1:1 slides-1x1/). 9:16 TikTok slide set added Oct 31 2026 at Denise's request (slides-9x16/, slides-9x16.zip); no YouTube Short.
+DRAFT — AWAITING DENISE APPROVAL. Nothing posted or scheduled. Planned Buffer after approval: 12:30 PM ET, Instagram + LinkedIn (4:5 slides) and Facebook page (1:1 slides-1x1/). Design-approval round (Oct 31 2026): 4:5 set only; 1:1 and 9:16 TikTok sets to be rebuilt after Denise approves the design. No YouTube Short.
 Format per Denise (Oct 22 2026): short lines, a few emojis, hook, light teaser, DM/comment CTA (no phone), closing question, three-line signature, blank line, hashtags. Phone, firm line and Equal Housing Opportunity are on slide 10.
 
 ## Instagram

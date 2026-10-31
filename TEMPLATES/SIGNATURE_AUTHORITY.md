@@ -1,35 +1,28 @@
-# Buyer & Seller Tips — Signature Authority (Denise's design template, received Oct 31 2026)
-Reference sheet: `TEMPLATES/signature-authority-template.png`. Renderer: `TEMPLATES/signature_authority.py` (theme name `signature_authority`).
-First used: `2026-10-31-buyer-tips-title-and-survey/` (see its `build/build_slides.py` as the worked example). Use for all future buyer/seller tips days.
+# Buyer & Seller Tips — Signature Authority (v2, Oct 31 2026)
+Denise's design. Match her example slides in `TEMPLATES/signature-authority-examples/` (10 x 4:5 examples incl. cover + Let's Talk,
+the template guide `01M69GSVS8MQX2QDJ5K4ZNG71K.png`, and her real-headshot 1:1 slide `01M69GT5HEGMY2SCQ8B8KKJKS7.png`).
+Original template sheet: `TEMPLATES/signature-authority-template.png`. Renderer: `TEMPLATES/signature_authority.py` (v2).
+Worked example: `2026-10-31-buyer-tips-title-and-survey/build/build_slides.py`.
+v1 (even charcoal overlay, sage text, 1:1 + 9:16) was replaced Oct 31 2026 because Denise wanted it closer to her examples.
 
-## Colors
-- Deep Navy `#0E3042`: primary, footer rule, stat cards, contact icons, tag text
-- Soft Teal / Sage `#9BB7AE`: BUYER tags, accents, sub-labels
-- Coral-Copper `#E38B6C`: SELLER tags, highlight words, check-circle icons, script accents, page arrow
-- Warm White `#F5F3EE`: contact card / clean backgrounds
-- Charcoal overlay `#11212A`: 60-80% over full-bleed photos where text sits, fading lighter over the open photo so it stays bright
-
-## Typography
-- Series tag pill, top-left: Montserrat SemiBold, all caps (`BUYER TIP` teal pill / `SELLER TIP` coral pill; slide 10 uses `LET'S TALK`)
-- Headline: Bebas Neue, all caps, white; highlight words in coral (markup `[[words]]`, `|` = line break)
-- Body: Montserrat Regular, sentence case, 1-2 sentences
-- Bullets: 3-4, Montserrat Medium, coral check-circle icons
-- Script accent: Great Vibes, coral (cover "Tips"-style line, name on contact card)
-- Footer on every slide: `BUYER & SELLER TIPS` left, `N / 10 →` right, Montserrat SemiBold, teal hairline above
-
-## Formats (standing rules)
-- 4:5 1080x1350 -> `slide-NN.png`, PDF, `slides.zip` (Instagram + LinkedIn); ~110-120px safe margins
-- 1:1 1080x1080 -> `slides-1x1/`, `slides-1x1.zip` (Facebook)
-- 9:16 1080x1920 -> `slides-9x16/`, `slides-9x16.zip` ONLY when Denise asks (TikTok; first requested Oct 31 2026). TikTok safe zones: top 150+, bottom 250+ (footer sits at 262), right 120+ (140 used)
+## Look (4:5 1080x1350)
+- Photo: warm, sunlit, golden, vivid lifestyle photo (living rooms, kitchens, desks with a model house and keys, a calculator, porches). Grade `warm()`: lift + golden balance + saturation. Never dim; swap dim photos.
+- Overlay: ONLY a left navy (#0E3042) gradient behind the text (≈.93 at the left edge → clear by ~75% width), a light top fade, and a navy fade at the bottom for the footer. No even dark overlay.
+- Tag pill top-left: `BUYER TIP` sage (#A9C9B8) with navy text / `SELLER TIP` coral (#E38B6C), Montserrat Bold ~38px.
+- Headline: Anton, ~92px, all caps; line 1 white, line 2 coral (`"Line one|line two"`).
+- Body: Montserrat Medium ~33px, 1-2 sentences, max ~600px wide.
+- Bullets: exactly 4 short lines (≈ ≤30 characters, one line each), Montserrat SemiBold ~32px, big filled coral check bubbles (52px). Sage bubbles are an option on buyer slides (`bubble=` per slide).
+- Footer every slide: short coral rule + `BUYER & SELLER TIPS` left, `N / 10 →` right.
+- Margins ~58px left/right (as in the examples).
 
 ## Slide types
-1. Cover (`sa.cover`): bold Bebas lead + coral script line + "Practical advice for BUYERS/SELLERS" + optional outlined topic kicker
-2. Stats (`sa.stats`): Realtor.com metro numbers with month + source line; photo behind 80% charcoal
-3-9. Educational (`sa.edu`): headline + 1-2 sentence copy + 3-4 bullets
-10. CTA (`sa.cta`): "LET'S TALK" + Warm White contact card: Denise Wilson (script), BROKER/REALTOR®, Lifestyle International Realty — Carolinas, 704-615-7347, denisewilson.lircarolinas.com (her established web address, used on prior slide 10s), Equal Housing Opportunity + EHO house icon. No headshot is on file: use a bright interior photo, never a generated/fake person. If Denise supplies a real headshot, add it to the card.
+1. `sa.cover`: navy box top-left "BUYER & SELLER TIPS / CHARLOTTE METRO • NC + SC"; light Montserrat lead (e.g. "REAL ESTATE" or today's topic "KNOW WHAT YOU'RE"); big coral script line (Great Vibes; "Tips" / "really buying"); "Practical advice for BUYERS / SELLERS"; bottom-left "DENISE WILSON / REALTOR® | LIFESTYLE INTERNATIONAL REALTY"; "1 / 10 →".
+2. `sa.stats`: stats only on navy (no photo), Realtor.com metro numbers with month + source line.
+3-9. `sa.edu`: tag + 2-line headline + 1-2 sentence body + 4 bullets over a warm photo.
+10. `sa.cta`: "LET'S TALK / BUYING OR SELLING? I'M HERE TO HELP." + coral script "Denise Wilson", REALTOR®, Lifestyle International Realty — Carolinas, 704-615-7347, denisewilson.lircarolinas.com, Equal Housing Opportunity logo + text. Denise's REAL headshot on the right (`TEMPLATES/denise-wilson-headshot-cutout.png`, background removed from her 1:1 example; crop: `denise-wilson-headshot-crop.png`) over a bright, warm, blurred living room. Never generate or alter her face; never use the woman in the 4:5 example (may be AI-generated).
 
-## Photography
-Bright, natural light, warm, uncluttered, never dark; no people/demographics; homes, interiors, exteriors, details. Check every photo in `TEMPLATES/photo-registry.csv` (photo_registry.py check) and register after build. Graded per format from build/src originals (downscale only).
+## Sizes
+- v2 lays out 4:5 only (slide-NN.png, PDF, slides.zip). After Denise approves the design, add 1:1 (Facebook) and, when she asks, 9:16 (TikTok, safe zones: top 150, bottom 250, right 120) in the same look.
 
-## Compliance
-NC/SC Real Estate Commission + Fair Housing (TEMPLATES/COMPLIANCE.md, compliance_check.py): no guarantees/urgency, sourced and dated numbers, no "swipe" on 9:16, firm name + phone + EHO on slide 10.
+## Rules
+Photos: no people as the subject, no house numbers/signs, check `photo_registry.py check` (and the Pexels ±500 id rule), register after build. Compliance: TEMPLATES/COMPLIANCE.md + compliance_check.py (no guarantees/urgency; sourced, dated numbers; firm name, phone and EHO on slide 10).

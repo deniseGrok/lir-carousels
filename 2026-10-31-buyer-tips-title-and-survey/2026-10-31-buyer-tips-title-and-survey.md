@@ -1,14 +1,14 @@
 # DRAFT — AWAITING DENISE APPROVAL
 # Buyer Tips: Know what you're really buying (title, survey and easements) (Sat Oct 31 2026, midday tips slot)
 Nothing has been posted, scheduled, sent, or added to Buffer. Planned Buffer after approval: 12:30 PM ET — Instagram + LinkedIn (4:5 slides), Facebook page (1:1 slides-1x1/).
-10 slides, theme="signature_authority" (REDESIGN Oct 31 2026 per Denise: "Buyer & Seller Tips — Signature Authority" template; spec TEMPLATES/SIGNATURE_AUTHORITY.md, renderer TEMPLATES/signature_authority.py). Deep navy #0E3042 / sage #9BB7AE / coral #E38B6C, Bebas Neue + Montserrat + Great Vibes script, full-bleed photo with #11212A overlay on every slide, BUYER TIP tag, footer "BUYER & SELLER TIPS  N / 10 →", slide 10 LET'S TALK contact card. Copy and sources unchanged except: one supporting sentence added per educational slide (from sources A-G below), slide 9 sentence "Your closing attorney can explain what the title search found.", slide 10 retitled LET'S TALK (same recommendation + attorney referral). Earlier fullbleed_tips version: commit 8c2cb28.
+10 slides, theme="signature_authority" v2 (Oct 31 2026 ~2:15 PM ET, Denise: "something more like this" + 10 example slides in TEMPLATES/signature-authority-examples/). DESIGN-APPROVAL ROUND: 4:5 only. Warm sunlit photos, left navy gradient fading to clear photo + bottom footer fade, Anton headline (white line + coral line), 4 short bullets with coral check bubbles, sage BUYER TIP pill, footer BUYER & SELLER TIPS N / 10 →; cover box "BUYER & SELLER TIPS / CHARLOTTE METRO • NC + SC" + script "really buying"; slide 2 stats on navy; slide 10 LET'S TALK with Denise's real headshot (cut out from her 1:1 example) over a blurred bright living room. Facts/sources unchanged; bullets tightened. Earlier versions: 8c2cb28 (fullbleed_tips), 1e643ad / 14762a5 (Signature Authority v1 with 1:1 + 9:16).
 Why buyer tips: midday carousel alternates daily (Oct 29 buyer flood risk, Oct 30 seller pre-listing inspection), so Oct 31 is buyer tips.
 Angle: title and survey due diligence (what title means, lender's vs owner's title policy, shopping for title services, survey, NC/SC disclosure land questions, covenants/HOA documents, ask the closing attorney). New buyer angle; prior: preapproval, inspections, contract-to-closing, monthly cost, buyer agreement, making an offer, final walk-through, flood risk.
 
 ## Sizes (Denise Oct 24 2026)
 - slide-01..10.png: 1080x1350 (4:5) for Instagram / LinkedIn, PDF (2026-10-31-buyer-tips-title-and-survey-DRAFT.pdf), slides.zip.
-- slides-1x1/slide-01..10.png: 1080x1080 native square layout for Facebook (slides-1x1.zip).
-- slides-9x16/slide-01..10.png: 1080x1920 TikTok set (Denise asked Oct 31 2026), text inside TikTok safe zones (top 170, bottom 262, right 140), slides-9x16.zip.
+- [removed for the v2 design-approval round; 1:1 and 9:16 sets to be rebuilt after Denise approves the 4:5 design] slides-1x1/slide-01..10.png: 1080x1080 native square layout for Facebook (slides-1x1.zip).
+- [removed for the v2 design-approval round; 1:1 and 9:16 sets to be rebuilt after Denise approves the 4:5 design] slides-9x16/slide-01..10.png: 1080x1920 TikTok set (Denise asked Oct 31 2026), text inside TikTok safe zones (top 170, bottom 262, right 140), slides-9x16.zip.
 - All three zips under 25 MB. No YouTube Short.
 
 ## Market data (Realtor.com only)

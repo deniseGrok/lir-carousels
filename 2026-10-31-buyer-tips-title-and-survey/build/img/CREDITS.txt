@@ -1,12 +1,12 @@
-Buyer tips Oct 31 2026 (title, survey and easements). Pexels License / Unsplash License (free, no attribution required). Slides 01, 06, 10 replaced Oct 31, 2026 (Denise: old cover read as a construction site, old 06 overcast, old 10 plain tract home). No people. Generic photos: tags are topic words only; no photo is presented as a specific listing, address or named place. No visible house numbers or builder signs (slide 06: house number and gate plaque retouched out in src/photo-1720670797121-109f3f21136e.jpg; slides 01 and 10 have no visible numbers; all slides checked at full size, both sizes).
-01 | https://unsplash.com/photos/Z2WiPyxywQ0 photo-1647579350413-a6ada4e480ed (Unsplash License, by Eric Ardito, 4330x3464 original; bright sunlit white board-and-batten farmhouse with porch and lawn; cover)
-03 | https://www.pexels.com/photo/4500474/ (Pexels License, 6000x4000 original; home with flowering trees; tag TITLE)
-04 | https://www.pexels.com/photo/6283960/ (Pexels License, 7360x4912 original; bright white kitchen; tag TWO POLICIES)
-05 | https://www.pexels.com/photo/6782369/ (Pexels License, 7344x4901 original; bright living room and kitchen; tag SHOP AROUND)
-06 | https://unsplash.com/photos/yYs2R3k6usc photo-1720670797121-109f3f21136e (Unsplash License, by Wallace Fonseca, 5000x7500 download; bright sunlit white cottage with picket fence, gate, garden and lawn; tag THE SURVEY. Replaced Pexels 7914572 on Oct 31 2026 (too dark). Gate-post house number "21" and a "PRIVATE" gate plaque retouched out in src/)
-07 | https://www.pexels.com/photo/10099333/ (Pexels License, 5472x3648 original; bright paneled room; tag EASEMENTS)
-08 | https://www.pexels.com/photo/8082229/ (Pexels License, 7360x4912 original; living room, coffered ceiling; tag THE RULES)
-09 | https://www.pexels.com/photo/3701434/ (Pexels License, 3264x2448 original; open kitchen and living area; tag ASK FIRST)
-02 | https://unsplash.com/photos/RaM9Oa2J1ZQ photo-1784810801262-d0d27227a480 (Unsplash License, by goodrich kingrey, 3130x1917 original; sunlit white Greek Revival home with columns and lawn; moved from slide 10 to the stats slide in the Oct 31 Signature Authority redesign, behind an 80% charcoal overlay)
-10 | https://unsplash.com/photos/9ag1NYrdE3I photo-1722247482035-73d55ee3d258 (Unsplash License, by Lisa Anna, 4000x2667 download; bright white living room with sliding doors and natural light; LET'S TALK contact slide, no headshot on file so no person shown)
-Oct 31 2026 Signature Authority redesign: every format (img/NN.jpg 4:5, img/1x1/NN.jpg, img/9x16/NN.jpg) is cropped and graded from build/src by TEMPLATES/signature_authority.py (downscale only).
+Buyer tips Oct 31 2026 (title, survey, easements, HOA). Signature Authority v2 design-approval round (4:5 only), rebuilt Oct 31 2026 ~2:15 PM ET to match Denise's example slides. Pexels License / Unsplash License (free, no attribution required). No people as the subject; no house numbers or signs (slide 06: gate-post number and 'PRIVATE' plaque retouched out in src). Warm sunlit grade per format by TEMPLATES/signature_authority.py (downscale only).
+01 | https://www.pexels.com/photo/36178818/ (Pexels License, by Leticia Alvares, 4000x6000; leather sofa and tall plant by a sunny window; cover)
+02 | no photo (stats slide on navy)
+03 | https://www.pexels.com/photo/12955837/ (Pexels License, 4000x2667; wooden house model, keys and contract; TITLE MEANS OWNERSHIP)
+04 | https://www.pexels.com/photo/1358900/ (Pexels License, 4000x2667; bright kitchen island with herbs; LENDER'S VS OWNER'S)
+05 | https://www.pexels.com/photo/7888648/ (Pexels License, 4000x2667; laptop on a sunlit wooden desk with plants; SHOP FOR TITLE)
+06 | https://unsplash.com/photos/yYs2R3k6usc photo-1720670797121-109f3f21136e (Unsplash License, by Wallace Fonseca, 5000x7500; sunlit white cottage with picket fence and lawn; THE LINES ARE)
+07 | https://www.pexels.com/photo/5002323/ (Pexels License, 4000x2667; bright living room with white stone wall; LAND QUESTIONS)
+08 | https://www.pexels.com/photo/4792507/ (Pexels License, 4000x2670; floor plan with eyeglasses and pen; HOA RULES)
+09 | https://www.pexels.com/photo/36845626/ (Pexels License, 4000x6000; rocking chair on a sunlit South Carolina cabin porch; ASK QUESTIONS)
+10 | https://unsplash.com/photos/9ag1NYrdE3I photo-1722247482035-73d55ee3d258 (Unsplash License, by Lisa Anna; bright living room, blurred background) + Denise's real headshot: TEMPLATES/denise-wilson-headshot-cutout.png (cropped from her 1:1 example slide TEMPLATES/signature-authority-examples/01M69GT5HEGMY2SCQ8B8KKJKS7.png, background removed with rembg u2net_human_seg; face not altered)
+Retired from earlier Oct 31 drafts of this carousel (kept in registry as used): Pexels 4500474, 6283960, 6782369, 7914572, 10099333, 8082229, 3701434; Unsplash 1647579350413-a6ada4e480ed, 1784810801262-d0d27227a480.

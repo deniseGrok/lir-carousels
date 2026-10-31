@@ -1,188 +1,166 @@
-"""Signature Authority renderer: Denise's "Buyer & Seller Tips — Signature Authority" design (template sheet received Oct 31 2026,
-reference image TEMPLATES/signature-authority-template.png, spec TEMPLATES/SIGNATURE_AUTHORITY.md).
+"""Signature Authority renderer, v2 (Oct 31 2026): matches Denise's example slides in TEMPLATES/signature-authority-examples/
+(10 x 4:5 examples + template guide + 1:1 headshot slide). Spec: TEMPLATES/SIGNATURE_AUTHORITY.md.
+
+Look: warm, sunlit lifestyle photo stays vivid; a LEFT navy gradient behind the text fades to the clear photo on the right,
+plus a navy fade at the bottom for the footer (no even dark overlay). Anton headline: line 1 white, line 2 coral.
+Big Montserrat body, 4 short bullets with big filled check bubbles, sage BUYER TIP / coral SELLER TIP pill top-left,
+footer "BUYER & SELLER TIPS" + "N / 10 →".
 
 Usage (from a carousel's build/build_slides.py):
-    import sys; sys.path.insert(0, "/workspace/repos/lir-carousels/TEMPLATES")
-    import signature_authority as sa
-    SL = [sa.cover(...), sa.stats(...), sa.edu(...), ..., sa.cta(...)]   # 10 slide dicts
-    sa.build(SL, carousel_dir, build_dir, pdf_name, series="buyer")       # 4:5 + 1:1 (+ 9:16 if formats includes "9x16")
-
-Outputs: slide-NN.png 1080x1350 (4:5, IG + LinkedIn) + PDF + slides.zip; slides-1x1/slide-NN.png 1080x1080 (Facebook) + slides-1x1.zip;
-optional slides-9x16/slide-NN.png 1080x1920 (TikTok, only when Denise asks for it) + slides-9x16.zip.
-Headline markup: [[words]] -> coral highlight. Photos: full-bleed, graded and cropped per format from build/src originals.
+    import sys; sys.path.insert(0, "/workspace/repos/lir-carousels/TEMPLATES"); import signature_authority as sa
+    SL = [sa.cover(...), sa.stats(...), sa.edu(...)*7, sa.cta(...)]
+    sa.build(SL, carousel_dir, build_dir, pdf_name, series="buyer")     # 4:5 1080x1350 only (slide-NN.png, PDF, slides.zip)
+1:1 / 9:16 are NOT laid out in v2 yet; add them only after Denise approves the 4:5 design.
 """
 import os, html, subprocess, zipfile
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 Image.MAX_IMAGE_PIXELS = None
 
-NAVY, TEAL, CORAL, WHITE, CHAR = "#0E3042", "#9BB7AE", "#E38B6C", "#F5F3EE", "17,33,42"   # CHAR = #11212A as rgb
+NAVY, NAVY_RGB, SAGE, CORAL, WHITE = "#0E3042", "14,48,66", "#A9C9B8", "#E38B6C", "#F5F3EE"
+W, H = 1080, 1350
+L = 58            # left margin (examples sit ~40-60px in)
 GF = "/usr/share/fonts/truetype/sand-box/google"
-FONTS = (f"@font-face{{font-family:Bebas;src:url('file://{GF}/Bebas Neue/BebasNeue-Regular.ttf')}}"
+TPL = os.path.dirname(os.path.abspath(__file__))
+HEADSHOT = os.path.join(TPL, "denise-wilson-headshot-cutout.png")   # real headshot, background removed (from Denise's 1:1 example)
+FONTS = (f"@font-face{{font-family:Anton;src:url('file://{GF}/Anton/Anton-Regular.ttf')}}"
          f"@font-face{{font-family:Mont;src:url('file://{GF}/Montserrat/Montserrat-VariableFont_wght.ttf');font-weight:100 900}}"
          f"@font-face{{font-family:Script;src:url('file://{GF}/Great Vibes/GreatVibes-Regular.ttf')}}")
-CHECK = (f"<svg viewBox='0 0 24 24' class='ck'><circle cx='12' cy='12' r='12' fill='{CORAL}'/>"
-         "<path d='M6.6 12.4l3.6 3.5 7.2-7.6' fill='none' stroke='#fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/></svg>")
-EHO_ICON = ("<svg viewBox='0 0 40 40' class='eho'><path d='M20 3L2 17h5v20h26V17h5z' fill='none' stroke='currentColor' stroke-width='3'/>"
-            "<rect x='12' y='19' width='16' height='3.6' fill='currentColor'/><rect x='12' y='26' width='16' height='3.6' fill='currentColor'/></svg>")
-PHONE_ICON = (f"<svg viewBox='0 0 24 24' class='ic'><circle cx='12' cy='12' r='12' fill='{NAVY}'/><path d='M8.2 6.5l2 .1 1 2.6-1.3 1.1a8 8 0 0 0 3.8 3.8l1.1-1.3 2.6 1 .1 2a1.6 1.6 0 0 1-1.8 1.6A10.6 10.6 0 0 1 6.6 8.3a1.6 1.6 0 0 1 1.6-1.8z' fill='#fff'/></svg>")
-WEB_ICON = (f"<svg viewBox='0 0 24 24' class='ic'><circle cx='12' cy='12' r='12' fill='{NAVY}'/><g fill='none' stroke='#fff' stroke-width='1.4'>"
-            "<circle cx='12' cy='12' r='6'/><ellipse cx='12' cy='12' rx='2.6' ry='6'/><path d='M6 12h12'/></g></svg>")
 
-# Per-format geometry. Safe margins ~120px (4:5); 9:16 keeps TikTok UI zones clear (top 150, bottom 250, right 120).
-FMT = {
- "4x5":  dict(W=1080, H=1350, L=110, R=110, T=110, B=110, h1=118, body=34, li=33, tag=27, foot=25, cover=150, script=168, gap=1.0),
- "1x1":  dict(W=1080, H=1080, L=96,  R=96,  T=84,  B=84,  h1=98,  body=29, li=28, tag=24, foot=23, cover=124, script=138, gap=.72),
- "9x16": dict(W=1080, H=1920, L=100, R=140, T=170, B=262, h1=140, body=40, li=39, tag=30, foot=27, cover=168, script=190, gap=1.4),
-}
+def check(color):
+    return (f"<svg viewBox='0 0 40 40' class='ck'><circle cx='20' cy='20' r='20' fill='{color}'/>"
+            "<path d='M11 20.5l6 6 12-13' fill='none' stroke='#fff' stroke-width='4.2' stroke-linecap='round' stroke-linejoin='round'/></svg>")
+EHO = ("<svg viewBox='0 0 48 46' class='eho'><path d='M24 2L1 20h6v24h34V20h6z' fill='none' stroke='#fff' stroke-width='3.4' stroke-linejoin='round'/>"
+       "<rect x='14' y='22' width='20' height='4.4' fill='#fff'/><rect x='14' y='31' width='20' height='4.4' fill='#fff'/></svg>")
 
-def hl(s):
-    s = html.escape(s, quote=False)
-    return s.replace("[[", "<span class='hi'>").replace("]]", "</span>").replace("|", "<br>")
+def warm(im, bright=1.06, sat=1.12, gold=1.0):
+    """Warm, sunlit, vivid grade (never dark): lift, golden balance, +saturation, light sharpen."""
+    im = Image.blend(im, ImageOps.autocontrast(im, cutoff=0.4), 0.3)
+    R, G, B = im.split()
+    R = R.point(lambda v: min(255, int(v*(1+.05*gold)+4*gold))); G = G.point(lambda v: min(255, int(v*(1+.015*gold)+1)))
+    B = B.point(lambda v: int(v*(1-.075*gold)))
+    im = Image.merge("RGB", (R, G, B))
+    im = im.point(lambda v: int(255*(v/255)**(1/bright)))
+    im = ImageEnhance.Color(im).enhance(sat); im = ImageEnhance.Contrast(im).enhance(1.04)
+    return im.filter(ImageFilter.UnsharpMask(1.0, 60, 2))
 
-def grade(im, lift=1.0, sat=1.0):
-    """Bright, warm, clean grade (never dark): mild autocontrast, slight warmth, +5% contrast, sharpen; optional gamma lift."""
-    im = Image.blend(im, ImageOps.autocontrast(im, cutoff=0.3), 0.35)
-    R, G, B = im.split(); R = R.point(lambda v: min(255, int(v*1.012+1))); B = B.point(lambda v: int(v*0.988)); im = Image.merge("RGB", (R, G, B))
-    im = ImageEnhance.Contrast(im).enhance(1.05)
-    if lift != 1.0: im = im.point(lambda v: int(255*(v/255)**(1/lift)))
-    if sat != 1.0: im = ImageEnhance.Color(im).enhance(sat)
-    return im.filter(ImageFilter.UnsharpMask(1.0, 70, 2))
-
-def crop(src, W, H, x=.5, y=.5, pre=None):
+def crop(src, w, h, x=.5, y=.5, pre=None):
     im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
     if pre: im = im.crop(pre)
-    r = max(W/im.width, H/im.height); assert r <= 1.02, (src, im.size, W, H)   # downscale only (<=2% tolerance)
+    r = max(w/im.width, h/im.height); assert r <= 1.02, (src, im.size, w, h)
     im = im.resize((round(im.width*r), round(im.height*r)), Image.LANCZOS)
-    l = int((im.width-W)*x); t = int((im.height-H)*y); return im.crop((l, t, l+W, t+H))
+    l = int((im.width-w)*x); t = int((im.height-h)*y); return im.crop((l, t, l+w, t+h))
 
-CSS = """*{margin:0;padding:0;box-sizing:border-box}html,body{width:%(W)dpx;height:%(H)dpx;overflow:hidden;background:%(NAVY)s}
-.s{position:relative;width:%(W)dpx;height:%(H)dpx;overflow:hidden;font-family:Mont;color:#fff}
-.ph{position:absolute;inset:0;background-size:cover;background-position:center}
-.ov{position:absolute;inset:0;background:%(OV)s}
-.fs{position:absolute;left:0;right:0;bottom:0;height:%(FS)dpx;background:linear-gradient(180deg,rgba(17,33,42,0) 0,rgba(17,33,42,.42) 50%%,rgba(17,33,42,.6) 100%%)}
-.tag{position:absolute;left:%(L)dpx;top:%(T)dpx;background:%(TAGBG)s;color:%(NAVY)s;font-weight:600;letter-spacing:.14em;font-size:%(tag)dpx;
- padding:.5em 1.05em .46em;border-radius:6px;text-transform:uppercase}
-.c{position:absolute;left:%(L)dpx;right:%(R)dpx;top:%(CT)dpx;z-index:1}
-.c.scrim:before{content:'';position:absolute;z-index:-1;left:-%(L)dpx;right:-%(R)dpx;top:-%(SCT)dpx;bottom:-170px;background:linear-gradient(180deg,rgba(17,33,42,.66) 0,rgba(17,33,42,.60) calc(100%% - 230px),rgba(17,33,42,.26) calc(100%% - 110px),rgba(17,33,42,0) 100%%)}
-.tag,.ft{z-index:2}
-h1{font-family:Bebas;font-weight:400;font-size:%(h1)dpx;line-height:.94;letter-spacing:.012em;text-transform:uppercase;text-shadow:0 2px 18px rgba(0,0,0,.35)}
-.hi{color:%(CORAL)s}
-p.b{font-size:%(body)dpx;line-height:1.38;margin-top:%(g1)dpx;max-width:30em;text-shadow:0 1px 10px rgba(0,0,0,.45)}
-ul{list-style:none;margin-top:%(g2)dpx}
-li{display:flex;align-items:flex-start;font-weight:500;font-size:%(li)dpx;line-height:1.3;margin-bottom:%(g3)dpx;text-shadow:0 1px 10px rgba(0,0,0,.45)}
-.ck{flex:0 0 auto;width:1.15em;height:1.15em;margin:.08em .62em 0 0}
-.ft{position:absolute;left:%(L)dpx;right:%(R)dpx;bottom:%(B)dpx;display:flex;justify-content:space-between;align-items:center;
- font-weight:600;font-size:%(foot)dpx;letter-spacing:.16em;color:#fff;padding-top:18px;text-shadow:0 1px 3px rgba(17,33,42,.9),0 0 14px rgba(17,33,42,.85);border-top:2px solid rgba(155,183,174,.55)}
-.ft .pg{letter-spacing:.06em}.ft .pg b{color:%(CORAL)s;font-weight:700;font-size:1.45em;line-height:0;vertical-align:-.06em;margin-left:.15em}
-.src{font-size:%(src)dpx;line-height:1.35;opacity:.92;margin-top:%(g2)dpx}
+def hl(s):   # "line one|line two" -> white line + coral line
+    a, _, b = s.partition("|")
+    return html.escape(a) + (f"<br><span class='co'>{html.escape(b)}</span>" if b else "")
+
+CSS = f"""*{{margin:0;padding:0;box-sizing:border-box}}html,body{{width:{W}px;height:{H}px;overflow:hidden;background:{NAVY}}}
+.s{{position:relative;width:{W}px;height:{H}px;overflow:hidden;font-family:Mont;color:#fff}}
+.ph{{position:absolute;inset:0;background-size:cover;background-position:center}}
+.gl{{position:absolute;inset:0;background:linear-gradient(90deg,rgba({NAVY_RGB},.93) 0,rgba({NAVY_RGB},.84) 30%,rgba({NAVY_RGB},.52) 50%,rgba({NAVY_RGB},.12) 66%,rgba({NAVY_RGB},0) 76%)}}
+.gt{{position:absolute;left:0;right:0;top:0;height:170px;background:linear-gradient(180deg,rgba({NAVY_RGB},.38),rgba({NAVY_RGB},0))}}
+.gb{{position:absolute;left:0;right:0;bottom:0;height:300px;background:linear-gradient(180deg,rgba({NAVY_RGB},0) 0,rgba({NAVY_RGB},.62) 55%,rgba({NAVY_RGB},.9) 100%)}}
+.tag{{position:absolute;left:{L}px;top:46px;color:{NAVY};font-weight:700;font-size:38px;letter-spacing:.02em;padding:10px 22px 9px;border-radius:9px;z-index:3}}
+.c{{position:absolute;left:{L}px;top:150px;width:690px;z-index:3}}
+h1{{font-family:Anton;font-weight:400;font-size:92px;line-height:1.02;letter-spacing:.004em;text-transform:uppercase;text-shadow:0 3px 18px rgba(0,0,0,.35)}}
+.co{{color:{CORAL}}}
+p.b{{font-size:33px;line-height:1.3;font-weight:500;margin-top:24px;max-width:600px;text-shadow:0 2px 12px rgba(0,0,0,.4)}}
+ul{{list-style:none;margin-top:34px}}
+li{{display:flex;align-items:center;font-weight:600;font-size:32px;white-space:nowrap;line-height:1.2;margin-bottom:22px;text-shadow:0 2px 12px rgba(0,0,0,.45)}}
+.ck{{flex:0 0 auto;width:52px;height:52px;margin-right:20px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.25))}}
+.ft{{position:absolute;left:{L}px;right:{L}px;bottom:46px;display:flex;justify-content:space-between;align-items:flex-end;z-index:3;
+ font-weight:600;font-size:23px;letter-spacing:.12em;text-shadow:0 1px 8px rgba(0,0,0,.5)}}
+.ft .ln{{display:block;width:46px;height:3px;background:{CORAL};margin-bottom:14px}}
+.ft .pg{{letter-spacing:.06em;font-size:25px}}
 """
 
-def page(fmt, inner, ov, extra="", tagbg=TEAL):
-    f = dict(FMT[fmt]); W, H = f["W"], f["H"]
-    f.update(NAVY=NAVY, CORAL=CORAL, OV=ov, TAGBG=tagbg, CT=f["T"]+int(f["tag"]*3.6), FS=f["B"]+150, SCT=f["T"]+int(f["tag"]*3.6), g1=int(26*f["gap"]), g2=int(34*f["gap"]),
-             g3=int(20*f["gap"]), src=int(f["body"]*.72))
-    return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONTS}{CSS % f}{extra}</style></head>"
-            f"<body><div class='s'>{inner}</div></body></html>")
+def foot(n, total, left="BUYER &amp; SELLER TIPS"):
+    return f"<div class='ft'><div><span class='ln'></span>{left}</div><div class='pg'>{n} / {total} →</div></div>"
 
-def overlay(fmt, kind):
-    """Charcoal #11212A at 60-80% where text sits, lighter over the open photo so it stays bright; footer zone re-darkened."""
-    c = CHAR
-    if kind == "flat":   return f"rgba({c},.80)"
-    if kind == "cover":  return (f"linear-gradient(90deg,rgba({c},.60) 0,rgba({c},.40) 48%,rgba({c},0) 80%),"
-                                 f"linear-gradient(180deg,rgba({c},.06) 0,rgba({c},0) 60%,rgba({c},.40) 100%)")
-    return f"rgba({c},.04)"   # edu / cta: light wash only; the charcoal scrim (60-66%) sits behind the text block (.c.scrim)
+def cover(photo, lead, script, sub_html, **k): return dict(kind="cover", photo=photo, lead=lead, script=script, sub=sub_html, **k)
+def edu(photo, head, body, items, **k):         return dict(kind="edu", photo=photo, head=head, body=body, items=items, **k)
+def stats(head, rows, takeaway, source, **k):  return dict(kind="stats", head=head, rows=rows, takeaway=takeaway, source=source, **k)
+def cta(photo, contact, **k):                   return dict(kind="cta", photo=photo, contact=contact, **k)
 
-def bullets(items): return "<ul>" + "".join(f"<li>{CHECK}<span>{html.escape(i, quote=False)}</span></li>" for i in items) + "</ul>"
-def footer(n, total, series): return (f"<div class='ft'><span>BUYER &amp; SELLER TIPS</span><span class='pg'>{n} / {total} <b>→</b></span></div>")
-
-# ---- slide constructors (return dicts; rendered per format in build) ----
-def cover(photo, lead, script, sub, kicker="", **k):   return dict(kind="cover", photo=photo, lead=lead, script=script, sub=sub, kicker=kicker, **k)
-def edu(photo, head, body, items, **k):                 return dict(kind="edu", photo=photo, head=head, body=body, items=items, **k)
-def stats(photo, head, rows, takeaway, source, **k):    return dict(kind="stats", photo=photo, head=head, rows=rows, takeaway=takeaway, source=source, **k)
-def cta(photo, head, sub, body, contact, **k):          return dict(kind="cta", photo=photo, head=head, sub=sub, body=body, contact=contact, **k)
-
-def inner(sd, fmt, n, total, series, imgurl):
-    f = FMT[fmt]; tag = sd.get("tag", "BUYER TIP" if series == "buyer" else "SELLER TIP")
-    tagbg = TEAL if series == "buyer" else CORAL
-    ph = f"<div class='ph' style=\"background-image:url('{imgurl}')\"></div>"
-    k = sd["kind"]; extra = ""
+def inner(sd, n, total, series, img):
+    tagc = SAGE if series == "buyer" else CORAL
+    tagtxt = sd.get("tag", "BUYER TIP" if series == "buyer" else "SELLER TIP")
+    bub = sd.get("bubble", CORAL)
+    ph = f"<div class='ph' style=\"background-image:url('file://{img}')\"></div>" if img else ""
+    k = sd["kind"]; extra = sd.get("css", "")
+    if k == "edu":
+        items = "".join(f"<li>{check(bub)}<span>{html.escape(i)}</span></li>" for i in sd["items"])
+        body = (f"<div class='tag' style='background:{tagc}'>{tagtxt}</div><div class='c'><h1>{hl(sd['head'])}</h1>"
+                f"<p class='b'>{html.escape(sd['body'])}</p><ul>{items}</ul></div>")
+        return ph + "<div class='gl'></div><div class='gt'></div><div class='gb'></div>" + body + foot(n, total), extra
     if k == "cover":
-        body = (f"<div class='lead'>{hl(sd['lead'])}</div><div class='scr'>{html.escape(sd['script'])}</div>"
-                f"<div class='sub'>{sd['sub']}</div>" + (f"<div class='kick'>{html.escape(sd['kicker'])}</div>" if sd['kicker'] else ""))
-        top = {"4x5": 330, "1x1": 240, "9x16": 470}[fmt]
-        extra = (f".c{{top:{top}px}}.lead{{font-family:Bebas;font-size:{f['cover']}px;line-height:.9;letter-spacing:.01em;text-shadow:0 2px 18px rgba(0,0,0,.35)}}"
-                 f".scr{{font-family:Script;color:{CORAL};font-size:{f['script']}px;line-height:1;margin:-.06em 0 0 .04em;text-shadow:0 2px 16px rgba(0,0,0,.35)}}"
-                 f".sub{{font-size:{int(f['body']*1.12)}px;margin-top:{int(30*f['gap'])}px;line-height:1.3}}.sub b{{font-weight:800;color:{TEAL};letter-spacing:.06em}}"
-                 f".kick{{display:inline-block;margin-top:{int(30*f['gap'])}px;font-weight:600;letter-spacing:.14em;font-size:{f['tag']}px;"
-                 f"padding:.55em 1em;border:2px solid {CORAL};border-radius:6px}}")
-        ov = overlay(fmt, "cover")
-    elif k == "edu":
-        body = f"<h1>{hl(sd['head'])}</h1><p class='b'>{html.escape(sd['body'], quote=False)}</p>{bullets(sd['items'])}"
-        ov = overlay(fmt, "edu")
-        if sd.get("h1"): extra = f"h1{{font-size:{int(f['h1']*sd['h1'])}px}}"
-    elif k == "stats":
+        body = (f"<div class='box'><div class='b1'>BUYER &amp; SELLER TIPS</div><div class='b2'>CHARLOTTE METRO • NC + SC</div></div>"
+                f"<div class='c cv'><div class='lead'>{html.escape(sd['lead'])}</div><div class='scr'>{html.escape(sd['script'])}</div>"
+                f"<div class='sub'>{sd['sub']}</div></div>"
+                f"<div class='ft'><div><div class='dw'>DENISE WILSON</div><div class='dw2'>REALTOR® | LIFESTYLE INTERNATIONAL REALTY</div></div>"
+                f"<div class='pg'>{n} / {total} →</div></div>")
+        extra += (f".box{{position:absolute;left:{L}px;top:50px;background:rgba({NAVY_RGB},.92);border:2px solid rgba(255,255,255,.18);padding:16px 24px 14px;z-index:3;border-radius:4px}}"
+                  ".b1{font-family:Anton;font-size:46px;letter-spacing:.03em;line-height:1}.b2{font-weight:600;font-size:19px;letter-spacing:.2em;margin-top:8px;color:#dfe8e4}"
+                  ".cv{top:236px;width:760px}.lead{font-weight:300;font-size:72px;white-space:nowrap;line-height:1;letter-spacing:.02em;text-shadow:0 3px 16px rgba(0,0,0,.4)}"
+                  f".scr{{font-family:Script;color:{CORAL};font-size:176px;line-height:.95;margin:6px 0 0 -6px;text-shadow:0 3px 18px rgba(0,0,0,.35)}}"
+                  ".sub{font-size:40px;font-weight:500;line-height:1.2;margin-top:26px;text-shadow:0 2px 12px rgba(0,0,0,.45)}"
+                  f".sub b{{font-family:Anton;font-weight:400;font-size:66px;color:{SAGE};letter-spacing:.02em}}"
+                  f".gl{{background:linear-gradient(90deg,rgba({NAVY_RGB},.80) 0,rgba({NAVY_RGB},.58) 36%,rgba({NAVY_RGB},.16) 60%,rgba({NAVY_RGB},0) 72%)}}"
+                  ".dw{font-family:Anton;font-size:34px;letter-spacing:.06em;line-height:1.1}.dw2{font-weight:600;font-size:17px;letter-spacing:.14em;margin-top:6px}")
+        return ph + "<div class='gl'></div><div class='gt'></div><div class='gb'></div>" + body, extra
+    if k == "stats":
         rows = "".join(f"<div class='row'><span class='z'>{z}</span><span class='v'>{v}</span><span class='y'>{y}</span></div>" for z, v, y in sd["rows"])
-        body = (f"<h1>{hl(sd['head'])}</h1><div class='rows'>{rows}</div><p class='b tk'>{html.escape(sd['takeaway'], quote=False)}</p>"
-                f"<p class='src'>{html.escape(sd['source'], quote=False)}</p>")
-        rp = {"4x5": (24, 66, 13), "1x1": (14, 50, 9), "9x16": (32, 74, 18)}[fmt]
-        extra = (f".rows{{margin-top:{int(30*f['gap'])}px}}.row{{display:flex;align-items:center;background:rgba(14,48,66,.82);border-left:6px solid {TEAL};"
-                 f"border-radius:8px;padding:{rp[0]}px 28px;margin-bottom:{rp[2]}px}}"
-                 f".row .z{{flex:0 0 40%;font-weight:600;letter-spacing:.1em;font-size:{int(f['li']*.8)}px;line-height:1.2}}"
-                 f".row .v{{flex:1;font-family:Bebas;font-size:{rp[1]}px;line-height:1}}.row .y{{font-weight:600;font-size:{int(f['li']*.86)}px;color:{CORAL}}}"
-                 f".tk{{margin-top:{int(22*f['gap'])}px}}")
-        ov = overlay(fmt, "flat")
-    else:  # cta
-        c = sd["contact"]
-        card = (f"<div class='card'><div class='nm'>{html.escape(c['name'])}</div><div class='ti'>{html.escape(c['title'])}</div>"
-                f"<div class='fm'>{html.escape(c['firm'])}</div>"
-                f"<div class='ln'>{PHONE_ICON}<span>{html.escape(c['phone'])}</span></div>"
-                f"<div class='ln'>{WEB_ICON}<span>{html.escape(c['web'])}</span></div>"
-                f"<div class='eq'>{EHO_ICON}<span>Equal Housing Opportunity</span></div></div>")
-        body = (f"<h1>{hl(sd['head'])}</h1><div class='sb'>{html.escape(sd['sub'])}</div>"
-                f"<p class='b'>{html.escape(sd['body'], quote=False)}</p>{card}")
-        g = f["gap"]
-        extra = (f".sb{{margin-top:{int(14*g)}px;font-weight:600;letter-spacing:.14em;font-size:{f['tag']+2}px;color:{TEAL};text-transform:uppercase}}"
-                 f".card{{margin-top:{int(30*g)}px;background:rgba(245,243,238,.96);color:{NAVY};border-radius:14px;padding:{int(30*g)}px 40px {int(28*g)}px;"
-                 f"border-top:8px solid {CORAL};max-width:{ {'4x5':760,'1x1':720,'9x16':800}[fmt] }px;box-shadow:0 10px 40px rgba(0,0,0,.28)}}"
-                 f".nm{{font-family:Script;color:{CORAL};font-size:{int(f['h1']*.66)}px;line-height:1.05;word-spacing:.22em}}"
-                 f".ti{{font-weight:700;letter-spacing:.12em;font-size:{int(f['li']*.82)}px;margin-top:4px}}"
-                 f".fm{{font-weight:500;font-size:{int(f['li']*.84)}px;margin:6px 0 {int(16*g)}px}}"
-                 f".ln{{display:flex;align-items:center;font-weight:600;font-size:{int(f['li']*.92)}px;margin-top:{int(10*g)}px}}"
-                 f".ic{{width:1.25em;height:1.25em;margin-right:.6em}}"
-                 f".eq{{display:flex;align-items:center;font-weight:600;letter-spacing:.06em;font-size:{int(f['li']*.66)}px;margin-top:{int(18*g)}px;"
-                 f"padding-top:{int(14*g)}px;border-top:1px solid rgba(14,48,66,.25)}}.eho{{width:1.9em;height:1.9em;margin-right:.6em}}")
-        ov = overlay(fmt, "edu")
-    html_inner = ph + f"<div class='ov'></div><div class='fs'></div><div class='tag'>{html.escape(tag)}</div><div class='c{" scrim" if k in ("edu","cta") else ""}'>{body}</div>" + footer(n, total, series)
-    return html_inner, ov, extra, tagbg
+        body = (f"<div class='tag' style='background:{tagc}'>{tagtxt}</div><div class='c st'><h1>{hl(sd['head'])}</h1><div class='rows'>{rows}</div>"
+                f"<p class='b'>{html.escape(sd['takeaway'])}</p><p class='src'>{html.escape(sd['source'])}</p></div>")
+        extra += (".st{width:964px}.rows{margin-top:36px}"
+                  f".row{{display:flex;align-items:center;background:rgba(255,255,255,.06);border-left:7px solid {CORAL};border-radius:10px;padding:22px 30px;margin-bottom:16px}}"
+                  ".row .z{flex:0 0 330px;font-weight:700;font-size:25px;letter-spacing:.1em;line-height:1.2;color:#dfe8e4}"
+                  ".row .v{flex:1;font-family:Anton;font-size:76px;line-height:1}.row .y{font-weight:700;font-size:28px;color:" + CORAL + "}"
+                  ".src{font-size:21px;line-height:1.4;margin-top:22px;color:#c9d6d1}"
+                  f".s{{background:radial-gradient(120% 80% at 85% 10%,#174A63 0,{NAVY} 55%,#0A2533 100%)}}")
+        return body + foot(n, total), extra
+    # cta (slide 10): headshot on the right over a bright, warm, blurred living room
+    c = sd["contact"]
+    hs = f"<img class='hs' src='file://{sd.get('headshot', HEADSHOT)}'>"
+    body = (f"<div class='c ct'><div class='lt'>LET'S TALK</div><div class='lt2'>BUYING OR SELLING?<br>I'M HERE TO HELP.</div></div>"
+            f"<div class='card'><div class='nm'>{html.escape(c['name'])}</div><div class='ti'>{html.escape(c['title'])}</div>"
+            f"<div class='fm'>{html.escape(c['firm'])}</div><div class='ph2'>{html.escape(c['phone'])}</div><div class='wb'>{html.escape(c['web'])}</div>"
+            f"<div class='eq'>{EHO}<span>Equal Housing<br>Opportunity</span></div></div>")
+    extra += (".hs{position:absolute;left:404px;bottom:0;height:880px;z-index:2;filter:drop-shadow(0 10px 30px rgba(0,0,0,.25))}"
+              f".gl{{background:linear-gradient(90deg,rgba({NAVY_RGB},.92) 0,rgba({NAVY_RGB},.78) 36%,rgba({NAVY_RGB},.2) 55%,rgba({NAVY_RGB},0) 66%)}}"
+              ".ct{top:70px;width:960px}.lt{font-weight:800;font-size:104px;line-height:1;letter-spacing:.01em;text-shadow:0 3px 16px rgba(0,0,0,.35)}"
+              ".lt2{font-weight:500;font-size:44px;line-height:1.18;letter-spacing:.05em;margin-top:14px;text-shadow:0 2px 12px rgba(0,0,0,.4)}"
+              f".card{{position:absolute;left:{L}px;top:560px;width:470px;z-index:3;text-shadow:0 2px 10px rgba(0,0,0,.45)}}"
+              f".nm{{font-family:Script;color:{CORAL};font-size:92px;line-height:1;margin-left:-4px;word-spacing:.12em;white-space:nowrap}}"
+              ".ti{font-weight:700;font-size:34px;margin-top:14px}.fm{font-size:27px;line-height:1.3;margin-top:8px}"
+              ".ph2{font-size:32px;font-weight:600;margin-top:18px}.wb{font-size:28px;margin-top:8px}"
+              ".eq{display:flex;align-items:center;margin-top:30px;font-size:21px;line-height:1.2;font-weight:600}.eho{width:62px;height:60px;margin-right:16px}")
+    return ph + "<div class='gl'></div><div class='gb'></div>" + hs + body + foot(n, total), extra
 
-def render(html_path, png, W, H):
+def page(inner_html, extra):
+    return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONTS}{CSS}{extra}</style></head>"
+            f"<body><div class='s'>{inner_html}</div></body></html>")
+
+def render(hp, png):
     subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
                     f"--window-size={W},{H}", f"--screenshot={png}", "--allow-file-access-from-files", "--virtual-time-budget=4000",
-                    f"file://{html_path}"], check=True, capture_output=True)
+                    f"file://{hp}"], check=True, capture_output=True)
     assert Image.open(png).size == (W, H), png
 
-def build(SL, D, B, pdf_name, series="buyer", formats=("4x5", "1x1")):
-    total = len(SL); out = {}
-    for fmt in formats:
-        f = FMT[fmt]; W, H = f["W"], f["H"]
-        hdir = B if fmt == "4x5" else (B if fmt == "1x1" else os.path.join(B, "9x16"))
-        idir = os.path.join(B, "img") if fmt == "4x5" else os.path.join(B, "img", fmt)
-        odir = D if fmt == "4x5" else os.path.join(D, "slides-" + fmt)
-        for d in (hdir, idir, odir): os.makedirs(d, exist_ok=True)
-        pngs = []
-        for n, sd in enumerate(SL, 1):
-            img = os.path.join(idir, f"{n:02d}.jpg")
-            fx, fy = sd.get("focus", {}).get(fmt, sd.get("xy", (.5, .5)))
-            grade(crop(os.path.join(B, "src", sd["photo"]), W, H, fx, fy, sd.get("pre")), sd.get("lift", 1.0), sd.get("sat", 1.0)).save(img, quality=92)
-            hi, ov, extra, tagbg = inner(sd, fmt, n, total, series, "file://" + img)
-            h = page(fmt, hi, ov, extra + sd.get("css", {}).get(fmt, ""), tagbg)
-            hp = os.path.join(hdir, f"slide-{n:02d}" + ("-1x1" if fmt == "1x1" else "") + ".html"); open(hp, "w").write(h)
-            png = os.path.join(odir, f"slide-{n:02d}.png"); render(hp, png, W, H); pngs.append(png)
-        zname = {"4x5": "slides.zip", "1x1": "slides-1x1.zip", "9x16": "slides-9x16.zip"}[fmt]
-        suf = {"4x5": "", "1x1": "-1x1", "9x16": "-9x16"}[fmt]
-        with zipfile.ZipFile(os.path.join(D, zname), "w") as z:
-            for i, p in enumerate(pngs, 1): z.write(p, f"slide-{i:02d}{suf}.png")
-        out[fmt] = pngs
-    ims = [Image.open(p).convert("RGB") for p in out["4x5"]]
+def build(SL, D, B, pdf_name, series="buyer"):
+    total = len(SL); idir = os.path.join(B, "img"); os.makedirs(idir, exist_ok=True); pngs = []
+    for n, sd in enumerate(SL, 1):
+        img = None
+        if sd.get("photo"):
+            img = os.path.join(idir, f"{n:02d}.jpg"); x, y = sd.get("xy", (.5, .5))
+            im = warm(crop(os.path.join(B, "src", sd["photo"]), W, H, x, y, sd.get("pre")), **sd.get("grade", {}))
+            if sd.get("blur"): im = im.filter(ImageFilter.GaussianBlur(sd["blur"]))
+            im.save(img, quality=92)
+        hi, extra = inner(sd, n, total, series, img)
+        hp = os.path.join(B, f"slide-{n:02d}.html"); open(hp, "w").write(page(hi, extra))
+        png = os.path.join(D, f"slide-{n:02d}.png"); render(hp, png); pngs.append(png)
+    with zipfile.ZipFile(os.path.join(D, "slides.zip"), "w") as z:
+        for i, p in enumerate(pngs, 1): z.write(p, f"slide-{i:02d}.png")
+    ims = [Image.open(p).convert("RGB") for p in pngs]
     ims[0].save(os.path.join(D, pdf_name), save_all=True, append_images=ims[1:], resolution=150)
-    return out
+    return pngs
