@@ -1,5 +1,5 @@
 # GenerateImage prompts — Community Spotlight: Matthews, NC (Sun Nov 1 2026)
-STATUS: PENDING. The GenerateImage tool was not available to the routine's build agent, so no images exist yet; nothing below has been generated.
+STATUS: DONE Nov 1, 2026: all 10 generated with GenerateImage and saved as build/src/gen-NN-raw.jpg (864x1152); 03 regenerated once (first try had a palm tree).
 Whoever has GenerateImage: generate each prompt as a 3:4 PORTRAIT image (e.g. 864x1152 or larger), save the raw output as
 `build/src/gen-NN-raw.png` (or .jpg/.webp; NN = 01..10), inspect it at full size, then run from the carousel folder:
 `python3 build/build_slides.py upscale && python3 build/build_slides.py && python3 build/build_slides.py video && python3 build/finish.py`.

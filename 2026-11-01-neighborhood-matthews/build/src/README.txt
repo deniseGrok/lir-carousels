@@ -1,1 +1,1 @@
-Save the 10 raw GenerateImage outputs here as gen-01-raw.png .. gen-10-raw.png (3:4 portrait). See ../IMAGE_PROMPTS.md.
+Raw GenerateImage outputs (generated Nov 1, 2026): gen-01-raw.jpg .. gen-10-raw.jpg (864x1152, 3:4). ESRGAN x4 copies: gen-NN.jpg. See ../IMAGE_PROMPTS.md.

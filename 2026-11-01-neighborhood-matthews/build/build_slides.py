@@ -20,7 +20,7 @@ SL = [
       "Settlers clearing land for cotton left so many tree stumps that the early settlement was unofficially called Stumptown",
       "In July 1825, John Miles Fullwood became postmaster and ran a stagecoach stop, store and post office from his home",
       "Mail went to Fullwood Station, and Stumptown gradually became known as Fullwood"]),
- dict(kind="info", pill="THE RAILROAD", h1="THE TRAIN|[o]NAMED THE TOWN.[/o]", bullets=[
+ dict(kind="info", pill="THE RAILROAD", h1="THE TRAIN|[o]NAMED THE TOWN.[/o]", xy_4x5=(.5, 1.0), xy_1x1=(.5, .85), bullets=[
       "The first train rolled into town on Dec. 15, 1874",
       "The railroad named the stop Matthews, after Edward Matthews, a director of the company",
       "By 1875, mail went to Matthews Station, and the town was incorporated as Matthews in 1879"]),
@@ -36,7 +36,8 @@ SL = [
       "Stumptown Park, two acres at 120 S. Trade St., is used year-round for concerts and special events",
       "It has a performance stage with a dance floor, a playground, a sand volleyball court and picnic areas",
       "It is open dawn to dusk, and the volleyball court and picnic area are first-come, first-served"]),
- dict(kind="info", pill="THE GREENWAY", h1="TRAILS [o]TO THE LAKE.[/o]", bullets=[
+ dict(kind="info", pill="THE GREENWAY", h1="TRAILS [o]TO THE LAKE.[/o]", h1_4x5="TRAILS|[o]TO THE LAKE.[/o]", h1_9x16="TRAILS|[o]TO THE LAKE.[/o]",
+      h1_9x16v="TRAILS|[o]TO THE LAKE.[/o]", bullets=[
       "Four Mile Creek Greenway runs 3.3 miles, connecting downtown Matthews with Squirrel Lake Park",
       "Squirrel Lake Park covers 36 acres, with a fishing pier, walking trails and a 12-hole disc golf course",
       "The greenway also links to the Matthews Heritage Trail and the Sportsplex at Matthews"]),
