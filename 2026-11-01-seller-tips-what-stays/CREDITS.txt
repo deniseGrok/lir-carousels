@@ -1,0 +1,3 @@
+Images for 2026-11-01-seller-tips-what-stays
+Slides 1, 3-9 and slide 10 background: custom-generated illustrative images (Grok Bot GenerateImage), not a real property or person; PENDING generation (see build/IMAGE_PROMPTS.md).
+Slide 10 headshot: Denise Wilson (her own photo), TEMPLATES/denise-wilson-headshot-cutout-hires.png.
