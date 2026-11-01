@@ -1,0 +1,13 @@
+All photos: builder photos from each builder's own website, downloaded Nov 1, 2026 (about 4:15-4:25 AM ET). Credited on-slide "Photo: <Builder>".
+Photos are the builders' real photos: graded (brightness/contrast/saturation, fine unsharp mask) and cover-cropped only; no AI generation.
+House numbers retouched out (column digits blended from the clean trim either side) on slides 01, 02, 03, 04, 05, 06, 09, 10 (see FIX in build_slides.py).
+01 | M/I Homes | mi_4573203 | https://dam.mihomes.com/media/4573203/50422.jpeg | Amber Glen (Locust, NC) page, "Front Exterior" (model)
+02 | Eastwood Homes | ew_rk_nbhd001 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/neighborhoods/001_original.jpg | Rock Creek (Denver, NC) page, community hero photo
+03 | Eastwood Homes | ew_003-68dbdf34087f0 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/003-68dbdf34087f0_original.jpg | Carrington page (community gallery image)
+04 | M/I Homes | mi_5404035 | https://dam.mihomes.com/media/5404035/50422.jpeg | Boulder Ridge (Gastonia, NC) page, "Front exterior"
+05 | M/I Homes | mi_4739251 | https://dam.mihomes.com/media/4739251/50422.jpeg | Annsborough Park (Concord, NC) page, "Front Exterior"
+06 | M/I Homes | mi_3907706 | https://dam.mihomes.com/media/3907706/50422.jpeg | Amber Glen (Locust, NC) page, "Exterior"
+07 | M/I Homes | mi_4774541 | https://dam.mihomes.com/media/4774541/50422.jpeg | Annsborough Park page, "Pool" (amenity)
+08 | Eastwood Homes | ew_012-6a79d8772985f | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/012-6a79d8772985f_original.jpg | Rock Creek page (home gallery, kitchen)
+09 | M/I Homes | mi_4957984 | https://dam.mihomes.com/media/4957984/50422.jpeg | Boulder Ridge page, "Front Exterior" (ranch plan)
+10 | Eastwood Homes | ew_002-68dbd386e02c0 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/002-68dbd386e02c0_original.jpg | Carrington page (community gallery image)
