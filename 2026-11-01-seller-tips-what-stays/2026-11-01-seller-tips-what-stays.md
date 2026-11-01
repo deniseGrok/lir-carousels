@@ -1,6 +1,6 @@
 # Seller Tips: What stays, what goes (fixtures, exclusions, smart devices, leased items, personal property) (Sun Nov 1 2026, midday tips slot)
 DRAFT, awaiting Denise's approval. Nothing has been posted, scheduled, sent, or added to Buffer. When approved: 12:30 PM ET via Buffer: Instagram (4:5 slide-NN.png), Facebook Page (1:1 slides-1x1/), TikTok (9:16 slides-9x16/).
-STATUS Nov 1 ~5:00 AM ET: copy, facts, captions, stats slide data and build script are done and layout-tested; the custom-generated images (GenerateImage) are PENDING, so the slide PNGs, PDF and zips are not built yet. Prompts: build/IMAGE_PROMPTS.md. Then `python3 build/build_slides.py upscale` and `python3 build/build_slides.py`.
+STATUS Nov 1 ~4:55 AM ET: BUILT, DRAFT AWAITING DENISE APPROVAL. All 9 custom-generated images (slides 1, 3-10) generated, checked at full size, Real-ESRGAN upscaled; 4:5, 1:1 and 9:16 sets, 3 PDFs and 3 zips rendered and inspected. Readability boosts after inspection (build_slides.py X): stronger left band on slide 6 (chandelier) in 4:5/1:1, milder boost on slides 7 and 9 in 4:5/1:1, taller 9:16 text ellipse on slides 3, 5, 6, 8, 9. Nothing posted or scheduled.
 10 slides, Signature Authority v2 (Buyer/Seller Tips only; approved Oct 31 2026; matches 2026-10-31-buyer-tips-title-and-survey 4:5 @ 4f30971): coral SELLER TIP pill, Anton headline (white + coral line), 4 coral check bullets, cover script "what goes", slide 2 stats on navy (only slide with a source line), slide 10 LET'S TALK with Denise's real headshot cutout (TEMPLATES/denise-wilson-headshot-cutout-hires.png).
 
 Why seller tips: midday carousel alternates daily (Oct 30 seller pre-listing inspection, Oct 31 buyer title and survey), so Nov 1 is seller tips.
@@ -27,9 +27,9 @@ D. SC: no statewide standard contract; slide 9 says only "In SC, read your contr
 Slides 6 ("Or swap it before you list"), 7 ("Ask your attorney early"), 9 (walk the home, note items, tell your broker) and 10 are planning recommendations in Denise's voice. Not legal or tax advice; slide 7 points sellers to an attorney.
 
 ## Compliance check (TEMPLATES/COMPLIANCE.md + compliance_check.py, run Nov 1 2026)
-Layout test render (HTML text of all 10 slides, 4:5 + 9:16) and captions: no banned/flag words on any slide; slide 10 contact block PASS. Caption FAIL lines are only the approved Oct 31 format overrides: no "Equal Housing Opportunity" line (on slide 10), no closing question, "Swipe" in IG/FB/FB personal captions (TikTok caption avoids it). IG caption has no email.
+Final render Nov 1 (HTML text of all 10 slides in 4:5, 1:1, 9:16) and captions, rerun after the build: no banned/flag words on any slide; slide 10 contact block PASS. Caption FAIL lines are only the approved Oct 31 format overrides: no "Equal Housing Opportunity" line (on slide 10), no closing question, "Swipe" in IG/FB/FB personal captions (TikTok caption avoids it). IG caption has no email.
 - T1-T4: every fact from sources A-B read today; numbers only on slide 2 with source + month; captions carry no statistics; no guarantees ("help prevent", not "prevent"), no urgency.
-- T5: generated illustrations only, no addresses, house numbers, signs or listing implied (re-check each image when generated).
+- T5: generated illustrations only, no addresses, house numbers, signs or listing implied; all 9 images checked Nov 1 (no text, logos, palms; slide 5 thermostat screen is an abstract glow; slide 9 hands natural).
 - T8: form rules explained, attorney pointed to; "Not legal or tax advice" noted here.
 - Fair Housing: homes, items, documents and process only; people only incidental (a hand on slides 5 and 9); no "perfect for", "safe", "family-friendly", "exclusive", schools or crime.
 

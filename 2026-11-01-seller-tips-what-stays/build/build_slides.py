@@ -13,8 +13,19 @@ CONTACT = dict(name="Denise Wilson", title="Broker/REALTOR®", firm="Lifestyle I
 GEN = dict(expo=1.04, shadows=.12, clarity=14, vib=1.08, warmth=.35, sharp=70, contrast=1.03)   # gentler grade for generated images
 F = {k: dict(xy_1x1=(.5, .5), xy_9x16=(.72, .5)) for k in (1, 3, 4, 5, 6, 7, 8, 9)}
 P = dict(xy=(.5, .5), crisp=GEN, bright_all=True)
+# Per-slide readability boosts (Nov 1 inspection): text crossed the crystal chandelier (6), the white clipboard (9),
+# the bright sky (7); in 9:16 the ~85%-wide text also crossed the thermostat (5), fridge (8) and sconce/window (3).
+NV = "14,48,66"
+def band(a0, a1, a2, a3, stop):   # stronger 4:5 / 1:1 left band
+    return (f".gl{{background:linear-gradient(90deg,rgba({NV},{a0}) 0,rgba({NV},{a1}) 30%,rgba({NV},{a2}) 46%,"
+            f"rgba({NV},{a3}) 58%,rgba({NV},0) {stop}%)!important}}")
+TALL = (f".gl{{background:radial-gradient(ellipse 92% 36% at 36% 37%,rgba({NV},.84) 0,rgba({NV},.62) 55%,rgba({NV},0) 100%),"
+        f"linear-gradient(90deg,rgba({NV},.7) 0,rgba({NV},.52) 40%,rgba({NV},.22) 64%,rgba({NV},0) 78%)!important}}")
+STRONG, MILD = band(.9, .84, .66, .32, 70), band(.86, .78, .52, .2, 66)
+X = {3: dict(css_9x16=TALL), 5: dict(css_9x16=TALL), 6: dict(css_4x5=STRONG, css_1x1=STRONG, css_9x16=TALL),
+     7: dict(css_4x5=MILD, css_1x1=MILD), 8: dict(css_9x16=TALL), 9: dict(css_4x5=MILD, css_1x1=MILD, css_9x16=TALL)}
 SL = [
- sa.cover("gen-01.jpg", "WHAT STAYS,", "what goes", "Practical advice for<br><b>SELLERS.</b>", **P, **F[1]),
+ sa.cover("gen-01.jpg", "WHAT STAYS,", "what goes", "Practical advice for<br><b>SELLERS.</b>", **P, **F[1], **X.get(1, {})),
  sa.stats("Charlotte metro|September 2026",
           [("MEDIAN<br>LIST PRICE", "$424,950", "−3.1% YoY"), ("ACTIVE<br>LISTINGS", "11,182", "+10.3% YoY"),
            ("MEDIAN DAYS<br>ON MARKET", "64", "+10.3% YoY"), ("PRICE-REDUCED<br>SHARE", "26.2%", "+0.7 pts YoY")],
@@ -22,19 +33,19 @@ SL = [
           "Source: Realtor.com Economic Research, Charlotte-Concord-Gastonia, NC-SC metro, September 2026"),
  sa.edu("gen-03.jpg", "Fixtures|usually stay.",
         "On NC's standard offer form, existing fixtures are included in the price unless excluded in writing.",
-        ["Light fixtures, ceiling fans", "Built-in appliances", "Blinds, shades, curtain rods", "Mirrors and TV wall mounts"], **P, **F[3]),
+        ["Light fixtures, ceiling fans", "Built-in appliances", "Blinds, shades, curtain rods", "Mirrors and TV wall mounts"], **P, **F[3], **X.get(3, {})),
  sa.edu("gen-04.jpg", "The list goes|outside, too.", "The NC form's list also covers items around the home and yard.",
-        ["In-ground plants and trees", "Storage sheds", "Mailboxes, outdoor lighting", "EV chargers, solar systems"], **P, **F[4]),
+        ["In-ground plants and trees", "Storage sheds", "Mailboxes, outdoor lighting", "EV chargers, solar systems"], **P, **F[4], **X.get(4, {})),
  sa.edu("gen-05.jpg", "Smart devices|count, too.", "Smart versions of listed items stay. Before closing, the NC form asks you to clear them.",
-        ["Thermostats, doorbells", "Security cameras, sensors", "Unpair from phones and apps", "Delete data, factory reset"], **P, **F[5]),
+        ["Thermostats, doorbells", "Security cameras, sensors", "Unpair from phones and apps", "Delete data, factory reset"], **P, **F[5], **X.get(5, {})),
  sa.edu("gen-06.jpg", "Taking it?|Put it in writing.", "Plan to keep something that would normally stay? List it as excluded in the contract.",
-        ["A favorite light fixture", "When in doubt, list it", "Or swap it before you list", "Repair any removal damage"], **P, **F[6]),
+        ["A favorite light fixture", "When in doubt, list it", "Or swap it before you list", "Repair any removal damage"], **P, **F[6], **X.get(6, {})),
  sa.edu("gen-07.jpg", "Leased items|don't convey.", "Anything leased or not owned by you must be identified in the contract.",
-        ["Leased alarm systems", "Leased fuel tanks", "Liens on solar or HVAC", "Ask your attorney early"], **P, **F[7]),
+        ["Leased alarm systems", "Leased fuel tanks", "Liens on solar or HVAC", "Ask your attorney early"], **P, **F[7], **X.get(7, {})),
  sa.edu("gen-08.jpg", "Personal items|are separate.", "Freestanding items, like a refrigerator, are personal property. If one is part of the sale, list it.",
-        ["Freestanding refrigerator", "Curtains and draperies", "Listed at no value in NC", "Buyer's lender may weigh in"], **P, **F[8]),
+        ["Freestanding refrigerator", "Curtains and draperies", "Listed at no value in NC", "Buyer's lender may weigh in"], **P, **F[8], **X.get(8, {})),
  sa.edu("gen-09.jpg", "Match the listing|to the contract.", "The NC form says not to assume an item stays or goes based on an ad.",
-        ["Walk the home room by room", "Note what you plan to take", "Tell your broker before listing", "In SC, read your contract too"], **P, **F[9]),
+        ["Walk the home room by room", "Note what you plan to take", "Tell your broker before listing", "In SC, read your contract too"], **P, **F[9], **X.get(9, {})),
  sa.cta("gen-10.jpg", CONTACT, xy=(.5, .5), blur=7, grade=dict(bright=1.1, gold=1.2)),
 ]
 def upscale():

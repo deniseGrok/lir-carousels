@@ -1,3 +1,13 @@
-Images for 2026-11-01-seller-tips-what-stays
-Slides 1, 3-9 and slide 10 background: custom-generated illustrative images (Grok Bot GenerateImage), not a real property or person; PENDING generation (see build/IMAGE_PROMPTS.md).
-Slide 10 headshot: Denise Wilson (her own photo), TEMPLATES/denise-wilson-headshot-cutout-hires.png.
+Images for 2026-11-01-seller-tips-what-stays (Seller tips Nov 1 2026, "What stays, what goes"). Signature Authority v2.
+Slides 1, 3-9 and the slide 10 background are CUSTOM-GENERATED ILLUSTRATIVE IMAGES (Grok Bot GenerateImage, generated Nov 1 2026): photorealistic illustrations, NOT photos of a real or specific property or person; do not present them as a listing, a client or a testimonial. No third-party license or attribution required; no on-slide label.
+Pipeline: raw 864x1152 (build/src/gen-NN-raw.jpg) -> Real-ESRGAN x4plus 4x upscale blended 80/20 with Lanczos (build/src/gen-NN.jpg, 3456x4608) -> crop per size, crisp() GEN grade -> build/img/, build/img-1x1/, build/img-9x16/ -> 2x text layer composite. Prompts: build/IMAGE_PROMPTS.md. Registered in TEMPLATES/photo-registry.csv (provider "generated", source ids gen-2026-11-01-seller-tips-NN).
+01 | custom-generated: bright dining room with a brass chandelier, tall sunlit windows and two plain taped moving boxes (cover, WHAT STAYS, WHAT GOES)
+02 | no photo (stats slide on navy)
+03 | custom-generated: sunlit living room corner with ceiling fan, brass wall sconce and linen roller shades (FIXTURES USUALLY STAY)
+04 | custom-generated: backyard with a painted wooden storage shed, flower beds, stone path and low landscape path lights (THE LIST GOES OUTSIDE, TOO)
+05 | custom-generated: hand adjusting a round smart thermostat; screen is an abstract glow, no digits or text (SMART DEVICES COUNT, TOO)
+06 | custom-generated: crystal-and-brass pendant light in a sunlit foyer (TAKING IT? PUT IT IN WRITING)
+07 | custom-generated: two-story craftsman-style home with roof solar panels, pines and lawn at golden hour (LEASED ITEMS DON'T CONVEY)
+08 | custom-generated: bright kitchen with a freestanding stainless refrigerator and sheer linen curtains (PERSONAL ITEMS ARE SEPARATE)
+09 | custom-generated: hands with a pen over a clipboard with a blank checklist (no readable words) in a sunlit living room (MATCH THE LISTING TO THE CONTRACT)
+10 | custom-generated: bright warm living room with sunlit windows, sofa and plant (blurred LET'S TALK background) + Denise Wilson's real headshot (her own photo): TEMPLATES/denise-wilson-headshot-cutout-hires.png (face not altered)
