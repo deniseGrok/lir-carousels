@@ -21,7 +21,7 @@ def band(a0, a1, a2, a3, stop):
 TALL = (f".gl{{background:radial-gradient(ellipse 92% 36% at 36% 37%,rgba({NV},.84) 0,rgba({NV},.62) 55%,rgba({NV},0) 100%),"
         f"linear-gradient(90deg,rgba({NV},.7) 0,rgba({NV},.52) 40%,rgba({NV},.22) 64%,rgba({NV},0) 78%)!important}}")
 STRONG, MILD = band(.9, .84, .66, .32, 70), band(.86, .78, .52, .2, 66)
-X = {}   # per-slide readability boosts: set after inspecting the rendered slides (e.g. {6: dict(css_4x5=STRONG, css_9x16=TALL)})
+X = {3: dict(css_4x5=STRONG, css_1x1=STRONG, css_9x16=TALL), 4: dict(css_4x5=STRONG), 7: dict(css_4x5=STRONG)}   # per-slide readability boosts (set Nov 2 after full-size inspection: text over bright counter, phone, sky) (e.g. {6: dict(css_4x5=STRONG, css_9x16=TALL)})
 SL = [
  sa.cover("gen-01.jpg", "INSURE IT", "before you close", "Practical advice for<br><b>BUYERS.</b>", **P, **F[1], **X.get(1, {})),
  sa.stats("Charlotte metro|September 2026",

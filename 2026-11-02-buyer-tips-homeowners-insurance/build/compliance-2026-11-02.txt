@@ -1,3 +1,4 @@
+Re-run Nov 2 2026 after slides rendered (python3 TEMPLATES/compliance_check.py 2026-11-02-buyer-tips-homeowners-insurance):
 PASS captions.md [Instagram] firm name
 PASS captions.md [Instagram] phone
 FAIL captions.md [Instagram] Equal Housing Opportunity
@@ -22,3 +23,4 @@ PASS build/slide-10.html contact block complete
 PASS build/slide-10-1x1.html contact block complete
 PASS build/slide-10-9x16.html contact block complete
 RESULT: FAIL (11 fail lines)
+Caption FAIL lines are only the approved Oct 31 caption-format overrides (no EHO line in caption, no closing question, 'Swipe' CTA); slide text PASS, slide 10 contact block PASS on all three sizes. Images (T5) checked at full size: homes/documents/process only, people incidental (hands only on slide 4), no text/logos/house numbers/palms.

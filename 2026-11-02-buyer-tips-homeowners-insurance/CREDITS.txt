@@ -1,0 +1,4 @@
+Photo credits: 2026-11-02 buyer tips "Insure it before you close"
+Slides 1, 3-9 and slide 10 background: custom-generated illustrative images (Grok Bot GenerateImage, Nov 2 2026), not a specific property; prompts in build/IMAGE_PROMPTS.md; raw 864x1152 upscaled 4x with Real-ESRGAN x4plus. No photo credit required; no on-slide label.
+Slide 10 headshot: Denise Wilson's own portrait (TEMPLATES/denise-wilson-headshot-cutout-hires.png).
+Slide 2: no photo (stats slide).
