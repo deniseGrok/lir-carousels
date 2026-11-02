@@ -1,0 +1,13 @@
+All photos: Eastwood Homes photos from the builder's own website (eastwoodhomes.com community pages), downloaded Nov 2, 2026 (about 4:10-4:20 AM ET). Credited on-slide "Photo: Eastwood Homes".
+Photos are the builder's real photos: graded (brightness/contrast/saturation, fine unsharp mask) and cover-cropped only; no AI generation.
+House numbers retouched out (column digits blended from the clean column either side) on slides 01 and 09 (see FIX in build_slides.py).
+01 | Eastwood Homes | ew_0009-reedit-1d952e96 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/neighborhoods/0009-reedit-1d952e96_original.jpg | Ashton Park (Monroe, NC) page, community hero exterior
+02 | Eastwood Homes | ew_004-6a0b37599340c | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/004-6a0b37599340c_original.jpg | Enclave at Riverdale (Huntersville, NC) page hero (og:image)
+03 | Eastwood Homes | ew_004-6abd69f3954b7 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/004-6abd69f3954b7_original.jpg | Ashton Park page gallery, aerial
+04 | Eastwood Homes | ew_53028978147-24b5da4f98-o | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/53028978147-24b5da4f98-o_original.jpg | Norman Creek (Troutman, NC) page hero (og:image)
+05 | Eastwood Homes | ew_001-6a916410b97e8 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/001-6a916410b97e8_original.jpg | Norman Creek Townhomes (Troutman, NC) page hero (og:image)
+06 | Eastwood Homes | ew_amen_img-8016 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/amenities/img-8016.jpeg | Norman Creek page, amenities (pool and cabana)
+07 | Eastwood Homes | ew_016-69f22d58a5772 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/016-69f22d58a5772_original.jpg | Ashton Park page gallery, kitchen
+08 | Eastwood Homes | ew_028-6a0b388f4822c | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/028-6a0b388f4822c_original.jpg | Enclave at Riverdale page gallery, living room
+09 | Eastwood Homes | ew_52356138245-b273750cdb-o | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/52356138245-b273750cdb-o_original.jpg | Norman Creek page gallery, exterior
+10 | Eastwood Homes | ew_016-6a0b37ecb920c | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/016-6a0b37ecb920c_original.jpg | Enclave at Riverdale page gallery, kitchen
