@@ -31,4 +31,4 @@ Lifestyle International Realty — Carolinas
 
 #DavidsonNC #LakeNorman #CharlotteRealEstate #Shorts
 
-Tags: Davidson NC, Davidson North Carolina, Davidson College town, Downtown Davidson NC, Davidson Historic District, Davidson Town Green, Davidson Farmers Market, Lake Norman, Lake Davidson Nature Preserve, Randall R. Kincaid Trail, Fisher Farm Park, 28036 homes, Charlotte suburbs, Charlotte real estate, Community Spotlight, Denise Wilson REALTOR
+Tags: Davidson NC, Davidson North Carolina, Davidson College town, Downtown Davidson NC, Davidson Historic District, Davidson Town Green, Davidson Farmers Market, Lake Norman, Lake Davidson Nature Preserve, Randall R. Kincaid Trail, Fisher Farm Park, 28036 homes, Charlotte suburbs, Charlotte real estate, Community Spotlight

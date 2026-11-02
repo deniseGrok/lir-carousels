@@ -90,7 +90,7 @@ Knowing a town's history, rules and outdoor spaces helps you picture everyday li
 
 A pretty Main Street is a good start. Knowing the whole town is better.
 
-👉 Share this with anyone looking at homes in the Charlotte area.
+👉 Swipe through and save this post for your next home search.
 
 💬 Thinking about buying or selling in the Charlotte Metro, NC or SC? Let's connect and discuss your next move!
 
