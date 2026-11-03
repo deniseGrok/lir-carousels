@@ -1,0 +1,25 @@
+PASS captions.md [Instagram] firm name
+PASS captions.md [Instagram] phone
+FAIL captions.md [Instagram] Equal Housing Opportunity
+FAIL captions.md [Instagram] ends with a question
+PASS [Instagram] no email
+PASS captions.md [Facebook Page] firm name
+PASS captions.md [Facebook Page] phone
+FAIL captions.md [Facebook Page] Equal Housing Opportunity
+FAIL captions.md [Facebook Page] ends with a question
+PASS captions.md [TikTok] firm name
+PASS captions.md [TikTok] phone
+FAIL captions.md [TikTok] Equal Housing Opportunity
+FAIL captions.md [TikTok] ends with a question
+PASS captions.md [Facebook personal profile] firm name
+PASS captions.md [Facebook personal profile] phone
+FAIL captions.md [Facebook personal profile] Equal Housing Opportunity
+FAIL captions.md [Facebook personal profile] ends with a question
+FAIL captions.md: banned/flag 'Swipe' …  You can make the facts easy to see.  👉 Swipe through these tips and save this post b …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+FAIL captions.md: banned/flag 'Swipe' …  You can make the facts easy to see.  👉 Swipe through the tips and save this post bef …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+FAIL captions.md: banned/flag 'Swipe' … ou can make the facts easy to see. 💛  👉 Swipe through the tips, and share this with a …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+PASS build/slide-10.html contact block complete
+PASS build/slide-10-1x1.html contact block complete
+PASS build/slide-10-9x16.html contact block complete
+RESULT: FAIL (11 fail lines)
+Caption FAIL lines are only the approved Oct 31 caption-format overrides (no EHO line in caption, no closing question, 'Swipe' CTA); slide text PASS, slide 10 contact block PASS on all three sizes. Images (T5) checked at full size Nov 3: homes, rooms and process only, people incidental (hands only on slide 3), no readable text/logos/house numbers/palms (slide 09 regenerated to remove palm-like trees; slide 07 regenerated for a tool artifact). No interest rate shown, so no APR needed.
