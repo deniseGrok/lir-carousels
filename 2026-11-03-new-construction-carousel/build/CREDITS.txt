@@ -1,0 +1,13 @@
+All photos: Eastwood Homes photos from the builder's own website (eastwoodhomes.com community pages), downloaded Nov 3, 2026 (about 4:15-4:20 AM ET). Credited on-slide "Photo: Eastwood Homes".
+Photos are the builder's real photos: graded (brightness/contrast/saturation, fine unsharp mask) and cover-cropped only; no AI generation; all downscaled (no upscaling needed).
+House numbers retouched out on slides 02 (blend across white trim) and 04 (clean siding cloned from just beside the digits); see FIX in build_slides.py. Homes otherwise unaltered.
+01 | Eastwood Homes | ew_amen_004-682c96fd5caa4 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/amenities/004-682c96fd5caa4@2x.jpg | The Meadows at Laurelbrook (Sherrills Ford, NC) page, amenities aerial (pool, cabana, pickleball)
+02 | Eastwood Homes | ew_004-66b22a76b0fb3 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/004-66b22a76b0fb3@2x.jpg | The Enclave at Laurelbrook (Sherrills Ford, NC) page hero (og:image), exterior
+03 | Eastwood Homes | ew_amen_014-682c971220481 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/amenities/014-682c971220481@2x.jpg | The Meadows at Laurelbrook page, amenities (pool and cabana)
+04 | Eastwood Homes | ew_0014-6a0cb0b9768fb | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/0014_original.jpg | Founders Landing (Gastonia, NC) page gallery, exterior
+05 | Eastwood Homes | ew_amen_5 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/amenities/5@2x.jpg | The Meadows at Laurelbrook page, amenities aerial (pickleball courts, pool)
+06 | Eastwood Homes | ew_0059-69baa7fcee9c2 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/0059_original.jpg | Founders Landing page gallery, kitchen
+07 | Eastwood Homes | ew_068-laurelbrook | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/068@2x.jpg | The Enclave at Laurelbrook page gallery, laundry room
+08 | Eastwood Homes | ew_0029-69baa7bc760f9 | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/0029_original.jpg | Founders Landing page gallery, living room
+09 | Eastwood Homes | ew_073-laurelbrook | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/073@2x.jpg | The Enclave at Laurelbrook page gallery, rear exterior and patio
+10 | Eastwood Homes | ew_012-66b22ac09242e | https://eastwood.nyc3.cdn.digitaloceanspaces.com/homes/012-66b22ac09242e@2x.jpg | The Enclave at Laurelbrook page gallery, kitchen
