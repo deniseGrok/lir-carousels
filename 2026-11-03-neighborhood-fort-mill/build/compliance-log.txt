@@ -1,0 +1,28 @@
+PASS youtube-caption.md [YouTube Short] firm name
+PASS youtube-caption.md [YouTube Short] phone
+FAIL youtube-caption.md [YouTube Short] Equal Housing Opportunity
+FAIL youtube-caption.md [YouTube Short] ends with a question
+PASS captions.md [Instagram (4:5)] firm name
+PASS captions.md [Instagram (4:5)] phone
+FAIL captions.md [Instagram (4:5)] Equal Housing Opportunity
+FAIL captions.md [Instagram (4:5)] ends with a question
+PASS [Instagram (4:5)] no email
+PASS captions.md [Facebook Page (1:1)] firm name
+PASS captions.md [Facebook Page (1:1)] phone
+FAIL captions.md [Facebook Page (1:1)] Equal Housing Opportunity
+FAIL captions.md [Facebook Page (1:1)] ends with a question
+PASS captions.md [TikTok (9:16)] firm name
+PASS captions.md [TikTok (9:16)] phone
+FAIL captions.md [TikTok (9:16)] Equal Housing Opportunity
+FAIL captions.md [TikTok (9:16)] ends with a question
+PASS captions.md [Facebook personal profile (1:1)] firm name
+PASS captions.md [Facebook personal profile (1:1)] phone
+FAIL captions.md [Facebook personal profile (1:1)] Equal Housing Opportunity
+FAIL captions.md [Facebook personal profile (1:1)] ends with a question
+FAIL captions.md: banned/flag 'Swipe' … t. Knowing the whole town is better.  👉 Swipe through and save this post for your nex …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+FAIL captions.md: banned/flag 'Swipe' … t. Knowing the whole town is better.  👉 Swipe through and save this post for your nex …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+FAIL captions.md: banned/flag 'Swipe' … t. Knowing the whole town is better.  👉 Swipe through and save this post for your nex …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+PASS build/9x16-slide-10.html contact block complete
+PASS build/1x1-slide-10.html contact block complete
+PASS build/4x5-slide-10.html contact block complete
+RESULT: FAIL (13 fail lines)
