@@ -134,10 +134,10 @@ A big number gets attention. The fine print decides what it's worth.
 
 👉 Swipe through, and share this with anyone touring new homes this month.
 
-💬 Thinking about buying or selling in the Charlotte Metro, NC or SC? Let's connect and discuss your next move! Message me anytime.
+💬 Thinking about buying or selling in the Charlotte Metro, NC or SC? Let's connect and discuss your next move!
 
 Denise Wilson | Broker/REALTOR®
 Lifestyle International Realty — Carolinas
 📲 704-615-7347
 
-#CharlotteNewConstruction #CharlotteRealEstate
+#CharlotteNewConstruction #CharlotteRealEstate #NewHomes
