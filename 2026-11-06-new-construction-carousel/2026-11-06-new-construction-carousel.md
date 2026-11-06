@@ -44,3 +44,16 @@ All 10 sources checked with photo_registry.py check against TEMPLATES/photo-regi
 
 ## Compliance
 TEMPLATES/compliance_check.py on build/*.html: PASS (0 fail lines). Fair Housing: no schools; no "perfect for".
+
+## Fact-check (Denise rule Nov 5, re-verified Fri Nov 6, 2026 ~6:45 AM ET on live builder pages)
+- Slide 1: 5 offers / Harrisburg, Concord, Charlotte, Waxhaw; builders DWH, Pulte, Tri Pointe, Classica: each confirmed on the pages below.
+- Slide 2 (Encore at Harmony, Harrisburg): up to $40,000 (7% of final sales price, max $40,000) toward a home discount on select Charlotte-area QMIs; contracts Nov 1–Dec 6, 2026; close by Dec 22, 2026; Grace Home Lending — https://www.davidweekleyhomes.com/promo/50th-anniversary-charlotte . Shared pool and cabana, outdoor gathering space, 55+ community — https://www.davidweekleyhomes.com/new-homes/nc/charlotte/harrisburg/encore-at-harmony
+  CORRECTED: bullet 3 old "Shared pool and cabana; outdoor gathering space, per the builder" → new "55+ community with a shared pool, cabana and outdoor gathering space, per the builder" (the builder lists Encore as a 55+ community; omitting it could mislead). Captions updated the same way. Re-rendered slide 2 in 4:5 / 1:1 / 9:16 and re-zipped.
+- Slide 3 (Cannon Run, Concord): Builder's Best Price savings on QMIs $35,000 / $37,916 / $76,000 (Austin, 1593 Gossage Ln: Was $552,906 → $514,990 = $37,916); "Enjoy the Pool with Cabana", "Onsite Pool" — https://www.pulte.com/homes/north-carolina/charlotte/concord/cannon-run-210889 . Pulte's rate/BFC content NOT used.
+- Slide 4 (Ascend, Ballantyne/Charlotte): up to $55,000 closing credit toward closing costs, price reduction, move-in package, Design Studio (rate-buydown option omitted); eligible MIR / ready-to-build; 10/1/26–12/30/26; Tri Pointe Connect — https://www.tripointehomes.com/promotion/nc/charlotte/the-value-of-now-sales-event-ascend-flex ; 3 stories, townhomes, "Near the GoBallantyne Campus" — https://www.tripointehomes.com/nc/charlotte/ascend
+- Slide 5 (Old Town Village, Waxhaw): up to $10,000 closing credit, same dates/lender — https://www.tripointehomes.com/promotion/nc/charlotte/the-value-of-now-sales-event-old-town-village ; "walkable access to historic downtown Waxhaw" — https://www.tripointehomes.com/nc/charlotte/old-town-village
+- Slide 6 (Enclave at Carrington, Charlotte): $40,000 Starting Point Credit (structural / Design Studio / deduct from cost) — https://www.classicahomes.com/pricing-philosophy/ ; 11 homesites, next to Piper Glen — https://www.classicahomes.com/new-homes/nc/charlotte/enclave-at-carrington/
+- Slides 7–9: process tips (no numbers). Preferred-lender conditions confirmed on DWH (Grace Home Lending) and Tri Pointe (Tri Pointe Connect) offer terms above.
+- Slide 10: contact block (Broker/REALTOR®, firm name, phone, EHO) — compliance_check PASS.
+- NO interest rates / APR / % anywhere on slides or captions (grep checked); buy-downs not mentioned.
+- Cut: nothing beyond the earlier cuts (Tri Pointe rate-buydown option, Pulte BFC/rate banners).

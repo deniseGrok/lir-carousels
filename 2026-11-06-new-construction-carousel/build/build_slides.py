@@ -25,7 +25,7 @@ S = [
       sub="David Weekley Homes • select Charlotte-area quick move-ins",
       bullets=["Builder's offer: up to $40,000 toward a home discount on select quick move-ins",
                "Contracts Nov 1-Dec 6, 2026; close by Dec 22, 2026; Grace Home Lending",
-               "Shared pool and cabana; outdoor gathering space, per the builder"], note=V),
+               "55+ community with a shared pool, cabana and outdoor gathering space, per the builder"], note=V),
  dict(kind="deal", credit="Pulte Homes", src="src/03-cannon-run-exterior.jpg", fy=.5,
       pill="CANNON RUN • CONCORD, NC",
       h1="BUILDER'S BEST|[y]PRICE CUTS.[/y]",

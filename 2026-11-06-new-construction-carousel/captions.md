@@ -3,7 +3,7 @@
 
 On Nov 6, 2026, I checked each offer on the builders' own websites.
 
-🏘️ Encore at Harmony in Harrisburg: up to $40,000 toward a home discount on select quick move-ins
+🏘️ Encore at Harmony, a 55+ community in Harrisburg: up to $40,000 toward a home discount on select quick move-ins
 🏙️ Cannon Run in Concord: Builder's Best Price Was/Now savings on select quick move-ins
 💰 Ascend in Charlotte/Ballantyne: up to $55,000 closing credit
 🏡 Old Town Village in Waxhaw: up to $10,000 closing credit
@@ -28,7 +28,7 @@ Lifestyle International Realty — Carolinas
 
 On Nov 6, 2026, I checked each offer on the builders' own websites.
 
-🏘️ Encore at Harmony (Harrisburg): up to $40,000 toward a home discount on select quick move-ins
+🏘️ Encore at Harmony, 55+ (Harrisburg): up to $40,000 toward a home discount on select quick move-ins
 🏙️ Cannon Run (Concord): Builder's Best Price Was/Now savings on select quick move-ins
 💰 Ascend (Charlotte/Ballantyne): up to $55,000 closing credit
 🏡 Old Town Village (Waxhaw): up to $10,000 closing credit
@@ -70,7 +70,7 @@ Lifestyle International Realty — Carolinas
 
 On Nov 6, 2026, I checked each offer on the builders' own websites, and these are the questions I walk my buyers through before they sign.
 
-🏘️ Encore at Harmony in Harrisburg: up to $40,000 toward a home discount on select quick move-ins
+🏘️ Encore at Harmony, a 55+ community in Harrisburg: up to $40,000 toward a home discount on select quick move-ins
 🏙️ Cannon Run in Concord: Builder's Best Price Was/Now savings on select quick move-ins
 💰 Ascend in Charlotte/Ballantyne: up to $55,000 closing credit
 🏡 Old Town Village in Waxhaw: up to $10,000 closing credit
