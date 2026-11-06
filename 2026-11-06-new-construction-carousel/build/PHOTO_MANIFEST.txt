@@ -1,0 +1,13 @@
+Nov 6 2026 New Construction — builder photo manifest (Bright Contemporary)
+All photos downloaded Nov 6, 2026 from builders' own sites. Graded + cover-cropped only; no AI.
+01 cover  David Weekley Homes  dwh_encore_b50e3f24     encore-harmony exterior
+02 deal   David Weekley Homes  dwh_encore_8a1c53cb     encore pool/cabana
+03 deal   Pulte Homes          pulte_KBnBDaz1          Cannon Run exterior (Murphy model)
+04 deal   Tri Pointe Homes     tph_ascend_24-142454497 Ascend exterior (hi-res)
+05 deal   Tri Pointe Homes     tph_oldtown_01-127917930 Old Town Village exterior (hi-res)
+06 deal   Classica Homes       classica_Carrington_10  Enclave at Carrington streetscape render
+07 tip    Pulte Homes          pulte_iigXbrNc          Cannon Run pool ("Relax by the Pool!")
+08 tip    David Weekley Homes  dwh_encore_2f4d3a91     encore outdoor cabana
+09 tip    Tri Pointe Homes     tph_ascend_lot5_mqksbf  Ascend Lot 5
+10 cta    Tri Pointe Homes     tph_oldtown_plan4a_txnpeb Old Town Village Plan 4A
+Skipped: pulte_LJ5i7YR8 (marketing graphic with "Below-Market Rates Available" text); Carrington_1 mailbox kiosk (weaker hero).
