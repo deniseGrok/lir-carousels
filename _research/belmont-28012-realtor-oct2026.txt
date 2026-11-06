@@ -1,0 +1,50 @@
+Source: Realtor.com Economic Research RDC_Inventory_Core_Metrics_Zip.csv
+Downloaded: 2026-11-06; Monthly data updated Nov 4, 2026 with data through October 2026
+URL: https://www.realtor.com/research/data/
+
+month_date_yyyymm: 202610
+postal_code: 28012
+zip_name: belmont, nc
+median_listing_price: 513000.0
+median_listing_price_mm: 0.0005
+median_listing_price_yy: -0.0137
+active_listing_count: 169
+active_listing_count_mm: -0.0059
+active_listing_count_yy: 0.1536
+median_days_on_market: 61.0
+median_days_on_market_mm: -0.0161
+median_days_on_market_yy: 0.0517
+new_listing_count: 52
+new_listing_count_mm: -0.2571
+new_listing_count_yy: -0.1613
+price_increased_count: 4
+price_increased_count_mm: 0.0
+price_increased_count_yy: 
+price_increased_share: 0.0137
+price_increased_share_mm: -0.0002
+price_increased_share_yy: 0.0137
+price_reduced_count: 88.0
+price_reduced_count_mm: 0.0233
+price_reduced_count_yy: 0.1282
+price_reduced_share: 0.3099
+price_reduced_share_mm: 0.0544
+price_reduced_share_yy: 0.0187
+pending_listing_count: 77.0
+pending_listing_count_mm: -0.0723
+pending_listing_count_yy: 0.1324
+median_listing_price_per_square_foot: 226.0
+median_listing_price_per_square_foot_mm: -0.0075
+median_listing_price_per_square_foot_yy: -0.107
+median_square_feet: 2301.0
+median_square_feet_mm: -0.0274
+median_square_feet_yy: 0.0374
+average_listing_price: 634949.0
+average_listing_price_mm: 0.0272
+average_listing_price_yy: -0.0034
+total_listing_count: 244
+total_listing_count_mm: -0.0279
+total_listing_count_yy: 0.1375
+pending_ratio: 0.4556
+pending_ratio_mm: -0.0326
+pending_ratio_yy: -0.0085
+quality_flag: 0
