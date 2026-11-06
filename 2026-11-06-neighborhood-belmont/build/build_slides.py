@@ -36,7 +36,7 @@ SL = [
       "Riverfront amenities include a kayak launch, picnic shelters, a walking path and an amphitheatre"]),
  dict(kind="info", pill="THE ABBEY", h1="A CAMPUS ON|[o]THE NATIONAL REGISTER.[/o]", g0=.30, bullets=[
       "Benedictines have lived at Belmont Abbey since 1876 on Belmont-Mt. Holly Road",
-      "The Mary Help of Christians Basilica was built in 1892 and listed on the National Register in 1973 (NRIS 73001343)",
+      "The abbey's basilica was built in 1892 and listed on the National Register in 1973 (NRIS 73001343)",
       "The Belmont Abbey Historic District was listed on the National Register in 1993 (NRIS 93000584)"]),
  dict(kind="info", pill="MY TIP", h1="CHECK CITY LIMITS|[o]ON THE TAX BILL.[/o]", g0=.30, bullets=[
       "Gaston County bills and collects property taxes for Belmont; bills go out in July, are due Sept. 1, and can be paid without interest through Jan. 5 (G.S. 105-360)",
