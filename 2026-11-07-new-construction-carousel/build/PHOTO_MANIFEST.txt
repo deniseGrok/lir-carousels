@@ -1,0 +1,13 @@
+Nov 7 2026 New Construction — builder photo manifest (Bright Contemporary)
+All photos downloaded Nov 7, 2026 from builders' own sites. Graded + cover-cropped only; no AI. No people in any photo.
+01 cover  Classica Homes        classica_RiverchaseEstates_CommunityAmenityPool   Riverchase pool + clubhouse (dusk)
+02 deal   David Weekley Homes   dwh_whitley_cb756a84                             Whitley Preserve exterior (no house number)
+03 deal   Epcon Communities     epcon_1793742444977                              courtyard home exterior
+04 deal   Madison-Simmons Homes msh_maxwell_Front_enhanced_FQcx2Na               Townes at Maxwell row (house numbers 706/710/714 retouched out -> img-retouched/)
+05 deal   Classica Homes        classica_RiverchaseEstates_CommunityAmenity53    Riverchase clubhouse (address number retouched out -> img-retouched/)
+06 tip    David Weekley Homes   dwh_whitley_1123dd91                             Whitley kitchen
+07 tip    Epcon Communities     epcon_1715811440806                              courtyard patio
+08 tip    Madison-Simmons Homes msh_maxwell_Balcony5_Hommati                     balcony view
+09 tip    Classica Homes        classica_RiverchaseEstates_CommunityAmenityPool01 resort pool with lap lanes
+10 cta    David Weekley Homes   dwh_whitley_9c6506c6                             community pavilion
+Skipped: townesatmaxwell.com hero (file named Gemini_Generated_Image = AI); Maxwell Exterior_back_enhanced (labeled "Virtually Enhanced"); Madison-Simmons "Generals_" rendering (community uncertain); Classica DSC_3022_1 (visible house number, community uncertain); any photo with people.
