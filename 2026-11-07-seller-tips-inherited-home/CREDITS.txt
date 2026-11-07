@@ -1,0 +1,12 @@
+All photos are ORIGINAL custom photorealistic illustrative images generated with Grok Bot GenerateImage on Nov 7, 2026 (originals in build/src/gen-NN-raw.png).
+Real-ESRGAN x4 upscaled. No stock. Provider registered as generated. No on-slide photo credits (illustrative, not a real listing).
+01 | generated | gen-2026-11-07-seller-tips-01 | cover brick two-story porch home
+03 | generated | gen-2026-11-07-seller-tips-03 | pen + blank folder on dining table
+04 | generated | gen-2026-11-07-seller-tips-04 | organized folders + keys on kitchen island
+05 | generated | gen-2026-11-07-seller-tips-05 | hands sealing a plain envelope at a window desk
+06 | generated | gen-2026-11-07-seller-tips-06 | quiet brick ranch exterior, porch light
+07 | generated | gen-2026-11-07-seller-tips-07 | clipboard with blank form on porch rail
+08 | generated | gen-2026-11-07-seller-tips-08 | calculator + wooden house model desk
+09 | generated | gen-2026-11-07-seller-tips-09 | farmhouse dining table, several coffee cups
+10 | generated | gen-2026-11-07-seller-tips-10 | contact slide bright living room background
+Slide 2: navy stats (no photo). Slide 10 headshot: Denise Wilson's own portrait (TEMPLATES/denise-wilson-headshot-cutout-hires.png).
