@@ -1,0 +1,668 @@
+{
+  "date": "2026-11-08",
+  "status": "DRAFT awaiting Denise approval. Not published.",
+  "counts": {
+    "native_images": 90,
+    "zips": 9,
+    "jpg_fallback_zips": 1,
+    "youtube_short": 1,
+    "fb_personal_captions": 3
+  },
+  "replacement": "Grahym at Southbridge, Fort Mill SC, replaced with Pulte West End Heights, Charlotte NC.",
+  "files": [
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-01.png",
+      "bytes": 1941167,
+      "sha256": "b06799b4c3ab123b7c8e3970a3b01bf23b840fc61d894455d08f8bb3f0935c28"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-02.png",
+      "bytes": 1399724,
+      "sha256": "3b088658c2af75e42c2a0ce1eabc2eea4f30207ffb58e9ea43bb996d96a83d2e"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-03.png",
+      "bytes": 1676225,
+      "sha256": "d66662df29924c4eeca4d99b4ec71c5a8347dda2e3eb42ab637ba84f20c8af08"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-04.png",
+      "bytes": 2158016,
+      "sha256": "5adbf7507197ffef4dec76c0a11d469ffb43c431723a20856efaf987163d2db1"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-05.png",
+      "bytes": 1187416,
+      "sha256": "3554f67d9677256d9c8394d777f5bbd505465e18b635b020819f799de754cbdb"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-06.png",
+      "bytes": 921142,
+      "sha256": "66c07638378655b6856e1cc137a382f47be98c1191dd2a147c3fbc0e65301acf"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-07.png",
+      "bytes": 1220102,
+      "sha256": "fa952f2d43b5428170bb5e165e45643a081da273ea42fa469f4c3b7d800a77c9"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-08.png",
+      "bytes": 1106920,
+      "sha256": "760ea8700073cbb1a762bf7884d5b50081afff43db16fb3db05ad44488d0a64e"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-09.png",
+      "bytes": 1420954,
+      "sha256": "d9789373cea209be9aa36b4cfc1c1b28fd58b6ad55ccea68848c96103d554ab2"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/4x5/slide-10.png",
+      "bytes": 1416729,
+      "sha256": "e03dd15c7ca503fc5020fedc3ad04548eab89ecdc3e9c0be350758b0b18f2606"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-01.png",
+      "bytes": 1628928,
+      "sha256": "26ed7846ac66bbcde4a815a71da8ad8939b0481cdddd2e79ab4315fb08502fb8"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-02.png",
+      "bytes": 1170612,
+      "sha256": "b589e6952b6ba7c2f473cd92407b719e0819b9c9d81a434dcc07b4890d7fc178"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-03.png",
+      "bytes": 1352278,
+      "sha256": "64c5fe0c88f9e467fb656c44adb62d2af6f034e31d50858976093726ad3a0541"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-04.png",
+      "bytes": 1781350,
+      "sha256": "45bc68c5322d1175b3d58df303f109b39d95767b1ec9bf9073bd9da0b09c22cd"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-05.png",
+      "bytes": 1006208,
+      "sha256": "fdb914a9cb649de2d135d18463696ac7fe9b3126c4b9b23d0957674d3a50cee1"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-06.png",
+      "bytes": 777620,
+      "sha256": "6766054865b3a5723eeb20ad350610f7c2b338e8df0df821aa0173b623a4c3ee"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-07.png",
+      "bytes": 1049946,
+      "sha256": "ea0fec26b86c1e771b887f780b5b1695b31a157112250727e809b411e5e8a1e5"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-08.png",
+      "bytes": 921667,
+      "sha256": "358e774258ce323fdb45971065f735568dc9c2dd74bc40d481783470d3baab40"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-09.png",
+      "bytes": 1097816,
+      "sha256": "1175a37ed6c461a04a9734f0b698ec01c8623059bcee987920496d4583c5ef51"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/1x1/slide-10.png",
+      "bytes": 1092070,
+      "sha256": "a6c1f18fd953990fabe8ffe1ddf1006f19f53e2272d6b075774a1f00e1672644"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-01.png",
+      "bytes": 2281040,
+      "sha256": "be5bf1bbfb29b65fb481ac7362d198899468a815c60495b450c85a2503278a73"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-02.png",
+      "bytes": 1691557,
+      "sha256": "88bf6a82be7d154b6e2a89ca424665c3f5eda44d655aff29615c8304ac4e73b3"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-03.png",
+      "bytes": 2060878,
+      "sha256": "d272230e018122ea09c83fe5698a9244f810906cccdd494ed5bbbfd6aad01dc5"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-04.png",
+      "bytes": 2592701,
+      "sha256": "419bd30fc1a930f01fe41b2a3c8095884b36ae0867e58c4d7ea5870bc165e81b"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-05.png",
+      "bytes": 1465766,
+      "sha256": "02e4fd112b3d717837bcafbf3c659a7ebdac113e2e5e2b57d0d7f587a668fa5c"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-06.png",
+      "bytes": 1117761,
+      "sha256": "31fdc0e6dca957bbdb3c63e25b9e165f814f6423d7df9d7984cd217b4804ddeb"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-07.png",
+      "bytes": 1381043,
+      "sha256": "a2c36c08cc5ca5158d5f30b223fcfab38a557f4b211ec0ca50f360810215b29b"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-08.png",
+      "bytes": 1349947,
+      "sha256": "a36951236e46f58e5dc8966dd31789f001e628f08ef8e6abb344a12cb0a07928"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-09.png",
+      "bytes": 1831355,
+      "sha256": "71a5bb517510575e68efe094aa96c779a2c5fe80e6e04d75da0cf04c1e916335"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/9x16/slide-10.png",
+      "bytes": 1747525,
+      "sha256": "6faa9b8581d78a0562658f2c275deac4de863f8389d6c3be0669f223630a6e41"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/slides.zip",
+      "bytes": 14449417,
+      "sha256": "f4ff8046a509397a329018e4d04727c45a6d70e0f28bd626680d325073f51979"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-1x1.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/slides-1x1.zip",
+      "bytes": 11879517,
+      "sha256": "3c08bd071a08b5f432c4949ab6e4ac5d1bcf79024cbfdbfd379a8a9eb3f8a2e4"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/slides-9x16.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/slides-9x16.zip",
+      "bytes": 17520595,
+      "sha256": "a415b7d7d47b2acab11ddbd8ab0f6e49622b21a5b2da310f75bcf147fa97ef06"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/captions.md",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/captions.md",
+      "bytes": 4576,
+      "sha256": "5d4b96104c7232df4d66b3f6478a120480031160dd93beb52b60431ed0efae39"
+    },
+    {
+      "repo": "/workspace/2026-11-08-new-construction-carousel/fb-personal-caption.md",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/new-construction/fb-personal-caption.md",
+      "bytes": 1543,
+      "sha256": "0a0f378ba12504af5f64e46aeb74f731a20e5b6d1e7e51557a68ca3239bb503f"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-01.png",
+      "bytes": 2675448,
+      "sha256": "3c5375e4e7878d3ad03a0f579e8df5a7f5f19cab55b12d0205944213d82e6d4f"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-02.png",
+      "bytes": 1915768,
+      "sha256": "5f39be66af2e55ab77663eae591ca12cb0a16a40ba222b067996f7b68af8c1a7"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-03.png",
+      "bytes": 2212686,
+      "sha256": "6b560698c0af7cc380d7398b50f9435fa1f9943f1d04dec9f9c2436e12dd3c70"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-04.png",
+      "bytes": 2459375,
+      "sha256": "8abdbb357e5fd6cb917e528be8146d5837bda4afefe187f5e636962f13a4bc9d"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-05.png",
+      "bytes": 2185594,
+      "sha256": "f6a6c1ab464210f2b362c4e9c98fdb9a0603d4bfd355cbc1365ad4fe6ed41eeb"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-06.png",
+      "bytes": 2650597,
+      "sha256": "18d93357d50736bf4aa341229f21ed00557c1e9e53d8a750c9c101366dfed77e"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-07.png",
+      "bytes": 1765794,
+      "sha256": "ccb6ac9a070092c38561d97c4f9e569c870b3cf5a850cc121b7f7f814eaf49a9"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-08.png",
+      "bytes": 1837505,
+      "sha256": "78e502ba54a06b49c61082db99a7aa71ac3daf00d78ada09d6c16ec7b49603be"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-09.png",
+      "bytes": 547554,
+      "sha256": "f2260265d3ebd89c034964cfc0252f13d3fa97a69c3391e85001a9bbb04eef3c"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/4x5/slide-10.png",
+      "bytes": 1436159,
+      "sha256": "f37fc0d13594cbfb1d4f153b3246a8bb5ae677d87678b8e980c8909c756cefe1"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-01.png",
+      "bytes": 2160351,
+      "sha256": "59f21b2968590281b070aeaf07e4580f231cab085c2d0f241c6f2c258b626b5c"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-02.png",
+      "bytes": 1588118,
+      "sha256": "f93eafe9519f1d3261f05f44706cab82430da26f2c77b342c5381b6c927a99b3"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-03.png",
+      "bytes": 1818516,
+      "sha256": "0222982595d340da638d35a15fb33ee59e5b63c436f8af9d387f6166ee54c41b"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-04.png",
+      "bytes": 2032706,
+      "sha256": "3505f1870f0281217ab5fb7d58c9ef80089c10833a7119cd74371d6130d36eb0"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-05.png",
+      "bytes": 1775657,
+      "sha256": "e3d43560fd90caa3d53c407f07bfad0aa5f56f5c7b0e1762e3b12a85a8aeb35d"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-06.png",
+      "bytes": 2068363,
+      "sha256": "9449807983cf9299f05a59cfa4ba3787f653eea885b0bc43df03fefd1d50a401"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-07.png",
+      "bytes": 1409424,
+      "sha256": "ad2db21adf71a2d81096e7ca899c1679511459c8d2fc4809dda742f8d76f8a16"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-08.png",
+      "bytes": 1415233,
+      "sha256": "7d42e05156a837cbb7f1052107d320d5290b4544cc407544307d2abcc0a8fc0c"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-09.png",
+      "bytes": 455607,
+      "sha256": "4de38e0cb47de5946bf7b4996d24f22e9a16cbed41581f7617c332f17fd72ac8"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/1x1/slide-10.png",
+      "bytes": 1210791,
+      "sha256": "ca79a69b3e48cd76604050a59b718a671edd0b78a8998bf1e90ccfc7c7aef87f"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-01.png",
+      "bytes": 3467303,
+      "sha256": "1e30f66745adf391f2a596766cd5776208d89fa01674b0898022bfcd81c0b690"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-02.png",
+      "bytes": 2478883,
+      "sha256": "10fea6ad22c4fd2c7fa31fb86470b2ac7d1f1519f17b94995c36a76ecd280796"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-03.png",
+      "bytes": 2776926,
+      "sha256": "be935e3782d52ba0a67b62fecc8a2d60db76715931030f397609531405a80a51"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-04.png",
+      "bytes": 3119037,
+      "sha256": "9508eca112c83f0697a0ffca1213671b83ef132250cf9e8d77e0b5681ba7c46b"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-05.png",
+      "bytes": 2728233,
+      "sha256": "adbae489080d4ac86c76260055b65a7b3a74afdabacc1f370ae7e15db77aa45c"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-06.png",
+      "bytes": 3410381,
+      "sha256": "3fd6a1fd4f9731406ac00d9d8a79f71cb75d24ce09abd0de033c93bcdd5816e5"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-07.png",
+      "bytes": 2410819,
+      "sha256": "81e2f88cc5ced27a47d6ae241de964a8275414961648adf0ae24bc0a16bbc53e"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-08.png",
+      "bytes": 2424802,
+      "sha256": "0f624583c39b7fc0f1a443b59125bbc5a7b2a90a3109957bf3a8697666270723"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-09.png",
+      "bytes": 702226,
+      "sha256": "7a8b7f3822a1603eee23348544cb7bfaee3c15ecec2194ce1ff0073b561e193f"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/9x16/slide-10.png",
+      "bytes": 1788773,
+      "sha256": "532b823ba3da7c83e77a8525e95db4b0fc59009b35ebdfd6eaa7ea6983e8ebda"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/slides.zip",
+      "bytes": 19687502,
+      "sha256": "5284abdae344a916b32188b20fe84a859103e570f8302c228755dcb9e5e7d730"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-1x1.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/slides-1x1.zip",
+      "bytes": 15935788,
+      "sha256": "8d2794a401dfff28584a655cedda950caa3c1909cd90da4cf39764a8007ac908"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/slides-9x16.zip",
+      "bytes": 25308405,
+      "sha256": "695fadba1f575cd737594c49ad24f73d3aa767414ce678c21d028dd698dfb853"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/slides-9x16-jpg.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/slides-9x16-jpg.zip",
+      "bytes": 6396135,
+      "sha256": "4f4ea08146a35d3d26baa6da10488f247897ec7fd80b4fa2b2fc61aff6f07ea6"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/captions.md",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/captions.md",
+      "bytes": 4000,
+      "sha256": "06d19dd40ea74916bb3a0bb5c4326cee8476e99fd1008b708fedc23d729de861"
+    },
+    {
+      "repo": "/workspace/2026-11-08-buyer-tips-repair-requests/fb-personal-caption.md",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/buyer-tips/fb-personal-caption.md",
+      "bytes": 1149,
+      "sha256": "118f1470641cd9b50be8174b93a921d41791af3ae41cdbac4b0e897bfb56aa2c"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-01.png",
+      "bytes": 2067753,
+      "sha256": "2b695473732c213b2c16aef15af70178bafcc9a01a77226d80e2c76efe777872"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-02.png",
+      "bytes": 2142090,
+      "sha256": "2308882a8a7e5e84c128d4044acb5ef3f6326fedf5189e5d3b9e3d8fddf1aa91"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-03.png",
+      "bytes": 2082846,
+      "sha256": "805bd38358825e01b688fe66086d02f99bc7b3e91dfa344bec9da8ccc3994531"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-04.png",
+      "bytes": 2368270,
+      "sha256": "8d96dea0689ba115118d189621447041c5acdac1176414a2e0616a2c6fbd7c67"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-05.png",
+      "bytes": 1949599,
+      "sha256": "9caa5b6266f5f1b36595fecfecc7fde3b7ef1d95557aa78f5afb4980ca439ab7"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-06.png",
+      "bytes": 1671607,
+      "sha256": "06567730d03f21dfdfc7779202fea1079df44a63ab26b441b0522e7efdbb50a8"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-07.png",
+      "bytes": 1694760,
+      "sha256": "14f5d821e72a01cec9bd3e70efbe41d9f103109c2764be9deb10c535fa1040f1"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-08.png",
+      "bytes": 2023025,
+      "sha256": "f89070bf72562d559270aaf32d511847af9fca19bd03b14a060a02d011a23daa"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-09.png",
+      "bytes": 1625611,
+      "sha256": "42fac22899b66a5d4f035f36dcc8fa0048bd7ce994aaaa84eddd37bdd18c7a97"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/4x5/slide-10.png",
+      "bytes": 2187572,
+      "sha256": "eee7c64ed970f261c5e178e823a2c514a37b47aeb7eb8f671bcfeebfd3b4e2c7"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-01.png",
+      "bytes": 1655631,
+      "sha256": "d0d28b16dbaa3af25354b37b959526694d9a266db01de1dc64703d0b8f0fe813"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-02.png",
+      "bytes": 1752281,
+      "sha256": "43a01e445ba7ab1fb773cb542bdde1d9ee880f2b918a06715f108d2d8cf1fc42"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-03.png",
+      "bytes": 1680569,
+      "sha256": "fa0f2ddd3c67665cf917d0026cf06d13f125bbc0fc09e97718b39381accff68f"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-04.png",
+      "bytes": 1897760,
+      "sha256": "7e96b07f9b261f4261cf0e7c7400c026256c9e07616b69ffa7e041bdd19ce3f3"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-05.png",
+      "bytes": 1534671,
+      "sha256": "ed9afa19f8825058cb9ece9bf7d76f48e19b49768cad21304ea978afddeee772"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-06.png",
+      "bytes": 1353501,
+      "sha256": "f36f3949c8d8c4fc3430ad9f142eabe3f2c86c9970563c6eaa1c9d2958c290da"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-07.png",
+      "bytes": 1503440,
+      "sha256": "9e3de03ed2ef5b9ebad19a08f5d5d7ffa35c4298d567568178722d89ad055584"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-08.png",
+      "bytes": 1749089,
+      "sha256": "0325089dc9b1313358304526db0e8096f25c00b01f0b972cc1024212fa77e3eb"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-09.png",
+      "bytes": 1414267,
+      "sha256": "8dd5ef7998703aa99e92c358eb3da9fd4c462d65c705f39b7341236e5248f09c"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/1x1/slide-10.png",
+      "bytes": 1748903,
+      "sha256": "b0c3991f1119e3a800fad35d593bb440b5bfeff08f6e7d50979b680431c71e0b"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-01.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-01.png",
+      "bytes": 2457063,
+      "sha256": "c0d152b84e00ac32602e8877b6fc81795a4f7a5df2aaa3e308f12ca1a9a12c2d"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-02.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-02.png",
+      "bytes": 2673806,
+      "sha256": "a9b015bbe4965d8ecf575c3f18ac687b43d8663ac6cac897a87734882148b43f"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-03.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-03.png",
+      "bytes": 2658194,
+      "sha256": "1a5a0a649aa2b4297dd3621008490363e0346833e7135daf4a980a9d090ee0cc"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-04.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-04.png",
+      "bytes": 3105485,
+      "sha256": "541c3a77341d16ad9eb45189c17a789f6b8ee7a05fb539c119509f9f36d8791f"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-05.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-05.png",
+      "bytes": 2318335,
+      "sha256": "0f8303364b677afe3ebe646ef4a2378bc350892bf6e6ae4e383dddad696e602b"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-06.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-06.png",
+      "bytes": 2127932,
+      "sha256": "ae4f0a6130583920f2a65aeb7bfc0a0ff020a00902acfe27e26be3764266993f"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-07.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-07.png",
+      "bytes": 1943971,
+      "sha256": "6f2e2e1edb30f18e4839a01bdfce433c856159355e17af88dfd4c4889f4ef4ba"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-08.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-08.png",
+      "bytes": 2418101,
+      "sha256": "1aab35c8b5978ba7e95a2d80c4f8399ee0317ff3aa4dab66da3820df39574ee7"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-09.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-09.png",
+      "bytes": 2121497,
+      "sha256": "950c992e8e5f6ce026b60bada183d4dc0806222e60fe6386c6470b62ff2c3d59"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16/slide-10.png",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/9x16/slide-10.png",
+      "bytes": 2723110,
+      "sha256": "9c416a6f87529e0fa331aba3ad020f7ba9bfeb0405b653649fe92b319792e421"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/slides.zip",
+      "bytes": 19814155,
+      "sha256": "d5e8e0c48528af9e10af340911447465731283ef1c1220b590a707dcc27c16cd"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-1x1.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/slides-1x1.zip",
+      "bytes": 16291134,
+      "sha256": "0c7fc6361dd72581e2b416b76f12989d740a5431ab82d6cd435683656ff73ecd"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/slides-9x16.zip",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/slides-9x16.zip",
+      "bytes": 24548516,
+      "sha256": "a67eb72f0d2a42b99ce35b4b4366b0f0ef9ea08b04c2ee5b89de4d2776cbcf36"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/youtube-short.mp4",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/youtube-short.mp4",
+      "bytes": 42156359,
+      "sha256": "e854cf4ee5cc76198c621fa0bce3e64642ad219003b50d4bdefff67c5539a8cc"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/captions.md",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/captions.md",
+      "bytes": 3120,
+      "sha256": "81292d1d4db7a7644c0a9cb05b2967196d8c0fe6f13bd86a521b653f75dd1110"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/fb-personal-caption.md",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/fb-personal-caption.md",
+      "bytes": 1356,
+      "sha256": "b0a75b4eb912147b2f4a4658abf72b576a1e9ff0dcfb6699d1ad2b01abccf0ca"
+    },
+    {
+      "repo": "/workspace/2026-11-08-neighborhood-concord/youtube-caption.md",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/concord/youtube-caption.md",
+      "bytes": 1823,
+      "sha256": "78e90fca6abb12940956b007c91ce1e84bb217585265f86fdfd2b4ba92cda791"
+    },
+    {
+      "repo": "/workspace/2026-11-08-source-verification.md",
+      "artifact": "/opt/cursor/artifacts/2026-11-08/2026-11-08-source-verification.md",
+      "bytes": 5586,
+      "sha256": "aa5eb48fc5f686f4f7e962914606d2ea57a251806dd635b32f7da80869eada7c"
+    }
+  ]
+}

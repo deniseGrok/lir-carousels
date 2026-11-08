@@ -1,16 +1,22 @@
-# 2026-11-08 New Construction — Closing credit, quick move-in savings, a starting point credit & amenities (NO rates/APR)
+# 2026-11-08 New Construction — Price cuts, quick move-in savings, a starting point credit & amenities (NO rates/APR)
 
-Bright Contemporary design. Verified Sun Nov 8, 2026 (~4:00–4:45 AM ET) on builders' live sites. Revised ~4:45 AM ET: the original slide 2 offer was cut because its posted purchase window could not be verified as current (routine rule: if it can't be verified, cut it); replaced with Grahym at Southbridge, whose posted window (10/1/26–12/30/26) is current. NO PDF. No YouTube Short.
+Bright Contemporary design. Verified Sun Nov 8, 2026 on builders' live sites. Afternoon correction: Grahym at Southbridge (Fort Mill, SC) is outside the allowed SC towns (Indian Land, Lancaster, York, Clover only) and was removed. Replaced with Pulte Homes at West End Heights, Charlotte, NC, an unused community with Was-to-Now price cuts on the live community page. NO PDF. No YouTube Short.
 Denise rule (Nov 5, 2026): New Construction focuses on deal price reductions and amenities — never interest rates or APR.
 Status: DRAFT — awaiting Denise approval. Not in Buffer. Buffer plan after approval: 9:30 AM ET (IG 4:5, FB Page 1:1, TikTok 9:16).
 
 ## Offers (verified Nov 8, 2026)
 
-1. Tri Pointe Homes — Grahym at Southbridge (Fort Mill, SC)
-   The Value of Now: up to $30,000 in closing credit toward Tri Pointe paid closing costs, a price reduction and/or Design Studio personalization options, on eligible move-in ready or to-be-built homesites bought at list price between 10/1/26 and 12/30/26 and financed with Tri Pointe Connect. Listed under "Available Promotions" on the live community page Nov 8. Fine print: not available on existing contracts; incentives applied at closing; does not cover prepaid taxes, insurance or mortgage installments; any unused portion forfeited.
-   Community: 50 two-story townhomes; HOA (~$199/mo per FAQ, not quoted) covers landscape maintenance, trash pickup, building exterior maintenance and more; Southbridge Walking Trail and Southbridge Playground; minutes from Downtown Fort Mill. Priced from the high $300s (not quoted). Note: the community description says "Fort Mill, NC" (builder typo); the address (521 Nash St, Fort Mill, SC 29715) and FAQ say SC.
-   Sources: https://www.tripointehomes.com/sc/charlotte/grahym-at-southbridge · https://www.tripointehomes.com/promotion/sc/charlotte/the-value-of-now-sales-event-grahym-at-southbridge
-   Not used: the rate buydown use of the credit, the two "Special Rate" promos (rate + APR) and the payment calculator (Denise rule); property tax figures.
+1. Pulte Homes — West End Heights (Charlotte, NC)
+   Was-to-Now price cuts on Evans quick move-in townhomes, posted on the community page Nov 8, 2026 (HTML class QMIGridCard__was-price). Examples read off the page:
+   - 1009 Revival Row: $399,605, was $472,605 ($73,000 less)
+   - 2003 Trumbo Row: $404,975, was $476,975 ($72,000 less)
+   - 2007 Trumbo Row: $379,615, was $448,755 ($69,140 less)
+   - 1013 Revival Row: $374,345, was $435,345 ($61,000 less)
+   - 1017 Revival Row: $403,785, was $464,785 ($61,000 less)
+   Slide quotes the $73,000 example and the $61,000–$72,000 range. Street addresses stay in this note, not on the slide.
+   Community (builder copy, no schools): 40 townhomes just west of Uptown Charlotte; Stewart Creek and Irwin Creek Greenways nearby. The page also says "Coming Summer 2026"; that line was not used because the same page lists these homes as Available Now on Nov 8, 2026.
+   Source: https://www.pulte.com/homes/north-carolina/charlotte/charlotte/west-end-heights-211572
+   Not used: monthly payment figures, the mortgage calculator, APR examples, and below-market rate language (Denise rule). Photos are Pulte picturepark images from the Evans quick move-in gallery (exterior 7AehB7kx, kitchen 5CRLePEk, living FRwfAo6C). House-number plaques retouched.
 
 2. David Weekley Homes — Central Living at Craig (Charlotte, NC)
    50th Anniversary: up to $40,000 toward a home discount on select quick move-ins, financing with Grace Home Lending; purchase Nov 1–Dec 6, 2026; close by Dec 22, 2026; offer must be presented before signing; not valid with other offers or existing contracts. Disclosure: buyers are not required to use DWH's affiliated lender.
@@ -30,21 +36,25 @@ Status: DRAFT — awaiting Denise approval. Not in Buffer. Buffer plan after app
 Captions: captions.md (Instagram, Facebook Page, TikTok, Facebook personal profile).
 
 ## Photo check
-All 10 sources are builder photos (build/CREDITS.txt, build/PHOTO_MANIFEST.txt). Checked with photo_registry.py check against TEMPLATES/photo-registry.csv: no source-id or SHA match; only loose hash hits to unrelated photos. Registered in TEMPLATES/photo-registry.csv (30 active rows; the 9 rows for the cut slide 2/5/6 photos are marked photo_replaced/slide_replaced @2c97b6f per registry convention). Grahym photos 02/05/06 checked: no source-id or SHA match, only loose hash hits (dist >= 13) to unrelated photos. House numbers retouched out of 01 (6274), 02 (porch-column number) and 03 (3908/3912/3916). No people in photos. No AI images. Classica "Example Photo" watermarked interiors skipped.
-Cover photo is a Classica exterior from the Stephens Farm page gallery; the cover names no community.
+All 10 sources are builder photos (build/CREDITS.txt, build/PHOTO_MANIFEST.txt). West End Heights photos 02/05/06 replace the Grahym photos. House numbers retouched out of 01 (6274), 02 (1017, 1013, 1009, 1005 plaques) and 03 (3908/3912/3916). No people in the photos used. No AI images. Classica "Example Photo" watermarked interiors skipped.
+Cover photo is a Classica exterior from the Stephens Farm page gallery; the cover names no community. Grahym registry rows are marked replaced and are not in the delivered slides.
 
 ## Compliance
 TEMPLATES/compliance_check.py: all slide HTML PASS. Remaining flags are the approved overrides: "Equal Housing Opportunity" in caption sections, "ends with a question", and "Swipe" in IG/FB captions (TikTok has no "swipe"). Fair Housing: no schools, no people descriptions, no "perfect for", no safety/family/exclusive claims. No guarantees or fake urgency (dates shown are the builder's posted dates).
 
 ## Fact-check (Sun Nov 8, 2026)
-- Slide 1: 3 offers in Fort Mill, SC, and Charlotte and Huntersville, NC; Tri Pointe, David Weekley, Classica — pages above.
-- Slide 2: up to $30,000 closing credit, uses (rate buydown use omitted), list price, 10/1/26–12/30/26, Tri Pointe Connect — Grahym promo page; 50 townhomes, HOA coverage (landscaping, trash pickup, exterior maintenance), Southbridge Walking Trail + Playground — community page/FAQ.
+- Slide 1: 3 offers in Charlotte and Huntersville, NC; Pulte, David Weekley, Classica — pages above.
+- Slide 2: up to $73,000 off previously posted prices; $472,605 now $399,605; other Evans cuts $61,000 to $72,000; 40 townhomes just west of Uptown; Stewart Creek and Irwin Creek Greenways nearby — West End Heights page, read Nov 8, 2026.
 - Slide 3: up to $40,000, Grace Home Lending, Nov 1–Dec 6 / Dec 22, present before signing — DWH promo; Cotswold area, Evergreen Nature Preserve ~2 mi — DWH community page.
 - Slide 4: $40,000 Starting Point Credit and uses — Classica pricing philosophy + Stephens Farm page; from $1,606,900, 42/22 acres, 1.5-acre park, Buckeye Cove ~500 ft — Stephens Farm page.
-- Slides 5–8: drawn from the posted terms above (slide 6: Grahym promo closing-cost list, prepaid exclusions, unused portion forfeited; slide 7: DWH present first, not combinable; slide 8: DWH lender not required).
+- Slides 5–8: drawn from the posted terms above (slide 6: a Was-to-Now figure is the price Pulte is asking now; slide 7: DWH present first, not combinable; slide 8: DWH lender not required).
 - Slide 9: general touring tip, no claims.
 - Slide 10: contact block — compliance_check PASS.
 
 ## Cut / not used
-- Other Charlotte-metro builders scanned (Ashton Woods, Dream Finders, D.R. Horton, Lennar, Mattamy, Meritage, Pulte, Toll Brothers, Eastwood and others) and other DWH/Classica communities (McAlpine Place, Retreat at Steele Creek, Davidson Retreat, Enclave at McKee, Ranch at the Palisades, Weddington Grove): communities already in the tracker, rate/percent-only offers, or no dollar offer verifiable on the builder's own site.
-- All rate, APR and buydown promotions (Denise rule).
+- Grahym at Southbridge and Camryn at Southbridge (Fort Mill, SC): outside allowed SC towns. Grahym photos, captions, and the tracker row were replaced, not delivered.
+- Ross Farms $65,000 closing credit: the live disclaimer window is still 7/1/26–9/30/26, which is expired on Nov 8, 2026.
+- Tri Pointe dollar communities already in the tracker (Millstone, Ellis Townes, Seven Oaks, Archer Row, Ascend, Bellflower, Context at Oakhurst, Old Town Village, Amplitude).
+- Empire Camber Woods, Calico Ridge, Oak Creek, Harris Farms, Caswell: already in the tracker. Mallard Park, Galloway Towns, and Parkside Crossing: already in the tracker.
+- True Homes 50% design offer: not found on the builder's own community page today.
+- All rate, APR, monthly-payment, and buydown promotions (Denise rule).

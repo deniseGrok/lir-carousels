@@ -1,11 +1,11 @@
 Nov 8 2026 New Construction — builder photo manifest (Bright Contemporary)
 All photos downloaded Nov 8, 2026 from builders' own sites. Graded + cover-cropped only; no AI. No people in any photo.
 01 cover   Classica Homes       classica_01-Front-of-Home_2        home exterior at dusk (house number 6274 retouched out -> img-retouched/)
-02 deal    Tri Pointe Homes     tph_02-002_ALC01911_tmnvoy         Grahym at Southbridge townhomes + entry monument (porch-column house number retouched out -> img-retouched/)
+02 deal    Pulte Homes          pulte_7AehB7kx                     West End Heights exterior (house numbers 1017/1013/1009/1005 retouched out -> img-retouched/)
 03 deal    David Weekley Homes  dwh_craig_2bf03e44                 Central Living at Craig townhomes (3908/3912/3916 plaques retouched out -> img-retouched/)
 04 deal    Classica Homes       classica_097-Drone_Photography     Stephens Farm aerial, central park
-05 compare Tri Pointe Homes     tph_18-018_ALC01686_q0rkm1         Grahym at Southbridge kitchen + dining
-06 tip     Tri Pointe Homes     tph_11-011_ALC01741_i0ydhf         Grahym at Southbridge living room
+05 compare Pulte Homes          pulte_5CRLePEk                     West End Heights kitchen
+06 tip     Pulte Homes          pulte_FRwfAo6C                     West End Heights living area
 07 tip     David Weekley Homes  dwh_craig_bc6332c7                 Central Living at Craig kitchen
 08 tip     David Weekley Homes  dwh_craig_7a8c056d                 Central Living at Craig living room
 09 tip     Classica Homes       classica_087-Community_Park_Area   Stephens Farm park area

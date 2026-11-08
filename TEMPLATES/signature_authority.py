@@ -17,7 +17,7 @@ Outputs (design approved by Denise Oct 31 2026):
      TikTok safe zones kept clear of text: top 150px, bottom 350px, right 140px (footer sits at bottom:360px, right:160px).
 Per-slide, per-format tweaks: xy_1x1 / xy_9x16 (photo focal point), css_1x1 / css_9x16 (extra CSS).
 """
-import os, html, subprocess, zipfile
+import os, html, subprocess, zipfile, time, base64, sys
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 Image.MAX_IMAGE_PIXELS = None
 
@@ -167,10 +167,23 @@ def page(inner_html, extra, w=W, h=H):
             f"<body><div class='s'>{inner_html}</div></body></html>")
 
 def render(hp, png, w=W, h=H, scale=1, transparent=False):
-    subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", f"--force-device-scale-factor={scale}",
-                    f"--window-size={w},{h}"] + (["--default-background-color=00000000"] if transparent else []) + [ f"--screenshot={png}", "--allow-file-access-from-files", "--virtual-time-budget=4000",
-                    f"file://{hp}"], check=True, capture_output=True)
-    assert Image.open(png).size == (w*scale, h*scale), png
+    # Headless --screenshot hangs on this box (see tools/cdp.py). Capture through CDP instead.
+    sys.path.insert(0, "/workspace/tools")
+    import cdp
+    t = cdp.Tab(); t.call("Page.enable")
+    t.call("Emulation.setDefaultBackgroundColorOverride", color={"r": 0, "g": 0, "b": 0, "a": 0})
+    t.call("Emulation.setDeviceMetricsOverride", width=w, height=h, deviceScaleFactor=1, mobile=False)
+    t.call("Page.navigate", url="file://" + os.path.abspath(hp))
+    for _ in range(80):
+        if t.ev("document.readyState") == "complete": break
+        time.sleep(0.05)
+    t.ev("document.fonts.ready.then(()=>1)")
+    time.sleep(0.25)
+    params = dict(format="png", clip={"x": 0, "y": 0, "width": w, "height": h, "scale": scale})
+    if transparent: params["omitBackground"] = True
+    d = t.call("Page.captureScreenshot", **params)
+    open(png, "wb").write(base64.b64decode(d["data"])); t.close()
+    assert Image.open(png).size == (w * scale, h * scale), (png, Image.open(png).size)
 
 N_ = "14,48,66"
 # Size adaptations, appended after each slide kind's own CSS (4x5 uses none, so the approved 4:5 renders exactly as before).
@@ -193,8 +206,8 @@ OVR = {
   "cover": f".gl{{background:linear-gradient(90deg,rgba({N_},.82) 0,rgba({N_},.62) 40%,rgba({N_},.2) 66%,rgba({N_},0) 80%)}}"
            ".box{top:176px}.b1{font-size:54px}.b2{font-size:22px}.cv{top:430px;width:880px}.lead{font-size:112px}.scr{font-size:200px}"
            ".sub{font-size:46px;margin-top:34px}.sub b{font-size:78px}.dw{font-size:40px}.dw2{font-size:19px}",
-  "stats": ".st{top:300px;width:862px}h1{font-size:124px}.rows{margin-top:44px}.row{padding:22px 28px;margin-bottom:18px}"
-           ".row .z{flex:0 0 270px;font-size:27px}.row .v{font-size:92px}.row .y{font-size:30px}p.b{font-size:42px;margin-top:34px;max-width:862px}.src{font-size:25px;margin-top:20px}",
+  "stats": ".st{top:270px;width:862px}h1{font-size:96px}.rows{margin-top:24px}.row{padding:14px 22px;margin-bottom:12px}"
+           ".row .z{flex:0 0 250px;font-size:24px}.row .v{font-size:68px}.row .y{font-size:26px}p.b{font-size:34px;margin-top:20px;max-width:820px}.src{font-size:22px;line-height:1.35;margin-top:14px;max-width:820px}",
   "cta":   f".gl{{background:linear-gradient(90deg,rgba({N_},.92) 0,rgba({N_},.8) 38%,rgba({N_},.25) 58%,rgba({N_},0) 70%)}}"
            ".ct{top:200px;width:860px}.lt{font-size:116px}.lt2{font-size:48px;margin-top:16px}.card{top:600px}.nm{font-size:100px}"
            ".ti{font-size:38px}.fm{font-size:30px}.ph2{font-size:36px}.eq{font-size:24px}.eho{width:70px;height:68px}"
@@ -231,7 +244,7 @@ BRIGHT_FMT = {
 }
 CLEAR = "html,body,.s{background:transparent!important}"
 
-def build(SL, D, B, pdf_name, series="buyer", fmt="4x5"):
+def build(SL, D, B, pdf_name, series="buyer", fmt="4x5", write_pdf=True):
     w, h = FMTS[fmt]; total = len(SL); pngs = []
     if fmt == "4x5": idir, od, sfx, zp, pdf = os.path.join(B, "img"), D, "", os.path.join(D, "slides.zip"), pdf_name
     else:
@@ -265,13 +278,14 @@ def build(SL, D, B, pdf_name, series="buyer", fmt="4x5"):
         png = os.path.join(od, f"slide-{n:02d}.png"); render(hp, png, w, h); pngs.append(png)
     with zipfile.ZipFile(zp, "w") as z:
         for i, p in enumerate(pngs, 1): z.write(p, f"slide-{i:02d}.png")
-    try:                                   # lossless PDF (PNG pages embedded as-is) when img2pdf is installed
-        import img2pdf
-        for p in pngs:
-            im = Image.open(p)
-            if im.mode != "RGB": im.convert("RGB").save(p)
-        open(os.path.join(D, pdf), "wb").write(img2pdf.convert(pngs))
-    except ImportError:
-        ims = [Image.open(p).convert("RGB") for p in pngs]
-        ims[0].save(os.path.join(D, pdf), save_all=True, append_images=ims[1:], resolution=150, quality=95)
+    if write_pdf:
+        try:                               # lossless PDF (PNG pages embedded as-is) when img2pdf is installed
+            import img2pdf
+            for p in pngs:
+                im = Image.open(p)
+                if im.mode != "RGB": im.convert("RGB").save(p)
+            open(os.path.join(D, pdf), "wb").write(img2pdf.convert(pngs))
+        except ImportError:
+            ims = [Image.open(p).convert("RGB") for p in pngs]
+            ims[0].save(os.path.join(D, pdf), save_all=True, append_images=ims[1:], resolution=150, quality=95)
     return pngs
