@@ -1,14 +1,14 @@
 Nov 8 2026 New Construction — builder photo manifest (Bright Contemporary)
 All photos downloaded Nov 8, 2026 from builders' own sites. Graded + cover-cropped only; no AI. No people in any photo.
 01 cover   Classica Homes       classica_01-Front-of-Home_2        home exterior at dusk (house number 6274 retouched out -> img-retouched/)
-02 deal    Tri Pointe Homes     tph_67-ENV08533_pg4hon             Ross Farms townhome exterior
+02 deal    Tri Pointe Homes     tph_02-002_ALC01911_tmnvoy         Grahym at Southbridge townhomes + entry monument (porch-column house number retouched out -> img-retouched/)
 03 deal    David Weekley Homes  dwh_craig_2bf03e44                 Central Living at Craig townhomes (3908/3912/3916 plaques retouched out -> img-retouched/)
 04 deal    Classica Homes       classica_097-Drone_Photography     Stephens Farm aerial, central park
-05 compare Tri Pointe Homes     tph_50-ENV08842_with_fire_urok9a   Ross Farms porch with fireplace
-06 tip     Tri Pointe Homes     tph_22-ENV08692_ystxvy             Ross Farms kitchen
+05 compare Tri Pointe Homes     tph_18-018_ALC01686_q0rkm1         Grahym at Southbridge kitchen + dining
+06 tip     Tri Pointe Homes     tph_11-011_ALC01741_i0ydhf         Grahym at Southbridge living room
 07 tip     David Weekley Homes  dwh_craig_bc6332c7                 Central Living at Craig kitchen
 08 tip     David Weekley Homes  dwh_craig_7a8c056d                 Central Living at Craig living room
 09 tip     Classica Homes       classica_087-Community_Park_Area   Stephens Farm park area
 10 cta     Classica Homes       classica_091-Community_Mailboxes   Stephens Farm mail pavilion
-Skipped: Tri Pointe 01-Welcome_Home (looks like a rendering), Lot 1-3 CS_1A images (renderings), design-studio photo with people; DWH lifestyle photos with people and Plaza Midwood/SouthPark/skyline area photos; Classica Stephens Farm great room / kitchen samples ("Example Photo" watermark), Napa and Celebrated Collection renderings, Blythe Landing photo (other location).
+Skipped: Tri Pointe Southbridge CS_0x townhome renderings, Southbridge lifestyle photos with people, design-studio photos with people; DWH lifestyle photos with people and Plaza Midwood/SouthPark/skyline area photos; Classica Stephens Farm great room / kitchen samples ("Example Photo" watermark), Napa and Celebrated Collection renderings, Blythe Landing photo (other location).
 Registry check (photo_registry.check vs TEMPLATES/photo-registry.csv): no source-id or SHA match; only loose hash hits (distance >= 11) to unrelated photos.

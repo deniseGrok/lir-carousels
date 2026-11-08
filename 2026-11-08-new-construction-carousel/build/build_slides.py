@@ -1,5 +1,5 @@
 # Nov 8 2026 New Construction carousel - Bright Contemporary. Three native sets. NO PDF.
-# Theme: verified closing credit, quick move-in savings, design credit + amenities (NO interest rates / APR).
+# Theme (rev. Nov 8: slide 2 offer replaced): verified closing credit, quick move-in savings, design credit + amenities (NO interest rates / APR).
 import sys, os
 sys.path.insert(0, "/workspace/repos/lir-carousels/TEMPLATES")
 import bright_contemporary as bc
@@ -13,19 +13,19 @@ S = [
  dict(kind="cover", credit="Classica Homes", src="src/01-cover-stephens-farm-front.jpg", fy=.55,
       pill="NEW BUILDS. [y]VERIFIED NOV 8.[/y]",
       h1="CREDITS &|[y]AMENITIES.[/y]",
-      body="3 builder offers in Charlotte and Huntersville, NC. Each checked on the builder's website Nov 8, 2026.",
+      body="3 builder offers in Fort Mill, SC, and Charlotte and Huntersville, NC. Each checked on the builder's website Nov 8, 2026.",
       bullets=["A closing credit, quick move-in savings and a design credit",
                "From Tri Pointe, David Weekley and Classica",
                "Plus a side-by-side compare and tips before you sign"],
       note="Builder's offers, verified on the builder's site Nov 8, 2026. Terms and eligibility set by the builder; subject to change."),
- dict(kind="deal", credit="Tri Pointe Homes", src="src/02-ross-farms-exterior.jpg", fy=.35,
-      pill="ROSS FARMS • CHARLOTTE, NC",
-      h1="UP TO [y]$65,000[/y]|CLOSING CREDIT.", h1size_9x16=92,
-      sub="Tri Pointe Homes • Ballantyne-area townhomes",
-      bullets=["Use toward closing costs, a price reduction, a move-in package and/or Design Studio options",
-               "Eligible move-in ready or ready-to-build homes at list price, financing with Tri Pointe Connect",
-               "61 townhomes near The Bowl at Ballantyne; HOA covers landscaping, trash pickup and exterior upkeep, per the builder"],
-      note="Builder's offer, verified on Tri Pointe's site Nov 8, 2026. Posted fine print lists an earlier purchase window; confirm dates. Subject to change."),
+ dict(kind="deal", credit="Tri Pointe Homes", src="src/02-grahym-exterior.jpg", fy=.45,
+      pill="GRAHYM AT SOUTHBRIDGE • FORT MILL, SC",
+      h1="UP TO [y]$30,000[/y]|CLOSING CREDIT.", h1size_9x16=92,
+      sub="Tri Pointe Homes • two-story townhomes",
+      bullets=["Use toward Tri Pointe paid closing costs, a price reduction and/or Design Studio options",
+               "Eligible move-in ready or to-be-built homes at list price, bought Oct 1-Dec 30, 2026, financing with Tri Pointe Connect",
+               "50 townhomes with a walking trail and playground; HOA covers landscaping, trash pickup and exterior upkeep"],
+      note="Builder's offer, verified on Tri Pointe's site Nov 8, 2026. Terms and eligibility set by the builder; subject to change."),
  dict(kind="deal", credit="David Weekley Homes", src="src/03-craig-exterior.jpg", fy=.45,
       pill="CENTRAL LIVING AT CRAIG • CHARLOTTE, NC",
       h1="UP TO [y]$40,000[/y]|IN SAVINGS.",
@@ -40,14 +40,14 @@ S = [
       bullets=["$40,000 credit included in the starting price for structural options, Design Studio, or off the price, per Classica",
                "42 acres with 22 acres of preserved land and a 1.5-acre central park, per Classica",
                "Buckeye Cove Nature Preserve about 500 feet from the entrance, per Classica"], note=V),
- dict(kind="compare", credit="Tri Pointe Homes", src="src/05-ross-farms-porch.jpg", fy=.5,
+ dict(kind="compare", credit="Tri Pointe Homes", src="src/05-grahym-kitchen.jpg", fy=.5,
       pill="COMPARE • 3 OFFERS",
       h1="COMPARE THE|[y]FINE PRINT.[/y]",
       sub="Three kinds of builder dollars",
-      bullets=["Ross Farms: a closing credit you allocate, tied to the builder's lender",
+      bullets=["Grahym at Southbridge: a closing credit you allocate, tied to the builder's lender",
                "Central Living at Craig: a home discount on select move-in ready homes, with set dates",
                "Stephens Farm: a credit built into the starting price for options or price"], note=T),
- dict(kind="tip", credit="Tri Pointe Homes", src="src/06-ross-farms-kitchen.jpg", fy=.5,
+ dict(kind="tip", credit="Tri Pointe Homes", src="src/06-grahym-living.jpg", fy=.5,
       pill="TIP • BEFORE YOU SIGN",
       h1="ASK WHERE IT|[y]CAN GO.[/y]",
       sub="A closing credit comes with a list",
@@ -80,8 +80,9 @@ S = [
       body="I'll help you compare the communities, the dollar incentives and the fine print on each one.",
       note="Builder incentives can change; verify with the builder."),
 ]
-# House numbers retouched out: 01 (6274 on the porch column, vertical blend) and 03 (3908, 3912 and 3916 plaques, brick cloned from just below). Homes otherwise unaltered.
+# House numbers retouched out: 01 (6274 on the porch column, vertical blend), 02 (50.. on the porch column, vertical blend) and 03 (3908, 3912 and 3916 plaques, brick cloned from just below). Homes otherwise unaltered.
 FIX = {"src/01-cover-stephens-farm-front.jpg": [("v", 1246, 824, 1264, 882)],
+       "src/02-grahym-exterior.jpg": [("v", 1788, 897, 1802, 936)],
        "src/03-craig-exterior.jpg": [("vclone-36", 1564, 934, 1616, 970), ("vclone-36", 1070, 902, 1112, 938), ("vclone-36", 586, 912, 632, 948)]}
 import numpy as np
 from PIL import Image
