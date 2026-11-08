@@ -20,6 +20,10 @@ L = {
  "9x16":dict(top=160, side=48, right=150, bot=360, tag=32, cr=23, pill=30, h1=108, h1c=92, sub=32, li=28, chk=36, note=21, ft=27, g0=.36, gap=14),
 }
 ESRGAN = "/workspace/repos/lir-carousels/TEMPLATES/tools/esrgan_upscale.py"
+GF = "/usr/share/fonts/truetype/sand-box/google"
+FONTS = (f"@font-face{{font-family:'Anton';src:url('file://{GF}/Anton/Anton-Regular.ttf') format('truetype')}}"
+         f"@font-face{{font-family:'Montserrat';src:url('file://{GF}/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');font-weight:100 900}}"
+         f"@font-face{{font-family:'Inter';src:url('file://{GF}/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');font-weight:100 900}}")
 
 PH = {"4x5": .80, "1x1": .92, "9x16": .62}   # photo zone height (fraction of frame); below it the slide is navy under the text gradient
 
@@ -85,6 +89,7 @@ def html(sl, photo, fmt, n, total=10):
         card = ('<div class="card"><b>Denise Wilson | Broker/REALTOR®</b><br>Lifestyle International Realty — Carolinas<br>'
                 'denisewilson.lircarolinas.com<br>704-615-7347<br><br>Equal Housing Opportunity</div>')
     css = f"""
+{FONTS}
 *{{margin:0;padding:0;box-sizing:border-box}}
 body{{width:{W}px;height:{Hh}px;overflow:hidden;background:{NAVY}}}
 .s{{position:relative;width:{W}px;height:{Hh}px;overflow:hidden;color:#fff;font-family:'Montserrat','Inter',sans-serif}}
