@@ -1,0 +1,12 @@
+All photos are ORIGINAL custom photorealistic illustrative images generated with Grok Bot GenerateImage on Nov 8, 2026 (originals in build/src/gen-NN-raw.jpg; prompts in build/image-prompts.json), carried into this Nov 10, 2026 carousel.
+Real-ESRGAN x4 upscaled (build/src/gen-NN.jpg, 3456x4608). No stock. Provider registered as generated. No on-slide photo credits (illustrative, not a real listing or property).
+01 | generated | gen-2026-11-10-buyer-tips-01 | cover brick + board-and-batten two-story porch home
+02 | generated | gen-2026-11-10-buyer-tips-02 | binder, flashlight, glasses on kitchen island
+03 | generated | gen-2026-11-10-buyer-tips-03 | weathered porch, swing and steps
+04 | generated | gen-2026-11-10-buyer-tips-04 | inspector from behind on ladder at brick ranch gutter
+05 | generated | gen-2026-11-10-buyer-tips-05 | hands writing on blank notepad, tape measure, meter, paint fan
+06 | generated | gen-2026-11-10-buyer-tips-06 | new AC condenser beside brick wall
+07 | generated | gen-2026-11-10-buyer-tips-07 | sunlit foyer, open front door
+08 | generated | gen-2026-11-10-buyer-tips-08 | freshly painted porch column base
+10 | generated | gen-2026-11-10-buyer-tips-09 | contact slide bright living room background (blurred)
+Slide 9: navy stats (no photo). Slide 10 headshot: Denise Wilson's own portrait (TEMPLATES/denise-wilson-headshot-cutout-hires.png).
