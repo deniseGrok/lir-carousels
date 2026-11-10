@@ -1,0 +1,14 @@
+Nov 10 2026 New Construction — builder photo manifest (Bright Contemporary)
+All images downloaded Nov 10, 2026 from builders' own sites. Graded + cover-cropped only; no AI. No people in any image.
+01 cover   Classica Homes       Davidson Retreat front elevation (house number 128 retouched out -> img-retouched/)
+02 deal    David Weekley Homes  McAlpine Place paired-villa elevation RENDERING (community is coming soon; no finished-home photos posted) — credit pill reads "Photo: David Weekley (rendering)"
+03 deal    Meritage Homes       Russell Grove single-family exterior (porch-column number 5211 retouched out -> img-retouched/)
+04 deal    Classica Homes       Davidson Retreat kitchen
+05 compare Meritage Homes       Russell Grove living room
+06 tip     Meritage Homes       Russell Grove kitchen
+07 tip     Classica Homes       Davidson Retreat kitchen (second angle)
+08 tip     Meritage Homes       Russell Grove great room
+09 tip     Meritage Homes       Russell Grove living/dining
+10 cta     Classica Homes       Davidson Retreat kitchen (third angle)
+Skipped: DWH lifestyle photos with people, Plaza Midwood/skyline/area photos with baked-in captions (Freedom Park, McAlpine Creek Greenway, Stevens Creek Nature Preserve); Classica Davidson-area photos (person walking, downtown storefronts/cars); Meritage twilight rendering, bath/bedroom shots.
+Registry check (photo_registry.check vs /workspace/repos/lir-carousels/TEMPLATES/photo-registry.csv): no SHA or source-id match for any of the 10; only loose hash hits (distance >= 11, the closest being an unrelated Century Communities dining photo) to unrelated photos.
