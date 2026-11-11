@@ -1,0 +1,72 @@
+[
+ {
+  "n": 1,
+  "filename": "gen-01-raw",
+  "prompt": "Cover: wide Lake Norman-style cove at golden hour with lakefront homes and private docks. Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 2,
+  "filename": "gen-02-raw",
+  "prompt": "Lake shoreline with wooded points and a few boats on open water. Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 3,
+  "filename": "gen-03-raw",
+  "prompt": "Marina with sailboats at slips. Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 4,
+  "filename": "gen-04-raw",
+  "prompt": "Lakeside park lawn with a picnic shelter and shade trees. Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 5,
+  "filename": "gen-05-raw",
+  "prompt": "Paved greenway trail through autumn hardwoods. Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 6,
+  "filename": "gen-06-raw",
+  "prompt": "Small-town main street with brick storefronts. Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 7,
+  "filename": "gen-07-raw",
+  "prompt": "Modern arts center plaza / outdoor community event lawn. Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 8,
+  "filename": "gen-08-raw",
+  "prompt": "Public fishing pier / boardwalk at sunset. Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 9,
+  "filename": "gen-09-raw",
+  "prompt": "Aerial-feel residential streets near the lake (stats background). Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ },
+ {
+  "n": 10,
+  "filename": "gen-10-raw",
+  "prompt": "Calm lake at dusk (contact background, calm right third for headshot). Original photorealistic editorial photograph, 3:4 portrait. Bright golden-hour light, crisp sharp detail, vibrant but natural color, magazine quality. Composition: main subject in the upper 55% of the frame, calm uncluttered lower 40% for text overlay. Piedmont North Carolina / Lake Norman setting with mixed hardwoods and pines. No readable text, signs, logos, brand names, license plates or house numbers. No palm trees, no Spanish moss, no ocean. Generic, not a specific identifiable real building, business or landmark.",
+  "aspect_ratio": "3:4",
+  "note": "themes as specified to the main run; exact prompts generated there"
+ }
+]

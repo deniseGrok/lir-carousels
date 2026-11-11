@@ -1,0 +1,40 @@
+FAIL youtube-caption.md [Title] firm name
+FAIL youtube-caption.md [Title] phone
+FAIL youtube-caption.md [Title] Equal Housing Opportunity
+FAIL youtube-caption.md [Title] ends with a question
+PASS youtube-caption.md [Description] firm name
+PASS youtube-caption.md [Description] phone
+FAIL youtube-caption.md [Description] Equal Housing Opportunity
+FAIL youtube-caption.md [Description] ends with a question
+FAIL youtube-caption.md [Tags] firm name
+FAIL youtube-caption.md [Tags] phone
+FAIL youtube-caption.md [Tags] Equal Housing Opportunity
+FAIL youtube-caption.md [Tags] ends with a question
+PASS fb-personal-caption.md [Facebook personal profile] firm name
+PASS fb-personal-caption.md [Facebook personal profile] phone
+FAIL fb-personal-caption.md [Facebook personal profile] Equal Housing Opportunity
+FAIL fb-personal-caption.md [Facebook personal profile] ends with a question
+PASS captions.md [Instagram] firm name
+PASS captions.md [Instagram] phone
+FAIL captions.md [Instagram] Equal Housing Opportunity
+FAIL captions.md [Instagram] ends with a question
+PASS [Instagram] no email
+PASS captions.md [Facebook Page] firm name
+PASS captions.md [Facebook Page] phone
+FAIL captions.md [Facebook Page] Equal Housing Opportunity
+FAIL captions.md [Facebook Page] ends with a question
+PASS captions.md [TikTok] firm name
+PASS captions.md [TikTok] phone
+FAIL captions.md [TikTok] Equal Housing Opportunity
+FAIL captions.md [TikTok] ends with a question
+PASS captions.md [Facebook personal profile] firm name
+PASS captions.md [Facebook personal profile] phone
+FAIL captions.md [Facebook personal profile] Equal Housing Opportunity
+FAIL captions.md [Facebook personal profile] ends with a question
+FAIL captions.md: banned/flag 'Swipe' … t come with the shoreline is better.  👉 Swipe through and save this post for your nex …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+FAIL captions.md: banned/flag 'Swipe' … ryday life before you choose a home.  👉 Swipe through and save this post for your nex …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+PASS build/9x16-slide-10.html contact block complete
+PASS build/1x1-slide-10.html contact block complete
+PASS build/4x5-slide-10.html contact block complete
+PASS build/v916/9x16v-slide-10.html contact block complete
+RESULT: FAIL (22 fail lines)

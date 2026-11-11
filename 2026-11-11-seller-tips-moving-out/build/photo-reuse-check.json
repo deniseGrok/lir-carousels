@@ -1,0 +1,389 @@
+[
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-01-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 11,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "7",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-07.jpg",
+        "why": "zone hash dist 22; full hash dist 11"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "7",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/img/07.png",
+        "why": "full hash dist 12"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-03-seller-tips-appraisal",
+        "slide": "7",
+        "file": "2026-11-03-seller-tips-appraisal/build/img/07.png",
+        "why": "zone hash dist 16; full hash dist 12"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-10-20-seller-tips-net-proceeds",
+        "slide": "6",
+        "file": "2026-10-20-seller-tips-net-proceeds/build/img/06.jpg",
+        "why": "zone hash dist 21; full hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "7",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-07-raw.jpg",
+        "why": "zone hash dist 20; full hash dist 13"
+      }
+    ],
+    "total_perceptual_candidates": 246,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-02-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "7",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-07-raw.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "7",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-07.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-26-neighborhood-optimist-park",
+        "slide": "1",
+        "file": "2026-10-26-neighborhood-optimist-park/build/src/wm-optimist-hall-fonta-flora.jpg",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-06-neighborhood-belmont",
+        "slide": "4",
+        "file": "2026-11-06-neighborhood-belmont/build/src/gen-04-raw.jpg",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-06-neighborhood-belmont",
+        "slide": "4",
+        "file": "2026-11-06-neighborhood-belmont/slide-04.png",
+        "why": "zone hash dist 16"
+      }
+    ],
+    "total_perceptual_candidates": 157,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-03-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 14,
+        "carousel": "2026-10-23-neighborhood-cotswold",
+        "slide": "6",
+        "file": "2026-10-23-neighborhood-cotswold/build/img/06.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-23-neighborhood-cotswold",
+        "slide": "6",
+        "file": "2026-10-23-neighborhood-cotswold/slide-06.png",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "10",
+        "file": "2026-11-01-seller-tips-what-stays/slide-10.png",
+        "why": "zone hash dist 14; full hash dist 19"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-16-neighborhood-plaza-midwood",
+        "slide": "4",
+        "file": "2026-10-16-neighborhood-plaza-midwood/slide-04.png",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "1",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/p20360852.jpg",
+        "why": "zone hash dist 15"
+      }
+    ],
+    "total_perceptual_candidates": 204,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-04-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 16,
+        "carousel": "2026-10-25-buyer-tips-making-an-offer",
+        "slide": "9",
+        "file": "2026-10-25-buyer-tips-making-an-offer/slide-09.png",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "1",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/img/01.png",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-04-new-construction-carousel",
+        "slide": "5",
+        "file": "2026-11-04-new-construction-carousel/slides-9x16/slide-05.png",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-24-seller-tips-showings",
+        "slide": "10",
+        "file": "2026-10-24-seller-tips-showings/build/img/10.jpg",
+        "why": "zone hash dist 17; full hash dist 18"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-24-seller-tips-showings",
+        "slide": "10",
+        "file": "2026-10-24-seller-tips-showings/slide-10.png",
+        "why": "zone hash dist 17"
+      }
+    ],
+    "total_perceptual_candidates": 142,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-05-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 11,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "4",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/build/src/pexels-36511381.jpg",
+        "why": "zone hash dist 11"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-04-raw.jpg",
+        "why": "zone hash dist 11; full hash dist 20"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-04.jpg",
+        "why": "zone hash dist 11; full hash dist 20"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/img/04.png",
+        "why": "zone hash dist 11"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-10-27-neighborhood-south-end",
+        "slide": "9",
+        "file": "2026-10-27-neighborhood-south-end/slide-09.png",
+        "why": "zone hash dist 12"
+      }
+    ],
+    "total_perceptual_candidates": 274,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-06-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 15,
+        "carousel": "2026-10-27-buyer-tips-final-walk-through",
+        "slide": "8",
+        "file": "2026-10-27-buyer-tips-final-walk-through/build/img/08.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-27-buyer-tips-final-walk-through",
+        "slide": "8",
+        "file": "2026-10-27-buyer-tips-final-walk-through/slide-08.png",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-27-buyer-tips-final-walk-through",
+        "slide": "8",
+        "file": "2026-10-27-buyer-tips-final-walk-through/build/src/p20778163.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-11-04-new-construction-carousel",
+        "slide": "2",
+        "file": "2026-11-04-new-construction-carousel/build/img1x1/02.jpg",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-16-seller-tips-prep-before-listing",
+        "slide": "7",
+        "file": "2026-10-16-seller-tips-prep-before-listing/build/img/07.jpg",
+        "why": "zone hash dist 16"
+      }
+    ],
+    "total_perceptual_candidates": 173,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-07-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "8",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-08.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "8",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/img/08.png",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-22-neighborhood-wilmore",
+        "slide": "2",
+        "file": "2026-10-22-neighborhood-wilmore/slide-02.png",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-22-neighborhood-wilmore",
+        "slide": "2",
+        "file": "2026-10-22-neighborhood-wilmore/build/src/p34531575.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "8",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-08-raw.jpg",
+        "why": "zone hash dist 14"
+      }
+    ],
+    "total_perceptual_candidates": 179,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-08-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 16,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "8",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-08.jpg",
+        "why": "zone hash dist 16; full hash dist 19"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "8",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/img/08.png",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-06-buyer-tips-hoa-docs",
+        "slide": "10",
+        "file": "2026-11-06-buyer-tips-hoa-docs/slides-9x16/slide-10.png",
+        "why": "zone hash dist 20; full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "8",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-08.jpg",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "8",
+        "file": "2026-11-07-seller-tips-inherited-home/build/img/08.png",
+        "why": "full hash dist 16"
+      }
+    ],
+    "total_perceptual_candidates": 151,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-seller-tips-moving-out/build/src/gen-09-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 11,
+        "carousel": "2026-11-03-seller-tips-appraisal",
+        "slide": "7",
+        "file": "2026-11-03-seller-tips-appraisal/build/src/gen-07-raw.jpg",
+        "why": "zone hash dist 11"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-11-03-seller-tips-appraisal",
+        "slide": "7",
+        "file": "2026-11-03-seller-tips-appraisal/build/src/gen-07.jpg",
+        "why": "zone hash dist 11"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-11-03-seller-tips-appraisal",
+        "slide": "7",
+        "file": "2026-11-03-seller-tips-appraisal/build/img/07.png",
+        "why": "zone hash dist 11; full hash dist 20"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "7",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-07-raw.jpg",
+        "why": "zone hash dist 11"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "7",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-07.jpg",
+        "why": "zone hash dist 11"
+      }
+    ],
+    "total_perceptual_candidates": 266,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  }
+]

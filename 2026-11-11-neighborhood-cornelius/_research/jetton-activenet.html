@@ -1,0 +1,571 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
+
+<html><head>
+
+<title>Center Detail</title>
+<meta name="server_host_address" content="prod-anet-005u1.an.active.tan">
+<meta name="meta_org_name" content="mecklenburgparks">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+<link rel="stylesheet" media="all" type="text/css" href="//akamai-anprod.active.com/mecklenburgparks/servlet/stylesheet.sdi?user_site_id=1&cssname=legacy_font.css">
+
+<link rel="stylesheet" media="all" type="text/css" href="//akamai-anprod.active.com/mecklenburgparks/servlet/style.sdi?user_site_id=1">
+<link rel="stylesheet" type="text/css" media="print" href="//akamai-anprod.active.com/mecklenburgparks/servlet/printstyle.sdi?user_site_id=1">
+<link rel="icon" href="/mecklenburgparks/jquery/images/active-favicon.ico" type="image/x-icon" />
+
+
+
+<link type="text/css" href="/mecklenburgparks/jquery/jquery-ui-1.8.24/themes/base/jquery.ui.all.css" rel="stylesheet" />
+
+<script type="text/javascript" src="/mecklenburgparks/jquery/js/jquery-3.7.0.min.js"></script>
+<script type="text/javascript" src="/mecklenburgparks/jquery/js/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="/mecklenburgparks/jquery/jquery-ui-1.8.24/ui/jquery-ui.min.js"></script>
+
+
+<script type="text/javascript" src="/mecklenburgparks/jquery/js/jquery.cookie.js"></script>
+<script language="JavaScript" src="//akamai-anprod.active.com/mecklenburgparks/servlet/ams_security_api_v2.sdi"></script>
+<script type="text/javaScript" src="/mecklenburgparks/jquery/js/signaturePAD/SigWebTablet.js"></script>
+<script type="text/javaScript" src="/mecklenburgparks/jquery/js/signaturePAD/SignPad.js"></script>
+<script type="text/javaScript" src="/mecklenburgparks/jquery/js/signaturePAD/html2canvas.js"></script>
+<script language="JavaScript" src="//akamai-anprod.active.com/mecklenburgparks/servlet/sdi_lib.sdi"></script>
+
+<script type="text/javascript">
+window.load_tealium = function() {
+window.removeEventListener('sdi_loaded', window.load_tealium);
+try {
+if (!window.opener) {
+// AUI tabs
+window.top.utag?.view({
+enterprise_user_id: window.top.utag_data?.enterprise_user_id,
+user_role: window.top.utag_data?.user_role,
+agency_id: window.top.utag_data?.agency_id,
+ebs_account_id: window.top.utag_data?.ebs_account_id,
+contact_source_system_id: window.top.utag_data?.contact_source_system_id,
+event_tracking: "Center Detail",
+event_tracking_url: window.location.href
+});
+} else {
+// Individual load tealium for  case
+var openerWindow = window;
+while (openerWindow.opener && openerWindow !== openerWindow.opener) {
+openerWindow = openerWindow.opener;
+}
+window.utag_data = {
+enterprise_user_id: openerWindow.top.utag_data?.enterprise_user_id,
+user_role: openerWindow.top.utag_data?.user_role,
+agency_id: openerWindow.top.utag_data?.agency_id,
+ebs_account_id: openerWindow.top.utag_data?.ebs_account_id,
+contact_source_system_id: openerWindow.top.utag_data?.contact_source_system_id
+};
+(function (a, b, c, d) {
+a = 'https://tags.tiqcdn.com/utag/active/activenet/prod/utag.js';
+b = document;
+c = 'script';
+d = b.createElement(c);
+d.src = a;
+d.type = 'text/java' + c;
+d.async = true;
+d.onload = function () {
+window?.utag?.view({
+...window.utag_data,
+event_tracking: "Center Detail",
+event_tracking_url: window.location.href
+});
+};
+a = b.getElementsByTagName(c)[0];
+a.parentNode.insertBefore(d, a);
+})();
+}
+} catch(e) {
+console.log('Failed to track with tealium,',  e);
+}
+}
+window.addEventListener('sdi_loaded', window.load_tealium);
+</script>
+
+<script type="text/javascript" language="JavaScript">
+$(function() {
+initDatepicker();
+initProgress();
+updateCurrentBreadcrumb();
+
+var $a = $("a.cancelBackButtonA");
+
+if ($a.length > 0) {
+var back_breadcrumb = getBackToBreadcrumb();
+if (back_breadcrumb) {
+$a.attr("href", back_breadcrumb.linkhref);
+$a.attr("target", back_breadcrumb.linktarget);
+} else {
+
+$a.remove();
+
+}
+}
+
+
+
+$(".tableList tr:even td, .tableListNoSort tr:even td").addClass("altRowEven");
+$(".tableList tr:odd td, .tableListNoSort tr:odd td").addClass("altRowOdd");
+$(".noAlternateColor tr td").removeClass("altRowEven altRowOdd");
+
+
+try {
+var header_frame = findFrame("admin_banner");
+if (header_frame) {
+header_frame.hideMessageLink();
+}
+} catch (err) {}
+
+
+
+});
+
+
+
+setupFrameLoadEvent('_top', '', '', '1794399390919', '','55', 'Checked', '');
+
+
+
+
+function updateCurrentBreadcrumb() {
+try {
+
+if (self.name=='sdi_main'||parent.name=='sdi_main') {
+if(self.setOnlinePageBreadcrumb) {
+
+setOnlinePageBreadcrumb("CenterDetail","Center Detail","");
+
+return;
+}
+
+setFunctionPageBreadcrumb("CenterDetail","Center Detail","");
+
+}
+} catch(err) {}
+}
+</script>
+<script type="text/javascript" language="JavaScript" defer="true">
+try {
+
+if(parent.name=="sdi_main") {
+parent.parent.window.frames['sdi_main_nav'].pageContentLoadDone('');
+}
+} catch (err) {}
+
+
+</script>
+
+
+
+</head>
+<body marginheight=0 marginwidth=0>
+<!-- OnlinePageBegin("page_id", "page heading text" [,hide_header] [,fullwidth] [,no_table_start] [,show_header_links] [,show_header_logo]) -->
+<!--                (       P1,                 P2,            P3            P4                P5) -->
+<div id="public_sdi_main_content" class="public-shadow" style="overflow-x:visible; overflow-y:visible; margin:0px auto; margin-bottom: 8px; width:1000px;">
+<div style="overflow-x:visible; overflow-y:visible; background-color: white; width: 100%; text-align: left;">
+
+
+
+<table border="0" cellspacing="4" class="pageBegin">
+
+
+
+<tr>
+<td class="onlinePageTitle">
+<ul  style="margin: 0px; padding: 0px; list-style: none">
+<li style="float: left;"><h1>Center Detail</h1><br></li>
+
+</ul>
+</td>
+</tr>
+
+
+
+
+<script type="text/javascript">
+(function(a,b,c,d){
+
+a='https://tags.tiqcdn.com/utag/active/activenet/prod/utag.js';
+
+b=document;
+c='script';
+d=b.createElement(c);
+d.src=a;
+d.type='text/java'+c;
+d.async=true;
+a=b.getElementsByTagName(c)[0];
+a.parentNode.insertBefore(d,a);
+})();
+</script>
+
+<script type="text/javascript" language="JavaScript">
+<!-- Begin
+$(function() {
+var $body = $('body');
+$body.css("background-color", "#FFFFFF");
+
+$body.css("background-image", "");
+$body.css("background-repeat", "repeat");
+
+});
+// Update breadcrumbs. Param is array of breadcrumbs or a single breadcrumb object
+function setOnlinePageBreadcrumb(type, title, url){
+if (!url || url.length==0) url = location.href;
+if (title.length==0) return;
+var stack = new Array();
+stack[0] = new breadcrumb(type, title, url, self.name, null);
+updateBreadcrumbs(stack);
+}
+function updateBreadcrumbs(obj){
+//debugger
+try{
+// Check if passed param is an array of breadcrumbs, or just a single breadcrumb
+var new_breadcrumbs;
+var truncated = false;
+var arrayFrame = findFrame("sdi_banner");
+if (obj.constructor.toString().indexOf("Array") == -1) {
+new_breadcrumbs = new Array();
+new_breadcrumbs[0] = obj;
+} else {
+new_breadcrumbs = obj;
+}
+// Process the new breadcrumbs.
+var root=false;
+for (var i = 0; i < new_breadcrumbs.length; i++) {
+var new_item = new_breadcrumbs[i];
+if (new_item.type=="root") root = true;
+// Go through the existing breadcrumbs. If there are any duplications
+// of a given type in the new breadcrumbs then truncate the existing
+// breadcrumb stack. Similarly, if there are duplications of a given
+// breadcrumb name or url then also truncate the existing breadcrumb stack.
+var check_item_name = "";
+if (new_item.name) check_item_name = trimString(new_item.name).toLowerCase();
+for (var j = 0; j < arrayFrame.breadcrumbs.length; j++) {
+var existing_item = arrayFrame.breadcrumbs[j];
+if (new_item.type == existing_item.type) {
+// Truncate the existing breadcrumbs
+arrayFrame.breadcrumbs.length = j;
+//truncated = true;
+break;
+} else if (check_item_name == trimString(existing_item.name).toLowerCase() ||
+(existing_item.altname && trimString(existing_item.altname).toLowerCase() == check_item_name) ||
+(new_item.link && existing_item.link && new_item.link.href == existing_item.link.href)) {
+// This url is already found in the existing chain, truncate the chain and
+// clear the new item name so it won't be appended
+if (j+1 < arrayFrame.breadcrumbs.length) {
+arrayFrame.breadcrumbs.length = j+1;
+}
+existing_item.altname = new_item.name;
+new_item.name = "";
+break;
+}
+}
+}
+// Now add the new breadcrumbs, if the new breadcrumbs include root then clear previous breadcrumbs
+if (root){
+arrayFrame.breadcrumbs = new_breadcrumbs;
+} else {
+for (var i = 0; i < new_breadcrumbs.length; i++) {
+if (!new_breadcrumbs[i].name || new_breadcrumbs[i].name.length==0) continue; // item was just used to "clear" the type
+//if (truncated) continue;
+arrayFrame.breadcrumbs[arrayFrame.breadcrumbs.length] = new_breadcrumbs[i];
+}
+}
+// Update the content of the "breadcrumbs" div element
+var str = "";
+for (var i = 0; i < arrayFrame.breadcrumbs.length; i++) {
+if (str.length > 0) {
+str += "&nbsp;&#187;&nbsp;";
+}
+var item = arrayFrame.breadcrumbs[i];
+// Construct the link for the object. Note, we do it in this frame to avoid IE
+// javascript "permission denied" error that we were getting when the link element
+// was being created in the breadcrumb object constructor called in another frame.
+if ((item.linkhref || item.linkonclick) && item.linkhref != "null") {
+item.link = document.createElement("a");
+var link_target = ANDecodeURL(item.linkhref);
+if (item.type=="root") {
+var temp_array = new Array();
+temp_array[0] = item;
+// do not need this cause we build the breadcrumbs for root node in background
+//link_target += (link_target.indexOf("?") != -1 ? "&" : "?") + "breadcrumbs=" + breadcrumbsArrayToXML(temp_array);
+}
+item.link.href = link_target;
+item.link.target = item.linktarget;
+item.link.onclick = item.linkonclick;
+item.linkhref = ANEncodeURL(item.linkhref);
+}
+// If item doesn't have associated url or is the last item in the chain then put out as plain text
+if (item.link == null || i == arrayFrame.breadcrumbs.length-1) {
+str += item.name;
+} else {
+// Put the item out as a link
+onclick_handler = 'return breadcrumbClickHandler(this, \'' +  item.name.replace(/'/g,"") + '\');';
+str += "<a href=\"" + ANDecodeURL(item.link.href) + "\" target=\"" + item.link.target + "\" onclick=\"" + onclick_handler + "\">" + item.name + "</a>";
+}
+}
+document.getElementById("breadcrumbs").innerHTML = str;
+// remove the "temp" breadcrumbs
+var temp_breadcrumbs = new Array();
+for (var i = 0; i < arrayFrame.breadcrumbs.length; i++) {
+if (arrayFrame.breadcrumbs[i].type=="temp") continue;
+temp_breadcrumbs[temp_breadcrumbs.length] = arrayFrame.breadcrumbs[i];
+}
+arrayFrame.breadcrumbs = temp_breadcrumbs;
+}catch(err){
+}
+}
+// End -->
+</script>
+
+<tr>
+<td>
+<div id="breadcrumbs" class="onlineBreadcrumbNavBar" style="left:0px;height:16px;z-index:20;"></div>
+</td>
+</tr>
+
+
+
+<script language="JavaScript" src="//akamai-anprod.active.com/mecklenburgparks/servlet/getPageHeaderFooter.sdi?page_name=CenterDetail&user_site_id=1"></script>
+
+
+
+
+
+
+<tr id="center_detail"   ><td>
+<div class="drop-shadow">
+<div>
+<table class="groupBegin" cellpadding="0" cellspacing="0" border="0">
+<tr><td>
+<table class="groupHeading" cellspacing="0" cellpadding="0">
+<tr>
+<td class="groupCorner">
+
+<img src="//akamai-anprod.active.com/mecklenburgparks/servlet/getDynImage.sdi?user_site_id=1&type=corner&h=28" alt="" class="hideprinter" hspace="0" vspace="0" align="left"/>
+
+</td>
+<td class="groupMarker" rowspan="2">
+
+<a href="javascript: toggleDisplay  ('center_detail_body');toggleBodyTriangle('center_detail')" id='center_detail_heading_href'><img src='//akamai-anprod.active.com/mecklenburgparks/servlet/getButton.sdi?user_site_id=1&button=downtriangle' alt="Click to hide" id="center_detail_downtriangle" ><img src='//akamai-anprod.active.com/mecklenburgparks/servlet/getButton.sdi?user_site_id=1&button=righttriangle' alt="Click to display" id="center_detail_righttriangle" style="display:none"></a>
+
+</td>
+<td class="groupLabel" rowspan="2" id="center_detail_heading" style="border-right: 1px solid #999999;">
+
+<a href="javascript: toggleDisplay  ('center_detail_body');toggleBodyTriangle('center_detail')" id='center_detail_heading_href'>Jetton Park</a>
+
+<span id="center_detail_heading_extra" style="display:none"></span>
+</td>
+</tr>
+</table>
+</td></tr>
+<tr id="center_detail_altbody" style="display:none">
+<td>
+<table class="groupBody" cellspacing=0>
+<tr><td id="center_detail_altbodyhtml"></td></tr>
+</table>
+</td>
+</tr>
+<tr id="center_detail_body"   ><td class='groupBody'>
+<table cellspacing="0"  width="100%" >
+<tr><td id="center_detail_bodyhtml">
+
+
+<table class="tableForm" width="100%">
+
+<tr><td class="lbl" valign="top">Description</td><td>Jetton  Park is a 104 acre park located in the town of Cornelius on the shores of Lake Norman. The park features a playground, large decks, sandy beach area, tennis courts, walking trails, and biking trails. This park also offers an indoor shelter that is reservable.  The amenities of this parkare reservable for group use. There is an entry fee of $3 (county) and $5 (non-county) on weekends and holidays at this location.</td></tr>
+<tr><td class="lbl" valign="top">Address</td><td> 19000 Jetton Road<br>Charlotte, NC, US  28031</td></tr>
+<tr><td class="lbl">Phone</td><td>(980) 314-1001</td></tr>
+<tr><td class="lbl">Supervisor</td><td>Michael Campbell</td></tr>
+<tr><td class="lbl">Size</td><td>--</td></tr>
+<tr><td class="lbl">Parking Capacity</td><td>0</td></tr>
+<tr><td class="lbl">ADA Compliance</td><td>--</td></tr>
+</table>
+
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+</div>
+</div>
+</td></tr>
+
+
+
+
+
+<tr id="center_hours"   ><td>
+<div class="drop-shadow">
+<div>
+<table class="groupBegin" cellpadding="0" cellspacing="0" border="0">
+<tr><td>
+<table class="groupHeading" cellspacing="0" cellpadding="0">
+<tr>
+<td class="groupCorner">
+
+<img src="//akamai-anprod.active.com/mecklenburgparks/servlet/getDynImage.sdi?user_site_id=1&type=corner&h=28" alt="" class="hideprinter" hspace="0" vspace="0" align="left"/>
+
+</td>
+<td class="groupMarker" rowspan="2">
+
+<a href="javascript: toggleDisplay  ('center_hours_body');toggleBodyTriangle('center_hours')" id='center_hours_heading_href'><img src='//akamai-anprod.active.com/mecklenburgparks/servlet/getButton.sdi?user_site_id=1&button=downtriangle' alt="Click to hide" id="center_hours_downtriangle" ><img src='//akamai-anprod.active.com/mecklenburgparks/servlet/getButton.sdi?user_site_id=1&button=righttriangle' alt="Click to display" id="center_hours_righttriangle" style="display:none"></a>
+
+</td>
+<td class="groupLabel" rowspan="2" id="center_hours_heading" style="border-right: 1px solid #999999;">
+
+<a href="javascript: toggleDisplay  ('center_hours_body');toggleBodyTriangle('center_hours')" id='center_hours_heading_href'>Hours of Operation</a>
+
+<span id="center_hours_heading_extra" style="display:none"></span>
+</td>
+</tr>
+</table>
+</td></tr>
+<tr id="center_hours_altbody" style="display:none">
+<td>
+<table class="groupBody" cellspacing=0>
+<tr><td id="center_hours_altbodyhtml"></td></tr>
+</table>
+</td>
+</tr>
+<tr id="center_hours_body"   ><td class='groupBody'>
+<table cellspacing="0"  width="100%" >
+<tr><td id="center_hours_bodyhtml">
+
+
+<table class="tableForm" width="100%">
+<tr><td class="lbl">Monday</td><td>8am to 8pm</td></tr>
+<tr><td class="lbl">Tuesday</td><td>8am to 8pm</td></tr>
+<tr><td class="lbl">Wednesday</td><td>8am to 8pm</td></tr>
+<tr><td class="lbl">Thursday</td><td>8am to 8pm</td></tr>
+<tr><td class="lbl">Friday</td><td>8am to 8pm</td></tr>
+<tr><td class="lbl">Saturday</td><td>8am to 8pm</td></tr>
+<tr><td class="lbl">Sunday</td><td>8am to 8pm</td></tr>
+</table>
+
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+</div>
+</div>
+</td></tr>
+
+
+
+
+
+<tr id="center_fac"   ><td>
+<div class="drop-shadow">
+<div>
+<table class="groupBegin" cellpadding="0" cellspacing="0" border="0">
+<tr><td>
+<table class="groupHeading" cellspacing="0" cellpadding="0">
+<tr>
+<td class="groupCorner">
+
+<img src="//akamai-anprod.active.com/mecklenburgparks/servlet/getDynImage.sdi?user_site_id=1&type=corner&h=28" alt="" class="hideprinter" hspace="0" vspace="0" align="left"/>
+
+</td>
+<td class="groupMarker" rowspan="2">
+
+<a href="javascript: toggleDisplay  ('center_fac_body');toggleBodyTriangle('center_fac')" id='center_fac_heading_href'><img src='//akamai-anprod.active.com/mecklenburgparks/servlet/getButton.sdi?user_site_id=1&button=downtriangle' alt="Click to hide" id="center_fac_downtriangle" ><img src='//akamai-anprod.active.com/mecklenburgparks/servlet/getButton.sdi?user_site_id=1&button=righttriangle' alt="Click to display" id="center_fac_righttriangle" style="display:none"></a>
+
+</td>
+<td class="groupLabel" rowspan="2" id="center_fac_heading" style="border-right: 1px solid #999999;">
+
+<a href="javascript: toggleDisplay  ('center_fac_body');toggleBodyTriangle('center_fac')" id='center_fac_heading_href'>Facilities</a>
+
+<span id="center_fac_heading_extra" style="display:none"></span>
+</td>
+</tr>
+</table>
+</td></tr>
+<tr id="center_fac_altbody" style="display:none">
+<td>
+<table class="groupBody" cellspacing=0>
+<tr><td id="center_fac_altbodyhtml"></td></tr>
+</table>
+</td>
+</tr>
+<tr id="center_fac_body"   ><td class='groupBody'>
+<table cellspacing="0"  width="100%" >
+<tr><td id="center_fac_bodyhtml">
+
+
+<table border=0 cellspacing=1 cellpadding=2 width="100%">
+<tr ><td colspan='2'><a href="fD.sdi?facility_id=531&online=true">Jetton Park - Deck A</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=528&online=true">Jetton Park - Deck BB</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=529&online=true">Jetton Park - Deck CC</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=532&online=true">Jetton Park - Deck D</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=533&online=true">Jetton Park - Deck E</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=534&online=true">Jetton Park - Deck F</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=535&online=true">Jetton Park - Deck G</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=536&online=true">Jetton Park - Deck H</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=530&online=true">Jetton Park - Deck JJ</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=537&online=true">Jetton Park - Deck K</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=538&online=true">Jetton Park - Deck L</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=539&online=true">Jetton Park - Deck M</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=690&online=true">Jetton Park - Tennis #1 (Lights)</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=691&online=true">Jetton Park - Tennis #2 (Lights)</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=692&online=true">Jetton Park - Tennis #3 (Lights)</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=693&online=true">Jetton Park - Tennis #4 (Lights)</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=694&online=true">Jetton Park - Tennis #5 (Lights)</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=695&online=true">Jetton Park - Tennis #6 (Lights)</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=696&online=true">Jetton Park - Tennis #7 (Lights)</a></td></tr><tr ><td colspan='2'><a href="fD.sdi?facility_id=697&online=true">Jetton Park - Tennis #8 (Lights)</a></td></tr>
+</table>
+
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+</div>
+</div>
+</td></tr>
+
+
+
+
+
+<script language="JavaScript" src="//akamai-anprod.active.com/mecklenburgparks/servlet/getPageHeaderFooter.sdi?page_name=CenterDetail&req_footer=1&user_site_id=1"></script>
+
+
+</table>
+</div>
+<div style="overflow-x:auto; overflow-y:visible; background-color: white; width: 100%; text-align: left;">
+<table id="online_footer" border="0" class="pageBeginFull" style="width:99.8%;">
+<tr>
+<td style="padding-top : 10px;" colspan="2">
+<div class="publicUpperFooter">
+&nbsp;<a href=" http://www.charmeck.org/mecklenburg/county/parkandrec" target="_blank" >Mecklenburg County Park and Recreation</a>&nbsp;|&nbsp;<a href="mailto:eparks@mecklenburgcountync.gov">Contact Us</a>&nbsp;|&nbsp;<a href="faqPage.sdi">Help</a>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table style="margin:0px auto; width:1000px;">
+<tr>
+<td colspan="2">
+<hr>
+</td>
+</tr>
+<tr valign="top">
+<td class="publicLowerFooter" style="padding-bottom : 10px;">
+<div>
+<a href="http://www.activenetwork.com/information/terms-of-use.htm" target="_blank">Terms of Use</a>
+&nbsp;|&nbsp;
+<a href="http://www.activenetwork.com/information/copyright-policy" target="_blank">Copyright Policy</a>
+&nbsp;|&nbsp;
+
+<a href="https://www.activenetwork.com/information/processor-privacy-policy" target="_blank">Your Privacy Rights</a>
+
+
+&nbsp;|&nbsp;
+&COPY;&nbsp;2026&nbsp;Active&nbsp;Network,&nbsp;LLC&nbsp;and/or&nbsp;its&nbsp;affiliates&nbsp;and&nbsp;licensors.&nbsp;All&nbsp;rights&nbsp;reserved.
+
+</div>
+<div style="padding-top : 10px;">
+Mecklenburg County Park and Recreation's Policies:&nbsp;
+<a href="termsOfUse.sdi" target="_blank">Terms of Use</a>
+&nbsp;|&nbsp;
+<a href="privacyPolicy.sdi" target="_blank">Your Privacy Rights</a>
+</div>
+</td>
+
+<td style="float:right;">
+<img alt="" src="//akamai-anprod.active.com/mecklenburgparks/images/activelogo_public_footer.png">
+</td>
+
+</tr>
+</table>
+
+
+</body>
+</html>

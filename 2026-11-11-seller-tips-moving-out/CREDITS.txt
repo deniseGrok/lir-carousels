@@ -1,0 +1,13 @@
+All photos are ORIGINAL custom photorealistic illustrative images generated with Grok Bot GenerateImage on Nov 11, 2026 by the Daily Three Carousels Batch main run (originals in build/src/gen-NN-raw.png).
+Real-ESRGAN x4 upscaled (build/src/gen-NN.jpg, 3456x4608). No stock. Provider registered as generated. No on-slide photo credits (illustrative, not a real listing or property).
+01 | generated | gen-2026-11-11-seller-tips-01 | cover white-siding + brick two-story porch home, moving boxes on the porch
+02 | generated | gen-2026-11-11-seller-tips-02 | keys, notepad, papers, pen and coffee mug on kitchen counter
+03 | generated | gen-2026-11-11-seller-tips-03 | stacked moving boxes in bright empty living room
+04 | generated | gen-2026-11-11-seller-tips-04 | open moving truck in driveway, mover small and from behind
+05 | generated | gen-2026-11-11-seller-tips-05 | clean empty bedroom with broom and dustpan
+06 | generated | gen-2026-11-11-seller-tips-06 | house keys, garage remote and manuals on marble counter
+07 | generated | gen-2026-11-11-seller-tips-07 | electric meter and utility boxes on brick wall
+08 | generated | gen-2026-11-11-seller-tips-08 | black mailbox at the curb with fall flowers
+09 | generated | gen-2026-11-11-seller-tips-09 | tidy empty sunlit kitchen
+10 | generated | gen-2026-11-11-seller-tips-03 | contact slide background = image 03 (living room), blurred (no 10th image generated)
+Slide 10 headshot: Denise Wilson's own portrait (TEMPLATES/denise-wilson-headshot-cutout-hires.png).

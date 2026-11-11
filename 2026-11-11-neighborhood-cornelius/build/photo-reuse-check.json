@@ -1,0 +1,432 @@
+[
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-01-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 16,
+        "carousel": "2026-10-25-new-construction-carousel",
+        "slide": "7",
+        "file": "2026-10-25-new-construction-carousel/build/src/mst_clt-sts-modelbuilding-exterior2.jpg",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-10-neighborhood-concord",
+        "slide": "6",
+        "file": "2026-11-10-neighborhood-concord/slides-1x1/slide-06.png",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-16-seller-tips-prep-before-listing",
+        "slide": "3",
+        "file": "2026-10-16-seller-tips-prep-before-listing/build/img/03.jpg",
+        "why": "zone hash dist 18; full hash dist 17"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-16-neighborhood-plaza-midwood",
+        "slide": "1",
+        "file": "2026-10-16-neighborhood-plaza-midwood/build/img/01.jpg",
+        "why": "zone hash dist 17"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "9",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/build/src/pexels-5008385.jpg",
+        "why": "full hash dist 17"
+      }
+    ],
+    "total_perceptual_candidates": 202,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-02-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 16,
+        "carousel": "2026-10-21-buyer-tips-true-monthly-cost",
+        "slide": "9",
+        "file": "2026-10-21-buyer-tips-true-monthly-cost/slide-09.png",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-26-neighborhood-optimist-park",
+        "slide": "4",
+        "file": "2026-10-26-neighborhood-optimist-park/build/src/wm-duke-innovation-center-16th-st.jpg",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-15-buyer-tips-preapproval",
+        "slide": "6",
+        "file": "2026-10-15-buyer-tips-preapproval/slide-06.png",
+        "why": "zone hash dist 17"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-26-neighborhood-optimist-park",
+        "slide": "3",
+        "file": "2026-10-26-neighborhood-optimist-park/build/img/03.jpg",
+        "why": "zone hash dist 17"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-26-neighborhood-optimist-park",
+        "slide": "3",
+        "file": "2026-10-26-neighborhood-optimist-park/slide-03.png",
+        "why": "zone hash dist 17"
+      }
+    ],
+    "total_perceptual_candidates": 183,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-03-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 10,
+        "carousel": "demo-2026-10-17-elizabeth",
+        "slide": "",
+        "file": "demo-2026-10-17-elizabeth/build/src/p18940489.jpg",
+        "why": "zone hash dist 10"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "1",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/build/src/pexels-15334535.jpg",
+        "why": "zone hash dist 11; full hash dist 15"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-10-25-new-construction-carousel",
+        "slide": "6",
+        "file": "2026-10-25-new-construction-carousel/build/img/06.jpg",
+        "why": "zone hash dist 11; full hash dist 20"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-10-25-new-construction-carousel",
+        "slide": "6",
+        "file": "2026-10-25-new-construction-carousel/slide-06.png",
+        "why": "zone hash dist 11"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-10-25-new-construction-carousel",
+        "slide": "6",
+        "file": "2026-10-25-new-construction-carousel/build/src/cco_daffodil-c2---_5-web-or-mls-d.jpg",
+        "why": "zone hash dist 11"
+      }
+    ],
+    "total_perceptual_candidates": 345,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-04-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-10-25-neighborhood-university-city",
+        "slide": "10",
+        "file": "2026-10-25-neighborhood-university-city/build/src/p33607464.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-26-neighborhood-optimist-park",
+        "slide": "5",
+        "file": "2026-10-26-neighborhood-optimist-park/slide-05.png",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-30-neighborhood-seversville",
+        "slide": "8",
+        "file": "2026-10-30-neighborhood-seversville/slide-08.png",
+        "why": "zone hash dist 20; full hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-15-neighborhood-ballantyne",
+        "slide": "10",
+        "file": "2026-10-15-neighborhood-ballantyne/build/img-hq/10.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "9",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/build/img/09.jpg",
+        "why": "zone hash dist 15; full hash dist 20"
+      }
+    ],
+    "total_perceptual_candidates": 259,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-05-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-10-16-seller-tips-prep-before-listing",
+        "slide": "10",
+        "file": "2026-10-16-seller-tips-prep-before-listing/build/img/10.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-10-16-seller-tips-prep-before-listing",
+        "slide": "10",
+        "file": "2026-10-16-seller-tips-prep-before-listing/slide-10.png",
+        "why": "zone hash dist 13; full hash dist 18"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-12-neighborhood-southpark",
+        "slide": "3",
+        "file": "2026-10-12-neighborhood-southpark/slide-03.png",
+        "why": "zone hash dist 14; full hash dist 18"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-14-seller-tips-out-of-state",
+        "slide": "2",
+        "file": "2026-10-14-seller-tips-out-of-state/slide-02.png",
+        "why": "zone hash dist 21; full hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-16-seller-tips-prep-before-listing",
+        "slide": "9",
+        "file": "2026-10-16-seller-tips-prep-before-listing/build/img/09.jpg",
+        "why": "zone hash dist 15"
+      }
+    ],
+    "total_perceptual_candidates": 319,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-06-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-10-26-new-construction-carousel",
+        "slide": "8",
+        "file": "2026-10-26-new-construction-carousel/build/src/cbs_calderwood-c-lot-1_35-print-001.jpg",
+        "why": "full hash dist 13"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-18-neighborhood-fourth-ward",
+        "slide": "6",
+        "file": "2026-10-18-neighborhood-fourth-ward/slide-06.png",
+        "why": "zone hash dist 14; full hash dist 20"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-18-neighborhood-fourth-ward",
+        "slide": "6",
+        "file": "2026-10-18-neighborhood-fourth-ward/build/img/06.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-18-neighborhood-fourth-ward",
+        "slide": "",
+        "file": "2026-10-18-neighborhood-fourth-ward/build/src/wm-Charlotte_Settlers_Cemetery.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "1",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/build/src/pexels-15334535.jpg",
+        "why": "zone hash dist 15; full hash dist 20"
+      }
+    ],
+    "total_perceptual_candidates": 236,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-07-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 14,
+        "carousel": "2026-10-30-seller-tips-pre-listing-inspection",
+        "slide": "10",
+        "file": "2026-10-30-seller-tips-pre-listing-inspection/build/img/10.jpg",
+        "why": "zone hash dist 22; full hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-10-neighborhood-concord",
+        "slide": "9",
+        "file": "2026-11-10-neighborhood-concord/slide-09.png",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "demo-2026-10-17-elizabeth",
+        "slide": "",
+        "file": "demo-2026-10-17-elizabeth/build/src/p18940489.jpg",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-11-10-neighborhood-concord",
+        "slide": "9",
+        "file": "2026-11-10-neighborhood-concord/build/src/gen-09-raw.jpg",
+        "why": "zone hash dist 15; full hash dist 20"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-11-10-neighborhood-concord",
+        "slide": "9",
+        "file": "2026-11-10-neighborhood-concord/build/src/gen-09.jpg",
+        "why": "zone hash dist 15"
+      }
+    ],
+    "total_perceptual_candidates": 218,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-08-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 15,
+        "carousel": "2026-11-02-buyer-tips-homeowners-insurance",
+        "slide": "8",
+        "file": "2026-11-02-buyer-tips-homeowners-insurance/slide-08.png",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "7",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/img/07.png",
+        "why": "zone hash dist 20; full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "8",
+        "file": "2026-11-05-neighborhood-huntersville/build/src/gen-08.jpg",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "8",
+        "file": "2026-11-05-neighborhood-huntersville/build/img4x5/08.png",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-18-seller-tips-reviewing-offers",
+        "slide": "",
+        "file": "2026-10-18-seller-tips-reviewing-offers/build/src/1564540583246-934409427776.jpg",
+        "why": "full hash dist 17"
+      }
+    ],
+    "total_perceptual_candidates": 160,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-09-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 16,
+        "carousel": "2026-10-21-neighborhood-elizabeth",
+        "slide": "10",
+        "file": "2026-10-21-neighborhood-elizabeth/build/src/wm-Elizabeth_Park_fall_colors_Early_November_2025.jpg",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-17-buyer-tips-inspections",
+        "slide": "10",
+        "file": "2026-10-17-buyer-tips-inspections/build/img/10.jpg",
+        "why": "full hash dist 17"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "7",
+        "file": "2026-11-05-neighborhood-huntersville/build/src/gen-07-raw.jpg",
+        "why": "full hash dist 17"
+      },
+      {
+        "score": 18,
+        "carousel": "2026-10-17-buyer-tips-inspections",
+        "slide": "10",
+        "file": "2026-10-17-buyer-tips-inspections/slide-10.png",
+        "why": "full hash dist 18"
+      },
+      {
+        "score": 18,
+        "carousel": "2026-10-21-neighborhood-elizabeth",
+        "slide": "10",
+        "file": "2026-10-21-neighborhood-elizabeth/slide-10.png",
+        "why": "full hash dist 18"
+      }
+    ],
+    "total_perceptual_candidates": 125,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  },
+  {
+    "file": "2026-11-11-neighborhood-cornelius/build/src/gen-10-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 15,
+        "carousel": "2026-10-24-neighborhood-steele-creek",
+        "slide": "1",
+        "file": "2026-10-24-neighborhood-steele-creek/build/img/01.jpg",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-04-raw.jpg",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-04.jpg",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/img/04.png",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/slide-04.png",
+        "why": "full hash dist 16"
+      }
+    ],
+    "total_perceptual_candidates": 136,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact prior-post SHA1 matches: zero."
+  }
+]
