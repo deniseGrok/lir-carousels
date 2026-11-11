@@ -1,0 +1,14 @@
+Nov 11 2026 New Construction — builder photo manifest (Bright Contemporary)
+All images downloaded Nov 11, 2026 from builders' own sites. Graded + cover-cropped only; no AI. No people in any image.
+01 cover    David Weekley Homes  North Creek Village twilight townhome exterior (community image)
+02 deal     David Weekley Homes  townhome front entry (house number 10511 retouched out -> img-retouched/)
+03 deal     Stanley Martin       Coventry (PNV) Hayworth townhome building elevation RENDERING — pill reads "Photo: Stanley Martin (rendering)"
+04 deal     Taylor Morrison      Fincastle Glen model home exterior
+05 compare  David Weekley Homes  dining/kitchen (community image on the North Creek Village page)
+06 tip      Stanley Martin       Coventry page header kitchen
+07 tip      Taylor Morrison      Fincastle Glen Linville model kitchen
+08 tip      David Weekley Homes  living room (community image on the North Creek Village page)
+09 tip      Taylor Morrison      Fincastle Glen Pisgah model living room
+10 cta      Stanley Martin       Hayworth plan family room (builder plan photo shown on the Coventry page)
+Skipped: DWH lifestyle photos with people, area photos with baked-in captions ("Natural Playground", "Walking Trails"), the North Creek Village logo; Stanley Martin Pineville point-of-interest photos and skyline cover; Taylor Morrison area/aerial shots and the Shelby monument photo.
+Registry check (photo_registry.check vs /workspace/repos/lir-carousels/TEMPLATES/photo-registry.csv): no SHA1 or source-id match for any of the 10; only loose hash hits (distance >= 13) to unrelated photos.
