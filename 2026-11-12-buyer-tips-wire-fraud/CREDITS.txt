@@ -1,0 +1,12 @@
+All photos are ORIGINAL custom photorealistic illustrative images generated with Grok Bot GenerateImage on Nov 12, 2026 by the Daily Three Carousels Batch main run (originals in build/src/gen-NN-raw.png, 864x1152).
+Real-ESRGAN x4 upscaled (build/src/gen-NN.jpg, 3456x4608). No stock. Provider registered as generated. No on-slide photo credits (illustrative, not a real listing or property).
+01 | generated | gen-2026-11-12-buyer-tips-wire-fraud-01 | cover white-painted brick two-story home, teal front door, brick walk, crepe myrtle
+02 | generated | gen-2026-11-12-buyer-tips-wire-fraud-02 | home-office desk by a window: closed laptop, phone, envelopes, glasses, coffee
+03 | generated | gen-2026-11-12-buyer-tips-wire-fraud-03 | notepad, pen, phone, coffee and a bowl of clementines on a wood table
+04 | generated | gen-2026-11-12-buyer-tips-wire-fraud-04 | person from behind on a phone at a tall window with pines (incidental)
+05 | generated | gen-2026-11-12-buyer-tips-wire-fraud-05 | red front door on a porch with a potted fern
+06 | generated | gen-2026-11-12-buyer-tips-wire-fraud-06 | closed laptop with a brass padlock, leather folio and pen
+07 | generated | gen-2026-11-12-buyer-tips-wire-fraud-07 | law-office conference room, closed navy folder and pen, window with oaks
+08 | generated | gen-2026-11-12-buyer-tips-wire-fraud-08 | person in profile, face turned away, on a phone holding a folder at a kitchen island (incidental)
+09 | generated | gen-2026-11-12-buyer-tips-wire-fraud-09 | bright sunroom with white brick, linen sofa, olive tree (slide 10 background, blurred)
+Slide 9: navy stats slide, no photo. Slide 10 headshot: Denise Wilson's own portrait (TEMPLATES/denise-wilson-headshot-cutout-hires.png).

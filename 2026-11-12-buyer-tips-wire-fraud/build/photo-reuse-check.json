@@ -1,0 +1,740 @@
+[
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-01-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 14,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "1",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-01.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "1",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/img/01.png",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "1",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-01-raw.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-29-new-construction-carousel",
+        "slide": "8",
+        "file": "2026-10-29-new-construction-carousel/slides-1x1/slide-08.png",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "9",
+        "file": "2026-11-01-seller-tips-what-stays/build/src/gen-09-raw.jpg",
+        "why": "zone hash dist 17"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-02-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 8,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "10",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-10-raw.png",
+        "why": "zone hash dist 8; full hash dist 16"
+      },
+      {
+        "score": 8,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "10",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-10.jpg",
+        "why": "zone hash dist 8; full hash dist 17"
+      },
+      {
+        "score": 8,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "10",
+        "file": "2026-11-07-seller-tips-inherited-home/build/img/10.png",
+        "why": "zone hash dist 8; full hash dist 16"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "9",
+        "file": "2026-11-05-neighborhood-huntersville/build/src/gen-09-raw.jpg",
+        "why": "zone hash dist 10; full hash dist 16"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "9",
+        "file": "2026-11-05-neighborhood-huntersville/build/src/gen-09.jpg",
+        "why": "zone hash dist 10; full hash dist 16"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-03-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 11,
+        "carousel": "style-samples-v4",
+        "slide": "",
+        "file": "style-samples-v4/tips-slide01.png",
+        "why": "zone hash dist 11"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "4",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-04-raw.png",
+        "why": "zone hash dist 12; full hash dist 15"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-10-16-seller-tips-prep-before-listing",
+        "slide": "4",
+        "file": "2026-10-16-seller-tips-prep-before-listing/build/img/04.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "3",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-03-raw.jpg",
+        "why": "zone hash dist 15; full hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "3",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-03.jpg",
+        "why": "zone hash dist 14; full hash dist 13"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-04-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-10-30-neighborhood-seversville",
+        "slide": "7",
+        "file": "2026-10-30-neighborhood-seversville/build/src/cd-park-greenway.jpg",
+        "why": "full hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-11-seller-tips-moving-out",
+        "slide": "9",
+        "file": "2026-11-11-seller-tips-moving-out/slides-9x16/slide-09.png",
+        "why": "zone hash dist 13; full hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-11-seller-tips-moving-out",
+        "slide": "10",
+        "file": "2026-11-11-seller-tips-moving-out/slides-1x1/slide-10.png",
+        "why": "zone hash dist 13; full hash dist 20"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "1",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-01-raw.jpg",
+        "why": "zone hash dist 14; full hash dist 20"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "1",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-01.jpg",
+        "why": "zone hash dist 14; full hash dist 20"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-05-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 14,
+        "carousel": "2026-10-26-seller-tips-under-contract",
+        "slide": "4",
+        "file": "2026-10-26-seller-tips-under-contract/build/src/p6510970.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/img/04.png",
+        "why": "zone hash dist 20; full hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "9",
+        "file": "2026-10-31-buyer-tips-title-and-survey/slide-09.png",
+        "why": "zone hash dist 15; full hash dist 20"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-11-06-new-construction-carousel",
+        "slide": "10",
+        "file": "2026-11-06-new-construction-carousel/build/img45/10.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-28-new-construction-carousel",
+        "slide": "3",
+        "file": "2026-10-28-new-construction-carousel/slide-03.png",
+        "why": "full hash dist 16"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-06-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 12,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "9",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-09-raw.jpg",
+        "why": "zone hash dist 12"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "9",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-09.jpg",
+        "why": "zone hash dist 12"
+      },
+      {
+        "score": 13,
+        "carousel": "style-samples-v4",
+        "slide": "",
+        "file": "style-samples-v4/tips-slide01.png",
+        "why": "zone hash dist 13; full hash dist 20"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-02-buyer-tips-homeowners-insurance",
+        "slide": "10",
+        "file": "2026-11-02-buyer-tips-homeowners-insurance/build/img/10.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "9",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/img/09.png",
+        "why": "zone hash dist 13"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-07-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 12,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "3",
+        "file": "2026-11-07-seller-tips-inherited-home/slide-03.png",
+        "why": "zone hash dist 12; full hash dist 15"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-10-buyer-tips-repair-requests",
+        "slide": "7",
+        "file": "2026-11-10-buyer-tips-repair-requests/build/src/gen-07-raw.jpg",
+        "why": "zone hash dist 12"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-10-buyer-tips-repair-requests",
+        "slide": "7",
+        "file": "2026-11-10-buyer-tips-repair-requests/build/src/gen-07.jpg",
+        "why": "zone hash dist 12"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-10-buyer-tips-repair-requests",
+        "slide": "7",
+        "file": "2026-11-10-buyer-tips-repair-requests/build/img/07.png",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-17-new-construction-carousel",
+        "slide": "2",
+        "file": "2026-10-17-new-construction-carousel/slide-02.png",
+        "why": "zone hash dist 14"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-08-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 5,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "7",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-07-raw.png",
+        "why": "zone hash dist 5; full hash dist 19"
+      },
+      {
+        "score": 5,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "7",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-07.jpg",
+        "why": "zone hash dist 5; full hash dist 19"
+      },
+      {
+        "score": 6,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "7",
+        "file": "2026-11-07-seller-tips-inherited-home/build/img/07.png",
+        "why": "zone hash dist 6; full hash dist 20"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "9",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-09-raw.jpg",
+        "why": "zone hash dist 10"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "9",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-09.jpg",
+        "why": "zone hash dist 10"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-09-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "3",
+        "file": "2026-11-01-seller-tips-what-stays/build/src/gen-03-raw.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "3",
+        "file": "2026-11-01-seller-tips-what-stays/build/src/gen-03.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "3",
+        "file": "2026-11-01-seller-tips-what-stays/build/img/03.png",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-18-seller-tips-reviewing-offers",
+        "slide": "6",
+        "file": "2026-10-18-seller-tips-reviewing-offers/slide-06.png",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-29-new-construction-carousel",
+        "slide": "8",
+        "file": "2026-10-29-new-construction-carousel/slides-1x1/slide-08.png",
+        "why": "zone hash dist 15"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-01.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "1",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-01.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "1",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/img/01.png",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "1",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-01-raw.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-29-new-construction-carousel",
+        "slide": "8",
+        "file": "2026-10-29-new-construction-carousel/slides-1x1/slide-08.png",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 18,
+        "carousel": "2026-10-29-new-construction-carousel",
+        "slide": "8",
+        "file": "2026-10-29-new-construction-carousel/build/img1x1/08.jpg",
+        "why": "zone hash dist 18"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-02.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 8,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "10",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-10-raw.png",
+        "why": "zone hash dist 8; full hash dist 18"
+      },
+      {
+        "score": 8,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "10",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-10.jpg",
+        "why": "zone hash dist 8; full hash dist 19"
+      },
+      {
+        "score": 8,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "10",
+        "file": "2026-11-07-seller-tips-inherited-home/build/img/10.png",
+        "why": "zone hash dist 8; full hash dist 18"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-11-10-buyer-tips-repair-requests",
+        "slide": "7",
+        "file": "2026-11-10-buyer-tips-repair-requests/build/src/gen-07-raw.jpg",
+        "why": "zone hash dist 10; full hash dist 19"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-11-10-buyer-tips-repair-requests",
+        "slide": "7",
+        "file": "2026-11-10-buyer-tips-repair-requests/build/src/gen-07.jpg",
+        "why": "zone hash dist 10; full hash dist 19"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-03.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 10,
+        "carousel": "style-samples-v4",
+        "slide": "",
+        "file": "style-samples-v4/tips-slide01.png",
+        "why": "zone hash dist 10"
+      },
+      {
+        "score": 11,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "4",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-04-raw.png",
+        "why": "zone hash dist 11; full hash dist 16"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-10-16-seller-tips-prep-before-listing",
+        "slide": "4",
+        "file": "2026-10-16-seller-tips-prep-before-listing/build/img/04.jpg",
+        "why": "zone hash dist 12"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "4",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-04.jpg",
+        "why": "zone hash dist 12; full hash dist 14"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "4",
+        "file": "2026-11-07-seller-tips-inherited-home/build/img/04.png",
+        "why": "zone hash dist 12; full hash dist 16"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-04.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-10-30-neighborhood-seversville",
+        "slide": "7",
+        "file": "2026-10-30-neighborhood-seversville/build/src/cd-park-greenway.jpg",
+        "why": "full hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-11-seller-tips-moving-out",
+        "slide": "9",
+        "file": "2026-11-11-seller-tips-moving-out/slides-9x16/slide-09.png",
+        "why": "zone hash dist 13; full hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-11-seller-tips-moving-out",
+        "slide": "10",
+        "file": "2026-11-11-seller-tips-moving-out/slides-1x1/slide-10.png",
+        "why": "zone hash dist 13; full hash dist 20"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "1",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-01-raw.jpg",
+        "why": "zone hash dist 14; full hash dist 20"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "1",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-01.jpg",
+        "why": "zone hash dist 14; full hash dist 20"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-05.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 14,
+        "carousel": "2026-10-26-seller-tips-under-contract",
+        "slide": "4",
+        "file": "2026-10-26-seller-tips-under-contract/build/src/p6510970.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "4",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/img/04.png",
+        "why": "zone hash dist 20; full hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "9",
+        "file": "2026-10-31-buyer-tips-title-and-survey/slide-09.png",
+        "why": "zone hash dist 15; full hash dist 20"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-11-06-new-construction-carousel",
+        "slide": "10",
+        "file": "2026-11-06-new-construction-carousel/build/img45/10.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-28-new-construction-carousel",
+        "slide": "3",
+        "file": "2026-10-28-new-construction-carousel/slide-03.png",
+        "why": "full hash dist 16"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-06.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 11,
+        "carousel": "2026-11-02-buyer-tips-homeowners-insurance",
+        "slide": "10",
+        "file": "2026-11-02-buyer-tips-homeowners-insurance/build/img/10.jpg",
+        "why": "zone hash dist 11"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-02-buyer-tips-homeowners-insurance",
+        "slide": "10",
+        "file": "2026-11-02-buyer-tips-homeowners-insurance/build/src/gen-10-raw.jpg",
+        "why": "zone hash dist 12"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-02-buyer-tips-homeowners-insurance",
+        "slide": "10",
+        "file": "2026-11-02-buyer-tips-homeowners-insurance/build/src/gen-10.jpg",
+        "why": "zone hash dist 12"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "9",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-09-raw.jpg",
+        "why": "zone hash dist 12"
+      },
+      {
+        "score": 12,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "9",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-09.jpg",
+        "why": "zone hash dist 12"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-07.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-11-06-buyer-tips-hoa-docs",
+        "slide": "4",
+        "file": "2026-11-06-buyer-tips-hoa-docs/slides-9x16/slide-04.png",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-10-buyer-tips-repair-requests",
+        "slide": "7",
+        "file": "2026-11-10-buyer-tips-repair-requests/build/img/07.png",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "3",
+        "file": "2026-11-07-seller-tips-inherited-home/slide-03.png",
+        "why": "zone hash dist 14; full hash dist 16"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-10-buyer-tips-repair-requests",
+        "slide": "7",
+        "file": "2026-11-10-buyer-tips-repair-requests/build/src/gen-07-raw.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-10-buyer-tips-repair-requests",
+        "slide": "7",
+        "file": "2026-11-10-buyer-tips-repair-requests/build/src/gen-07.jpg",
+        "why": "zone hash dist 14"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-08.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 7,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "7",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-07-raw.png",
+        "why": "zone hash dist 7; full hash dist 20"
+      },
+      {
+        "score": 7,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "7",
+        "file": "2026-11-07-seller-tips-inherited-home/build/src/gen-07.jpg",
+        "why": "zone hash dist 7; full hash dist 20"
+      },
+      {
+        "score": 8,
+        "carousel": "2026-11-07-seller-tips-inherited-home",
+        "slide": "7",
+        "file": "2026-11-07-seller-tips-inherited-home/build/img/07.png",
+        "why": "zone hash dist 8"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "4",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/build/img/04.jpg",
+        "why": "zone hash dist 10"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "4",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/slide-04.png",
+        "why": "zone hash dist 10"
+      }
+    ]
+  },
+  {
+    "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-09.jpg",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 14,
+        "carousel": "2026-10-29-new-construction-carousel",
+        "slide": "8",
+        "file": "2026-10-29-new-construction-carousel/slides-1x1/slide-08.png",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "3",
+        "file": "2026-11-01-seller-tips-what-stays/build/src/gen-03-raw.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "3",
+        "file": "2026-11-01-seller-tips-what-stays/build/src/gen-03.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "3",
+        "file": "2026-11-01-seller-tips-what-stays/build/img/03.png",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "1",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-01.jpg",
+        "why": "zone hash dist 14"
+      }
+    ]
+  }
+]
