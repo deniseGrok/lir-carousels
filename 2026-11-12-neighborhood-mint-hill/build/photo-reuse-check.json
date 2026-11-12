@@ -1,0 +1,432 @@
+[
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-01-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 13,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "1",
+        "file": "2026-11-01-seller-tips-what-stays/build/src/gen-01.jpg",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "1",
+        "file": "2026-11-01-seller-tips-what-stays/build/img/01.png",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-01-seller-tips-what-stays",
+        "slide": "1",
+        "file": "2026-11-01-seller-tips-what-stays/build/src/gen-01-raw.jpg",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-12-buyer-tips-wire-fraud",
+        "slide": "10",
+        "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-09-raw.png",
+        "why": "zone hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-11-12-buyer-tips-wire-fraud",
+        "slide": "10",
+        "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-09.jpg",
+        "why": "zone hash dist 15"
+      }
+    ],
+    "total_perceptual_candidates": 245,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-02-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 14,
+        "carousel": "2026-10-29-buyer-tips-flood-risk",
+        "slide": "5",
+        "file": "2026-10-29-buyer-tips-flood-risk/slide-05.png",
+        "why": "full hash dist 14"
+      },
+      {
+        "score": 14,
+        "carousel": "2026-11-04-new-construction-carousel",
+        "slide": "3",
+        "file": "2026-11-04-new-construction-carousel/build/img9x16/03.jpg",
+        "why": "full hash dist 14"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-11-06-neighborhood-belmont",
+        "slide": "5",
+        "file": "2026-11-06-neighborhood-belmont/slide-05.png",
+        "why": "zone hash dist 21; full hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-29-buyer-tips-flood-risk",
+        "slide": "5",
+        "file": "2026-10-29-buyer-tips-flood-risk/build/img/05.jpg",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-31-neighborhood-cherry",
+        "slide": "2",
+        "file": "2026-10-31-neighborhood-cherry/build/src/p38230326.jpg",
+        "why": "zone hash dist 16"
+      }
+    ],
+    "total_perceptual_candidates": 165,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-03-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 15,
+        "carousel": "2026-11-12-buyer-tips-wire-fraud",
+        "slide": "10",
+        "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-09-raw.png",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-02-new-construction-carousel",
+        "slide": "3",
+        "file": "2026-11-02-new-construction-carousel/build/src/ap_004-6abd69f3954b7.jpg",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-12-buyer-tips-wire-fraud",
+        "slide": "10",
+        "file": "2026-11-12-buyer-tips-wire-fraud/build/src/gen-09.jpg",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 18,
+        "carousel": "2026-10-12-new-construction",
+        "slide": "7",
+        "file": "2026-10-12-new-construction/slide-07.png",
+        "why": "full hash dist 18"
+      },
+      {
+        "score": 18,
+        "carousel": "2026-10-12-slides-navy-coral",
+        "slide": "7",
+        "file": "2026-10-12-slides-navy-coral/slide-07.png",
+        "why": "full hash dist 18"
+      }
+    ],
+    "total_perceptual_candidates": 204,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-04-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 5,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "1",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/build/src/pexels-15334535.jpg",
+        "why": "zone hash dist 5"
+      },
+      {
+        "score": 7,
+        "carousel": "2026-11-12-new-construction-carousel",
+        "slide": "1",
+        "file": "2026-11-12-new-construction-carousel/build/src-use/01-cover-encore-streamside-pool.jpg",
+        "why": "zone hash dist 7; full hash dist 20"
+      },
+      {
+        "score": 8,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "1",
+        "file": "2026-11-05-neighborhood-huntersville/build/src/gen-01-raw.jpg",
+        "why": "zone hash dist 8; full hash dist 13"
+      },
+      {
+        "score": 8,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "1",
+        "file": "2026-11-05-neighborhood-huntersville/build/src/gen-01.jpg",
+        "why": "zone hash dist 8; full hash dist 12"
+      },
+      {
+        "score": 9,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "1",
+        "file": "2026-11-05-neighborhood-huntersville/build/img4x5/01.png",
+        "why": "zone hash dist 9; full hash dist 13"
+      }
+    ],
+    "total_perceptual_candidates": 346,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-05-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 15,
+        "carousel": "2026-10-17-buyer-tips-inspections",
+        "slide": "10",
+        "file": "2026-10-17-buyer-tips-inspections/build/img/10.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-22-new-construction-carousel",
+        "slide": "4",
+        "file": "2026-10-22-new-construction-carousel/build/img/04.jpg",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-22-new-construction-carousel",
+        "slide": "4",
+        "file": "2026-10-22-new-construction-carousel/slide-04.png",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-20-new-construction-carousel",
+        "slide": "5",
+        "file": "2026-10-20-new-construction-carousel/build/img/05.jpg",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-20-new-construction-carousel",
+        "slide": "5",
+        "file": "2026-10-20-new-construction-carousel/slide-05.png",
+        "why": "zone hash dist 16"
+      }
+    ],
+    "total_perceptual_candidates": 149,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-06-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 6,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "6",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-06-raw.jpg",
+        "why": "zone hash dist 6; full hash dist 9"
+      },
+      {
+        "score": 6,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "6",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/src/gen-06.jpg",
+        "why": "zone hash dist 6; full hash dist 9"
+      },
+      {
+        "score": 6,
+        "carousel": "2026-11-05-seller-tips-credits-vs-price-cut",
+        "slide": "6",
+        "file": "2026-11-05-seller-tips-credits-vs-price-cut/build/img/06.png",
+        "why": "zone hash dist 6; full hash dist 10"
+      },
+      {
+        "score": 7,
+        "carousel": "2026-10-27-neighborhood-south-end",
+        "slide": "3",
+        "file": "2026-10-27-neighborhood-south-end/build/img/03.jpg",
+        "why": "zone hash dist 7; full hash dist 14"
+      },
+      {
+        "score": 7,
+        "carousel": "2026-11-02-neighborhood-davidson",
+        "slide": "6",
+        "file": "2026-11-02-neighborhood-davidson/slides-1x1/slide-06.png",
+        "why": "zone hash dist 7"
+      }
+    ],
+    "total_perceptual_candidates": 434,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-07-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 15,
+        "carousel": "2026-10-26-seller-tips-under-contract",
+        "slide": "8",
+        "file": "2026-10-26-seller-tips-under-contract/build/src/p15668080.jpg",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-29-new-construction-carousel",
+        "slide": "2",
+        "file": "2026-10-29-new-construction-carousel/slides-1x1/slide-02.png",
+        "why": "zone hash dist 15"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-16-neighborhood-plaza-midwood",
+        "slide": "9",
+        "file": "2026-10-16-neighborhood-plaza-midwood/build/img/09.jpg",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-03-seller-tips-appraisal",
+        "slide": "10",
+        "file": "2026-11-03-seller-tips-appraisal/slides-9x16/slide-10.png",
+        "why": "full hash dist 16"
+      },
+      {
+        "score": 17,
+        "carousel": "2026-10-17-neighborhood-myers-park",
+        "slide": "9",
+        "file": "2026-10-17-neighborhood-myers-park/slide-09.png",
+        "why": "zone hash dist 22; full hash dist 17"
+      }
+    ],
+    "total_perceptual_candidates": 266,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-08-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 16,
+        "carousel": "2026-10-15-neighborhood-ballantyne",
+        "slide": "4",
+        "file": "2026-10-15-neighborhood-ballantyne/build/img-hq/04.jpg",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-21-new-construction-carousel",
+        "slide": "5",
+        "file": "2026-10-21-new-construction-carousel/build/img/05.jpg",
+        "why": "zone hash dist 20; full hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "10",
+        "file": "2026-10-31-buyer-tips-title-and-survey/slide-10.png",
+        "why": "zone hash dist 16"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-03-seller-tips-appraisal",
+        "slide": "7",
+        "file": "2026-11-03-seller-tips-appraisal/build/src/gen-07-raw.jpg",
+        "why": "zone hash dist 16; full hash dist 20"
+      },
+      {
+        "score": 16,
+        "carousel": "2026-11-03-seller-tips-appraisal",
+        "slide": "7",
+        "file": "2026-11-03-seller-tips-appraisal/build/src/gen-07.jpg",
+        "why": "zone hash dist 16; full hash dist 20"
+      }
+    ],
+    "total_perceptual_candidates": 239,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-09-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 7,
+        "carousel": "2026-10-19-buyer-tips-contract-to-closing",
+        "slide": "1",
+        "file": "2026-10-19-buyer-tips-contract-to-closing/build/src/pexels-15334535.jpg",
+        "why": "zone hash dist 7; full hash dist 18"
+      },
+      {
+        "score": 9,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "1",
+        "file": "2026-11-05-neighborhood-huntersville/build/img4x5/01.png",
+        "why": "zone hash dist 9; full hash dist 15"
+      },
+      {
+        "score": 9,
+        "carousel": "2026-11-05-neighborhood-huntersville",
+        "slide": "1",
+        "file": "2026-11-05-neighborhood-huntersville/slide-01.png",
+        "why": "zone hash dist 9; full hash dist 15"
+      },
+      {
+        "score": 9,
+        "carousel": "2026-11-12-new-construction-carousel",
+        "slide": "1",
+        "file": "2026-11-12-new-construction-carousel/build/src-use/01-cover-encore-streamside-pool.jpg",
+        "why": "zone hash dist 9; full hash dist 18"
+      },
+      {
+        "score": 10,
+        "carousel": "2026-10-16-neighborhood-plaza-midwood",
+        "slide": "1",
+        "file": "2026-10-16-neighborhood-plaza-midwood/build/img/01.jpg",
+        "why": "zone hash dist 10; full hash dist 16"
+      }
+    ],
+    "total_perceptual_candidates": 311,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  },
+  {
+    "file": "2026-11-12-neighborhood-mint-hill/build/src/gen-10-raw.png",
+    "exact_duplicates": [],
+    "hits": [
+      {
+        "score": 10,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "1",
+        "file": "2026-10-31-buyer-tips-title-and-survey/slide-01.png",
+        "why": "zone hash dist 10; full hash dist 15"
+      },
+      {
+        "score": 13,
+        "carousel": "2026-11-03-seller-tips-appraisal",
+        "slide": "10",
+        "file": "2026-11-03-seller-tips-appraisal/slides-9x16/slide-10.png",
+        "why": "zone hash dist 13"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-15-new-construction-carousel",
+        "slide": "7",
+        "file": "2026-10-15-new-construction-carousel/build-teal/img/07.jpg",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-21-buyer-tips-true-monthly-cost",
+        "slide": "6",
+        "file": "2026-10-21-buyer-tips-true-monthly-cost/build/src/1628624747186-a941c476b7ef.jpg",
+        "why": "full hash dist 15"
+      },
+      {
+        "score": 15,
+        "carousel": "2026-10-31-buyer-tips-title-and-survey",
+        "slide": "6",
+        "file": "2026-10-31-buyer-tips-title-and-survey/build/src/gen-06-raw.jpg",
+        "why": "full hash dist 15"
+      }
+    ],
+    "total_perceptual_candidates": 262,
+    "manual_review": "Broad perceptual near-matches are visually distinct scenes, not reused images; exact sha1 duplicates: none. Closest hits (gen-04 vs 2026-10-19 contract-to-closing / 2026-11-05 Huntersville covers; gen-06 vs 2026-11-05 seller-tips slide 6) compared side by side Nov 12 2026: different scenes."
+  }
+]
