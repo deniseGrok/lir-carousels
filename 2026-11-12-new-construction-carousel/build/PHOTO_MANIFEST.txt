@@ -1,0 +1,14 @@
+Nov 12 2026 New Construction — builder photo manifest (Bright Contemporary)
+All images downloaded Nov 12, 2026 from builders' own sites. Graded + cover-cropped only; no AI; no retouching needed (no house numbers visible in the photo zones). No people in any image.
+01 cover    David Weekley Homes  Encore at Streamside clubhouse and pool at twilight (community image)
+02 deal     David Weekley Homes  Encore at Streamside street of homes (community image)
+03 deal     David Weekley Homes  The Townes at Cadia Village townhome exterior (community page hero)
+04 deal     Empire Homes         Equinox townhome building exterior
+05 compare  David Weekley Homes  The Reserve at Cadia Village home exterior (community page hero)
+06 tip      David Weekley Homes  Encore at Streamside kitchen (community image)
+07 tip      Empire Homes         Equinox Cambria plan rooftop terrace
+08 tip      David Weekley Homes  Cadia Village living room (community image on The Reserve page)
+09 tip      David Weekley Homes  Encore at Streamside living room (community image)
+10 cta      Empire Homes         Equinox dining/living (community header image)
+Skipped: Cadia Village lifestyle photos with people, the Cadia Village aerial (could be a rendering), logo/map images, Equinox drone/skyline and Camp North End sign photos.
+Registry check (photo_registry.check vs /workspace/repos/lir-carousels/TEMPLATES/photo-registry.csv): no SHA1 or source-id match for any of the 10; only loose perceptual hits (closest full-hash distance 11, to an AI lake image in the Nov 11 Cornelius spotlight — visually unrelated).

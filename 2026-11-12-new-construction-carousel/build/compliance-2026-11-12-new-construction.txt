@@ -1,0 +1,23 @@
+PASS captions.md [Instagram] firm name
+PASS captions.md [Instagram] phone
+FAIL captions.md [Instagram] Equal Housing Opportunity
+FAIL captions.md [Instagram] ends with a question
+PASS [Instagram] no email
+PASS captions.md [Facebook Page] firm name
+PASS captions.md [Facebook Page] phone
+FAIL captions.md [Facebook Page] Equal Housing Opportunity
+FAIL captions.md [Facebook Page] ends with a question
+PASS captions.md [TikTok] firm name
+PASS captions.md [TikTok] phone
+FAIL captions.md [TikTok] Equal Housing Opportunity
+FAIL captions.md [TikTok] ends with a question
+PASS captions.md [Facebook (personal profile)] firm name
+PASS captions.md [Facebook (personal profile)] phone
+FAIL captions.md [Facebook (personal profile)] Equal Housing Opportunity
+FAIL captions.md [Facebook (personal profile)] ends with a question
+FAIL captions.md: banned/flag 'Swipe' … rsation. The fine print finishes it.  👉 Swipe through and save this post before you t …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+FAIL captions.md: banned/flag 'Swipe' … tails decide what you actually save.  👉 Swipe through and save this post before you t …  (fix, or confirm it is a neutral rule citation and whitelist in the .md)
+PASS build/9x16-slide-10.html contact block complete
+PASS build/1x1-slide-10.html contact block complete
+PASS build/4x5-slide-10.html contact block complete
+RESULT: FAIL (10 fail lines)

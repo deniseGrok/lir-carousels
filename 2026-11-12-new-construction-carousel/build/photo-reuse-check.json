@@ -1,0 +1,72 @@
+{
+ "01": {
+  "file": "src-use/01-cover-encore-streamside-pool.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 11,
+  "loose_hits": 359
+ },
+ "02": {
+  "file": "src-use/02-encore-streamside-street.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 16,
+  "loose_hits": 118
+ },
+ "03": {
+  "file": "src-use/03-townes-cadia-village.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 15,
+  "loose_hits": 151
+ },
+ "04": {
+  "file": "src-use/04-equinox-townhomes.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 18,
+  "loose_hits": 134
+ },
+ "05": {
+  "file": "src-use/05-reserve-cadia-village.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 18,
+  "loose_hits": 87
+ },
+ "06": {
+  "file": "src-use/06-encore-streamside-kitchen.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 16,
+  "loose_hits": 163
+ },
+ "07": {
+  "file": "src-use/07-equinox-rooftop-terrace.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 18,
+  "loose_hits": 98
+ },
+ "08": {
+  "file": "src-use/08-cadia-village-living.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 18,
+  "loose_hits": 81
+ },
+ "09": {
+  "file": "src-use/09-encore-streamside-living.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 18,
+  "loose_hits": 206
+ },
+ "10": {
+  "file": "src-use/10-equinox-dining-living.jpg",
+  "sha1_match": false,
+  "id_match": false,
+  "min_full_dist": 17,
+  "loose_hits": 181
+ }
+}
